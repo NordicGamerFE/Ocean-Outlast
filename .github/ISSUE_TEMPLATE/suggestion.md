@@ -7,8 +7,8 @@ assignees: NordicGamerFE
 
 ---
 
-[Suggestion for expert or easy?]
-[Quest or Mod suggestion?]
-[Title]
-[Description]
-[Anything else?]
+Version: [Easy/Expert]
+I have a suggestion for a [Quest/Mod].
+
+Description:
+[Describe your suggestion here]
