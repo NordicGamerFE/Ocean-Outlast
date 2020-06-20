@@ -2,7 +2,7 @@
 name: Suggestion
 about: Suggestion template
 title: ''
-labels: ''
+labels: Suggestion
 assignees: NordicGamerFE
 
 ---
