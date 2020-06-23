@@ -1,0 +1,15 @@
+{
+  "inventory": {
+    "0:0": "minecraft:apple,3",
+    "0:1": "openblocks:info_book",
+    "0:8": "actuallyadditions:item_booklet",
+    "0:5": "conarm:book",
+    "0:4": "tconstruct:book",
+    "0:7": "patchouli:guide_book,1,0,{\"patchouli:book\":\"bewitchment:rituals\"}",
+    "0:27": "ftbquests:book",
+    "0:2": "forestry:book_forester",
+    "0:28": "minecraft:chest",
+    "0:6": "betterwithmods:manual",
+    "0:3": "valkyrielib:guide,1,0,{guide_data:{mainindex:{x_scroll:0,y_scroll:0,index:\"mainmenu\"}}}"
+  }
+}

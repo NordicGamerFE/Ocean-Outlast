@@ -1,0 +1,128 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "mainmenu:logo.png",
+            "posX" : -224,
+            "posY" : -35,
+            "width" : 460,
+            "height" : 150,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+			"texture": "mainmenu:button.png",
+            "posX" : -85,
+            "posY" : 28,
+            "width" : 160,
+            "height" : 25,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+			"texture": "mainmenu:button.png",
+            "posX" : -85,
+            "posY" : 58,
+            "width" : 160,
+            "height" : 25,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "menu.options",
+			"texture": "mainmenu:buttonsmaller.png",
+            "posX" : -100,
+            "posY" : 90,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "Rage Quit!!!",
+			"texture": "mainmenu:buttonsmaller.png",
+            "posX" : 2,
+            "posY" : 90,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "",
+			"texture": "mainmenu:buttonlanguage.png",
+            "posX" : -124,
+            "posY" : 90,
+            "width" : 20,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        }
+        
+    },
+    
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "hoverText" : "§nCopyright Mojang AB. Do not distribute!",
+            "posX" : -197,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "credits"
+            }
+        },
+        
+        "fml":
+        {
+            "text" : "",
+            "posX" : 2,
+            "posY" : -40,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+    },
+    
+    "other":
+    {
+        "background":
+        {
+            "image" : "mainmenu:backround.png",
+            "mode" : "stretch"
+            }
+        }
+    },
