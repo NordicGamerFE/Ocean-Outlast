@@ -1,0 +1,7 @@
+*.zs     text
+*.cfg    text
+*.json   text
+*.txt    text
+
+*.jar    binary
+*.nbt    binary
