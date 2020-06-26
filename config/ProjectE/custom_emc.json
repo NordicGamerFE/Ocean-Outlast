@@ -1,0 +1,176 @@
+{
+  "entries": [
+    {
+      "item": "projecte:item.pe_matter|0",
+      "emc": 0
+    },
+    {
+      "item": "projectex:relay|0",
+      "emc": 0
+    },
+    {
+      "item": "ic2:misc_resource|1",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:resource|2",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:resource|1",
+      "emc": 0
+    },
+    {
+      "item": "avaritia:resource|0",
+      "emc": 0
+    },
+    {
+      "item": "randomthings:stableenderpearl|0",
+      "emc": 0
+    },
+    {
+      "item": "projecte:collector_mk1|0",
+      "emc": 0
+    },
+    {
+      "item": "ic2:crafting|3",
+      "emc": 0
+    },
+    {
+      "item": "ic2:resource|12",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_singularityosmium|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_singularityuranium|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_singularityamber|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_singularitycoal|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_singularityquartzblack|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_singularityaluminium|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_singularityardite|0",
+      "emc": 0
+    },
+    {
+      "item": "jaopca:item_singularitycobalt|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumcraft:primordial_pearl|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumcraft:ingot|0",
+      "emc": 0
+    },
+    {
+      "item": "thaumcraft:ingot|1",
+      "emc": 0
+    },
+    {
+      "item": "thermalfoundation:material|167",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:crafting|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:crafting|5",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:crafting|1",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:crafting|2",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:crafting|3",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagriculture:crafting|4",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagradditions:special|0",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagradditions:special|1",
+      "emc": 0
+    },
+    {
+      "item": "mysticalagradditions:special|5",
+      "emc": 0
+    },
+    {
+      "item": "advancedcombat:lots_upgrade|0",
+      "emc": 0
+    },
+    {
+      "item": "advancedcombat:lots_upgrade|1",
+      "emc": 0
+    },
+    {
+      "item": "advancedcombat:flame_upgrade|0",
+      "emc": 0
+    },
+    {
+      "item": "advancedcombat:frost_walker_upgrade|0",
+      "emc": 0
+    },
+    {
+      "item": "advancedcombat:fire_protection_upgrade|0",
+      "emc": 0
+    },
+    {
+      "item": "advancedcombat:spider_upgrade|0",
+      "emc": 0
+    },
+    {
+      "item": "advancedcombat:looting_upgrade|0",
+      "emc": 0
+    },
+    {
+      "item": "advancedcombat:looting_upgrade|1",
+      "emc": 0
+    },
+    {
+      "item": "advancedcombat:sharpness_upgrade|0",
+      "emc": 0
+    },
+    {
+      "item": "advancedcombat:sharpness_upgrade|1",
+      "emc": 0
+    },
+    {
+      "item": "thermalfoundation:material|864",
+      "emc": 0
+    },
+    {
+      "item": "industrialforegoing:plastic|0",
+      "emc": 0
+    }
+  ]
+}

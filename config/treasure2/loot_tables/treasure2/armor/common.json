@@ -1,0 +1,59 @@
+{
+	"version": "1.0",
+	"pools": [
+		{
+			"name": "common_armor",
+			"rolls": 1,
+			"entries": [
+				{
+					"entryName": "lapis_chestplate",
+					"type": "item",
+					"name": "tp:lapis_chestplate",
+					"weight": 20		
+				},
+				{
+					"entryName": "lapis_leggings",
+					"type": "item",
+					"name": "tp:lapis_leggings",
+					"weight": 20		
+				},
+				{
+					"entryName": "lapis_helmet",
+					"type": "item",
+					"name": "tp:lapis_helmet",
+					"weight": 20		
+				},
+				{
+					"entryName": "lapis_boots",
+					"type": "item",
+					"name": "tp:lapis_boots",
+					"weight": 20		
+				},
+				{
+					"entryName": "nether_chest",
+					"type": "item",
+					"name": "advancedcombat:nether_chest",
+					"weight": 10		
+				},
+				{
+					"entryName": "nether_legs",
+					"type": "item",
+					"name": "advancedcombat:nether_legs",
+					"weight": 10		
+				},
+				{
+					"entryName": "nether_helm",
+					"type": "item",
+					"name": "advancedcombat:nether_helm",
+					"weight": 10		
+				},
+				{
+					"entryName": "nether_boots",
+					"type": "item",
+					"name": "advancedcombat:nether_boots",
+					"weight": 10		
+				}	
+			]
+		}
+	]
+}

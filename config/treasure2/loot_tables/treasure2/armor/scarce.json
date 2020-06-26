@@ -1,0 +1,117 @@
+{
+	"version": "1.0",
+	"pools": [
+		{
+			"name": "scarce_armor",
+			"rolls": 1,
+			"entries": [
+				{
+					"entryName": "quartz_chestplate",
+					"type": "item",
+					"name": "tp:quartz_chestplate",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "enchant_randomly"
+						}
+					]
+				},
+				{
+					"entryName": "quartz_leggings",
+					"type": "item",
+					"name": "tp:quartz_leggings",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "enchant_randomly"
+						}
+					]		
+				},
+				{
+					"entryName": "quartz_helmet",
+					"type": "item",
+					"name": "tp:quartz_helmet",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "enchant_randomly"
+						}
+					]		
+				},
+				{
+					"entryName": "quartz_boots",
+					"type": "item",
+					"name": "tp:quartz_boots",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "enchant_randomly"
+						}
+					]		
+				},
+				{
+					"entryName": "advanced_shield",
+					"type": "item",
+					"name": "advancedcombat:advanced_shield",
+					"weight": 10		
+				},				
+				{
+					"entryName": "item_chest_quartz",
+					"type": "item",
+					"name": "actuallyadditions:item_chest_quartz",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "enchant_randomly"							
+						},
+						{
+							"function": "enchant_randomly"							
+						}						
+					]
+				},
+				{
+					"entryName": "item_pants_quartz",
+					"type": "item",
+					"name": "actuallyadditions:item_pants_quartz",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "enchant_randomly"
+						},
+						{
+							"function": "enchant_randomly"							
+						}		
+					]						
+				},
+				{
+					"entryName": "item_helm_quartz",
+					"type": "item",
+					"name": "actuallyadditions:item_helm_quartz",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "enchant_randomly"
+						},
+						{
+							"function": "enchant_randomly"							
+						}		
+					]		
+				},
+				{
+					"entryName": "item_boots_quartz",
+					"type": "item",
+					"name": "actuallyadditions:item_boots_quartz",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "enchant_randomly"
+						},
+						{
+							"function": "enchant_randomly"							
+						}
+					]	
+				}					
+			]
+		}
+	]
+}

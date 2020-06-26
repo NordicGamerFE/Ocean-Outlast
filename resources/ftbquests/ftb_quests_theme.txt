@@ -1,0 +1,3 @@
+[*]
+wiki_url: https://discord.gg/vBgxHHa
+wiki_icon: assets:discord.png

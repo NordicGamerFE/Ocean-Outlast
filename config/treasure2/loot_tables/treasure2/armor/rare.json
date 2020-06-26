@@ -1,0 +1,87 @@
+{
+	"version": "1.0",
+	"pools": [
+		{
+			"name": "rare_armor",
+			"rolls": 1,
+			"entries": [
+				{
+					"entryName": "felarmor_chestplate",
+					"type": "item",
+					"name": "mod_lavacow:felarmor_chestplate",
+					"weight": 10		
+				},
+				{
+					"entryName": "diamond_leggings",
+					"type": "item",
+					"name": "minecraft:diamond_leggings",
+					"weight": 10		
+				},
+				{
+					"entryName": "felarmor_helmet",
+					"type": "item",
+					"name": "mod_lavacow:felarmor_helmet",
+					"weight": 10	
+				},
+				{
+					"entryName": "felarmor_boots",
+					"type": "item",
+					"name": "mod_lavacow:felarmor_boots",
+					"weight": 10
+				},
+				{
+					"entryName": "neptunium_chestplate",
+					"type": "item",
+					"name": "aquaculture:neptunium_chestplate",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 30,
+							"treasure": true
+						}
+					]
+				},
+				{
+					"entryName": "neptunium_leggings",
+					"type": "item",
+					"name": "aquaculture:neptunium_leggings",
+					"weight": 15,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 30,
+							"treasure": true
+						}
+					]						
+				},
+				{
+					"entryName": "neptunium_helmet",
+					"type": "item",
+					"name": "aquaculture:neptunium_helmet",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 30,
+							"treasure": true
+						}
+					]		
+				},
+				{
+					"entryName": "neptunium_boots",
+					"type": "item",
+					"name": "aquaculture:neptunium_boots",
+					"weight": 20,
+					"functions": [
+						{
+							"function": "enchant_with_levels",
+							"levels": 30,
+							"treasure": true
+						}
+					]	
+				}
+			]
+		}
+	]
+}

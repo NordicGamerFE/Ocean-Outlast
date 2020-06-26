@@ -1,0 +1,85 @@
+{
+	"version": "1.0",
+	"pools": [
+		{
+			"name": "uncommon_armor",
+			"rolls": 1,
+			"entries": [
+				{
+					"entryName": "iron_chestplate",
+					"type": "item",
+					"name": "minecraft:iron_chestplate",
+					"weight": 12.5		
+				},
+				{
+					"entryName": "iron_leggings",
+					"type": "item",
+					"name": "minecraft:iron_leggings",
+					"weight": 20		
+				},
+				{
+					"entryName": "iron_helmet",
+					"type": "item",
+					"name": "minecraft:iron_helmet",
+					"weight": 20		
+				},
+				{
+					"entryName": "iron_boots",
+					"type": "item",
+					"name": "minecraft:iron_boots",
+					"weight": 20		
+				},
+				{
+					"entryName": "psimetal_shield",
+					"type": "item",
+					"name": "rpsideas:psimetal_shield",
+					"weight": 20		
+				},				
+				{
+					"entryName": "wildwood_chestplate",
+					"type": "item",
+					"name": "roots:wildwood_chestplate",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "enchant_randomly"
+						}
+					]
+				},
+				{
+					"entryName": "wildwood_leggings",
+					"type": "item",
+					"name": "roots:wildwood_leggings",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "enchant_randomly"
+						}
+					]						
+				},
+				{
+					"entryName": "wildwood_helmet",
+					"type": "item",
+					"name": "roots:wildwood_helmet",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "enchant_randomly"
+						}
+					]		
+				},
+				{
+					"entryName": "wildwood_boots",
+					"type": "item",
+					"name": "roots:wildwood_boots",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "enchant_randomly"
+						}
+					]	
+				}	
+			]
+		}
+	]
+}
