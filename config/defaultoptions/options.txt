@@ -4,12 +4,12 @@ mouseSensitivity:0.5
 fov:1.0
 gamma:1.0
 saturation:0.0
-renderDistance:2
+renderDistance:6
 guiScale:0
 particles:1
 bobView:false
 anaglyph3d:false
-maxFps:40
+maxFps:60
 fboEnable:true
 difficulty:2
 fancyGraphics:false
@@ -47,7 +47,7 @@ entityShadows:false
 mainHand:right
 attackIndicator:1
 showSubtitles:false
-realmsNotifications:true
+realmsNotifications:false
 enableWeakAttacks:false
 autoJump:false
 narrator:0
