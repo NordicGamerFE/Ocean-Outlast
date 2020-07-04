@@ -1,6 +1,7 @@
 Expert, Tech, Magic, Exploration, Loads of Quests, Dungeons, Loads of Mobs 
 
 Join our discord if you got any issues or wanna connect with the player base  https://discord.gg/WhRVWxJ
+
 Wanna share your server maybe some cool images join our Reddit https://www.reddit.com/r/OceanOutlast/
 
  
@@ -8,7 +9,7 @@ Wanna share your server maybe some cool images join our Reddit https://www.reddi
 Content creators that play my pack
  
 
-Ja__boi
+Ja__boi,
 Forsakenally
 
 Ocean Outlast is highly based on skyblock. but based in an ocean world with 100% randomly-generated islands.
