@@ -1,0 +1,51 @@
+{
+	title: "Dandelifeon",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "dandelifeon"
+		}
+	},
+	x: -11.5d,
+	y: 2.0d,
+	text: [
+		"The Dandelifeon is an active mana generating flower, this is the most complex and most rewarding of the mana generating options. Following the basic principles of Conway's Game of Life, a 2D simulation of the life cycle of cells, this flower produces mana from Cellular Blocks that reach the 1 block range of the flower in the center of the board. Before attempting to use this flower, a basic understanding of Conway's Game of Life is recommended.",
+		"",
+		"The board is a 25x25 square area centered on the block the Dandelifeon is planted on. The board is two-dimensional, all rules will be played out on the same y-axis as the Dandelifeon. The flower must be provided with a redstone signal to start the game, as long as the flower has a redstone signal the game will progress at 2 steps per second. Each block on the board is a live Cell or a dead Cell. Live Cells are represented by Cellular Blocks, dead Cells are represented by empty air blocks. Live Cells can not be created in a space occupied by anything other than an air block. Live Cells have a starting age of zero. Age zero cells do not produce mana. Neighbors are the eight blocks surrounding any block on the board. All transitions during each step of the game occur simultaneously.",
+		"",
+		"The game process includes the rules of Conway's Game of Life with a few modifications. During each step, the following transitions will occur:",
+		"",
+		"1) Any live Cell with fewer than two or more than three live neighbors dies.",
+		"",
+		"2) Any live Cell with exactly two or three live neighbors lives and its age increases by one.",
+		"",
+		"3) Any dead Cell with exactly three live neighbors becomes a live Cell with age equal to the age of the oldest neighbor plus one.",
+		"",
+		"4) Any live Cell with age greater than sixty dies.",
+		"",
+		"When any live Cell would exist in the 3x3 area in the center of the board, all Cells in that area are absorbed by the Dandelifeon and converted to mana. All cells elsewhere on the board die. Any Cell affected by multiple Dandelifeons or moved by any other means than the Dandelifeon itself will die."
+	],
+	dependencies: [
+		"f6a841d1",
+		"5c8a07d3",
+		"907d3764",
+		"d9bed1c5",
+		"60eb048e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "86fe8560",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "dandelifeon"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "6829e195",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

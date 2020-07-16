@@ -1,0 +1,65 @@
+{
+	title: "Fully Upgraded Ender Chestplate",
+	x: -11.5d,
+	y: 1.5d,
+	dependencies: [
+		"fb2dfcf2"
+	],
+	tasks: [{
+		uid: "fa065f0f",
+		type: "item",
+		items: [{
+			id: "enderio:item_end_steel_chestplate",
+			tag: {
+				enderio.darksteel.upgrade.thaumaturge_robes_chest: {
+					level: 0
+				},
+				enderio.darksteel.upgrade.energyUpgrade: {
+					level: 4,
+					energy: 2500000
+				},
+				enderio.darksteel.upgrade.inv: {
+					level: 2
+				},
+				enderio.darksteel.upgrade.glide: {
+					level: 0
+				},
+				enderio.darksteel.upgrade.anvil: {
+					level: 2
+				}
+			}
+		},
+		{
+			id: "enderio:item_end_steel_chestplate",
+			tag: {
+				enderio.darksteel.upgrade.thaumaturge_robes_chest: {
+					level: 0
+				},
+				enderio.darksteel.upgrade.energyUpgrade: {
+					level: 4,
+					energy: 2500000
+				},
+				enderio.darksteel.upgrade.inv: {
+					level: 2
+				},
+				enderio.darksteel.upgrade.glide: {
+					level: 0
+				},
+				enderio.darksteel.upgrade.anvil: {
+					level: 2
+				}
+			}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "e3c4f781",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "supra_crate"
+			}
+		}
+	}]
+}

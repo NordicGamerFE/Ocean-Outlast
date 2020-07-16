@@ -1,0 +1,48 @@
+{
+	title: "Wand of the Forest",
+	icon: {
+		id: "botania:twigwand",
+		tag: {
+			color1: 0,
+			color2: 0,
+			boundTileZ: 0,
+			boundTileX: 0,
+			boundTileY: -1
+		}
+	},
+	x: 4.5d,
+	y: -3.5d,
+	text: [
+		"The Wand of the Forest is a general multi-use tool for a botanist. It is used to rotate Mana Spreaders and view their burst paths, check the Mana stored in a Mana Pool, activate or check the progress of a Botanical Brewery or Runic Altar, and bind generating or functional flora to nearby Mana Pools or Spreaders.",
+		"",
+		"If it is placed in a Dispenser, it will used when a Redstone signal is applied to the Dispenser."
+	],
+	dependencies: [
+		"252eac50"
+	],
+	tasks: [{
+		uid: "919565db",
+		type: "item",
+		items: [{
+			id: "botania:twigwand",
+			tag: {
+				color1: 0,
+				color2: 0,
+				boundTileZ: 0,
+				boundTileX: 0,
+				boundTileY: -1
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cfdd39f5",
+		type: "item",
+		item: "botania:blacklotus"
+	},
+	{
+		uid: "bb569ec4",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

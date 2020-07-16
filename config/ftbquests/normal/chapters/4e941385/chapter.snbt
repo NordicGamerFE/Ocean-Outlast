@@ -1,0 +1,48 @@
+{
+	title: "Player Sellshop",
+	icon: {
+		id: "lodsofemone:coin_big",
+		tag: {
+			value: 10000
+		}
+	},
+	description: [
+		"Sell materials for coins that can be used to buy other materials"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: 0.5d,
+		y: -1.0d,
+		width: 4.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "assets:player.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -6.0d,
+		y: 2.0d,
+		width: 8.0d,
+		height: 8.0d,
+		rotation: 0.0d,
+		image: "assets:mobdrops.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: 7.0d,
+		y: 2.0d,
+		width: 8.0d,
+		height: 9.0d,
+		rotation: 0.0d,
+		image: "assets:ingotsv2.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

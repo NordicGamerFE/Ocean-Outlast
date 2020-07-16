@@ -1,0 +1,65 @@
+{
+	title: "Fully Upgraded Dark Boots",
+	x: -11.5d,
+	y: -1.0d,
+	dependencies: [
+		"472d2a5c"
+	],
+	tasks: [{
+		uid: "3beccd37",
+		type: "item",
+		items: [{
+			id: "enderio:item_dark_steel_boots",
+			tag: {
+				enderio.darksteel.upgrade.jumpBoost: {
+					level: 3
+				},
+				enderio.darksteel.upgrade.swim: {
+					level: 0
+				},
+				enderio.darksteel.upgrade.energyUpgrade: {
+					level: 3,
+					energy: 1000000
+				},
+				enderio.darksteel.upgrade.inv: {
+					level: 2
+				},
+				enderio.darksteel.upgrade.anvil: {
+					level: 2
+				},
+				enderio.darksteel.upgrade.step_assist: {
+					level: 0
+				},
+				enderio.darksteel.upgrade.thaumaturge_robes_feet: {
+					level: 0
+				}
+			}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "dba3f384",
+		type: "ftbmoney:money",
+		ftb_money: 1500L
+	},
+	{
+		uid: "3d960bb7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	},
+	{
+		uid: "10e1a075",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "jackpot"
+			}
+		}
+	}]
+}

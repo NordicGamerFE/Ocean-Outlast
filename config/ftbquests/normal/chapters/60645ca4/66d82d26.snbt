@@ -1,0 +1,38 @@
+{
+	title: "ME Drive",
+	icon: "appliedenergistics2:drive",
+	x: 6.0d,
+	y: -1.5d,
+	text: [
+		"A block designed to do one thing, store Storage Cells. This block holds 10 storage cells so you can tightly pack your storage into a very small space.",
+		"",
+		"ME Drives show their contents and the storage cell status on the front of the drive face.",
+		"",
+		"Red - Indicates the Storage Cell is Full.",
+		"",
+		"Orange - Indicates the Storage Cell cannot hold any more types, but it can store more items.",
+		"",
+		"Green - Indicates the cell can hold more types, or more items.",
+		"",
+		"Black - Indicates there is no channel, or power is offline.",
+		"",
+		"Its important to note, that without a ME Network this block does nothing. Its only useful when combined with a way to input, and output items, and requires 2 AE/t power to function, and additional power for each Storage Cell stored inside it.",
+		"",
+		"The ME Drive requires a channel to function."
+	],
+	dependencies: [
+		"2e82976c"
+	],
+	tasks: [{
+		uid: "08356cb6",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:drive"
+		}]
+	}],
+	rewards: [{
+		uid: "8df9a4df",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

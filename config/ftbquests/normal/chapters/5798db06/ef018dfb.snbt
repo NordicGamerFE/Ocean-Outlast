@@ -1,0 +1,34 @@
+{
+	title: "Invar Seeds",
+	icon: "mysticalagriculture:invar_seeds",
+	x: 4.0d,
+	y: -16.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"9576e32f"
+	],
+	tasks: [{
+		uid: "cfb8c998",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:invar_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "35ad83f8",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "9241c1cf",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

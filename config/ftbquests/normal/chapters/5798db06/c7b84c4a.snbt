@@ -1,0 +1,20 @@
+{
+	x: -4.5d,
+	y: -5.0d,
+	dependencies: [
+		"205a0884",
+		"5031e4fb"
+	],
+	tasks: [{
+		uid: "62fb2a1c",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:intermedium_furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "e9e96f95",
+		type: "ftbmoney:money",
+		ftb_money: 60L
+	}]
+}

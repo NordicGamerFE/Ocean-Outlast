@@ -1,0 +1,32 @@
+{
+	title: "Narslimmus",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "narslimmus"
+		}
+	},
+	x: -2.5d,
+	y: 3.5d,
+	text: [
+		"The Narslimmus is an active mana generating flower that will produce mana by destroying any Slime mobs that naturally spawn nearby. This process will not drop Slimeball. The amount of mana produced depends on the size of the slime, the larger slimes will produce more mana. It has a range of 2 blocks and it will not hurt slimes that are spawned artificially including the smaller ones spawned when a larger one is killed. Furthermore it will not hurt Blue Slimes of Tinkers' Construct, so automation with Liquified Slime as spawner is not feasible."
+	],
+	dependencies: [
+		"98c2b545"
+	],
+	tasks: [{
+		uid: "5817de96",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "narslimmus"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "30226a23",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

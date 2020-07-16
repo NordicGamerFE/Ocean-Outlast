@@ -1,0 +1,39 @@
+{
+	title: "Planestrider's Sash",
+	icon: "botania:speedupbelt",
+	x: -11.5d,
+	y: -5.0d,
+	text: [
+		"equippable in the Belt slot.",
+		"",
+		"The Planestrider's Sash provides the same increased jump height and fall damage resistance as the Soujourner's Sash, but rather than granting a flat speed boost, the user's walking/running speed starts normal and accelerates over time."
+	],
+	dependencies: [
+		"968e10a8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "afe269fb",
+		type: "item",
+		items: [{
+			item: "botania:speedupbelt"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "eea55968",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "39a726aa",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

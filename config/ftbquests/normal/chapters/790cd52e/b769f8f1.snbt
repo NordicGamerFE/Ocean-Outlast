@@ -1,0 +1,37 @@
+{
+	x: -15.0d,
+	y: -8.5d,
+	text: [
+		"&rWant to make building a lot easier? Craft me!"
+	],
+	tasks: [{
+		uid: "4f7cf74e",
+		type: "item",
+		items: [{
+			id: "buildinggadgets:buildingtool",
+			tag: {
+				anchorcoords: [],
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "40d1b071",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "50846574",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

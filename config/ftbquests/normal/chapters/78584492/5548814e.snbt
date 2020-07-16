@@ -1,0 +1,26 @@
+{
+	title: "Cobblestone Generator Tier 2",
+	icon: "tp:iron_cobblegen_block",
+	x: -9.0d,
+	y: 0.5d,
+	text: [
+		"Holds 64 cobblestone at once",
+		"Creates 1 cobblestone each 20 tick",
+		"Can output to chest above"
+	],
+	dependencies: [
+		"c85c9bae"
+	],
+	tasks: [{
+		uid: "601a6654",
+		type: "item",
+		items: [{
+			item: "tp:iron_cobblegen_block"
+		}]
+	}],
+	rewards: [{
+		uid: "6c295f18",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

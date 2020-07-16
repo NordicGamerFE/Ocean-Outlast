@@ -1,0 +1,29 @@
+{
+	title: "Litherite Crystal",
+	icon: "environmentaltech:litherite_crystal",
+	x: -6.5d,
+	y: 1.0d,
+	shape: "rsquare",
+	text: [
+		"used to craft the basic tiers of all Environmental Tech multiblock components"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4e4f9683",
+		type: "item",
+		items: [{
+			item: "environmentaltech:litherite_crystal 16"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "1a136d21",
+		type: "item",
+		item: "minecraft:diamond_block"
+	},
+	{
+		uid: "4da964ec",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

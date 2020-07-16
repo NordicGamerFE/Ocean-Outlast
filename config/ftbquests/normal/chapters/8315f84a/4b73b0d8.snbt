@@ -1,0 +1,27 @@
+{
+	title: "DNA Extractor",
+	icon: "geneticsreborn:dnaextractor",
+	x: 0.0d,
+	y: -3.0d,
+	text: [
+		"Extracts one intact helix from the cell, the gene type on that helix is still unknown and must be decoded.",
+		"",
+		"Default power use: 20rf/t",
+		"Max overclockers: 5"
+	],
+	dependencies: [
+		"562ec234"
+	],
+	tasks: [{
+		uid: "410be263",
+		type: "item",
+		items: [{
+			item: "geneticsreborn:dnaextractor"
+		}]
+	}],
+	rewards: [{
+		uid: "6a9f574c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

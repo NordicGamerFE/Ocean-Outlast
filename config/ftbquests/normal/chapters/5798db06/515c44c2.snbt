@@ -1,0 +1,34 @@
+{
+	title: "Sky Stone Seeds",
+	icon: "mysticalagriculture:sky_stone_seeds",
+	x: 8.0d,
+	y: -13.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"4113dc34"
+	],
+	tasks: [{
+		uid: "a49a724c",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:sky_stone_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "b2ddd945",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "7084ec4a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

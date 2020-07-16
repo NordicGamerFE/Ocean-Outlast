@@ -1,0 +1,35 @@
+{
+	title: "Mana Tablet",
+	icon: {
+		id: "botania:manatablet",
+		tag: {}
+	},
+	x: 6.0d,
+	y: 0.5d,
+	text: [
+		"The Mana Tablet is a portable mana storage device capable of storing 500,000 mana. This is the equivalent of half of one Mana Pool. Any items in the player's inventory which use mana will draw from the Mana Tablet until it is completely empty. Mana Tablets dropped on the ground or in a Mana Pool will not despawn. Mana Pools can be switched between filling the Mana Tablet and emptying it by shift-right clicking with a Wand of the Forest."
+	],
+	dependencies: [
+		"ec4e2b34"
+	],
+	tasks: [{
+		uid: "9a3c4def",
+		type: "item",
+		items: [{
+			id: "botania:manatablet",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ed1e547f",
+		type: "item",
+		item: "botania:blacklotus"
+	},
+	{
+		uid: "02d3b1bc",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

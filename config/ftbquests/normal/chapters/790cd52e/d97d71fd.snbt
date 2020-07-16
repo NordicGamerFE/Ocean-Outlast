@@ -1,0 +1,32 @@
+{
+	x: -5.0d,
+	y: -1.5d,
+	text: [
+		"&aQuick Boy",
+		"&rTranslate vertical moment into forward thrust"
+	],
+	tasks: [{
+		uid: "43e012ad",
+		type: "item",
+		items: [{
+			item: "better_diving:ultra_glide_fins"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2590e560",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "86403b47",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

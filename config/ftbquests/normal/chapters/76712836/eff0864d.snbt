@@ -1,0 +1,35 @@
+{
+	x: -5.5d,
+	y: 0.0d,
+	dependencies: [
+		"71747bb8",
+		"5d520918"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5fbc1c41",
+		type: "item",
+		items: [{
+			id: "ic2:mining_laser",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ba83e18d",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "3e3b461c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "jackpot"
+			}
+		}
+	}]
+}

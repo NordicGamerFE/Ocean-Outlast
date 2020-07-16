@@ -1,0 +1,34 @@
+{
+	title: "Zombie Seeds",
+	icon: "mysticalagriculture:zombie_seeds",
+	x: 0.0d,
+	y: -4.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"6a19d1ee"
+	],
+	tasks: [{
+		uid: "e00c0119",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:zombie_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "87baee04",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "deae7c2b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

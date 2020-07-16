@@ -1,0 +1,30 @@
+{
+	x: -7.0d,
+	y: -3.0d,
+	dependencies: [
+		"0e1447db"
+	],
+	tasks: [{
+		uid: "ebe7fbf3",
+		type: "item",
+		items: [{
+			item: "mysticalagradditions:insanium 1 2"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "5338998a",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "d99b4d80",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

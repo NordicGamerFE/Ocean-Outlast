@@ -1,0 +1,19 @@
+{
+	x: -0.5d,
+	y: -5.0d,
+	dependencies: [
+		"5fba0d4c"
+	],
+	tasks: [{
+		uid: "58d9b33e",
+		type: "item",
+		items: [{
+			item: "projecte:transmutation_table"
+		}]
+	}],
+	rewards: [{
+		uid: "1357cda5",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

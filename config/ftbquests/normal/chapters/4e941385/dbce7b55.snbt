@@ -1,0 +1,23 @@
+{
+	x: 5.5d,
+	y: 0.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "a86bb125",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material 1 24"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "a1de511b",
+		type: "item",
+		item: {
+			id: "lodsofemone:coin_small",
+			tag: {
+				value: 50
+			}
+		}
+	}]
+}

@@ -1,0 +1,73 @@
+{
+	title: "Dragon's Power",
+	icon: "tp:dragon_chestplate",
+	x: -11.0d,
+	y: -2.0d,
+	text: [
+		"Get Dragon armor"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"e177c0ff",
+		"085d65d5",
+		"6a6074f3",
+		"12772b81",
+		"d24a631d"
+	],
+	tasks: [{
+		uid: "c12559fe",
+		type: "item",
+		items: [{
+			item: "tp:dragon_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "181206c2",
+		type: "item",
+		items: [{
+			item: "tp:dragon_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ea0329f9",
+		type: "item",
+		items: [{
+			item: "tp:dragon_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d6949d02",
+		type: "item",
+		items: [{
+			item: "tp:dragon_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "234bc165",
+		type: "item",
+		item: "dragonmounts:dragon_egg 1 14"
+	},
+	{
+		uid: "2aabb791",
+		type: "ftbmoney:money",
+		ftb_money: 1500L
+	},
+	{
+		uid: "fd413d43",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "First steps",
+	icon: "bewitchment:mandrake_seeds",
+	x: -4.0d,
+	y: -3.0d,
+	shape: "square",
+	text: [
+		"Get Mandrake and Hellbore seeds. you get them from breaking grass"
+	],
+	tasks: [{
+		uid: "f6787a50",
+		type: "item",
+		items: [{
+			item: "bewitchment:hellebore_seeds"
+		}]
+	},
+	{
+		uid: "e4f0f13c",
+		type: "item",
+		items: [{
+			item: "bewitchment:mandrake_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "0fa42332",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

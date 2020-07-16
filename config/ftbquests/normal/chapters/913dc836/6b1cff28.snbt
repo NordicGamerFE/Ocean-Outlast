@@ -1,0 +1,29 @@
+{
+	x: -0.5d,
+	y: 2.0d,
+	dependencies: [
+		"254be552"
+	],
+	tasks: [{
+		uid: "042bdd1d",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_fuel 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "c972ca57",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "32434b68",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

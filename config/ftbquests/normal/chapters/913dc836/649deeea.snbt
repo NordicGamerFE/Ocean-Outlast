@@ -1,0 +1,32 @@
+{
+	x: 2.5d,
+	y: 2.5d,
+	dependencies: [
+		"59de915b"
+	],
+	tasks: [{
+		uid: "9c4019a3",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_archangel_smite",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9515ab54",
+		type: "ftbmoney:money",
+		ftb_money: 1500L
+	},
+	{
+		uid: "0b711541",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "Attractor Obelisk",
+	icon: "enderio:block_attractor_obelisk",
+	x: -7.0d,
+	y: -5.0d,
+	text: [
+		"Entices mobs to walk towards it",
+		"",
+		"Specify the mobs to effect by placing their souls (in soul vials) within the device. Can be upgraded with capacitors to increase its range."
+	],
+	dependencies: [
+		"4b202534"
+	],
+	tasks: [{
+		uid: "7f7290f9",
+		type: "item",
+		items: [{
+			item: "enderio:block_attractor_obelisk"
+		}]
+	}],
+	rewards: [{
+		uid: "66b0eadf",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "c61ed70c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

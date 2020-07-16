@@ -1,0 +1,20 @@
+{
+	x: 0.5d,
+	y: 0.5d,
+	shape: "rsquare",
+	text: [
+		"Used to automate the player sellshop"
+	],
+	size: 1.1d,
+	tasks: [{
+		uid: "8293c884",
+		type: "checkmark",
+		title: "Quest Chest",
+		icon: "ftbquests:chest"
+	}],
+	rewards: [{
+		uid: "24f59f94",
+		type: "item",
+		item: "ftbquests:chest"
+	}]
+}

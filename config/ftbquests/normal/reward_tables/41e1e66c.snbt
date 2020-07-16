@@ -1,0 +1,841 @@
+{
+	title: "Uncommon Crate",
+	loot_size: 1,
+	use_title: true,
+	rewards: [{
+		item: "minecraft:potato"
+	},
+	{
+		item: "minecraft:baked_potato"
+	},
+	{
+		item: "minecraft:poisonous_potato"
+	},
+	{
+		item: "exnihilocreatio:item_cooked_silkworm"
+	},
+	{
+		item: "minecraft:apple"
+	},
+	{
+		item: "minecraft:compass"
+	},
+	{
+		item: "minecraft:iron_block"
+	},
+	{
+		item: {
+			id: "extrautils2:fireaxe",
+			tag: {
+				display: {
+					Name: "Kev's Axe"
+				}
+			}
+		}
+	},
+	{
+		item: "minecraft:diamond_block"
+	},
+	{
+		item: "minecraft:gold_block"
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "farmers_market"
+			}
+		}
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "farmers_market"
+			}
+		}
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "kevs_lost_chest"
+			}
+		}
+	},
+	{
+		item: "minecraft:coal_block"
+	},
+	{
+		item: "minecraft:obsidian"
+	},
+	{
+		item: "minecraft:log"
+	},
+	{
+		item: "minecraft:log"
+	},
+	{
+		item: "minecraft:log"
+	},
+	{
+		item: "minecraft:gold_ingot"
+	},
+	{
+		item: "minecraft:coal"
+	},
+	{
+		item: "minecraft:iron_ingot"
+	},
+	{
+		item: "minecraft:diamond"
+	},
+	{
+		item: "minecraft:pumpkin_pie"
+	},
+	{
+		item: "minecraft:rabbit_stew"
+	},
+	{
+		item: "minecraft:cooked_mutton"
+	},
+	{
+		item: "minecraft:beetroot"
+	},
+	{
+		item: "minecraft:cooked_chicken"
+	},
+	{
+		item: "minecraft:melon"
+	},
+	{
+		item: "minecraft:golden_apple 1 1"
+	},
+	{
+		item: "minecraft:cookie"
+	},
+	{
+		item: "minecraft:cake"
+	},
+	{
+		item: "minecraft:mushroom_stew"
+	},
+	{
+		item: "minecraft:cooked_porkchop"
+	},
+	{
+		item: "minecraft:golden_apple"
+	},
+	{
+		item: "minecraft:fish 1 1"
+	},
+	{
+		item: "minecraft:spider_eye"
+	},
+	{
+		item: "improvableskills:parchment_fragment"
+	},
+	{
+		item: "teslacorelib:speed_tier1"
+	},
+	{
+		item: "industrialforegoing:plastic"
+	},
+	{
+		item: "industrialforegoing:pink_slime"
+	},
+	{
+		item: "industrialforegoing:artificial_dye 1 6"
+	},
+	{
+		item: "industrialforegoing:artificial_dye 1 3"
+	},
+	{
+		item: "industrialforegoing:artificial_dye 1 5"
+	},
+	{
+		item: "industrialforegoing:artificial_dye"
+	},
+	{
+		item: "industrialforegoing:artificial_dye 1 14"
+	},
+	{
+		item: "minecraft:totem_of_undying"
+	},
+	{
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:strong_regeneration"
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:strong_strength"
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:long_night_vision"
+			}
+		}
+	},
+	{
+		item: "minecraft:sponge 1 1"
+	},
+	{
+		item: "minecraft:glass"
+	},
+	{
+		item: "minecraft:stone 1 5",
+		weight: 10
+	},
+	{
+		item: {
+			id: "minecraft:dirt",
+			tag: {
+				display: {
+					Name: "Expensive Dirt"
+				}
+			}
+		},
+		weight: 10
+	},
+	{
+		item: "minecraft:stone",
+		weight: 10
+	},
+	{
+		item: "mysticalworld:epic_squid"
+	},
+	{
+		item: "roots:runic_dust"
+	},
+	{
+		item: "roots:spirit_herb"
+	},
+	{
+		item: "minecraft:redstone"
+	},
+	{
+		item: "minecraft:redstone_block"
+	},
+	{
+		item: "environmentaltech:ionite_crystal"
+	},
+	{
+		item: "exnihilocreatio:block_end_cake"
+	},
+	{
+		item: "dragonmounts:dragon_gender"
+	},
+	{
+		item: "bewitchment:liquid_witchcraft"
+	},
+	{
+		item: "bewitchment:poppet_hungerprotection"
+	},
+	{
+		item: "bhc:orange_heart"
+	},
+	{
+		item: {
+			id: "geneticsreborn:grpotion",
+			tag: {
+				Potion: "geneticsreborn:mutation"
+			}
+		}
+	},
+	{
+		item: "fluxnetworks:fluxpoint"
+	},
+	{
+		item: "fluxnetworks:fluxplug"
+	},
+	{
+		item: "mekanism:atomicalloy"
+	},
+	{
+		item: "mekanism:reinforcedalloy"
+	},
+	{
+		item: "mekanism:enrichedalloy"
+	},
+	{
+		item: "minecraft:elytra"
+	},
+	{
+		item: "tconstruct:punji"
+	},
+	{
+		item: "tconstruct:dried_clay",
+		weight: 10
+	},
+	{
+		item: "tp:carrot_juice"
+	},
+	{
+		item: "tp:lapis_ingot"
+	},
+	{
+		item: "primal_tech:bone_shard"
+	},
+	{
+		item: "primal_tech:bone_sword"
+	},
+	{
+		item: "primal_tech:bone_knife"
+	},
+	{
+		item: "mysticalagriculture:crafting 1 38"
+	},
+	{
+		item: "mysticalagriculture:crafting 1 37"
+	},
+	{
+		item: "mysticalagriculture:crafting 1 36"
+	},
+	{
+		item: "mysticalagriculture:crafting 1 35"
+	},
+	{
+		item: "mysticalagriculture:crafting 1 34"
+	},
+	{
+		item: "mysticalagriculture:crafting 1 33"
+	},
+	{
+		item: "mysticalagradditions:insanium 1 2"
+	},
+	{
+		item: "mysticalagriculture:water_seeds"
+	},
+	{
+		item: "mysticalagriculture:nether_seeds"
+	},
+	{
+		item: "harvestcraft:lemondrizzlecakeitem"
+	},
+	{
+		item: "harvestcraft:honeysoyribsitem"
+	},
+	{
+		item: "harvestcraft:ironbrewitem"
+	},
+	{
+		item: "harvestcraft:lambwithmintsauceitem"
+	},
+	{
+		item: "harvestcraft:friedonionsitem"
+	},
+	{
+		item: "harvestcraft:nutellaitem"
+	},
+	{
+		item: "harvestcraft:vegemiteitem"
+	},
+	{
+		item: "tconstruct:edible 1 4"
+	},
+	{
+		item: "tconstruct:edible 1 2"
+	},
+	{
+		item: "tconstruct:materials 1 50"
+	},
+	{
+		item: "tconstruct:materials 1 9"
+	},
+	{
+		item: "woot:stygianironingot"
+	},
+	{
+		item: "tp:juicer"
+	},
+	{
+		item: "tp:large_med_kit"
+	},
+	{
+		item: "tp:diamond_apple"
+	},
+	{
+		item: "tp:small_med_kit"
+	},
+	{
+		item: "botania:manaresource 1 7"
+	},
+	{
+		item: "botania:manaresource 1 2"
+	},
+	{
+		item: "aquaculture:diamond_fishing_rod"
+	},
+	{
+		item: "aquaculture:gold_fishing_rod"
+	},
+	{
+		item: "aquaculture:iron_fishing_rod"
+	},
+	{
+		item: "aquaculture:fishing_rod"
+	},
+	{
+		item: "aquaculture:loot 1 7"
+	},
+	{
+		item: "advancedcombat:thorns_upgrade 1 1"
+	},
+	{
+		item: "advancedcombat:thorns_upgrade"
+	},
+	{
+		item: "advancedcombat:mending_upgrade"
+	},
+	{
+		item: "advancedcombat:knockback_upgrade 1 1"
+	},
+	{
+		item: "advancedcombat:knockback_upgrade"
+	},
+	{
+		item: "advancedcombat:sharpness_upgrade 1 1"
+	},
+	{
+		item: "advancedcombat:sharpness_upgrade"
+	},
+	{
+		item: "thermalfoundation:material 1 290"
+	},
+	{
+		item: "thermalfoundation:material 1 295"
+	},
+	{
+		item: "thermalfoundation:material 1 257"
+	},
+	{
+		item: "thermalfoundation:material 1 256"
+	},
+	{
+		item: "thermalfoundation:material 1 24"
+	},
+	{
+		item: "thermalfoundation:material 1 23",
+		weight: 10
+	},
+	{
+		item: "thermalfoundation:material 1 22",
+		weight: 10
+	},
+	{
+		item: "appliedenergistics2:sky_compass"
+	},
+	{
+		item: "thermalfoundation:upgrade 1 3"
+	},
+	{
+		item: "thermalfoundation:upgrade 1 2"
+	},
+	{
+		item: "thermalfoundation:upgrade 1 1"
+	},
+	{
+		item: "thermalfoundation:upgrade"
+	},
+	{
+		item: "thermalfoundation:wrench",
+		weight: 10
+	},
+	{
+		item: "psi:material 1 4"
+	},
+	{
+		item: "psi:material 1 3"
+	},
+	{
+		item: "psi:material 1 1"
+	},
+	{
+		item: "projecte:interdiction_torch"
+	},
+	{
+		item: "botania:manacookie",
+		weight: 10
+	},
+	{
+		item: "botania:manaresource 1 1"
+	},
+	{
+		item: "botania:manaresource"
+	},
+	{
+		item: "enderio:block_enhanced_wireless_charger"
+	},
+	{
+		item: "enderio:block_xp_vacuum"
+	},
+	{
+		item: "enderio:block_omni_reservoir"
+	},
+	{
+		item: "enderio:block_reservoir"
+	},
+	{
+		item: "grimoireofgaia:misc_experience 1 1",
+		weight: 10
+	},
+	{
+		item: "grimoireofgaia:box"
+	},
+	{
+		item: "grimoireofgaia:misc_currency"
+	},
+	{
+		item: "grimoireofgaia:shield_prop 1 2"
+	},
+	{
+		item: "grimoireofgaia:box 1 2"
+	},
+	{
+		item: "enderzoo:blockconcussioncharge"
+	},
+	{
+		item: "enderzoo:blockendercharge"
+	},
+	{
+		item: "enderzoo:blockconfusingcharge"
+	},
+	{
+		item: "redstonearsenal:material 1 64"
+	},
+	{
+		item: "randomthings:naturecore"
+	},
+	{
+		item: "randomthings:spectrecoil_normal"
+	},
+	{
+		item: "fossil:biofossil",
+		weight: 10
+	},
+	{
+		item: "fossil:plant_fossil",
+		weight: 10
+	},
+	{
+		item: "fossil:stone_tablet",
+		weight: 10
+	},
+	{
+		item: "enderzoo:confusingdust"
+	},
+	{
+		item: "thaumcraft:crystal_vitium"
+	},
+	{
+		item: "thaumcraft:crystal_perditio",
+		weight: 10
+	},
+	{
+		item: "thaumcraft:crystal_ordo",
+		weight: 10
+	},
+	{
+		item: "thaumcraft:crystal_terra",
+		weight: 10
+	},
+	{
+		item: "thaumcraft:crystal_aqua",
+		weight: 10
+	},
+	{
+		item: "thaumcraft:crystal_ignis",
+		weight: 10
+	},
+	{
+		item: "thaumcraft:crystal_aer",
+		weight: 10
+	},
+	{
+		item: "grimoireofgaia:spawn_tame"
+	},
+	{
+		item: "grimoireofgaia:box 1 1"
+	},
+	{
+		item: "grimoireofgaia:box_iron"
+	},
+	{
+		item: {
+			id: "agricraft:agri_seed",
+			tag: {
+				agri_analyzed: 0,
+				agri_strength: 1,
+				agri_gain: 1,
+				agri_seed: "vanilla:orchid_plant",
+				agri_growth: 1
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			id: "agricraft:agri_seed",
+			tag: {
+				agri_analyzed: 0,
+				agri_strength: 1,
+				agri_gain: 1,
+				agri_seed: "vanilla:white_tulip_plant",
+				agri_growth: 1
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			id: "agricraft:agri_seed",
+			tag: {
+				agri_analyzed: 0,
+				agri_strength: 1,
+				agri_gain: 1,
+				agri_seed: "vanilla:poppy_plant",
+				agri_growth: 1
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			id: "agricraft:agri_seed",
+			tag: {
+				agri_analyzed: 0,
+				agri_strength: 1,
+				agri_gain: 1,
+				agri_seed: "vanilla:pink_tulip_plant",
+				agri_growth: 1
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			id: "agricraft:agri_seed",
+			tag: {
+				agri_analyzed: 0,
+				agri_strength: 1,
+				agri_gain: 1,
+				agri_seed: "vanilla:orange_tulip_plant",
+				agri_growth: 1
+			}
+		},
+		weight: 10
+	},
+	{
+		item: "torchmaster:terrain_lighter"
+	},
+	{
+		item: "torchmaster:feral_flare_lantern"
+	},
+	{
+		item: {
+			id: "storagedrawers:basicdrawers",
+			tag: {
+				material: "oak"
+			}
+		}
+	},
+	{
+		item: "ironchest:iron_chest 1 6"
+	},
+	{
+		item: "ironchest:iron_chest 1 2"
+	},
+	{
+		item: "ironchest:iron_chest 1 1",
+		weight: 10
+	},
+	{
+		item: "ironchest:iron_chest",
+		weight: 10
+	},
+	{
+		item: "actuallyadditions:diamond_paxel"
+	},
+	{
+		item: "actuallyadditions:gold_paxel",
+		weight: 10
+	},
+	{
+		item: "actuallyadditions:iron_paxel",
+		weight: 10
+	},
+	{
+		item: "actuallyadditions:item_coffee"
+	},
+	{
+		item: "agricraft:crop_sticks",
+		weight: 10
+	},
+	{
+		item: "agricraft:clipper",
+		weight: 10
+	},
+	{
+		item: "agricraft:rake 1 1",
+		weight: 10
+	},
+	{
+		item: "agricraft:rake",
+		weight: 10
+	},
+	{
+		item: "agricraft:magnifying_glass",
+		weight: 10
+	},
+	{
+		item: "agricraft:trowel",
+		weight: 10
+	},
+	{
+		item: {
+			id: "agricraft:agri_seed",
+			tag: {
+				agri_analyzed: 0,
+				agri_strength: 1,
+				agri_gain: 1,
+				agri_seed: "vanilla:allium_plant",
+				agri_growth: 1
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			id: "agricraft:agri_seed",
+			tag: {
+				agri_analyzed: 0,
+				agri_strength: 1,
+				agri_gain: 1,
+				agri_seed: "vanilla:red_tulip_plant",
+				agri_growth: 1
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			id: "agricraft:agri_seed",
+			tag: {
+				agri_analyzed: 0,
+				agri_strength: 1,
+				agri_gain: 1,
+				agri_seed: "resource:nitorwart_plant",
+				agri_growth: 1
+			}
+		}
+	},
+	{
+		item: "storagenetwork:upgrade"
+	},
+	{
+		item: "storagenetwork:remote"
+	},
+	{
+		item: "storagenetwork:im_kabel"
+	},
+	{
+		item: "storagenetwork:ex_kabel"
+	},
+	{
+		item: "storagenetwork:kabel"
+	},
+	{
+		item: "storagenetwork:storage_kabel"
+	},
+	{
+		item: "minecraft:nether_star"
+	},
+	{
+		ftb_money: 50L,
+		type: "ftbmoney:money",
+		weight: 10
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money",
+		weight: 9
+	},
+	{
+		ftb_money: 500L,
+		type: "ftbmoney:money",
+		weight: 3
+	},
+	{
+		ftb_money: 1000L,
+		type: "ftbmoney:money",
+		weight: 2
+	},
+	{
+		ftb_money: 5000L,
+		type: "ftbmoney:money"
+	},
+	{
+		title: "10 XP Levels",
+		icon: {
+			id: "extracells:pattern.fluid",
+			tag: {
+				Fluid: {
+					FluidName: "xpjuice",
+					Amount: 1000
+				}
+			}
+		},
+		xp_levels: 10,
+		type: "xp_levels"
+	},
+	{
+		title: "30 XP Levels",
+		icon: {
+			id: "extracells:pattern.fluid",
+			tag: {
+				Fluid: {
+					FluidName: "xpjuice",
+					Amount: 1000
+				}
+			}
+		},
+		xp_levels: 30,
+		type: "xp_levels"
+	}],
+	loot_crate: {
+		string_id: "uncommen_crate",
+		item_name: "Uncommon Crate",
+		color: 1220481,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

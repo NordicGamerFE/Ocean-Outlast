@@ -1,0 +1,20 @@
+{
+	title: "Food Book",
+	icon: "solcarrot:food_book",
+	x: -12.5d,
+	y: -7.5d,
+	shape: "square",
+	text: [
+		"&aKeeps track of new food eaten to gain extra hearts!&r",
+		"This book shows you progress about extra hearts gained, How many new foods you have to eat in order to gain more hearts, And foods you have/have not eaten."
+	],
+	tasks: [{
+		uid: "07f20448",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "3cfab6b9",
+		type: "item",
+		item: "solcarrot:food_book"
+	}]
+}

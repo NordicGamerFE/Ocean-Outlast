@@ -1,0 +1,10 @@
+{
+	title: "Applied Energetics 2",
+	icon: "appliedenergistics2:sky_compass",
+	description: [
+		"No Description"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

@@ -1,0 +1,32 @@
+{
+	title: "Clayconia",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "clayconia"
+		}
+	},
+	x: -3.5d,
+	y: 2.0d,
+	text: [
+		"When a Clayconia is supplied with Mana it will cause Sand to turn into Clay around it."
+	],
+	dependencies: [
+		"5c8a07d3"
+	],
+	tasks: [{
+		uid: "444d91f0",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "clayconia"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "07031d78",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

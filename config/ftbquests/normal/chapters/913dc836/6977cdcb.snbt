@@ -1,0 +1,20 @@
+{
+	x: 0.5d,
+	y: -2.5d,
+	dependencies: [
+		"5fba0d4c"
+	],
+	tasks: [{
+		uid: "6df53881",
+		type: "item",
+		items: [{
+			item: "projecte:interdiction_torch"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "c5687097",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	}]
+}

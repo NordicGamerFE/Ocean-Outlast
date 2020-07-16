@@ -1,0 +1,49 @@
+{
+	title: "Oven",
+	icon: "bewitchment:witches_oven",
+	x: -2.5d,
+	y: -1.5d,
+	text: [
+		"An oven is used to cook food faster than a furnace, and also produces fumes. Special fumes need to be distilled."
+	],
+	dependencies: [
+		"8c7403c2"
+	],
+	tasks: [{
+		uid: "8af66eed",
+		type: "item",
+		items: [{
+			item: "bewitchment:witches_oven"
+		}]
+	},
+	{
+		uid: "022204f1",
+		type: "item",
+		items: [{
+			item: "bewitchment:empty_jar 16"
+		}],
+		count: 16L
+	},
+	{
+		uid: "229ba602",
+		type: "item",
+		items: [{
+			item: "bewitchment:oak_spirit"
+		}]
+	}],
+	rewards: [{
+		uid: "213b1eaa",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	},
+	{
+		uid: "f1efb437",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

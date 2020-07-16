@@ -1,0 +1,34 @@
+{
+	title: "Conductive Iron Seeds",
+	icon: "mysticalagriculture:conductive_iron_seeds",
+	x: 0.0d,
+	y: -13.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"4113dc34"
+	],
+	tasks: [{
+		uid: "d2db2818",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:conductive_iron_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "a7d43df1",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "264d5e5a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "Gaia Spirit Ingot",
+	icon: "botania:manaresource 1 14",
+	x: 10.5d,
+	y: -4.5d,
+	text: [
+		"The Gaia Spirit Ingot. Its only use is summoning the hard mode version of Gaia Guardian."
+	],
+	dependencies: [
+		"d9bed1c5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ed181115",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 14"
+		}]
+	}],
+	rewards: [{
+		uid: "a0f2d8e5",
+		type: "item",
+		item: "botania:manaresource 1 5"
+	}]
+}

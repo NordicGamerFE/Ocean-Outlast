@@ -1,0 +1,29 @@
+{
+	x: -2.0d,
+	y: -3.0d,
+	shape: "rsquare",
+	hide: true,
+	tasks: [{
+		uid: "f4b3b50f",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:crafting 1 33"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "be89dacc",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "b00230b8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

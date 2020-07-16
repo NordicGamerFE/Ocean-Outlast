@@ -1,0 +1,25 @@
+{
+	x: -13.5d,
+	y: -8.5d,
+	shape: "square",
+	text: [
+		"&aAre your coins gone?",
+		"&rDo not fear this is a common bug with FTBMoney simply do /pay (In Game Name) 1"
+	],
+	tasks: [{
+		uid: "ea2fe0d4",
+		type: "checkmark",
+		title: "Lost Coins",
+		icon: {
+			id: "lodsofemone:coin_small",
+			tag: {
+				value: 1
+			}
+		}
+	}],
+	rewards: [{
+		uid: "155172ac",
+		type: "ftbmoney:money",
+		ftb_money: 1L
+	}]
+}

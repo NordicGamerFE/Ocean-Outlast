@@ -1,0 +1,45 @@
+{
+	title: "Batbox",
+	icon: {
+		id: "ic2:te",
+		tag: {},
+		Damage: 72s
+	},
+	x: 2.0d,
+	y: 1.5d,
+	text: [
+		"BatBox",
+		"Power tier: 1 (Max I/O 32 EU/t)",
+		"Capacity: 40K EU"
+	],
+	dependencies: [
+		"50b66f98",
+		"b5e954fa"
+	],
+	tasks: [{
+		uid: "e6606958",
+		type: "item",
+		items: [{
+			id: "ic2:te",
+			tag: {},
+			Damage: 72s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3fb105ad",
+		type: "item",
+		item: {
+			id: "ic2:cable",
+			tag: {
+				type: 0,
+				insulation: 1
+			}
+		}
+	},
+	{
+		uid: "76a84698",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

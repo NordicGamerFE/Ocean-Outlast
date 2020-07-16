@@ -1,0 +1,28 @@
+{
+	x: 2.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "11c1ba87",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:infusion_crystal"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e91fa3a1",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "e99c471e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "farmers_market"
+			}
+		}
+	}]
+}

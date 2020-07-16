@@ -1,0 +1,23 @@
+{
+	x: 2.5d,
+	y: -3.0d,
+	dependencies: [
+		"1379e8f5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "59535a58",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_empowerer"
+		}]
+	},
+	{
+		uid: "7fdf79da",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_display_stand"
+		}],
+		count: 4L
+	}]
+}

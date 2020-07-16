@@ -1,0 +1,35 @@
+{
+	title: "Rune of Summer",
+	icon: "botania:rune 1 5",
+	x: 3.0d,
+	y: 3.5d,
+	text: [
+		"Rune of Summer this is an important component in creating complex magical devices. Rune of Summer is one of the Seasonal Runes which is the second tier of Botania Runes. All Runes must be created in the Runic Altar."
+	],
+	dependencies: [
+		"5c8a07d3",
+		"907d3764"
+	],
+	tasks: [{
+		uid: "ca4d023e",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "3f3c7bc2",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	},
+	{
+		uid: "7297762c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

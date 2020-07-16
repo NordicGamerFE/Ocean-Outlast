@@ -1,0 +1,32 @@
+{
+	x: -11.5d,
+	y: -0.5d,
+	text: [
+		"&aSomeone paid for vip",
+		"&rThis skeleton has bought some perks for sure. this skeleton has both a bow and sword and got some real speed behind hes legs"
+	],
+	dependencies: [
+		"c883f8a1"
+	],
+	tasks: [{
+		uid: "3d54f800",
+		type: "kill",
+		entity: "primitivemobs:skeleton_warrior",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "92a0624f",
+		type: "ftbmoney:money",
+		ftb_money: 35L
+	},
+	{
+		uid: "3f18c14c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "hunter_s_crate"
+			}
+		}
+	}]
+}

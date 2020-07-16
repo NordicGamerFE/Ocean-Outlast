@@ -1,0 +1,31 @@
+{
+	title: "Vitreous Pickaxe",
+	icon: "botania:glasspick",
+	x: 6.0d,
+	y: -6.5d,
+	text: [
+		"Works like stone pickaxe with mining speed a bit slower than iron, but it can mine Glass blocks without turning them into nothing. Pickaxe can be repaired with mana from player's inventory, like other mana tools. It takes ? 3% of Mana Tablet to fully restore it's durability."
+	],
+	dependencies: [
+		"b53cf0e1"
+	],
+	tasks: [{
+		uid: "5d83f19d",
+		type: "item",
+		items: [{
+			item: "botania:glasspick"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7964ed60",
+		type: "item",
+		item: "minecraft:glass"
+	},
+	{
+		uid: "7b67857d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

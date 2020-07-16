@@ -1,0 +1,37 @@
+{
+	x: -2.0d,
+	y: -1.0d,
+	dependencies: [
+		"a4a2a0d8"
+	],
+	tasks: [{
+		uid: "dcaeab8c",
+		type: "item",
+		items: [{
+			id: "conarm:armorforge",
+			tag: {
+				textureBlock: {
+					id: "enderio:block_alloy",
+					Count: 1,
+					Damage: 0
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "94b8b6ce",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "45fed3a1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "Potion of Cell Growth",
+	icon: {
+		id: "geneticsreborn:grpotion",
+		tag: {
+			Potion: "geneticsreborn:growth"
+		}
+	},
+	x: 3.0d,
+	y: -1.5d,
+	text: [
+		"Tier I potion, Formulas with a Potion of Cell Growth (PCG) can be performed at a brewing stand or incubator without penalty. All outputs are new cells with a high chance of success when placed in the DNA Decrypter. Failure in the DNA Decrypter generates a Basic Gene. Combining any of theses cells with a potion of cell growth will revert them to regular cells."
+	],
+	tasks: [{
+		uid: "f8f65bfc",
+		type: "item",
+		items: [{
+			id: "geneticsreborn:grpotion",
+			tag: {
+				Potion: "geneticsreborn:growth"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "a2719b72",
+		type: "item",
+		item: {
+			id: "geneticsreborn:grpotion",
+			tag: {
+				Potion: "geneticsreborn:growth"
+			}
+		}
+	}]
+}

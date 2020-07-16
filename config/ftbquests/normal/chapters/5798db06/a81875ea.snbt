@@ -1,0 +1,34 @@
+{
+	title: "Aluminium Seeds",
+	icon: "mysticalagriculture:aluminum_seeds",
+	x: -3.0d,
+	y: -10.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"a67f1154"
+	],
+	tasks: [{
+		uid: "55e0e99e",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:aluminum_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "589fea13",
+		type: "ftbmoney:money",
+		ftb_money: 55L
+	},
+	{
+		uid: "f3d8352e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

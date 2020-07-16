@@ -1,0 +1,17 @@
+{
+	x: -3.0d,
+	y: -0.5d,
+	text: [
+		"&aThese cows arent joking around",
+		"&rThe Hellish cows of nether"
+	],
+	dependencies: [
+		"b9b1486e"
+	],
+	tasks: [{
+		uid: "3ea49f35",
+		type: "kill",
+		entity: "grimoireofgaia:wither_cow",
+		value: 1L
+	}]
+}

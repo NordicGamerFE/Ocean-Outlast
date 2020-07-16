@@ -1,0 +1,31 @@
+{
+	x: -1.5d,
+	y: -8.5d,
+	text: [
+		"&rStuck in a cave? Want an easy way to the surface? Use me!"
+	],
+	tasks: [{
+		uid: "20899b60",
+		type: "item",
+		items: [{
+			item: "randomthings:escaperope"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "05eeff2b",
+		type: "ftbmoney:money",
+		ftb_money: 560L
+	},
+	{
+		uid: "846e7ba2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

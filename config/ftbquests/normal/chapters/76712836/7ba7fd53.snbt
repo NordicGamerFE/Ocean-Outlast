@@ -1,0 +1,36 @@
+{
+	title: "Iron Furnace",
+	icon: "ic2:te 1 46",
+	x: 0.0d,
+	y: 1.5d,
+	text: [
+		"The Iron Furnace is a direct upgrade to the vanilla Furnace. It is 20% faster and 25% more fuel efficient, smelting 10 items per Coal or Charcoal compared to only 8 in a regular Furnace, and taking 8 seconds instead of 10 to perform each operation."
+	],
+	tasks: [{
+		uid: "80320855",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 46"
+		}]
+	}],
+	rewards: [{
+		uid: "a983fbc5",
+		type: "item",
+		item: "minecraft:coal"
+	},
+	{
+		uid: "e504d67d",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "f2a61caf",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "kevs_lost_chest"
+			}
+		}
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	x: -1.5d,
+	y: 3.0d,
+	dependencies: [
+		"0baa35c6",
+		"49f68fe0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "95dc4336",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_giant_chest_large"
+		}]
+	}],
+	rewards: [{
+		uid: "ea0383b6",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "02291fa6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

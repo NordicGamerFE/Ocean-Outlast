@@ -1,0 +1,30 @@
+{
+	title: "Manasteel",
+	icon: "botania:manaresource",
+	x: 4.5d,
+	y: -1.0d,
+	text: [
+		"Crafting Component"
+	],
+	dependencies: [
+		"836e1759"
+	],
+	hide: true,
+	tasks: [{
+		uid: "cec6edfb",
+		type: "item",
+		items: [{
+			item: "botania:manaresource"
+		}]
+	}],
+	rewards: [{
+		uid: "cc127b85",
+		type: "item",
+		item: "botania:manaresource"
+	},
+	{
+		uid: "5a00c34c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

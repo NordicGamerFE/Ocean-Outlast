@@ -1,0 +1,30 @@
+{
+	title: "Horn of the Canopy",
+	icon: "botania:grasshorn 1 1",
+	x: 8.0d,
+	y: -9.0d,
+	text: [
+		"Holding right-click quickly breaks Leaves near the user."
+	],
+	dependencies: [
+		"5ab4532d"
+	],
+	tasks: [{
+		uid: "a1c30683",
+		type: "item",
+		items: [{
+			item: "botania:grasshorn 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bde42938",
+		type: "item",
+		item: "botania:blacklotus"
+	},
+	{
+		uid: "52623f0e",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

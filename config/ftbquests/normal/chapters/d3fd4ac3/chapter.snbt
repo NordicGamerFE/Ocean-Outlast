@@ -1,0 +1,21 @@
+{
+	title: "Challenges",
+	icon: "thermalfoundation:upgrade 1 256",
+	description: [
+		"Take part in challenges across the know realm what awards is there to be claimed from these banned actions"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: 0.0d,
+		y: -5.0d,
+		width: 3.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "assets:info.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

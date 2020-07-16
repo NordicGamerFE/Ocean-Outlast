@@ -1,0 +1,30 @@
+{
+	x: -4.5d,
+	y: 1.5d,
+	text: [
+		"&aLocked to Anu Lair Quest&r",
+		"Found in Fossils And Archeology Chapter "
+	],
+	can_repeat: true,
+	dependencies: [
+		"86254bd4"
+	],
+	tasks: [{
+		uid: "ea0e79a1",
+		type: "item",
+		items: [{
+			item: "minecraft:ender_pearl"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "238f69f5",
+		type: "item",
+		item: {
+			id: "lodsofemone:coin_small",
+			tag: {
+				value: 5
+			}
+		}
+	}]
+}

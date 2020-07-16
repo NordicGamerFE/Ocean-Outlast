@@ -1,0 +1,34 @@
+{
+	title: "Aluminium Brass Seeds",
+	icon: "mysticalagriculture:aluminum_brass_seeds",
+	x: 2.0d,
+	y: -10.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"a67f1154"
+	],
+	tasks: [{
+		uid: "ab006fca",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:aluminum_brass_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "60954145",
+		type: "ftbmoney:money",
+		ftb_money: 55L
+	},
+	{
+		uid: "65aaed12",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

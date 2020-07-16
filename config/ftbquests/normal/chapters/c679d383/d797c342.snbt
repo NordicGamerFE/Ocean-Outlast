@@ -1,0 +1,34 @@
+{
+	title: "Elven Mana Spreader",
+	icon: "botania:spreader 1 2",
+	x: 6.0d,
+	y: -5.0d,
+	text: [
+		"The Elven Mana Spreader is an upgraded version of the Mana Spreader and allows for Mana bursts to travel longer without losing Mana.",
+		"",
+		"The Elven Mana Spreader can fire Mana bursts up to 20 blocks before suffering Mana loss compared to the 12-block distance of the standard Mana Spreader. The Elven Mana Spreader also fires Mana at a faster rate."
+	],
+	dependencies: [
+		"2b70a6dd",
+		"39797783",
+		"8c29be76"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c5da42e1",
+		type: "item",
+		items: [{
+			item: "botania:spreader 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "45bf8d91",
+		type: "item",
+		item: "botania:spreader 1 2"
+	},
+	{
+		uid: "f91bf190",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

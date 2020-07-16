@@ -1,0 +1,124 @@
+{
+	title: "Singularity Collector",
+	x: 0.0d,
+	y: 0.5d,
+	tasks: [{
+		uid: "6e4b95f6",
+		type: "item",
+		items: [{
+			item: "jaopca:item_singularityaluminium"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "ebbe0ad0",
+		type: "item",
+		items: [{
+			item: "jaopca:item_singularityardite"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "665bde92",
+		type: "item",
+		items: [{
+			item: "jaopca:item_singularitycobalt"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "6e0af9a9",
+		type: "item",
+		items: [{
+			item: "jaopca:item_singularitymithril"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "a1dccf60",
+		type: "item",
+		items: [{
+			item: "jaopca:item_singularitysalt"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "ffba0ce2",
+		type: "item",
+		items: [{
+			item: "jaopca:item_singularityquartzblack"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "a69b01bb",
+		type: "item",
+		items: [{
+			item: "jaopca:item_singularityopal"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "df890912",
+		type: "item",
+		items: [{
+			item: "jaopca:item_singularitygarnet"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "8a9a94f0",
+		type: "item",
+		items: [{
+			item: "jaopca:item_singularitycoal"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "c9e555aa",
+		type: "item",
+		items: [{
+			item: "jaopca:item_singularityamethyst"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "2e00952e",
+		type: "item",
+		items: [{
+			item: "jaopca:item_singularityamber"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "570c411b",
+		type: "item",
+		items: [{
+			item: "jaopca:item_singularityuranium"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "219f806f",
+		type: "item",
+		items: [{
+			item: "jaopca:item_singularityosmium"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "552794a7",
+		type: "ftbmoney:money",
+		ftb_money: 300000L
+	},
+	{
+		uid: "01c649bf",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "supra_crate"
+			}
+		}
+	}]
+}

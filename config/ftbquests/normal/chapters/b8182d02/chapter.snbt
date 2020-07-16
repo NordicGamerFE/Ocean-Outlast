@@ -1,0 +1,10 @@
+{
+	title: "Thermal",
+	icon: "thermalfoundation:material 1 1024",
+	description: [
+		"No Description"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

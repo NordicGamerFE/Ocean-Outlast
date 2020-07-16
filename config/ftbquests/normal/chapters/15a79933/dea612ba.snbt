@@ -1,0 +1,32 @@
+{
+	x: -6.5d,
+	y: -2.0d,
+	text: [
+		"&AYes they are big",
+		"&RAfter years of sea rise these spider has evolved to become big and more dangrous "
+	],
+	dependencies: [
+		"bf2a29fd"
+	],
+	tasks: [{
+		uid: "dab4e7f6",
+		type: "kill",
+		entity: "minecraft:spider",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "0472e67e",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	},
+	{
+		uid: "828c7e57",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "hunter_s_crate"
+			}
+		}
+	}]
+}

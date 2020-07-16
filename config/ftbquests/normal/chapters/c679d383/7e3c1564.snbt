@@ -1,0 +1,37 @@
+{
+	title: "Charm of the Diva",
+	icon: "botania:divacharm",
+	x: 12.0d,
+	y: -4.0d,
+	text: [
+		"provides ability to \"charm\" attacked hostile mobs, so they will attack other enemies instead of wearer, but it works only if there is at least 1 other enemy nearby and if the wearer has some Mana."
+	],
+	dependencies: [
+		"d9bed1c5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0e5236fa",
+		type: "item",
+		items: [{
+			item: "botania:divacharm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e4ab472",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "1bd14193",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

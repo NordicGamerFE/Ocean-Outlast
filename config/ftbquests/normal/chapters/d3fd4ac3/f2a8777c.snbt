@@ -1,0 +1,29 @@
+{
+	x: -4.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "f304db2e",
+		type: "item",
+		items: [{
+			item: "roots:creative_pouch"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6adcdc14",
+		type: "ftbmoney:money",
+		ftb_money: 100000L
+	},
+	{
+		uid: "d601c879",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

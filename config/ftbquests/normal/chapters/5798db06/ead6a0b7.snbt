@@ -1,0 +1,34 @@
+{
+	title: "Marble Seeds",
+	icon: "mysticalagriculture:marble_seeds",
+	x: -1.0d,
+	y: -10.0d,
+	text: [
+		"No Description"
+	],
+	dependencies: [
+		"a67f1154"
+	],
+	tasks: [{
+		uid: "b10453b4",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:marble_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "09d2a05b",
+		type: "ftbmoney:money",
+		ftb_money: 55L
+	},
+	{
+		uid: "9a09fb81",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

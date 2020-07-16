@@ -1,0 +1,68 @@
+{
+	title: "Portal to Alfheim",
+	icon: "botania:alfheimportal",
+	x: 8.5d,
+	y: 3.5d,
+	text: [
+		"The Portal to Alfheim is a multiblock structure added by Botania. It allows the player to exchange certain blocks and items. Unlike most portals, the Portal to Alfheim cannot be travelled through, and if the player were to stand in it, it would not teleport them anywhere.",
+		"",
+		"If the portal runs out of Mana, or a part of the structure is broken, the Portal will close.",
+		"In addition, at least 2 Natura Pylons with ",
+		"Mana Pools below them must be placed in an 11×11×11 area centered on the gateway core.",
+		"",
+		"To exchange resources, throw items into the portal - if they can be exchanged, the portal will slowly drop resulting items in its center and consume 500 Mana per operation."
+	],
+	dependencies: [
+		"e018dd5b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3bdafee1",
+		type: "item",
+		items: [{
+			item: "botania:livingwood 8"
+		}],
+		count: 8L
+	},
+	{
+		uid: "61780a4d",
+		type: "item",
+		items: [{
+			item: "botania:livingwood 3 5"
+		}],
+		count: 3L
+	},
+	{
+		uid: "0f6dca4e",
+		type: "item",
+		items: [{
+			item: "botania:alfheimportal"
+		}]
+	},
+	{
+		uid: "74022d5d",
+		type: "item",
+		items: [{
+			item: "botania:pylon 2 1"
+		}],
+		count: 2L
+	},
+	{
+		uid: "371fa4d8",
+		type: "item",
+		items: [{
+			item: "botania:pool 2"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "b479050d",
+		type: "item",
+		item: "botania:blacklotus 1 1"
+	},
+	{
+		uid: "a6d4aaad",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

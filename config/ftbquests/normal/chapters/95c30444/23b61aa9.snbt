@@ -1,0 +1,25 @@
+{
+	title: "Flux Plug",
+	icon: "fluxnetworks:fluxplug",
+	x: 0.0d,
+	y: -1.5d,
+	text: [
+		"Used for Adding Energy to the network",
+		"You can add energy from all sides simultaneously."
+	],
+	dependencies: [
+		"b50c4be7"
+	],
+	tasks: [{
+		uid: "4e4fc81c",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:fluxplug"
+		}]
+	}],
+	rewards: [{
+		uid: "0603df91",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

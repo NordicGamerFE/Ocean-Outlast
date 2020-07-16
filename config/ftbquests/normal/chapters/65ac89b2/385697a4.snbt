@@ -1,0 +1,29 @@
+{
+	x: -3.5d,
+	y: -2.0d,
+	dependencies: [
+		"85eebb4c"
+	],
+	tasks: [{
+		uid: "1c7ddf0f",
+		type: "item",
+		items: [{
+			item: "conarm:resist_mat"
+		}]
+	}],
+	rewards: [{
+		uid: "43cd64ff",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "29de0f3d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

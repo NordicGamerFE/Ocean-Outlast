@@ -1,0 +1,32 @@
+{
+	x: -5.0d,
+	y: 2.5d,
+	text: [
+		"&aMini endermans",
+		"&rThese small endermans are fast and hard to hit so be careful to pick a fight with them"
+	],
+	dependencies: [
+		"00206bb7"
+	],
+	tasks: [{
+		uid: "e584b217",
+		type: "kill",
+		entity: "mysticalworld:entity_endermini",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "140b6a8c",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "b627ae9f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

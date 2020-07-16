@@ -1,0 +1,29 @@
+{
+	x: -6.0d,
+	y: 5.0d,
+	text: [
+		"&aLocked to 4 End Crystal Quest&r",
+		"Found in Introduction Chapter"
+	],
+	can_repeat: true,
+	dependencies: [
+		"d683d1b7"
+	],
+	tasks: [{
+		uid: "1338b4e7",
+		type: "item",
+		items: [{
+			item: "minecraft:dragon_egg"
+		}]
+	}],
+	rewards: [{
+		uid: "9151333f",
+		type: "item",
+		item: {
+			id: "lodsofemone:coin_big",
+			tag: {
+				value: 500
+			}
+		}
+	}]
+}

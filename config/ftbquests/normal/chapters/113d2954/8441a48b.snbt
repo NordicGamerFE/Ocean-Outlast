@@ -1,0 +1,34 @@
+{
+	title: "Silkworm",
+	icon: "exnihilocreatio:item_material 1 2",
+	x: -2.5d,
+	y: -5.5d,
+	text: [
+		"Dropped when breaking Leaves with a Crook. A Leaves block can be right-clicked with a Silk Worm to turn it into an Infested Leaves when broken has a 40% chance to drops string"
+	],
+	dependencies: [
+		"54cd4eb4"
+	],
+	tasks: [{
+		uid: "93839eba",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_material 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "e4cc4e18",
+		type: "item",
+		item: "minecraft:string"
+	},
+	{
+		uid: "558fafa1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "farmers_market"
+			}
+		}
+	}]
+}

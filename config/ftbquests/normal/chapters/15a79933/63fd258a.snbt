@@ -1,0 +1,21 @@
+{
+	x: -18.0d,
+	y: -7.0d,
+	dependencies: [
+		"214e9482"
+	],
+	tasks: [{
+		uid: "cb350ccb",
+		type: "item",
+		items: [{
+			item: "treasure2:ruby_key"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "243a0542",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

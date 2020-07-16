@@ -1,0 +1,38 @@
+{
+	x: -14.0d,
+	y: -4.0d,
+	text: [
+		"&aThey always said the sea had an heart&r",
+		"Fuction the same as green heart canisters"
+	],
+	dependencies: [
+		"866b1751"
+	],
+	tasks: [{
+		uid: "985f668a",
+		type: "item",
+		items: [{
+			item: "bhc:blue_heart_canister"
+		}]
+	}],
+	rewards: [{
+		uid: "d6e4748a",
+		type: "xp_levels",
+		xp_levels: 100
+	},
+	{
+		uid: "44ea00cf",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	},
+	{
+		uid: "8f31ee43",
+		type: "ftbmoney:money",
+		ftb_money: 25000L
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	x: -2.0d,
+	y: -0.5d,
+	dependencies: [
+		"805f5390"
+	],
+	tasks: [{
+		uid: "f0d52b29",
+		type: "item",
+		items: [{
+			item: "bewitchment:sigil_table"
+		}]
+	}],
+	rewards: [{
+		uid: "9bd9d044",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "7a8a20f2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "kevs_lost_chest"
+			}
+		}
+	}]
+}

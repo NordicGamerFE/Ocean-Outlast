@@ -1,0 +1,31 @@
+{
+	x: -21.0d,
+	y: -6.0d,
+	dependencies: [
+		"214e9482"
+	],
+	tasks: [{
+		uid: "32becad4",
+		type: "item",
+		items: [{
+			item: "treasure2:wood_key"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "04021610",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "bda170f1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

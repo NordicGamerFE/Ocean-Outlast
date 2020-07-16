@@ -1,0 +1,27 @@
+{
+	x: -11.5d,
+	y: -7.5d,
+	shape: "square",
+	text: [
+		"&aIts important to protect what you own",
+		"&rThe FTB Claiming system allows you to claim your own area! This protects your land from Mob/Player griefing (You can team up with a user to allow them access to build in your claim) simply go into your inventory and click on the top left icon",
+		"\"Claimed Chunks\" Here you can see all Claimed/Unclaimed chunks in your area, You can Left click on a chunk to claim it then Shift+Left click to chunk to forever load it!",
+		""
+	],
+	tasks: [{
+		uid: "75f3fd61",
+		type: "checkmark",
+		title: "FTB Claims",
+		icon: "wrcbe:map"
+	}],
+	rewards: [{
+		uid: "a0cabd0e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

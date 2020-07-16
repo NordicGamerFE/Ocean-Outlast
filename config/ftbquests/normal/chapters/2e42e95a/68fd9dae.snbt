@@ -1,0 +1,58 @@
+{
+	title: "Figurine",
+	x: 1.5d,
+	y: -1.0d,
+	dependencies: [
+		"fbbde815"
+	],
+	tasks: [{
+		uid: "9bd04f53",
+		type: "item",
+		items: [{
+			item: "fossil:figurine 1 13"
+		},
+		{
+			item: "fossil:figurine 1 12"
+		},
+		{
+			item: "fossil:figurine 1 15"
+		},
+		{
+			item: "fossil:figurine 1 11"
+		},
+		{
+			item: "fossil:figurine 1 10"
+		},
+		{
+			item: "fossil:figurine 1 9"
+		},
+		{
+			item: "fossil:figurine 1 7"
+		},
+		{
+			item: "fossil:figurine 1 8"
+		},
+		{
+			item: "fossil:figurine 1 6"
+		},
+		{
+			item: "fossil:figurine 1 5"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "b2940847",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "d8dd80ea",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

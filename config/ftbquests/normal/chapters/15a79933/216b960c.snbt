@@ -1,0 +1,41 @@
+{
+	title: "Beetle",
+	x: -10.0d,
+	y: -6.5d,
+	text: [
+		"&aDidnt know beetles were cute :D",
+		"&rJust beetles going around really"
+	],
+	dependencies: [
+		"120bf0a4"
+	],
+	tasks: [{
+		uid: "46cc494a",
+		type: "observation",
+		icon: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "mysticalworld:entity_beetle"
+			}
+		},
+		match_type: "entity_id",
+		match: "mysticalworld:entity_beetle",
+		timer: 20L
+	}],
+	rewards: [{
+		uid: "aa324a8e",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	},
+	{
+		uid: "2c97e3bf",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

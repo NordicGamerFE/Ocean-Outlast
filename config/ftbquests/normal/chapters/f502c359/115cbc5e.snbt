@@ -1,0 +1,22 @@
+{
+	title: "Storage Network Master",
+	icon: "storagenetwork:master",
+	x: 0.0d,
+	y: 0.0d,
+	shape: "square",
+	text: [
+		"The heart of the network. one per network"
+	],
+	tasks: [{
+		uid: "538b977a",
+		type: "item",
+		items: [{
+			item: "storagenetwork:master"
+		}]
+	}],
+	rewards: [{
+		uid: "48d0d8c1",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

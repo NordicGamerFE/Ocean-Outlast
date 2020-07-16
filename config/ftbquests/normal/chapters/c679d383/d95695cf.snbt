@@ -1,0 +1,52 @@
+{
+	title: "Ring of Loki",
+	icon: {
+		id: "botania:lokiring",
+		tag: {
+			soulbindUUID: "0269faac-332b-41bb-b51b-2ee5f7017218"
+		}
+	},
+	x: 10.5d,
+	y: -7.0d,
+	text: [
+		"The Ring of Loki is one of the three mythic rings of the Aesir, the Ring of Loki allows for the wearer to tap upon the Trickster God Loki to effectively be in multiple places at once.",
+		"",
+		"The setup for this ability requires, first and foremost, an empty hand. Shift-right clicking on a block with said empty hand while having the Ring of Loki equipped begins the procedure. Once the source block is selected, shift-right clicking on other blocks in the world will add them to the relative positions affected by this power. In order to finish the procedure, one would shift-right click the original block.",
+		"",
+		"Shift-right clicking on one of the blocks that has been selected will remove it. To reset a completed selection, shift-right click the ground twice.",
+		"",
+		"After the selection is complete, when looking around, one will notice multiple boxes in relative positions to the selected block. When a block is placed while sneaking, the placing action is mimicked on all of those positions, allowing for one to place a large amount of blocks at once. This ability also extends to destruction using the Terra Shatterer or Terra Truncator.",
+		"",
+		"Such a power does not come for free of course. Utilizing this ability costs Mana from the user's inventory per each block placed. It's important to note that the more blocks that are selected, the more expensive each placed block becomes."
+	],
+	dependencies: [
+		"699291a5"
+	],
+	tasks: [{
+		uid: "6e568bb6",
+		type: "item",
+		items: [{
+			id: "botania:lokiring",
+			tag: {
+				soulbindUUID: "0269faac-332b-41bb-b51b-2ee5f7017218"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b9303431",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "5546fc26",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

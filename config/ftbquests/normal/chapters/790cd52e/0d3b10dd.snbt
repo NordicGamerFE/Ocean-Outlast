@@ -1,0 +1,41 @@
+{
+	x: -10.0d,
+	y: -0.5d,
+	dependencies: [
+		"905de9a0"
+	],
+	tasks: [{
+		uid: "782bcd68",
+		type: "item",
+		items: [{
+			item: "better_diving:reinforced_wetsuit_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c5a5dd66",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "4242361b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "sunk_crate"
+			}
+		}
+	},
+	{
+		uid: "3830c6ba",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "kevs_lost_chest"
+			}
+		}
+	}]
+}

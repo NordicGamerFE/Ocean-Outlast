@@ -1,0 +1,33 @@
+{
+	title: "The Spectator",
+	icon: "botania:itemfinder",
+	x: -1.5d,
+	y: -3.0d,
+	text: [
+		"Equippable in the Amulet slot.",
+		"",
+		"While holding an item, any container with the same item inside will glow with a bright particle effect. This also applies to items dropped on the ground, mobs with the item equipped, players with the item in their inventory, or villagers looking to trade with that item. Crouching applies the particle effect to all dropped items nearby."
+	],
+	dependencies: [
+		"9cb7d8d4"
+	],
+	tasks: [{
+		uid: "d8fa462a",
+		type: "item",
+		items: [{
+			item: "botania:itemfinder"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0ea20505",
+		type: "item",
+		item: "botania:blacklotus"
+	},
+	{
+		uid: "29674546",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

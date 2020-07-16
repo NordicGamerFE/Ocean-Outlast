@@ -1,0 +1,37 @@
+{
+	title: "Wooden Tools",
+	icon: "minecraft:wooden_pickaxe",
+	x: -8.5d,
+	y: -5.5d,
+	text: [
+		"&aNow that you got wood lets make an pickaxe&r",
+		"You gonna need a lot of cobblestone to make a furnace so just make a couple pickaxe's"
+	],
+	dependencies: [
+		"8757af66"
+	],
+	tasks: [{
+		uid: "9f0a11e5",
+		type: "item",
+		items: [{
+			item: "minecraft:wooden_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1ca03777",
+		type: "item",
+		item: "minecraft:log"
+	},
+	{
+		uid: "ccefbfa6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

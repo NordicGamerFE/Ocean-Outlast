@@ -1,0 +1,29 @@
+{
+	x: -3.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "b12cc655",
+		type: "item",
+		items: [{
+			item: "thaumcraft:creative_flux_sponge"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2b98733e",
+		type: "ftbmoney:money",
+		ftb_money: 100000L
+	},
+	{
+		uid: "bd3b17de",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "ME Export Bus",
+	icon: "appliedenergistics2:part 1 260",
+	x: 4.5d,
+	y: -0.5d,
+	text: [
+		"The ME Export Bus extracts items from the ME Network's Networked Storage and places them into the inventory it faces. You must configure which items it will insert, leaving the configuration blank will result in nothing. The ME Export Bus will try to export any of the items on its list skipping over those it cannot fit into the destination. The ME Export Bus requires a channel to function.",
+		"",
+		"This is the functional opposite of the ME Import Bus."
+	],
+	dependencies: [
+		"2e82976c"
+	],
+	tasks: [{
+		uid: "9476ef9b",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 260"
+		}]
+	}],
+	rewards: [{
+		uid: "8cad3931",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "ee0847bd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

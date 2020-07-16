@@ -1,0 +1,20 @@
+{
+	x: 0.5d,
+	y: -1.5d,
+	dependencies: [
+		"e3d42452"
+	],
+	tasks: [{
+		uid: "219d89af",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_divining_rod_1",
+			tag: {}
+		}]
+	}],
+	rewards: [{
+		uid: "4826024e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

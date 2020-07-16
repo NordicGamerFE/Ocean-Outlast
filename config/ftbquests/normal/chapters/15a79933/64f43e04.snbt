@@ -1,0 +1,32 @@
+{
+	x: -9.5d,
+	y: -2.0d,
+	text: [
+		"&aMaster Thiefs",
+		"&rThese Thiefs has stolen enough items! my book tells me that they might appear in deserts"
+	],
+	dependencies: [
+		"bf2a29fd"
+	],
+	tasks: [{
+		uid: "320c1463",
+		type: "kill",
+		entity: "primitivemobs:filch_lizard",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "3c10c59d",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "fb4b2060",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "hunter_s_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "Pig Seeds",
+	icon: "mysticalagriculture:pig_seeds",
+	x: -1.0d,
+	y: -9.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"a67f1154"
+	],
+	tasks: [{
+		uid: "28dd2284",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:pig_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "6f5eb1ad",
+		type: "ftbmoney:money",
+		ftb_money: 55L
+	},
+	{
+		uid: "99e9219c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

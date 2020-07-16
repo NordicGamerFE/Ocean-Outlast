@@ -1,0 +1,19 @@
+{
+	x: 2.5d,
+	y: -4.5d,
+	dependencies: [
+		"49f68fe0"
+	],
+	tasks: [{
+		uid: "7eeb1557",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_lava_factory_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "11eb3486",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

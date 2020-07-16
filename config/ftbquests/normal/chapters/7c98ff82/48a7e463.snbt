@@ -1,0 +1,33 @@
+{
+	title: "Dark Steel",
+	icon: "enderio:item_alloy_ingot 1 6",
+	x: -2.0d,
+	y: 0.0d,
+	shape: "rsquare",
+	text: [
+		"Used to craft a lot of machines and tools"
+	],
+	tasks: [{
+		uid: "f8b5591b",
+		type: "item",
+		items: [{
+			item: "enderio:item_alloy_ingot 6 6"
+		}],
+		count: 6L
+	}],
+	rewards: [{
+		uid: "53b99cdd",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "284bcb06",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,40 @@
+{
+	title: "Runic Altar",
+	icon: "botania:runealtar",
+	x: 4.5d,
+	y: 0.5d,
+	text: [
+		"Runic creation is an complex topic, but an important one for the advancement of any botanist's career. However, this mode of crafting requires a firm grasp on the concepts of Mana Manipulation to use. Before proceeding further, a read through the important entries (those in Italics) in that section of the Lexica Botania might prove helpful.",
+		"Runes are vital components of complex magical devices or flora, created on a Runic Altar.",
+		"To use this Runic Altar, start by placing (via either a right-click or a simple toss) the components of the rune you want to create upon the altar.",
+		"Point a Mana Spreader with a supply of Mana at the altar, and let the Mana flow.",
+		"Your wand will show you the progress of the transfer; it should be apparent when the altar has received enough Mana. When that happens, just drop or right-click a piece of Livingrock upon the altar, then use the wand on it to collect your rune.",
+		"A total of 16 Runes exist.",
+		"The most elementary runes are named after the Four Elements, the intermediate runes are named after the Four Seasons, and the most advanced runes are named after the Seven Deadly Sins. A separate Rune of Mana also exists outside this progression.",
+		"Sneak-right clicking the Runic Altar with an empty hand while it's not accepting mana will pull out the last item input.",
+		"Additionally, attaching a Comparator to it will emit signal strength 1 if the altar is accepting Mana, and signal strength 2 if it's ready to craft the rune.",
+		"Any runes used for recipes in the Runic Altar function as catalysts, and will be returned upon completion of the runic recipe.",
+		"Similarly to the Petal Apothecary, right-clicking this block with an empty hand after a recipe is complete will pull another set of the items used for the last recipe, for faster crafting in bulk."
+	],
+	dependencies: [
+		"9c4fbe54"
+	],
+	hide: true,
+	tasks: [{
+		uid: "358b3b59",
+		type: "item",
+		items: [{
+			item: "botania:runealtar"
+		}]
+	}],
+	rewards: [{
+		uid: "00f55d72",
+		type: "item",
+		item: "botania:blacklotus"
+	},
+	{
+		uid: "0aefb9d3",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

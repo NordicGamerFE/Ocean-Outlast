@@ -1,0 +1,20 @@
+{
+	title: "Akashic Tome",
+	x: -11.5d,
+	y: -8.5d,
+	shape: "square",
+	text: [
+		"&aAkashic Tome lets you store all your books in one place!&r",
+		"Simply combine any book with the Akashic Tome to combine them"
+	],
+	tasks: [{
+		uid: "815dccef",
+		type: "checkmark",
+		icon: "akashictome:tome"
+	}],
+	rewards: [{
+		uid: "0b6453f1",
+		type: "item",
+		item: "akashictome:tome"
+	}]
+}

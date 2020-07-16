@@ -1,0 +1,34 @@
+{
+	title: "Sheep Seeds",
+	icon: "mysticalagriculture:sheep_seeds",
+	x: 2.0d,
+	y: -9.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"a67f1154"
+	],
+	tasks: [{
+		uid: "0b7ddb90",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:sheep_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "6d6cdca7",
+		type: "ftbmoney:money",
+		ftb_money: 55L
+	},
+	{
+		uid: "6f2307a7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

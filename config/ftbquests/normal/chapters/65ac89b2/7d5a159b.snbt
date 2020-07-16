@@ -1,0 +1,31 @@
+{
+	title: "Why?",
+	x: 3.0d,
+	y: -3.0d,
+	dependencies: [
+		"85eebb4c"
+	],
+	tasks: [{
+		uid: "b538528b",
+		type: "item",
+		items: [{
+			item: "tconstruct:edible 1 33"
+		}]
+	}],
+	rewards: [{
+		uid: "86546b30",
+		type: "item",
+		item: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "blood",
+				Amount: 1000
+			}
+		}
+	},
+	{
+		uid: "f31245d7",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

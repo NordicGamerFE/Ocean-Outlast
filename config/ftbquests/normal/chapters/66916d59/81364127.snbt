@@ -1,0 +1,14 @@
+{
+	title: "First Steps",
+	icon: "valkyrielib:guide",
+	x: -4.0d,
+	y: -2.0d,
+	shape: "square",
+	text: [
+		"No Description"
+	],
+	tasks: [{
+		uid: "f8bcaa29",
+		type: "checkmark"
+	}]
+}

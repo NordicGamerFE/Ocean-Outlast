@@ -1,0 +1,10 @@
+{
+	title: "Agricraft",
+	icon: "agricraft:seed_analyzer",
+	description: [
+		"No Description"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

@@ -1,0 +1,31 @@
+{
+	x: -4.5d,
+	y: 0.0d,
+	dependencies: [
+		"02b842e1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "809a1be5",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_klein_star 1 5"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "61ca58ab",
+		type: "ftbmoney:money",
+		ftb_money: 4000L
+	},
+	{
+		uid: "3b4fe2a5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

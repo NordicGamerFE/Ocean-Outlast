@@ -1,0 +1,33 @@
+{
+	title: "Plasmid",
+	icon: "geneticsreborn:plasmid",
+	x: -1.5d,
+	y: -5.5d,
+	text: [
+		"Plasmids are rings of DNA found in microbial bacteria and some other basic forms of life. The bacteria can take plasmids from the environment around them and use those genes for themselves. Using this same concept you create a basic plasmid using 8 DNA Helices(Plural for Helix) in a ring formation in your crafting table.",
+		"",
+		"These plasmids can be infused with genes you decrypted from other animals and with enough information, you will be able to put these in your bloodstream and have them combine with your DNA."
+	],
+	dependencies: [
+		"e2d9225d"
+	],
+	tasks: [{
+		uid: "c519ee20",
+		type: "item",
+		items: [{
+			item: "geneticsreborn:plasmid"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "33f46961",
+		type: "item",
+		item: "geneticsreborn:plasmid"
+	},
+	{
+		uid: "34bbc127",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

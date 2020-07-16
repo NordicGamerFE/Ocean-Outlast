@@ -1,0 +1,43 @@
+{
+	title: "Introduction",
+	icon: "minecraft:furnace",
+	description: [
+		"Introduction to the modpack"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: -12.5d,
+		y: -10.5d,
+		width: 3.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "assets:info.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -8.5d,
+		y: -9.0d,
+		width: 2.0d,
+		height: 1.0d,
+		rotation: 0.0d,
+		image: "assets:start-here.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -7.5d,
+		y: -12.0d,
+		width: 8.0d,
+		height: 5.0d,
+		rotation: 0.0d,
+		image: "assets:artboard 1sdsddsdsd.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

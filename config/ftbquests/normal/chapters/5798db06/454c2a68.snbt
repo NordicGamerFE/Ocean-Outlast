@@ -1,0 +1,34 @@
+{
+	title: "Amber Seeds",
+	icon: "mysticalagriculture:amber_seeds",
+	x: 3.0d,
+	y: -17.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"9576e32f"
+	],
+	tasks: [{
+		uid: "b559f087",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:amber_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "65b69a9e",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "a03b9c3e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

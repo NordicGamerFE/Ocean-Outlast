@@ -1,0 +1,32 @@
+{
+	x: -1.0d,
+	y: 1.0d,
+	tasks: [{
+		uid: "649a07b9",
+		type: "item",
+		title: "Collector",
+		items: [{
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}],
+		count: 400L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "65526e8a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "supra_crate"
+			}
+		}
+	},
+	{
+		uid: "0ceffe91",
+		type: "ftbmoney:money",
+		ftb_money: 4000L
+	}]
+}

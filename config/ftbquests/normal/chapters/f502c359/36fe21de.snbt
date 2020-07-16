@@ -1,0 +1,24 @@
+{
+	title: "Storage Remote",
+	icon: "storagenetwork:remote",
+	x: -4.5d,
+	y: 1.5d,
+	shape: "rsquare",
+	text: [
+		"Ued to access the network from a distance of 64 blocks"
+	],
+	hide: true,
+	tasks: [{
+		uid: "850ca8cf",
+		type: "item",
+		items: [{
+			item: "storagenetwork:remote"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f7ea0be8",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

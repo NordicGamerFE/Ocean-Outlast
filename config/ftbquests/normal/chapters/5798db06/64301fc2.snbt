@@ -1,0 +1,34 @@
+{
+	title: "Dragon Egg Seeds",
+	icon: "mysticalagradditions:dragon_egg_seeds",
+	x: 0.0d,
+	y: -25.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"e2da0b1c"
+	],
+	tasks: [{
+		uid: "268d8a3a",
+		type: "item",
+		items: [{
+			item: "mysticalagradditions:dragon_egg_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "04faeb8b",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "e465d545",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

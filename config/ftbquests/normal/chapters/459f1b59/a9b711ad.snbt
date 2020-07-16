@@ -1,0 +1,38 @@
+{
+	x: 6.0d,
+	y: 1.5d,
+	tasks: [{
+		uid: "4d1982cc",
+		type: "item",
+		items: [{
+			id: "thaumcraft:primal_crusher",
+			tag: {
+				infench: [{
+					lvl: 1,
+					id: 1
+				},
+				{
+					lvl: 1,
+					id: 4
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "95cd3f52",
+		type: "ftbmoney:money",
+		ftb_money: 50000L
+	},
+	{
+		uid: "12e359e2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

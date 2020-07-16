@@ -1,0 +1,16 @@
+{
+	x: 3.5d,
+	y: 2.0d,
+	tasks: [{
+		uid: "9e1d8981",
+		type: "item",
+		items: [{
+			item: "tconstruct:materials 1 16"
+		}]
+	}],
+	rewards: [{
+		uid: "2f4e9820",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

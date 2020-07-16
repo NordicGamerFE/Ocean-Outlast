@@ -1,0 +1,20 @@
+{
+	x: 2.0d,
+	y: -2.5d,
+	shape: "rsquare",
+	tasks: [{
+		uid: "6f341060",
+		type: "item",
+		items: [{
+			id: "mekanism:gastank",
+			tag: {
+				tier: 0
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "bb327dda",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

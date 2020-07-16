@@ -1,0 +1,29 @@
+{
+	title: "Crook",
+	icon: "exnihilocreatio:crook_wood",
+	x: -2.5d,
+	y: -4.5d,
+	shape: "rsquare",
+	text: [
+		"Leaf blocks destroyed with a Crook have an increased chance of dropping saplings, and also may drop a Silkworm."
+	],
+	tasks: [{
+		uid: "3b7e70a8",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:crook_wood"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "15ce9869",
+		type: "item",
+		item: "minecraft:sapling"
+	},
+	{
+		uid: "7f0d8110",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

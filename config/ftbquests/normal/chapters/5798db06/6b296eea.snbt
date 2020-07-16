@@ -1,0 +1,34 @@
+{
+	title: "Copper Seeds",
+	icon: "mysticalagriculture:copper_seeds",
+	x: -2.0d,
+	y: -10.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"a67f1154"
+	],
+	tasks: [{
+		uid: "bbaef494",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:copper_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "fa42d227",
+		type: "ftbmoney:money",
+		ftb_money: 55L
+	},
+	{
+		uid: "2d6b5474",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: 6.5d,
+	y: 0.5d,
+	dependencies: [
+		"f304d08e"
+	],
+	tasks: [{
+		uid: "4d950b56",
+		type: "item",
+		items: [{
+			id: "mekanism:machineblock2",
+			tag: {
+				tier: 2
+			},
+			Damage: 11s
+		}]
+	}],
+	rewards: [{
+		uid: "4eaae5e9",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	}]
+}

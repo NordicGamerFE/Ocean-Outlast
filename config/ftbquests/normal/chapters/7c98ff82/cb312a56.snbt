@@ -1,0 +1,31 @@
+{
+	x: -10.0d,
+	y: 2.5d,
+	dependencies: [
+		"1c0570fe"
+	],
+	tasks: [{
+		uid: "75314993",
+		type: "item",
+		items: [{
+			item: "enderio:item_end_steel_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "efd48ffb",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "ae5c47fd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "jackpot"
+			}
+		}
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "Anti Field Orb",
+	icon: "geneticsreborn:antifield",
+	x: 2.5d,
+	y: -5.5d,
+	text: [
+		"If this orb is in your inventory it will disable both of the field based genes.(Item Attraction Field and XP Attraction Field) If right clicked Flight will be disabled (will glow when flight is disabled)"
+	],
+	dependencies: [
+		"5802f423"
+	],
+	tasks: [{
+		uid: "9831ed58",
+		type: "item",
+		items: [{
+			item: "geneticsreborn:antifield"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "696fc322",
+		type: "ftbmoney:money",
+		ftb_money: 35L
+	}]
+}

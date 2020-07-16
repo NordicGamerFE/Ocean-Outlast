@@ -1,0 +1,34 @@
+{
+	title: "Emerald Seeds",
+	icon: "mysticalagriculture:emerald_seeds",
+	x: -1.0d,
+	y: -19.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"c7e968b7"
+	],
+	tasks: [{
+		uid: "7f28971b",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:emerald_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "6588c1b8",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "0de36c10",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

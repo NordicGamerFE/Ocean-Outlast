@@ -1,0 +1,29 @@
+{
+	x: 1.0d,
+	y: 2.5d,
+	dependencies: [
+		"dd78ba1e"
+	],
+	tasks: [{
+		uid: "4f419aa3",
+		type: "item",
+		items: [{
+			item: "thaumcraft:everfull_urn"
+		}]
+	}],
+	rewards: [{
+		uid: "e1c99a2d",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "eaf68bbd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

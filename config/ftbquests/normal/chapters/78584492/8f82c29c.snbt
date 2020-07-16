@@ -1,0 +1,46 @@
+{
+	title: "Big Pouch",
+	icon: {
+		ForgeCaps: {
+			Parent: {
+				Inventory: {
+					Size: 54,
+					Items: []
+				}
+			}
+		},
+		id: "tp:pouch"
+	},
+	x: -14.0d,
+	y: -4.0d,
+	text: [
+		"A 54-slot bag, holding as much as a double Chest."
+	],
+	tasks: [{
+		uid: "25d24d13",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Inventory: {
+						Size: 54,
+						Items: []
+					}
+				}
+			},
+			id: "tp:pouch"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "148dba97",
+		type: "item",
+		item: "ironchest:iron_chest 1 2"
+	},
+	{
+		uid: "5437dec2",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

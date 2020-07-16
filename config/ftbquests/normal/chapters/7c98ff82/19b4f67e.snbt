@@ -1,0 +1,36 @@
+{
+	title: "Aversion Obelisk",
+	icon: "enderio:block_aversion_obelisk",
+	x: -6.0d,
+	y: -5.0d,
+	text: [
+		"Prevents mobs from naturally spawning within its area of effect",
+		"",
+		"Specify the mobs to effect by placing their souls (in soul vials) within the device. Can be upgraded with capacitors to increase its range."
+	],
+	dependencies: [
+		"4b202534"
+	],
+	tasks: [{
+		uid: "ebb4f204",
+		type: "item",
+		items: [{
+			item: "enderio:block_aversion_obelisk"
+		}]
+	}],
+	rewards: [{
+		uid: "6e56cfb8",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "90a53d5a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

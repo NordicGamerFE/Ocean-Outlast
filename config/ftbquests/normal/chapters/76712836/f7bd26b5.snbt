@@ -1,0 +1,30 @@
+{
+	title: "Electric Furnace",
+	icon: "ic2:te 1 44",
+	x: 0.5d,
+	y: -3.5d,
+	text: [
+		"The Electric Furnace is 12.5% faster than the Iron Furnace and, as the name indicates, uses electricity. By running on electricity instead of burning fuel, it is able to shut off immediately upon finishing (and thus avoids wasting energy)"
+	],
+	dependencies: [
+		"70d97403"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6b7b5141",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 44"
+		}]
+	}],
+	rewards: [{
+		uid: "554f33cb",
+		type: "item",
+		item: "minecraft:coal"
+	},
+	{
+		uid: "f824e49e",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: -4.0d,
+	y: -2.0d,
+	dependencies: [
+		"c43b9e0f",
+		"5031e4fb"
+	],
+	tasks: [{
+		uid: "4d2166c9",
+		type: "item",
+		items: [{
+			item: "mysticalagradditions:intermedium_paxel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

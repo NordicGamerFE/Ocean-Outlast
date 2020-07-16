@@ -1,0 +1,31 @@
+{
+	x: -8.5d,
+	y: -1.0d,
+	dependencies: [
+		"14fd638e"
+	],
+	tasks: [{
+		uid: "08fde820",
+		type: "item",
+		items: [{
+			item: "enderio:item_yeta_wrench"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e83e6399",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "f65a698a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

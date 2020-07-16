@@ -1,0 +1,21 @@
+{
+	x: -6.0d,
+	y: 2.0d,
+	tasks: [{
+		uid: "924e3074",
+		type: "item",
+		items: [{
+			item: "tconstruct:materials 1 50"
+		}]
+	}],
+	rewards: [{
+		uid: "a7e7c8bf",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

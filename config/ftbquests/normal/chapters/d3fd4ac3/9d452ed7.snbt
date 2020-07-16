@@ -1,0 +1,30 @@
+{
+	x: -6.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "3cfc6819",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:creative_storage_cell",
+			tag: {}
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ea93c6a8",
+		type: "ftbmoney:money",
+		ftb_money: 2500000L
+	},
+	{
+		uid: "a5ae79f2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "supra_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,37 @@
+{
+	title: "Samples please!",
+	x: 24.0d,
+	y: 4.0d,
+	text: [
+		"&ATime to steal some mobs",
+		"&rThe ender shard is used to capture the mobs you wish to spawn and it is used to craft the factory controller.",
+		"&7Tip: To use the ember shard first left click on the mob and then kill them."
+	],
+	dependencies: [
+		"89d7716a"
+	],
+	tasks: [{
+		uid: "058e94fd",
+		type: "item",
+		items: [{
+			item: "woot:endershard"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "dd6a195a",
+		type: "ftbmoney:money",
+		ftb_money: 45L
+	},
+	{
+		uid: "72af293d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

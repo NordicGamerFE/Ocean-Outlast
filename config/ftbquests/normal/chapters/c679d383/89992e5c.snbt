@@ -1,0 +1,36 @@
+{
+	title: "Dreadthorne",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "dreadthorn"
+		}
+	},
+	x: 9.0d,
+	y: -1.0d,
+	text: [
+		"The Dreadthorne is a functional flower that uses mana to inflict damage on targeted mobs in its vicinity. It will only damage adult animals, no baby mobs will be hurt by the Dreadthorne.",
+		"",
+		"",
+		"All flowers which use Redstone Root in recipe can be disabled with Redstone signal."
+	],
+	dependencies: [
+		"836e1759"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c46e409a",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "dreadthorn"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "f2c8fb41",
+		type: "item",
+		item: "botania:blacklotus"
+	}]
+}

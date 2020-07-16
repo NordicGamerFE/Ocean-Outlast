@@ -1,0 +1,34 @@
+{
+	title: "Vis Resonator",
+	icon: "thaumcraft:vis_resonator",
+	x: -2.5d,
+	y: 1.5d,
+	text: [
+		"Used to craft some recipes in the mod, particularly those in the Auromancy branch (e.g., the Caster's Gauntlet)."
+	],
+	dependencies: [
+		"f5bb51f7"
+	],
+	tasks: [{
+		uid: "b9732e84",
+		type: "item",
+		items: [{
+			item: "thaumcraft:vis_resonator"
+		}]
+	}],
+	rewards: [{
+		uid: "14ea2a83",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "86865458",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: -4.5d,
+	y: -4.0d,
+	dependencies: [
+		"c9f41daf"
+	],
+	tasks: [{
+		uid: "1942b1e3",
+		type: "item",
+		items: [{
+			item: "conarm:gauntlet_mat_attack"
+		}]
+	}],
+	rewards: [{
+		uid: "b38241ab",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

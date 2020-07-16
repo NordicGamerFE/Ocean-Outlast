@@ -1,0 +1,35 @@
+{
+	title: "Control freak",
+	x: 23.0d,
+	y: 5.5d,
+	text: [
+		"&AGive me some loot!",
+		"&rController of the factory which shows Power,Loot,Spawn rate and required ingredients.",
+		"&7Tip: The mob spawned by the factory is depends on what mob you put into the ender shard."
+	],
+	dependencies: [
+		"ceb75199"
+	],
+	tasks: [{
+		uid: "f8e6da68",
+		type: "item",
+		items: [{
+			item: "woot:controller"
+		}]
+	}],
+	rewards: [{
+		uid: "ebe23793",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "f3ff4a3b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

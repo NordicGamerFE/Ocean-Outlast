@@ -1,0 +1,29 @@
+{
+	title: "Stack Upgrade",
+	icon: "storagenetwork:upgrade 1 2",
+	x: -4.5d,
+	y: -2.5d,
+	text: [
+		"Increasing the stack size of an task"
+	],
+	dependencies: [
+		"6aca77c3"
+	],
+	tasks: [{
+		uid: "a7d16133",
+		type: "item",
+		items: [{
+			item: "storagenetwork:upgrade 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "6df81664",
+		type: "item",
+		item: "storagenetwork:upgrade 1 2"
+	},
+	{
+		uid: "89ff7912",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	x: -6.0d,
+	y: -3.5d,
+	text: [
+		"&aUsed to obtain bone shards&r",
+		"Not every kill will drop a shard. its suggested to first hit mobs with a sword to low health then kill it with the club. works on all mobs even the annoying dirts"
+	],
+	dependencies: [
+		"8757af66"
+	],
+	tasks: [{
+		uid: "316077a3",
+		type: "item",
+		items: [{
+			item: "primal_tech:wood_club"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9a7b65b9",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "185ba2c6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "kevs_lost_chest"
+			}
+		}
+	}]
+}

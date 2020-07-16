@@ -1,0 +1,32 @@
+{
+	title: "Base Crafting Seed",
+	icon: "mysticalagriculture:crafting 1 16",
+	x: 0.0d,
+	y: -2.0d,
+	shape: "rsquare",
+	text: [
+		"No Description"
+	],
+	tasks: [{
+		uid: "1217bf81",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:crafting 1 16"
+		}]
+	}],
+	rewards: [{
+		uid: "f3ec768c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "farmers_market"
+			}
+		}
+	},
+	{
+		uid: "2d236655",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

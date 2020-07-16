@@ -1,0 +1,44 @@
+{
+	title: "Woot tools",
+	x: 25.5d,
+	y: 1.5d,
+	text: [
+		"&AHammer time!",
+		"&rHammers required to build structures and components.",
+		"&7Tip: Right click on factory heart with The Intern to start building you factory and Shift+Right click to switch tiers."
+	],
+	dependencies: [
+		"780ed0bc"
+	],
+	tasks: [{
+		uid: "0336393e",
+		type: "item",
+		items: [{
+			id: "woot:builder",
+			tag: {
+				tier: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2d6ff52e",
+		type: "item",
+		items: [{
+			item: "woot:yahhammer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a1b2c9b0",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "c6f0d407",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

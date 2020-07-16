@@ -1,0 +1,34 @@
+{
+	title: "Wooden Battleaxe",
+	icon: "tp:wooden_battle",
+	x: -13.5d,
+	y: -0.5d,
+	shape: "rsquare",
+	text: [
+		"Make an wooden battleaxe"
+	],
+	tasks: [{
+		uid: "db2f6b27",
+		type: "item",
+		items: [{
+			item: "tp:wooden_battle"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cc88df67",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "fd18a7a0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "hunter_s_crate"
+			}
+		}
+	}]
+}

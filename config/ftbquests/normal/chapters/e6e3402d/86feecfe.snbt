@@ -1,0 +1,29 @@
+{
+	title: "Crop Sticks",
+	icon: "agricraft:crop_sticks",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"The Crop Sticks are items used to crossbreed and cultivate crops",
+		"",
+		"To combine two different crops or spread the growth of a single crop, placing a crop stick on appropriate farm land and then placing a second one on top will cause the crops to cross each other. Nearby plants will attempt to grow to this cross crop and there is a small chance the plants will crossbreed into a new plant."
+	],
+	tasks: [{
+		uid: "5699f570",
+		type: "item",
+		items: [{
+			item: "agricraft:crop_sticks 16"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "cd9bc738",
+		type: "item",
+		item: "agricraft:crop_sticks"
+	},
+	{
+		uid: "c4ece1b4",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

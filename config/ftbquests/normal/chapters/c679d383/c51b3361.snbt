@@ -1,0 +1,32 @@
+{
+	title: "Exoflame",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "exoflame"
+		}
+	},
+	x: -7.5d,
+	y: 3.5d,
+	text: [
+		"The Exoflame uses Mana to power coal burning machines that are close to it."
+	],
+	dependencies: [
+		"98c2b545"
+	],
+	tasks: [{
+		uid: "298cccee",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "exoflame"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "2085b641",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

@@ -1,0 +1,39 @@
+{
+	x: -7.5d,
+	y: -5.0d,
+	dependencies: [
+		"6c2dd3fa"
+	],
+	tasks: [{
+		uid: "02d4c16a",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:ultimate_furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "0b1dd63e",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "3893ddb7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	},
+	{
+		uid: "09dbf4b4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "kevs_lost_chest"
+			}
+		}
+	}]
+}

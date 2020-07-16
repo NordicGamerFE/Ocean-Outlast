@@ -1,0 +1,31 @@
+{
+	x: 3.0d,
+	y: -3.0d,
+	dependencies: [
+		"11c1ba87"
+	],
+	tasks: [{
+		uid: "92c51703",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:master_infusion_crystal"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "156ea49d",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "34bcb73b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	x: 2.5d,
+	y: -0.5d,
+	text: [
+		"&aThose mobs never did us anything good",
+		"&rSo lets go and kill them all"
+	],
+	tasks: [{
+		uid: "ef3c5bfe",
+		type: "stat",
+		title: "I hate mobs!",
+		icon: "fossil:skull_helmet",
+		stat: "stat.mobKills",
+		value: 100000
+	}],
+	rewards: [{
+		uid: "244e6367",
+		type: "ftbmoney:money",
+		ftb_money: 50000L
+	},
+	{
+		uid: "d9f883f1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,61 @@
+{
+	title: "Hot Pocket",
+	icon: "minecraft:furnace",
+	x: -8.5d,
+	y: -4.0d,
+	text: [
+		"&aWait stone to make an furnace yepp that is correct let me explain myself&r",
+		"The stone grill is alike an furnace but it needs fire underneat it and does not have and gui. simply put the stick bundle under it and hold right click then right click cobblestone into the grill until you have enough to make an furnace"
+	],
+	dependencies: [
+		"b5373745"
+	],
+	tasks: [{
+		uid: "fd56ac5d",
+		type: "item",
+		items: [{
+			item: "primal_tech:stone_grill"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "524a72e7",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "37b1ca58",
+		type: "item",
+		items: [{
+			item: "primal_tech:stick_bundle"
+		}]
+	}],
+	rewards: [{
+		uid: "ee59b25e",
+		type: "item",
+		item: "minecraft:furnace"
+	},
+	{
+		uid: "bebc5fc3",
+		type: "item",
+		item: "ic2:coke"
+	},
+	{
+		uid: "9e7fdf67",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "14accc5a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "kevs_lost_chest"
+			}
+		}
+	}]
+}

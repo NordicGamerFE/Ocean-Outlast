@@ -1,0 +1,34 @@
+{
+	title: "Electrical Steel Seeds",
+	icon: "mysticalagriculture:electrical_steel_seeds",
+	x: -2.0d,
+	y: -13.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"4113dc34"
+	],
+	tasks: [{
+		uid: "334b964e",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:electrical_steel_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "02f1a076",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "b71b1c79",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

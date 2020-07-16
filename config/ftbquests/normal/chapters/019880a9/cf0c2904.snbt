@@ -1,0 +1,29 @@
+{
+	x: 4.0d,
+	y: -3.0d,
+	dependencies: [
+		"49f68fe0"
+	],
+	tasks: [{
+		uid: "12d1edee",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_xp_solidifier"
+		}]
+	}],
+	rewards: [{
+		uid: "53f01d24",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "ce258118",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

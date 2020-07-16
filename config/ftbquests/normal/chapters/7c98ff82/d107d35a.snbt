@@ -1,0 +1,38 @@
+{
+	title: "Slice'N'Splice",
+	icon: "enderio:block_slice_and_splice",
+	x: -6.0d,
+	y: -4.0d,
+	text: [
+		"\"slice\" heads and \"splice\" them, adding components into it, to create new components. It uses Redstone Flux (RF). The Slice'N'Splice has six input slots, plus two tool slots, and one output slot. The stack size of each input slot in the Slice'N'Splice is exactly one. Putting a Double-Layered Capacitor or Octadic Capacitor into the upgrade slot (in the bottom-left corner of the GUI) will increase the energy storage and speed of the machine.",
+		"",
+		"The Slice'N'Splice requires two tools in order to function- an Axe (but it must be an Iron Axe or above) and Shears (Shears from other mods will work). The creation process will not start without these. Each operation will take off one durability from each tool.",
+		"",
+		"Each operation of the Slice'N'Splice, per default, uses 20,000 RF total, taking 12.5 seconds (250 ticks). The Slice'N'Splice is used to create the Ender Resonator, the Tormented Enderman Head, the Zombie Electrode and the Z-Logic Controller."
+	],
+	dependencies: [
+		"4b202534"
+	],
+	tasks: [{
+		uid: "f49bd037",
+		type: "item",
+		items: [{
+			item: "enderio:block_slice_and_splice"
+		}]
+	}],
+	rewards: [{
+		uid: "1e0d9358",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "eca181f6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

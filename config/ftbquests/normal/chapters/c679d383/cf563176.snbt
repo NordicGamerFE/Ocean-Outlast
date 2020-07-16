@@ -1,0 +1,41 @@
+{
+	title: "Floral Fertilizer",
+	icon: "botania:fertilizer",
+	x: 0.0d,
+	y: -1.5d,
+	text: [
+		"Around the world, you may stumble upon a large variety of Mystical Flowers. Spotting these flowers doesn't take much work, as they glow faintly and sparkle.",
+		"They come in a total of 16 different colors.",
+		"These flowers can also be grown with Floral Fertilizer (read on).",
+		"These flowers can be plucked for Mystical Petals, which are used in the creation of magical instruments and plants.",
+		"Right-clicking a petal upon the ground will bury it, making it emit particles.",
+		"These petals can also be crushed into Floral Powders, which function much like any mundane piece of dye.",
+		"Right-clicking the Floral Powder on a colorable block will change its color to the color of the powder.",
+		"By mixing the Floral Powder with some Bone Meal, you'll create a different type of fertilizer. This Floral Fertilizer will grow a few Mystical Flowers in the nearby vicinity, if you ever run low on those.",
+		"Using any combination of typical flower substances also works",
+		"There're also some taller variants of the typical Mystical Flowers around the world. These can only be gathered with Shears, but can be plucked for twice the petals a normal flower would yield. They're a bit too big for dye, though.",
+		"Tall flower variants can be made manually by fertilizing a Mystical Flower or a Buried Petal with Bone Meal.",
+		"If you find yourself running low on a particular color, try burying a petal of that color and using Bone Meal on it."
+	],
+	dependencies: [
+		"9cb7d8d4"
+	],
+	tasks: [{
+		uid: "0a4d30d0",
+		type: "item",
+		items: [{
+			item: "botania:fertilizer 16"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "e9e07fd9",
+		type: "item",
+		item: "botania:fertilizer"
+	},
+	{
+		uid: "2dc5f0a6",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

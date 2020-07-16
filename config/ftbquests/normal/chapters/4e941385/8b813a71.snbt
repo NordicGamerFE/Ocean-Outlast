@@ -1,0 +1,23 @@
+{
+	x: 5.5d,
+	y: 3.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "2618dd16",
+		type: "item",
+		items: [{
+			item: "redstonearsenal:material 1 32"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "8a9ca4c4",
+		type: "item",
+		item: {
+			id: "lodsofemone:coin_small",
+			tag: {
+				value: 25
+			}
+		}
+	}]
+}

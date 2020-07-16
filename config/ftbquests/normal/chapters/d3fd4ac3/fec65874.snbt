@@ -1,0 +1,24 @@
+{
+	x: 1.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "6dc9c7d7",
+		type: "ic2_energy",
+		value: 10000000000L
+	}],
+	rewards: [{
+		uid: "ae8166a0",
+		type: "ftbmoney:money",
+		ftb_money: 40000L
+	},
+	{
+		uid: "b8fc5c98",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

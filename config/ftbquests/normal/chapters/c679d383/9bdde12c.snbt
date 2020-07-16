@@ -1,0 +1,38 @@
+{
+	title: "Lexica Botania 363rd Edition",
+	icon: {
+		id: "botania:lexicon",
+		tag: {
+			knowledge.minecraft: 1,
+			knowledge.alfheim: 1,
+			knowledge.relic: 1
+		}
+	},
+	x: 7.0d,
+	y: 3.5d,
+	text: [
+		"Throwing the basic Lexica Botania through the Portal to Alfheim will unlock Elven Knowledge"
+	],
+	dependencies: [
+		"748d638f"
+	],
+	tasks: [{
+		uid: "3e062b7a",
+		type: "item",
+		items: [{
+			id: "botania:lexicon",
+			tag: {
+				knowledge.minecraft: 1,
+				knowledge.alfheim: 1,
+				knowledge.relic: 1
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "302a3998",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

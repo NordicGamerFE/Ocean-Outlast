@@ -1,0 +1,27 @@
+{
+	x: -6.0d,
+	y: -2.0d,
+	tasks: [{
+		uid: "a832afe8",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 86"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "e96840b0",
+		type: "ftbmoney:money",
+		ftb_money: 2500000L
+	},
+	{
+		uid: "47b92dd6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "supra_crate"
+			}
+		}
+	}]
+}

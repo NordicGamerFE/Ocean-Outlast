@@ -1,0 +1,33 @@
+{
+	x: -1.0d,
+	y: 3.0d,
+	tasks: [{
+		uid: "d8072c1a",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0,
+				Facing: 1,
+				Energy: 0,
+				Level: 0
+			},
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "215e4c37",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "df6f3560",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

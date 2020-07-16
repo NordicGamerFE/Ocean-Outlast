@@ -1,0 +1,39 @@
+{
+	title: "Soul Binder",
+	icon: "enderio:block_soul_binder",
+	x: -5.0d,
+	y: -4.0d,
+	text: [
+		"consuming power and liquid experience, it can convert the type of monsters a Broken Spawner will spawn by binding it with a filled Soul Vial."
+	],
+	dependencies: [
+		"4b202534"
+	],
+	tasks: [{
+		uid: "6602a651",
+		type: "item",
+		items: [{
+			item: "enderio:block_soul_binder"
+		}]
+	}],
+	rewards: [{
+		uid: "e5340e1d",
+		type: "xp_levels",
+		xp_levels: 30
+	},
+	{
+		uid: "02c017e6",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "0ea320c2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

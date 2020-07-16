@@ -1,0 +1,41 @@
+{
+	title: "Ionite Crystal",
+	icon: "environmentaltech:ionite_crystal",
+	x: -5.5d,
+	y: 2.0d,
+	text: [
+		"used to craft Tier 5 components of Environmental Tech multiblocks"
+	],
+	dependencies: [
+		"0594c84f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5a5eb0af",
+		type: "item",
+		items: [{
+			item: "environmentaltech:ionite_crystal 16"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "cc8883a3",
+		type: "item",
+		item: "cedtreasurehunting:deliverer_piece"
+	},
+	{
+		uid: "cb46c717",
+		type: "ftbmoney:money",
+		ftb_money: 3000L
+	},
+	{
+		uid: "ae22db80",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

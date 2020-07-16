@@ -1,0 +1,15 @@
+{
+	title: "Occupation",
+	icon: {
+		id: "minecraft:enchanted_book",
+		tag: {
+			StoredEnchantments: [{
+				lvl: 5,
+				id: 78
+			}]
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

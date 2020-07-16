@@ -1,0 +1,26 @@
+{
+	x: -2.0d,
+	y: 2.5d,
+	text: [
+		"&aLocked to Ore Void Miner Tier 2 Quest&r",
+		"Found in Enviorment Tech Chapter",
+		"&f(&7Bonus gain direct Coins&r)"
+	],
+	can_repeat: true,
+	dependencies: [
+		"cba5423f"
+	],
+	tasks: [{
+		uid: "8b9de6b9",
+		type: "item",
+		items: [{
+			item: "minecraft:cobblestone"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "84afa3ed",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

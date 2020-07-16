@@ -1,0 +1,47 @@
+{
+	x: -12.5d,
+	y: -4.0d,
+	text: [
+		"&aYou want to go on the high throne?&r",
+		"With these items you can make an statue of yourself or anyone else place down the two clayblocks ontop of eachother and right click with the hammer if you want color right click with the palette"
+	],
+	tasks: [{
+		uid: "012280ba",
+		type: "item",
+		items: [{
+			item: "statues:palette"
+		}]
+	},
+	{
+		uid: "c587e714",
+		type: "item",
+		items: [{
+			item: "statues:hammer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "77fc19aa",
+		type: "item",
+		items: [{
+			item: "minecraft:clay"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "21a0e339",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "afd374ac",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

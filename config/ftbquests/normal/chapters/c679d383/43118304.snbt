@@ -1,0 +1,53 @@
+{
+	title: "Spectrolus",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "spectrolus"
+		}
+	},
+	x: -10.5d,
+	y: 3.5d,
+	text: [
+		"The Spectrolus is an active mana generating flower that will devour wool of the correct color dropped within range. This flower requires all 16 colors of wool and will consume them in a spectrum starting with White. After each wool block is consumed, it will rotate to the next color on the spectrum. The Spectrolus will consume all wool blocks dropped within range but will not produce mana from any consumed wool of the incorrect color. The next color required can be determined by looking at the flower while holding the Wand of the Forest. This flower has a one block range.",
+		"",
+		"The order of wool colors required always rotates through:",
+		"",
+		"White",
+		"Orange",
+		"Magenta",
+		"Light Blue",
+		"Yellow",
+		"Lime",
+		"Pink",
+		"Gray",
+		"Light Gray",
+		"Cyan",
+		"Purple",
+		"Blue",
+		"Brown",
+		"Green",
+		"Red",
+		"Black"
+	],
+	dependencies: [
+		"15474f17",
+		"98c2b545"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c2d0fba7",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "spectrolus"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "ed5d1781",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

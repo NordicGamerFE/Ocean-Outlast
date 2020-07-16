@@ -1,0 +1,32 @@
+{
+	title: "Kekimurus",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "kekimurus"
+		}
+	},
+	x: -3.5d,
+	y: 5.0d,
+	text: [
+		"The Kekimurus is a unique and unusual flower. It generates Mana from consuming Cake and stores it in an internal buffer. When Cake is placed nearby, the Kekimurus will slowly consume a piece of Cake every 3 seconds. The internal buffer will fill from consuming five slice of a Cake. It does not generate in the world."
+	],
+	dependencies: [
+		"404101cb"
+	],
+	tasks: [{
+		uid: "487a9880",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "kekimurus"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "dc299b6c",
+		type: "ftbmoney:money",
+		ftb_money: 60L
+	}]
+}

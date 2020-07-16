@@ -1,0 +1,42 @@
+{
+	title: "Import/Export",
+	x: 25.5d,
+	y: 4.5d,
+	text: [
+		"&AWhere does it go?",
+		"&rBasic import/export ports for the factory"
+	],
+	dependencies: [
+		"59d0855a",
+		"d26442b6"
+	],
+	tasks: [{
+		uid: "d9319ba7",
+		type: "item",
+		items: [{
+			item: "woot:importer"
+		}]
+	},
+	{
+		uid: "1efba7e6",
+		type: "item",
+		items: [{
+			item: "woot:exporter"
+		}]
+	}],
+	rewards: [{
+		uid: "b8ba7208",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "11705d9e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

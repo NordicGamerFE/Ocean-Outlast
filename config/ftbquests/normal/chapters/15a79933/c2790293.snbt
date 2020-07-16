@@ -1,0 +1,33 @@
+{
+	x: -8.5d,
+	y: 3.0d,
+	text: [
+		"&aStolen Soul",
+		"&rThese creatours will take the shape of you often found in dungeons"
+	],
+	dependencies: [
+		"d8d802d8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "62953f7d",
+		type: "kill",
+		entity: "cqrepoured:spectre",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "04c1dadc",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "4b8fc43e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "hunter_s_crate"
+			}
+		}
+	}]
+}

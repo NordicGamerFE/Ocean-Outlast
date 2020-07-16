@@ -1,0 +1,38 @@
+{
+	title: "Cloak of Virtue",
+	icon: "botania:holycloak",
+	x: -1.5d,
+	y: -6.5d,
+	text: [
+		"Equippable in the Belt slot.",
+		"",
+		"When worn, the Cloak of Virtue will completely block all non-magical damage from a hit. Afterwards, it will go into a 10 second recharge period before it will do it again."
+	],
+	dependencies: [
+		"d9bed1c5"
+	],
+	tasks: [{
+		uid: "6dce2335",
+		type: "item",
+		items: [{
+			item: "botania:holycloak"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6b6e0ff3",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "a54fd3dd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

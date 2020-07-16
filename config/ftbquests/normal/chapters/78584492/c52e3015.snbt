@@ -1,0 +1,24 @@
+{
+	title: "Watering Can",
+	icon: "tp:watering_can",
+	x: -7.5d,
+	y: -0.5d,
+	shape: "rsquare",
+	text: [
+		"Speeds up the growth of crops in a 3x3 area. It can be activated by being shift right-clicking on it, which causes it to automatically water whatever the player is looking at"
+	],
+	tasks: [{
+		uid: "ea41b7ec",
+		type: "item",
+		items: [{
+			item: "tp:watering_can"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "72fa9866",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

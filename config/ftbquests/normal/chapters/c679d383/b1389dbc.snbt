@@ -1,0 +1,36 @@
+{
+	title: "Life Aggregator",
+	icon: "botania:spawnermover",
+	x: 12.0d,
+	y: -3.0d,
+	text: [
+		"R-click on vanilla Monster Spawner block will destroy it and bind Life Aggregator to mob of this spawner; next R-click will destroy Life Aggregator and place spawner with binded mob in world."
+	],
+	dependencies: [
+		"d9bed1c5"
+	],
+	tasks: [{
+		uid: "9f001189",
+		type: "item",
+		items: [{
+			item: "botania:spawnermover"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a007bbe6",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "49ce243e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

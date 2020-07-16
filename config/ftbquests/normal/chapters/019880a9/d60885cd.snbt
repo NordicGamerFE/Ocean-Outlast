@@ -1,0 +1,29 @@
+{
+	x: 3.5d,
+	y: -4.0d,
+	dependencies: [
+		"49f68fe0"
+	],
+	tasks: [{
+		uid: "e1f0f93a",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_greenhouse_glass"
+		}]
+	}],
+	rewards: [{
+		uid: "277da826",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "6252f8fa",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "farmers_market"
+			}
+		}
+	}]
+}

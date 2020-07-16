@@ -1,0 +1,36 @@
+{
+	title: "Pyroclast Pendant",
+	icon: "botania:lavapendant",
+	x: -10.0d,
+	y: -2.5d,
+	text: [
+		"provides protection from fire to the wearer, but doesn't work when wearer stands right on something that can induce burning."
+	],
+	dependencies: [
+		"98c2b545"
+	],
+	tasks: [{
+		uid: "2f35b93f",
+		type: "item",
+		items: [{
+			item: "botania:lavapendant"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cee1fe1a",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "bafe6ca2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

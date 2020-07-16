@@ -1,0 +1,10 @@
+{
+	title: "Genetics Reborn",
+	icon: "geneticsreborn:dnahelix",
+	description: [
+		"Have you ever wanted to become superhuman? Be able to edit your genes to your liking? Well now you can! Genetics Reborn adds the ability to take genes from animals and mobs in the world and infuse them into your own DNA."
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

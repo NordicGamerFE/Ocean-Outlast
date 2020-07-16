@@ -1,0 +1,41 @@
+{
+	icon: {
+		id: "mowziesmobs:spawn_egg",
+		tag: {
+			EntityTag: {
+				id: "mowziesmobs:ferrous_wroughtnaut"
+			}
+		}
+	},
+	x: -11.5d,
+	y: -2.5d,
+	text: [
+		"&ABig and strong",
+		"&RGo underground and find the Wroughtnaut he usually wouldnt be damaged by such weak people but he has a sword stuck in hes back so you might be able to do some damage",
+		"when hes axe gets stuck in the ground hit him in the back"
+	],
+	dependencies: [
+		"6f18e714"
+	],
+	tasks: [{
+		uid: "767074e9",
+		type: "kill",
+		entity: "mowziesmobs:ferrous_wroughtnaut",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "b5b4d563",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "36027824",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Balloon :D",
+	x: 2.0d,
+	y: 4.0d,
+	text: [
+		"Honestly i have no idea why i added this quest but hey balloons :D"
+	],
+	tasks: [{
+		uid: "fcf79c6b",
+		type: "item",
+		items: [{
+			item: "mekanism:balloon 1 15"
+		}]
+	}],
+	rewards: [{
+		uid: "0ae6cf51",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "82b4d022",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

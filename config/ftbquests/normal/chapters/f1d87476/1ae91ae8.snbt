@@ -1,0 +1,18 @@
+{
+	x: -8.0d,
+	y: -3.5d,
+	tasks: [{
+		uid: "926e44eb",
+		type: "item",
+		items: [{
+			item: "bewitchment:triskelion"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "48269664",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

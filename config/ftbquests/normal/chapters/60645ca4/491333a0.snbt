@@ -1,0 +1,29 @@
+{
+	title: "Silicon Press",
+	icon: "appliedenergistics2:material 1 19",
+	x: 1.5d,
+	y: 2.5d,
+	text: [
+		"Required to make the various processors with the Inscriber. Found in Sky Stone Chest that spawn in meteorites during world generation and can be copied using the Inscriber."
+	],
+	dependencies: [
+		"2e82976c"
+	],
+	tasks: [{
+		uid: "c0ef929e",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 19"
+		}]
+	}],
+	rewards: [{
+		uid: "046b5308",
+		type: "item",
+		item: "enderio:item_material 1 5"
+	},
+	{
+		uid: "bbd41991",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

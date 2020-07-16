@@ -1,0 +1,231 @@
+{
+	title: "Common Crate",
+	loot_size: 1,
+	use_title: true,
+	rewards: [{
+		item: "minecraft:diamond",
+		weight: 5
+	},
+	{
+		item: "harvestcraft:surfandturfitem",
+		weight: 10
+	},
+	{
+		item: "harvestcraft:tomatoitem",
+		weight: 40
+	},
+	{
+		item: {
+			id: "ironbackpacks:backpack",
+			tag: {
+				packInfo: {
+					upgrade: [],
+					own: "0269faac-332b-41bb-b51b-2ee5f7017218",
+					type: "ironbackpacks:basic",
+					spec: "NONE"
+				},
+				packInv: [{
+					id: "minecraft:air",
+					Count: 1,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 1,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 1,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 1,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 1,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 1,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 1,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 1,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 1,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 1,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 1,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 1,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 1,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 1,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 1,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 1,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 1,
+					Damage: 0
+				},
+				{
+					id: "minecraft:air",
+					Count: 1,
+					Damage: 0
+				}]
+			}
+		},
+		weight: 4
+	},
+	{
+		item: "exnihilocreatio:hammer_iron",
+		weight: 14
+	},
+	{
+		item: "minecraft:cobblestone",
+		weight: 60
+	},
+	{
+		item: "minecraft:sand",
+		weight: 50
+	},
+	{
+		item: "minecraft:diamond_block"
+	},
+	{
+		item: "minecraft:log 1 1",
+		weight: 5
+	},
+	{
+		item: "actuallyadditions:block_giant_chest",
+		weight: 4
+	},
+	{
+		item: "ironchest:iron_chest",
+		weight: 10
+	},
+	{
+		item: "fossil:stone_tablet",
+		weight: 25
+	},
+	{
+		item: "aquaculture:iron_fishing_rod",
+		weight: 15
+	},
+	{
+		item: "tconstruct:seared 1 3",
+		weight: 8
+	},
+	{
+		item: "tconstruct:slimesling"
+	},
+	{
+		item: "tp:redstone_apple"
+	},
+	{
+		item: "minecraft:potato",
+		weight: 60
+	},
+	{
+		item: "minecraft:carrot",
+		weight: 60
+	},
+	{
+		item: "minecraft:golden_carrot",
+		weight: 6
+	},
+	{
+		item: "minecraft:bone",
+		weight: 60
+	},
+	{
+		item: "minecraft:blaze_rod"
+	},
+	{
+		item: "minecraft:ender_pearl",
+		weight: 5
+	},
+	{
+		item: "minecraft:clay_ball",
+		weight: 70
+	},
+	{
+		title: "5 XP Levels",
+		icon: {
+			id: "extracells:pattern.fluid",
+			tag: {
+				Fluid: {
+					FluidName: "xpjuice",
+					Amount: 1000
+				}
+			}
+		},
+		xp_levels: 5,
+		type: "xp_levels",
+		weight: 4
+	},
+	{
+		ftb_money: 150L,
+		type: "ftbmoney:money",
+		weight: 4
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "kevs_lost_chest"
+			}
+		}
+	}],
+	loot_crate: {
+		string_id: "commen_crate",
+		item_name: "Common Crate",
+		color: 16777164,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

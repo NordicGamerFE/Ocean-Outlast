@@ -1,0 +1,37 @@
+{
+	title: "Rod of the Unstable Reservoir",
+	icon: "botania:missilerod",
+	x: 13.0d,
+	y: -2.0d,
+	text: [
+		"Holding R-click with this rod creates magic missiles that home in on nearby enemies. Rod consumes Mana, but doesn't have any delay between uses and deals lots of damage"
+	],
+	dependencies: [
+		"d9bed1c5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d19285c3",
+		type: "item",
+		items: [{
+			item: "botania:missilerod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "235be891",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "bd6e9319",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

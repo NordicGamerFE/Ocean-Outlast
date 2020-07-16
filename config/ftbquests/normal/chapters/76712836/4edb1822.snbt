@@ -1,0 +1,31 @@
+{
+	title: "Metal Former",
+	icon: "ic2:te 1 55",
+	x: -0.5d,
+	y: -3.5d,
+	text: [
+		"The Metal Former is a machine which is responsible for the vast majority of metal shaping in IC2"
+	],
+	dependencies: [
+		"5983079e",
+		"70d97403"
+	],
+	hide: true,
+	tasks: [{
+		uid: "09df8f45",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 55"
+		}]
+	}],
+	rewards: [{
+		uid: "0b97ccb9",
+		type: "item",
+		item: "minecraft:iron_block"
+	},
+	{
+		uid: "acacd53e",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

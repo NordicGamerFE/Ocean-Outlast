@@ -1,0 +1,30 @@
+{
+	x: 4.5d,
+	y: 5.0d,
+	dependencies: [
+		"2cf1dc75"
+	],
+	hide: true,
+	tasks: [{
+		uid: "38cf2707",
+		type: "item",
+		items: [{
+			item: "projectex:power_flower 1 12"
+		}]
+	}],
+	rewards: [{
+		uid: "5272116e",
+		type: "ftbmoney:money",
+		ftb_money: 10000000L
+	},
+	{
+		uid: "d871aeec",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

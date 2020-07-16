@@ -1,0 +1,32 @@
+{
+	title: "Alfglass",
+	icon: "botania:elfglass",
+	x: 10.5d,
+	y: 1.0d,
+	text: [
+		"The Alfglass is a decorative, light emitting block. It is used to make panes, flasks, Bifrost Blocks and other items.",
+		"",
+		"Alfglass is obtained by throwing Managlass into the Portal to Alfheim."
+	],
+	dependencies: [
+		"748d638f"
+	],
+	tasks: [{
+		uid: "a2a6e5b5",
+		type: "item",
+		items: [{
+			item: "botania:elfglass 16"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "d76150ab",
+		type: "item",
+		item: "botania:elfglass"
+	},
+	{
+		uid: "ee7f4ff5",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

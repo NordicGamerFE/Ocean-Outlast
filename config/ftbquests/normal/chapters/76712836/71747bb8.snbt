@@ -1,0 +1,36 @@
+{
+	title: "Compressor",
+	icon: "ic2:te 1 43",
+	x: -2.5d,
+	y: -3.5d,
+	text: [
+		"The Compressor is used to create many advanced items, such as Advanced Alloy,  Carbon Plates, and Energy Crystals. Other applications include the creation of snowballs, ice blocks, diamonds, sandstone, dense metal plates, Nether Brick and legacy construction foam pellets. In addition, it is used in the intermediate stages of crafting many items"
+	],
+	dependencies: [
+		"5983079e",
+		"70d97403"
+	],
+	hide: true,
+	tasks: [{
+		uid: "75db1910",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 43"
+		}]
+	}],
+	rewards: [{
+		uid: "7a9beaab",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "9c3185c9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "kevs_lost_chest"
+			}
+		}
+	}]
+}

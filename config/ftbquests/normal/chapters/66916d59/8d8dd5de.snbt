@@ -1,0 +1,64 @@
+{
+	title: "Solar Array Tier 1",
+	icon: "environmentaltech:solar_cell_litherite 9",
+	x: -5.5d,
+	y: -3.0d,
+	text: [
+		"Solar Array is a multiblock that generates rf from solar power"
+	],
+	dependencies: [
+		"81364127",
+		"71d72dec"
+	],
+	tasks: [{
+		uid: "e93d6da9",
+		type: "item",
+		items: [{
+			item: "environmentaltech:solar_cont_1"
+		}]
+	},
+	{
+		uid: "287a9a2e",
+		type: "item",
+		items: [{
+			item: "environmentaltech:solar_cell_litherite 9"
+		}],
+		count: 9L
+	},
+	{
+		uid: "c5d775a4",
+		type: "item",
+		items: [{
+			item: "environmentaltech:structure_frame_1 16"
+		}],
+		count: 16L
+	},
+	{
+		uid: "d2cefd4e",
+		type: "item",
+		items: [{
+			item: "environmentaltech:modifier_null 4"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "ec886eb2",
+		type: "item",
+		item: "thermaldynamics:duct_0"
+	},
+	{
+		uid: "8f1bcb90",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "6c7a97da",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

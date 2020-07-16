@@ -1,0 +1,33 @@
+{
+	x: 2.0d,
+	y: -1.5d,
+	dependencies: [
+		"1ac1a7db",
+		"37e9e736"
+	],
+	tasks: [{
+		uid: "5ee707e4",
+		type: "item",
+		items: [{
+			id: "mekanism:gastank",
+			tag: {
+				tier: 1
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "87f42a01",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "7cd97225",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

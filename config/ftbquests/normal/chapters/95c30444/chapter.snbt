@@ -1,0 +1,10 @@
+{
+	title: "Flux Networks",
+	icon: "fluxnetworks:fluxplug",
+	description: [
+		"No Description"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

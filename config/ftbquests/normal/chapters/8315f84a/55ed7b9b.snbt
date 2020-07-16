@@ -1,0 +1,36 @@
+{
+	title: "Incubator",
+	icon: "geneticsreborn:incubator",
+	x: 1.5d,
+	y: -1.5d,
+	text: [
+		"There are two type of incubators. The first works as an automated Brewing Stand that takes power instead of Blaze rods. It will process all standard brewing recipes, including the ones list on the Mutations page. It will process potions about twice the speed of the brewing stand and can be automated with pipes from other mods. Ingredient in the top, input in the sides, chorus fruit from the back, output out the bottom, power from any side.",
+		"",
+		"The Advanced Incubator has two modes, In high-temp mode it functions as the standard incubator. In low-temp mode The incubator and a mutation formula from this mod will create a cell with a significantly higher chance of producing a mutation. This process takes A LONG TIME, a full Minecraft day without over-clockers, but uses very low power. Overclockers can be used but lower the chance of a successful mutation unless chorus fruit is also added.Without using the incubator at low-temp it is still possible to get mutations from a brewing stand (or the incubator on high-temp), but only at a very small percentage... Adding overclockers to the incubator (max 2) will reduce the success chance unless a chorus fruit is supplied during incubation."
+	],
+	dependencies: [
+		"0b08ed9f"
+	],
+	tasks: [{
+		uid: "f51a5974",
+		type: "item",
+		items: [{
+			item: "geneticsreborn:incubator"
+		}]
+	}],
+	rewards: [{
+		uid: "03574c77",
+		type: "item",
+		item: {
+			id: "geneticsreborn:grpotion",
+			tag: {
+				Potion: "geneticsreborn:growth"
+			}
+		}
+	},
+	{
+		uid: "a91d0afd",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

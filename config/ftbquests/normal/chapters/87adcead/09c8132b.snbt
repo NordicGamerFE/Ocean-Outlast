@@ -1,0 +1,35 @@
+{
+	title: "Crystaltine Ingot",
+	icon: "extendedcrafting:material 1 24",
+	x: -1.5d,
+	y: -3.5d,
+	text: [
+		"Used in crafting"
+	],
+	dependencies: [
+		"4b32b08b"
+	],
+	tasks: [{
+		uid: "18cb8ba2",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material 4 24"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "79807e76",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "7c7a6b9b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "jackpot"
+			}
+		}
+	}]
+}

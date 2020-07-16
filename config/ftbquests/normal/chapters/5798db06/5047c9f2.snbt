@@ -1,0 +1,34 @@
+{
+	title: "Ice Seeds",
+	icon: "mysticalagriculture:ice_seeds",
+	x: 1.0d,
+	y: -5.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"6a19d1ee"
+	],
+	tasks: [{
+		uid: "23cf7886",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:ice_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "1f3a7b40",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "dbd427e2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

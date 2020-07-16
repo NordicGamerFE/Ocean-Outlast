@@ -1,0 +1,35 @@
+{
+	title: "The heart of the Factory",
+	x: 27.0d,
+	y: 4.0d,
+	text: [
+		"&AIs it alive?",
+		"&rThe core of every Woot factory",
+		"&7Tip: Can be turned on and off by using a lever "
+	],
+	dependencies: [
+		"89d7716a"
+	],
+	tasks: [{
+		uid: "ec508492",
+		type: "item",
+		items: [{
+			item: "woot:factory"
+		}]
+	}],
+	rewards: [{
+		uid: "e8c059e8",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "1bce633a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

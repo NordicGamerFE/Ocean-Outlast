@@ -1,0 +1,45 @@
+{
+	title: "Hydroangeas",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "hydroangeas"
+		}
+	},
+	x: 8.5d,
+	y: -3.5d,
+	text: [
+		"A passive mana generating flower that will produce mana by absorbing water source blocks around it with a range of 1 block. It is uprooted by flowing water. If the flower detects the water block as an infinite water source, it will not show the water being removed when the flower consumes it. The water must be on the same y-level as the Hydroangeas or it will ignore the water.",
+		"",
+		"Hydroangeas will disappear after two in-game days"
+	],
+	dependencies: [
+		"836e1759",
+		"8c29be76"
+	],
+	tasks: [{
+		uid: "534d2966",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "hydroangeas"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "522a6686",
+		type: "item",
+		item: {
+			id: "botania:specialflower",
+			tag: {
+				type: "hydroangeas"
+			}
+		}
+	},
+	{
+		uid: "326b630b",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

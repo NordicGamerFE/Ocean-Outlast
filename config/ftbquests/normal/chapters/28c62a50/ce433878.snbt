@@ -1,0 +1,24 @@
+{
+	title: "Upgrades",
+	icon: "woot:upgrade 1 2",
+	x: 25.5d,
+	y: 6.0d,
+	text: [
+		"&ALet's speed things up!",
+		"&rUpgrades can be placed on the Upgrade base's of the factory to increase some attributes of the factory.",
+		"&7Tip: To have a higher tier upgrade it must be placed on top of the lower tier so you get a totem going from low to high."
+	],
+	dependencies: [
+		"e45ae64f"
+	],
+	tasks: [{
+		uid: "f11842db",
+		type: "checkmark",
+		title: "Upgrades"
+	}],
+	rewards: [{
+		uid: "b33ff653",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

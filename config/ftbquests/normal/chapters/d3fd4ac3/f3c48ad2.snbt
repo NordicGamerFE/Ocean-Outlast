@@ -1,0 +1,27 @@
+{
+	x: -7.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "886023a6",
+		type: "item",
+		items: [{
+			item: "botania:pool 1 1"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "28235d7f",
+		type: "ftbmoney:money",
+		ftb_money: 250000L
+	},
+	{
+		uid: "b15123cd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

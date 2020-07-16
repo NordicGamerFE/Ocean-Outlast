@@ -1,0 +1,16 @@
+{
+	x: -12.5d,
+	y: -6.5d,
+	shape: "square",
+	text: [
+		"",
+		"Did you know we got an discord?",
+		"&7Just click our logo on the far right of the quest page that will bring you to our website where our discord is linked "
+	],
+	tasks: [{
+		uid: "913ae57c",
+		type: "checkmark",
+		title: "Discord",
+		icon: "bewitchment:contract"
+	}]
+}

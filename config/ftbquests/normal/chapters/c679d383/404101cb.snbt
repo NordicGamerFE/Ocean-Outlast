@@ -1,0 +1,34 @@
+{
+	title: "Rune of Gluttony",
+	icon: "botania:rune 1 10",
+	x: 2.0d,
+	y: 5.0d,
+	text: [
+		"Rune of Gluttony this is an important component in creating complex magical devices. Rune of Gluttony is one of the Seven Deadly Sins Runes which is the third tier of Botania Runes. All Runes must be created in the Runic Altar."
+	],
+	dependencies: [
+		"ad9b0940"
+	],
+	tasks: [{
+		uid: "20db8a25",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 10"
+		}]
+	}],
+	rewards: [{
+		uid: "796f06e3",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "466bd45b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

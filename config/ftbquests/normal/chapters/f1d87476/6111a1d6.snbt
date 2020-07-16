@@ -1,0 +1,18 @@
+{
+	x: -7.0d,
+	y: -2.5d,
+	tasks: [{
+		uid: "7e3e8ac1",
+		type: "item",
+		items: [{
+			item: "bewitchment:fortunes_favor"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "680f900d",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

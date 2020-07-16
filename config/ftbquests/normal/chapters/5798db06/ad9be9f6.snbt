@@ -1,0 +1,34 @@
+{
+	title: "Cow Seeds",
+	icon: "mysticalagriculture:cow_seeds",
+	x: 1.0d,
+	y: -9.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"a67f1154"
+	],
+	tasks: [{
+		uid: "9c1ac9fb",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:cow_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "cebe49ab",
+		type: "ftbmoney:money",
+		ftb_money: 55L
+	},
+	{
+		uid: "d49c2a2a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

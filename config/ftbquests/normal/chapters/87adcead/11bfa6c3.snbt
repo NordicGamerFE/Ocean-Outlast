@@ -1,0 +1,30 @@
+{
+	title: "Luminessence",
+	icon: "extendedcrafting:material 1 7",
+	x: -1.5d,
+	y: 0.0d,
+	text: [
+		"Luminessence is  base crafting component in Extended Crafting"
+	],
+	dependencies: [
+		"386d63ba"
+	],
+	tasks: [{
+		uid: "2dfa191e",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material 10 7"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "a9809bab",
+		type: "item",
+		item: "extendedcrafting:material 1 7"
+	},
+	{
+		uid: "2b078acf",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

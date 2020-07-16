@@ -1,0 +1,25 @@
+{
+	title: "Small Medical Kit",
+	icon: "tp:small_med_kit",
+	x: -7.5d,
+	y: -3.0d,
+	text: [
+		"Instant heals",
+		"Provides 4 extra hearts for a short time"
+	],
+	dependencies: [
+		"fe43b951"
+	],
+	tasks: [{
+		uid: "b6bdff79",
+		type: "item",
+		items: [{
+			item: "tp:small_med_kit"
+		}]
+	}],
+	rewards: [{
+		uid: "170eaee3",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "Diamond Hammer",
+	icon: "exnihilocreatio:hammer_diamond",
+	x: 0.0d,
+	y: -3.5d,
+	text: [
+		"Craft a Diamond Hammer"
+	],
+	tasks: [{
+		uid: "35f52afa",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:hammer_diamond"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "650a947e",
+		type: "item",
+		item: "minecraft:diamond_block"
+	}]
+}

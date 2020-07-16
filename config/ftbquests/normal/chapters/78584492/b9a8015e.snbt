@@ -1,0 +1,25 @@
+{
+	title: "Large Medical Kit",
+	icon: "tp:large_med_kit",
+	x: -7.5d,
+	y: -4.0d,
+	text: [
+		"Instant heals",
+		"Provides 6 extra hearts for a short time"
+	],
+	dependencies: [
+		"937d9aa0"
+	],
+	tasks: [{
+		uid: "47bb3fcf",
+		type: "item",
+		items: [{
+			item: "tp:large_med_kit"
+		}]
+	}],
+	rewards: [{
+		uid: "4de4c90e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

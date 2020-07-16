@@ -1,0 +1,28 @@
+{
+	title: "Addicted ",
+	icon: "minecraft:clock",
+	x: 2.5d,
+	y: -1.5d,
+	tasks: [{
+		uid: "808f607c",
+		type: "stat",
+		icon: "minecraft:clock",
+		stat: "stat.playOneMinute",
+		value: 5184000
+	}],
+	rewards: [{
+		uid: "67feeca2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	},
+	{
+		uid: "11d800b4",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

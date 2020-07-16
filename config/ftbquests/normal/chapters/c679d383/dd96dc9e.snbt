@@ -1,0 +1,49 @@
+{
+	title: "Flower Pouch",
+	icon: {
+		ForgeCaps: {
+			Parent: []
+		},
+		id: "botania:flowerbag"
+	},
+	x: -1.5d,
+	y: -1.5d,
+	text: [
+		"Stores the botantic flowers"
+	],
+	dependencies: [
+		"9cb7d8d4"
+	],
+	tasks: [{
+		uid: "6c066b10",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: []
+			},
+			id: "botania:flowerbag"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3fdc5c0b",
+		type: "item",
+		item: "botania:flower"
+	},
+	{
+		uid: "64c5bcc3",
+		type: "item",
+		item: "botania:flower 1 4"
+	},
+	{
+		uid: "50da8cbc",
+		type: "item",
+		item: "botania:flower 1 8"
+	},
+	{
+		uid: "ef2fdfd4",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

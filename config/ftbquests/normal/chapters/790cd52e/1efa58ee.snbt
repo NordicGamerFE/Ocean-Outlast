@@ -1,0 +1,48 @@
+{
+	title: "Poor animals ;(",
+	x: -3.5d,
+	y: -0.5d,
+	tasks: [{
+		uid: "b2aece3c",
+		type: "item",
+		items: [{
+			item: "minecraft:chicken"
+		}]
+	},
+	{
+		uid: "40f4f5f2",
+		type: "item",
+		items: [{
+			item: "minecraft:porkchop"
+		}]
+	},
+	{
+		uid: "22a2d6a1",
+		type: "item",
+		items: [{
+			item: "minecraft:beef"
+		}]
+	},
+	{
+		uid: "9eb56a7b",
+		type: "item",
+		items: [{
+			item: "minecraft:mutton"
+		}]
+	}],
+	rewards: [{
+		uid: "e2a93e5d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "hunter_s_crate"
+			}
+		}
+	},
+	{
+		uid: "782bfb5a",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "EV Transformer",
+	icon: "ic2:te 1 80",
+	x: 6.5d,
+	y: 3.0d,
+	text: [
+		"EV-Transformer",
+		"Step-down: Input 8192 EU/t, Output 2048 EU/t (x5)",
+		"Step-up: Input 2048 EU/t (x5), Output 8192 EU/t"
+	],
+	dependencies: [
+		"f427dc7a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9895a9c3",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 80"
+		}]
+	}],
+	rewards: [{
+		uid: "4fcf41d8",
+		type: "item",
+		item: "minecraft:diamond_block"
+	},
+	{
+		uid: "fa313cfc",
+		type: "ftbmoney:money",
+		ftb_money: 400L
+	}]
+}

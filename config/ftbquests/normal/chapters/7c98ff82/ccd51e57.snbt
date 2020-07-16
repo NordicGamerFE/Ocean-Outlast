@@ -1,0 +1,34 @@
+{
+	title: "Weather Obelisk",
+	icon: "enderio:block_weather_obelisk",
+	x: -6.0d,
+	y: -6.0d,
+	text: [
+		"Used to temporarily change the weather of the current dimension."
+	],
+	dependencies: [
+		"4b202534"
+	],
+	tasks: [{
+		uid: "60b2edb1",
+		type: "item",
+		items: [{
+			item: "enderio:block_weather_obelisk"
+		}]
+	}],
+	rewards: [{
+		uid: "399fa77c",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "6a4548e5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

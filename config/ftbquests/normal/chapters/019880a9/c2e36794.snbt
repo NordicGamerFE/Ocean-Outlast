@@ -1,0 +1,22 @@
+{
+	x: 5.0d,
+	y: 2.5d,
+	dependencies: [
+		"2c516d72"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c4fe2051",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_coffee"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8345bc89",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

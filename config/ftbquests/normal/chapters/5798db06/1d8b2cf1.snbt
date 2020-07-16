@@ -1,0 +1,34 @@
+{
+	title: "Rubber Seeds",
+	icon: "mysticalagriculture:rubber_seeds",
+	x: 4.0d,
+	y: -9.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"a67f1154"
+	],
+	tasks: [{
+		uid: "39d6814a",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:rubber_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "7814ac8a",
+		type: "ftbmoney:money",
+		ftb_money: 55L
+	},
+	{
+		uid: "326001cc",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

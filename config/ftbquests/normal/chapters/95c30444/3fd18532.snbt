@@ -1,0 +1,37 @@
+{
+	title: "Hurculean Flux Storage",
+	icon: "fluxnetworks:herculeanfluxstorage",
+	x: -1.0d,
+	y: -2.5d,
+	text: [
+		"Used to Store Energy in the network",
+		"Flux Storage is used to store excess energy. It will only be filled once each Flux Point has received enough energy.",
+		"This energy can only be accessed by removing energy with a Flux Point.",
+		"Network's do not require a Flux Storage to operate"
+	],
+	dependencies: [
+		"03aedb7b"
+	],
+	tasks: [{
+		uid: "fa9aedea",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:herculeanfluxstorage"
+		}]
+	}],
+	rewards: [{
+		uid: "755b0302",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "0c4d06eb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

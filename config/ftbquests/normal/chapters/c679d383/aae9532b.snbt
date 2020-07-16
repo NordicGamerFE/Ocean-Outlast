@@ -1,0 +1,43 @@
+{
+	title: "Endoflame",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "endoflame"
+		}
+	},
+	x: 8.5d,
+	y: -2.5d,
+	text: [
+		"An active mana generating flower that will devour any burnable material that lands on the ground nearby and convert it to mana over the burn time the item would have in a vanilla furnace. the cap on how much mana one fuel item can provide equals the production value of one block of coal coke. It continuously produces mana at a flat rate over the entire time the fuel is burning. It will not consume more fuel until it has finished producing mana. The Endoflame has a pick up range of 3 blocks."
+	],
+	dependencies: [
+		"836e1759",
+		"8c29be76"
+	],
+	tasks: [{
+		uid: "18ec90fd",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "endoflame"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "709ba20c",
+		type: "item",
+		item: {
+			id: "botania:specialflower",
+			tag: {
+				type: "endoflame"
+			}
+		}
+	},
+	{
+		uid: "62b4922e",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

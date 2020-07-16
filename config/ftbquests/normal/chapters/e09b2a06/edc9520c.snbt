@@ -1,0 +1,32 @@
+{
+	x: -4.0d,
+	y: 1.5d,
+	text: [
+		"The energy upgrade upgrade allows you to increase the power storage capacity of a Mekanism machine which has an upgrade slot, as well as reduce its power consumption."
+	],
+	dependencies: [
+		"37e9e736"
+	],
+	tasks: [{
+		uid: "4b98992a",
+		type: "item",
+		items: [{
+			item: "mekanism:energyupgrade"
+		}]
+	}],
+	rewards: [{
+		uid: "3d673ff1",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "864c1373",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

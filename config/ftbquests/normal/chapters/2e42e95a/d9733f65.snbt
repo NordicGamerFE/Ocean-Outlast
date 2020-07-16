@@ -1,0 +1,20 @@
+{
+	x: -0.5d,
+	y: -2.0d,
+	dependencies: [
+		"c5a90481"
+	],
+	tasks: [{
+		uid: "df5e71e0",
+		type: "item",
+		items: [{
+			item: "fossil:bio_goo"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "226b2454",
+		type: "ftbmoney:money",
+		ftb_money: 35L
+	}]
+}

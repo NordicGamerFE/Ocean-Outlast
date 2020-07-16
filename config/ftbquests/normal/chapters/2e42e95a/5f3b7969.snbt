@@ -1,0 +1,58 @@
+{
+	x: -2.0d,
+	y: -3.0d,
+	dependencies: [
+		"257af960"
+	],
+	tasks: [{
+		uid: "d7250749",
+		type: "item",
+		items: [{
+			item: "fossil:skull_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2f2ed5df",
+		type: "item",
+		items: [{
+			item: "fossil:skull_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3cd8c6d4",
+		type: "item",
+		items: [{
+			item: "fossil:shin_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "74379964",
+		type: "item",
+		items: [{
+			item: "fossil:feet_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cfe6861a",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "a5772679",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	x: -2.0d,
+	y: -5.0d,
+	text: [
+		"&ALong and lost Materials of the hellscape",
+		"&rThese ingots beholds power of gods"
+	],
+	dependencies: [
+		"ee0d0b0c"
+	],
+	tasks: [{
+		uid: "c2bf3ab4",
+		type: "item",
+		items: [{
+			item: "netherbackport:netheriteingot"
+		}]
+	}],
+	rewards: [{
+		uid: "390bccde",
+		type: "ftbmoney:money",
+		ftb_money: 800L
+	},
+	{
+		uid: "4e415cfb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

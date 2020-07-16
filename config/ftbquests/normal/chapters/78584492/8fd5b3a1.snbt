@@ -1,0 +1,22 @@
+{
+	title: "Growth Crystal Tier 1",
+	icon: "tp:growth_block",
+	x: -10.5d,
+	y: -0.5d,
+	shape: "rsquare",
+	text: [
+		"Speed up crops in a 9 by 9 area and 2 block up or down"
+	],
+	tasks: [{
+		uid: "330e2797",
+		type: "item",
+		items: [{
+			item: "tp:growth_block"
+		}]
+	}],
+	rewards: [{
+		uid: "aae7913e",
+		type: "ftbmoney:money",
+		ftb_money: 60L
+	}]
+}

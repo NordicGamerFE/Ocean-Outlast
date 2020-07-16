@@ -1,0 +1,20 @@
+{
+	x: -4.5d,
+	y: -6.0d,
+	dependencies: [
+		"c38b9646"
+	],
+	tasks: [{
+		uid: "8907758e",
+		type: "item",
+		items: [{
+			item: "minecraft:chorus_fruit"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "62a72f96",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

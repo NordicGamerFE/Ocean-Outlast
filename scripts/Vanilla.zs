@@ -64,10 +64,10 @@ recipes.addShaped(<minecraft:heavy_weighted_pressure_plate>, [[<ore:ingotIron>, 
 	<minecraft:iron_pickaxe>.maxDamage = 1;
 	<minecraft:iron_hoe>.maxDamage = 1;
 
-    <minecraft:diamond_shovel>.maxDamage = 1;
-	<minecraft:diamond_axe>.maxDamage = 1;
-	<minecraft:diamond_pickaxe>.maxDamage = 1;
-	<minecraft:diamond_hoe>.maxDamage = 1;
+    <minecraft:diamond_shovel>.maxDamage = 10;
+	<minecraft:diamond_axe>.maxDamage = 10;
+	<minecraft:diamond_pickaxe>.maxDamage = 10;
+	<minecraft:diamond_hoe>.maxDamage = 1000;
 
 	<minecraft:golden_axe>.maxDamage = 1;
 	<minecraft:golden_shovel>.maxDamage = 1;

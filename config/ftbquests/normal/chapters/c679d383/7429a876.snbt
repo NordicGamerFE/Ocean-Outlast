@@ -1,0 +1,44 @@
+{
+	title: "Solegnolia",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "solegnolia"
+		}
+	},
+	x: 1.5d,
+	y: 0.0d,
+	text: [
+		"The Solegnolia disables Ring of Magnetization in radius of 4 blocks and doesn't require Mana.",
+		"",
+		"All flowers which use Redstone Root in recipe can be disabled with Redstone signal."
+	],
+	dependencies: [
+		"3f7e1d61"
+	],
+	tasks: [{
+		uid: "eff32207",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "solegnolia"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "c2bc2fa3",
+		type: "ftbmoney:money",
+		ftb_money: 45L
+	},
+	{
+		uid: "570b2294",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

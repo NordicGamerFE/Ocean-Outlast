@@ -1,0 +1,36 @@
+{
+	title: "How to get bone shards",
+	icon: "primal_tech:bone_shard",
+	x: -4.5d,
+	y: -4.5d,
+	text: [
+		"&aBone shards are used for a few recipes in early game&r",
+		"Read club quest if you are unsure as to how to obtain bone shards. &cthey can only be obtained by the club!"
+	],
+	dependencies: [
+		"4fcc58af"
+	],
+	tasks: [{
+		uid: "c58c0e82",
+		type: "item",
+		items: [{
+			item: "primal_tech:bone_shard"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "8d0ad27c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "70dff59f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

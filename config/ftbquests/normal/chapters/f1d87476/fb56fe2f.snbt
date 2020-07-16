@@ -1,0 +1,21 @@
+{
+	x: 1.5d,
+	y: -4.5d,
+	dependencies: [
+		"6a967d16"
+	],
+	tasks: [{
+		uid: "f8e61563",
+		type: "item",
+		items: [{
+			item: "bewitchment:token_of_remedies"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "16c12c78",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

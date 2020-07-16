@@ -1,0 +1,29 @@
+{
+	title: "Processing Cable",
+	icon: "storagenetwork:process_kabel",
+	x: -3.0d,
+	y: 1.5d,
+	text: [
+		"Can automate simple processes"
+	],
+	dependencies: [
+		"6aca77c3"
+	],
+	tasks: [{
+		uid: "0fa3e841",
+		type: "item",
+		items: [{
+			item: "storagenetwork:process_kabel"
+		}]
+	}],
+	rewards: [{
+		uid: "1918d486",
+		type: "item",
+		item: "storagenetwork:process_kabel"
+	},
+	{
+		uid: "98bbfdb2",
+		type: "ftbmoney:money",
+		ftb_money: 55L
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: -3.5d,
+	y: -1.5d,
+	tasks: [{
+		uid: "f45a6ec2",
+		type: "item",
+		items: [{
+			item: "agricraft:water_channel_normal"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d3f142df",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

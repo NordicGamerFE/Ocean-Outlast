@@ -1,0 +1,32 @@
+{
+	x: 1.5d,
+	y: -5.0d,
+	dependencies: [
+		"eea752f7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7d47d37d",
+		type: "item",
+		items: [{
+			item: "projectex:arcane_tablet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "662d58e4",
+		type: "ftbmoney:money",
+		ftb_money: 15000L
+	},
+	{
+		uid: "6eb01194",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

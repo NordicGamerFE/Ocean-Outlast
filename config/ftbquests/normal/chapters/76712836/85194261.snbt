@@ -1,0 +1,33 @@
+{
+	title: "Wrench",
+	icon: "ic2:wrench",
+	x: -3.0d,
+	y: 1.5d,
+	text: [
+		"The wrech is used to get back machines when placed as you cant break them with an pickaxe"
+	],
+	tasks: [{
+		uid: "0aa6cc8f",
+		type: "item",
+		items: [{
+			item: "ic2:wrench"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "63d44ead",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "0af27a42",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

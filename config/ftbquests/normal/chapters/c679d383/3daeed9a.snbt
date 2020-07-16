@@ -1,0 +1,40 @@
+{
+	title: "Flügel Tiara",
+	icon: "botania:flighttiara",
+	x: 9.0d,
+	y: -4.5d,
+	text: [
+		"The Flügel Tiara is an accessory. It is equippable in the Amulet slot.",
+		"",
+		"The Flügel Tiara provides three movement options:",
+		"",
+		"Flight - Using Mana from the player's inventory, the Flügel Tiara can grant up to 30 continuous seconds of creative flight. While not in use, this ability will slowly recharge. A flight meter is displayed on the HUD while the Flügel Tiara is worn.",
+		"",
+		"Dash - Pressing the sprint key (CTRL by default) while flying will start a quick speed",
+		"boost in the direction the player is facing. This can be done every 2 seconds.",
+		"",
+		"Glide - Holding the crouch key while falling slows the user's fall and prevents fall damage. This can be done with an empty flight bar, but will make it recharge more slowly.",
+		"Crafting the Flügel Tiara with Nether Quartz or any of this mod's aesthetic variants will add a pair of cosmetic wings to the item."
+	],
+	dependencies: [
+		"699291a5"
+	],
+	tasks: [{
+		uid: "2c9c6912",
+		type: "item",
+		items: [{
+			item: "botania:flighttiara"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "35625647",
+		type: "item",
+		item: "botania:blacklotus 1 1"
+	},
+	{
+		uid: "873c6e05",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

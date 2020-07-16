@@ -1,0 +1,29 @@
+{
+	x: -1.0d,
+	y: -1.5d,
+	tasks: [{
+		uid: "d1979eff",
+		type: "item",
+		icon: "environmentaltech:aethium_crystal",
+		items: [{
+			item: "environmentaltech:aethium_crystal"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "424cf5ac",
+		type: "ftbmoney:money",
+		ftb_money: 50000L
+	},
+	{
+		uid: "f40f3e2a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

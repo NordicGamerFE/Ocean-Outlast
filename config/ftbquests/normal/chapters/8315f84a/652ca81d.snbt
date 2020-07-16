@@ -1,0 +1,36 @@
+{
+	title: "Dragon Health Crystal",
+	icon: "geneticsreborn:dragonhealthcrystal",
+	x: 4.0d,
+	y: -7.0d,
+	text: [
+		"This item is used along with the Ender Dragon's Health gene, and has 1000 durability. It loses 1 durability for each half heart of damage you take, absorbing the damage."
+	],
+	dependencies: [
+		"5802f423"
+	],
+	tasks: [{
+		uid: "538eb13b",
+		type: "item",
+		items: [{
+			item: "geneticsreborn:dragonhealthcrystal"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c822bd42",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "2311ff8c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

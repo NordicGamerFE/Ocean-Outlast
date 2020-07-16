@@ -1,0 +1,30 @@
+{
+	x: -5.5d,
+	y: -4.5d,
+	dependencies: [
+		"4fcc58af"
+	],
+	tasks: [{
+		uid: "d3cbe2f8",
+		type: "item",
+		items: [{
+			item: "primal_tech:fluid_bladder"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "791c6c79",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "881b8997",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

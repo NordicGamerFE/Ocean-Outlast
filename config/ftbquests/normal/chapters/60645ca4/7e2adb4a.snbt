@@ -1,0 +1,63 @@
+{
+	title: "Wireless Terminal",
+	icon: {
+		id: "appliedenergistics2:wireless_terminal",
+		tag: {}
+	},
+	x: 6.0d,
+	y: -3.5d,
+	text: [
+		"Wireless Terminal:",
+		"",
+		"After you linked up the Wireless Terminal in the ME Security Terminal, it grants a portable access to the ME Network. Put it into a Charger to recharge it.",
+		"",
+		"Holds 1.6m AE in its battery and drains 1 AE/t for each block you are away from the nearest ME Wireless Access Point.",
+		"",
+		"ME Wireless Access Point:",
+		"",
+		"Allows wireless access via a Wireless Terminal. Range and power usage is determined based on the number of Wireless Booster installed into the ME Wireless Access Point.",
+		"",
+		"A network can have any number of ME Wireless Access Point with any number of Wireless Boosters in each one, allowing you to optimize power usage and range by altering your setup.",
+		"",
+		"Requires a channel to be operational."
+	],
+	dependencies: [
+		"f67aa502"
+	],
+	tasks: [{
+		uid: "a96fa8fa",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 42"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1e2c568b",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:wireless_access_point"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b5bbff95",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:wireless_terminal",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2822c577",
+		type: "item",
+		item: "appliedenergistics2:material 1 42"
+	},
+	{
+		uid: "dc2ca743",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

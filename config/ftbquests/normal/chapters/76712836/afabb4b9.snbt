@@ -1,0 +1,33 @@
+{
+	x: -4.5d,
+	y: 1.5d,
+	dependencies: [
+		"5983079e"
+	],
+	tasks: [{
+		uid: "6358ba61",
+		type: "item",
+		items: [{
+			id: "ic2:drill",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fd5efaef",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "70faf7fa",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

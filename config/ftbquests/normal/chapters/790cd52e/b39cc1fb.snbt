@@ -1,0 +1,38 @@
+{
+	x: -9.0d,
+	y: -3.0d,
+	text: [
+		"&A(Insert Lamp MEME)",
+		"&rThe lamp is pretty much alike the torch but wont break to things like water"
+	],
+	dependencies: [
+		"b9b4a95f"
+	],
+	tasks: [{
+		uid: "83740fe7",
+		type: "item",
+		items: [{
+			item: "tp:lamp"
+		}]
+	}],
+	rewards: [{
+		uid: "7e7e69a9",
+		type: "item",
+		item: "tp:lamp"
+	},
+	{
+		uid: "e748911f",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "786c0495",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "sunk_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Recycler",
+	icon: "ic2:te 1 48",
+	x: -5.5d,
+	y: -3.5d,
+	text: [
+		"The Recycler is an electric machine capable of recycling many blocks and items into useful Scrap"
+	],
+	dependencies: [
+		"71747bb8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8e2eb199",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 48"
+		}]
+	}],
+	rewards: [{
+		uid: "2721299c",
+		type: "item",
+		item: "ic2:crafting 1 24"
+	},
+	{
+		uid: "ae45b60d",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

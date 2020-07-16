@@ -1,0 +1,32 @@
+{
+	title: "Research Table",
+	icon: "thaumcraft:research_table",
+	x: 0.0d,
+	y: 4.0d,
+	text: [
+		"Used to create theories for use in research. It is created by right-clicking a Wood Table with filled Scribing Tools.",
+		"",
+		"The main use of the table is the theorycrafting minigame, used to obtain theories. It consumes Paper, ink from Scribing Tools, and inspiration (represented by lightbulb icons). The amount of inspiration available increases with the player's progress in the research tree.",
+		"",
+		"To start a theory, click the \"Create Theory\" button on top of the GUI. An ongoing research session may be abandoned at any point by clicking the \"Scrap Theory\" button. Clicking on the stack when no cards are drawn will draw two. If there are bonus draws available, one will be spent and one additional card will be drawn.",
+		"",
+		"Each research card has an inspiration cost and an effect. Some cards require items listed on the bottom of the card to be picked; if the items are marked with a yellow exclamation mark, they will be consumed. Picking a card will apply its effect and allow for the next draw. The effect of most cards is adding research progress in a specific category, a few other common effects are granting extra inspiration at a cost of some research progress, or gaining bonus draws.",
+		"",
+		"Once the player runs out of inspiration, it is refilled, the research is completed and their research progress is added to their knowledge. Every 100% of stored progress in a category grants 1 theory of that category. Only the category with most progress will get the full bonus, all others will get a 33% penalty to the gained knowledge."
+	],
+	dependencies: [
+		"3f552108"
+	],
+	tasks: [{
+		uid: "8546b122",
+		type: "item",
+		items: [{
+			item: "thaumcraft:research_table"
+		}]
+	}],
+	rewards: [{
+		uid: "248d8f89",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

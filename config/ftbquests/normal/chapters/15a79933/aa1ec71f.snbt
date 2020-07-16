@@ -1,0 +1,32 @@
+{
+	x: -10.0d,
+	y: -3.5d,
+	text: [
+		"&AThe walker king is the fearless leader of the walker faction",
+		"&rFound in the snow castle he is a powerful magical creatour trained as a dragon hunter"
+	],
+	dependencies: [
+		"aacac24c"
+	],
+	tasks: [{
+		uid: "fb4f8e59",
+		type: "kill",
+		entity: "cqrepoured:walker_king",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "4d866673",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	},
+	{
+		uid: "cf3b6843",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

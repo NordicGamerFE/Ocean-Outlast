@@ -1,0 +1,42 @@
+{
+	title: "Fishingman",
+	icon: "minecraft:fishing_rod",
+	x: -9.5d,
+	y: -5.0d,
+	text: [
+		"Since there only seems to be islands now fishing seems like a good way to get food, maybe fishing can get us something time will tell"
+	],
+	dependencies: [
+		"b5373745"
+	],
+	tasks: [{
+		uid: "ba2e6d81",
+		type: "item",
+		items: [{
+			item: "minecraft:fishing_rod"
+		},
+		{
+			item: "aquaculture:fishing_rod"
+		},
+		{
+			item: "jaff:wooden_fishing_rod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c7232181",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "sunk_crate"
+			}
+		}
+	},
+	{
+		uid: "dae34d08",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

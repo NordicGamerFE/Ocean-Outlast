@@ -1,0 +1,40 @@
+{
+	title: "Boat",
+	icon: "minecraft:boat",
+	x: -6.5d,
+	y: -6.5d,
+	text: [
+		"Boat is a handy to move around since there seems to be loads of islands around the waste land"
+	],
+	dependencies: [
+		"8757af66"
+	],
+	tasks: [{
+		uid: "a3a3534c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "boat",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}],
+	rewards: [{
+		uid: "ff94cfe6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "sunk_crate"
+			}
+		}
+	},
+	{
+		uid: "b2b3a776",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

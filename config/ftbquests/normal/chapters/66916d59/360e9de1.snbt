@@ -1,0 +1,76 @@
+{
+	title: "Void Ore Miner Tier 1",
+	icon: "environmentaltech:void_ore_miner_cont_1",
+	x: -2.5d,
+	y: -2.0d,
+	text: [
+		"When supplied with enough RF, the Void Ore Miner will periodically generate ores of various types, which will be automatically output to inventories adjacent to the Controller"
+	],
+	dependencies: [
+		"81364127",
+		"71d72dec"
+	],
+	tasks: [{
+		uid: "6c529e3f",
+		type: "item",
+		items: [{
+			item: "environmentaltech:void_ore_miner_cont_1"
+		}]
+	},
+	{
+		uid: "34fb88aa",
+		type: "item",
+		items: [{
+			item: "environmentaltech:structure_panel 20"
+		}],
+		count: 20L
+	},
+	{
+		uid: "1932c9dd",
+		type: "item",
+		items: [{
+			item: "environmentaltech:structure_frame_1 24"
+		}],
+		count: 24L
+	},
+	{
+		uid: "22cc2c40",
+		type: "item",
+		items: [{
+			item: "environmentaltech:laser_lens"
+		}]
+	},
+	{
+		uid: "d6edbde0",
+		type: "item",
+		items: [{
+			item: "environmentaltech:laser_core 2"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "872d0505",
+		type: "item",
+		item: {
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_survival"
+			}
+		}
+	},
+	{
+		uid: "5ac5788e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	},
+	{
+		uid: "c5e6160a",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

@@ -1,0 +1,46 @@
+{
+	title: "1K ME Storage Cell",
+	icon: {
+		id: "appliedenergistics2:storage_cell_1k",
+		tag: {}
+	},
+	x: 3.0d,
+	y: -1.5d,
+	text: [
+		"Lowest Tier Storage Cell, which can contain 1,024 bytes of storage.",
+		"",
+		"1,024 bytes of storage can hold 127 Stacks of a single item. or 65 Stacks,while holding 63 Different items.",
+		"",
+		"The 1k Storage Cell uses 8 bytes of data to store a single type.",
+		"",
+		"When placed inside a drive or chest will consume 0.5 ae/t.",
+		"",
+		"Must be in a ME Drive or ME Chest to be usable."
+	],
+	dependencies: [
+		"2e82976c"
+	],
+	tasks: [{
+		uid: "d9489350",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:storage_cell_1k",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "434b058d",
+		type: "item",
+		item: {
+			id: "appliedenergistics2:storage_cell_1k",
+			tag: {}
+		}
+	},
+	{
+		uid: "17e61fc9",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

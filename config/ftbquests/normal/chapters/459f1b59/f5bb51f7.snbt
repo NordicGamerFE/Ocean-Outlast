@@ -1,0 +1,35 @@
+{
+	title: "Arcane Workbench",
+	icon: "thaumcraft:arcane_workbench",
+	x: -1.0d,
+	y: 1.5d,
+	text: [
+		"It is created by clicking a Crafting Table with Salis Mundus. If your Salis Mundus is not working... It's most likely because you haven't made a Thaumonomicon. Take that Salis Mundus and click a bookshelf to make a Thaumonomicon and then take another Salis Mundus to use on the Crafting Table."
+	],
+	dependencies: [
+		"e46ac223",
+		"c6c08453"
+	],
+	tasks: [{
+		uid: "00ee373d",
+		type: "item",
+		items: [{
+			item: "thaumcraft:arcane_workbench"
+		}]
+	}],
+	rewards: [{
+		uid: "fac9dc4e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "kevs_lost_chest"
+			}
+		}
+	},
+	{
+		uid: "2c552672",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

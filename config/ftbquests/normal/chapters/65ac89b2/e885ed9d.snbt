@@ -1,0 +1,31 @@
+{
+	title: "Modifiers",
+	icon: "minecraft:quartz",
+	x: 2.5d,
+	y: 0.0d,
+	text: [
+		"Tinkers allow you to add loads of modifiers to your tools that work a lot like enchentments since tinkers dont allow for enchentments like Quartz as sharpness, Lapis as looting and furtune, read materials and you for more information"
+	],
+	dependencies: [
+		"93dfd357"
+	],
+	tasks: [{
+		uid: "ed2043eb",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "f65709ff",
+		type: "item",
+		item: "minecraft:quartz"
+	},
+	{
+		uid: "afd331fa",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "kevs_lost_chest"
+			}
+		}
+	}]
+}

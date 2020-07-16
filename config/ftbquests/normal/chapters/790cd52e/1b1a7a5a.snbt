@@ -1,0 +1,41 @@
+{
+	icon: "minecraft:quartz_ore",
+	x: -3.0d,
+	y: -5.5d,
+	shape: "rsquare",
+	text: [
+		"&aAh so you are going to the nether&r",
+		"Might wanna bring some Blocks! The floor... Is rather hot.",
+		"&7Tip: Use a wooden basin to make obsidian!"
+	],
+	tasks: [{
+		uid: "1e9eec8d",
+		type: "dimension",
+		dim: -1
+	}],
+	rewards: [{
+		uid: "dd5d84a4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	},
+	{
+		uid: "0b24a332",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "33d52bc0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "hellish_crate"
+			}
+		}
+	}]
+}

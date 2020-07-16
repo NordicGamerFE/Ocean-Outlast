@@ -1,0 +1,32 @@
+{
+	title: "Entropinnyum",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "entropinnyum"
+		}
+	},
+	x: -2.5d,
+	y: 5.0d,
+	text: [
+		"The Entropinnyum is an active generating flower that turns explosions into a massive burst of mana. All the force of the blast will go into the flower, there will be no physical damage from the explosion. It will not absorb another blast before its internal mana storage is empty, making timing important. If a second explosion is triggered while the Entropinnyum is still processing the first one, the surrounding area will be damaged and the flower will potentially be destroyed. This flower will absorb explosions up to 12 blocks away both horizontally and vertically."
+	],
+	dependencies: [
+		"8d80ec63"
+	],
+	tasks: [{
+		uid: "934e54c7",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "entropinnyum"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "9f838f55",
+		type: "ftbmoney:money",
+		ftb_money: 60L
+	}]
+}

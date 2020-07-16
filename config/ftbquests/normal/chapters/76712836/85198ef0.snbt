@@ -1,0 +1,67 @@
+{
+	x: -2.5d,
+	y: -4.5d,
+	dependencies: [
+		"71747bb8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7e14246b",
+		type: "item",
+		items: [{
+			id: "ic2:nano_chestplate",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2e7f6172",
+		type: "item",
+		items: [{
+			id: "ic2:nano_boots",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "44239eb3",
+		type: "item",
+		items: [{
+			id: "ic2:nano_leggings",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a86f0a5e",
+		type: "item",
+		items: [{
+			id: "ic2:nano_helmet",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "dbed175b",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "d133404f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

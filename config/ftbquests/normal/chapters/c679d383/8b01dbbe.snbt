@@ -1,0 +1,35 @@
+{
+	title: "Rafflowsia",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "rafflowsia"
+		}
+	},
+	x: -8.5d,
+	y: 5.0d,
+	text: [
+		"The Rafflowsia generates Mana by consuming other Botania flowers.",
+		"Every two seconds, a Rafflowsia will check the 11×11×11 area around for any craftable Botania flowers (other than Rafflowsias). If it finds one, it will attempt to consume it and generate 2100 Mana. However, if it consumes the same flower multiple times in a row, it will produce less and less"
+	],
+	dependencies: [
+		"15474f17",
+		"8701a97e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "599c353e",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "rafflowsia"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "dc701a7a",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

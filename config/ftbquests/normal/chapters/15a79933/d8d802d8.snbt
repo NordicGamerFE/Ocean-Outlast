@@ -1,0 +1,33 @@
+{
+	x: -8.0d,
+	y: 2.0d,
+	text: [
+		"&ASome say zombies might have their originals souls left i call bs&R",
+		"&rZombies have been killing people for longer then one can count on ones hand i will not stand for this!"
+	],
+	dependencies: [
+		"bf2a29fd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f94cd9d6",
+		type: "kill",
+		entity: "minecraft:zombie",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "17ccd3b3",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	},
+	{
+		uid: "340bcc50",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "hunter_s_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	title: "Bellethorne",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "bellethorn"
+		}
+	},
+	x: 8.0d,
+	y: -1.0d,
+	text: [
+		"The Bellethorne is a functional flower which will use mana inflict damage on all living mobs within range. This does not include players. It can be disabled at will by applying a redstone signal."
+	],
+	dependencies: [
+		"836e1759"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4d2348e7",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "bellethorn"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "67eb40ec",
+		type: "item",
+		item: "botania:blacklotus"
+	}]
+}

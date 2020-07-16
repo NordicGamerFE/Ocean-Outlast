@@ -1,0 +1,46 @@
+{
+	title: "4K ME Storage Cell",
+	icon: {
+		id: "appliedenergistics2:storage_cell_4k",
+		tag: {}
+	},
+	x: 3.0d,
+	y: -0.5d,
+	text: [
+		"Lowest Tier Storage Cell, which can contain 4,096 bytes of storage.",
+		"",
+		"4,096 bytes of storage can hold 508 Stacks of a single item. or 260 Stacks,while holding 63 Different items.",
+		"",
+		"The 4k Storage Cell uses 32 bytes of data to store a single type.",
+		"",
+		"When placed inside a drive or chest will consume 1.0 ae/t.",
+		"",
+		"Must be in a ME Drive or ME Chest to be usable."
+	],
+	dependencies: [
+		"478fc3d6"
+	],
+	tasks: [{
+		uid: "57fdbafc",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:storage_cell_4k",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3126a92b",
+		type: "item",
+		item: {
+			id: "appliedenergistics2:storage_cell_4k",
+			tag: {}
+		}
+	},
+	{
+		uid: "bc6951ed",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

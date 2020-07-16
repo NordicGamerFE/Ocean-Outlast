@@ -1,0 +1,29 @@
+{
+	x: -9.5d,
+	y: -1.5d,
+	shape: "rsquare",
+	tasks: [{
+		uid: "2dcc77c7",
+		type: "item",
+		items: [{
+			item: "better_diving:wetsuit_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5bf4f32b",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "343b2797",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "sunk_crate"
+			}
+		}
+	}]
+}

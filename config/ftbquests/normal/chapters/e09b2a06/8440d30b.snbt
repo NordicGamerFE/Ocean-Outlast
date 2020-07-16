@@ -1,0 +1,33 @@
+{
+	x: 2.0d,
+	y: -4.0d,
+	text: [
+		"Bio-Generators produce electricity from Bio Fuel. The generator will produce 5.6 kJ from a single item, and has an internal storage capacity of 160 kJ. After this has been reached, the bio-generator can hold 24000 units of bio fuel to be processed la"
+	],
+	dependencies: [
+		"3dcf7891"
+	],
+	tasks: [{
+		uid: "488f4e40",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:generator 1 4"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f946c0e6",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "1c5640c8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

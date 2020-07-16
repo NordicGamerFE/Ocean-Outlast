@@ -1,0 +1,37 @@
+{
+	title: "Induction Furnace",
+	icon: "ic2:te 1 54",
+	x: 3.0d,
+	y: -3.5d,
+	text: [
+		"The Induction Furnace is an advanced version of the Electric Furnace. It has the ability to process 2 stacks of items simultaneously. Doing so will also save 50% of the energy that would have been used had every stack been smelted by itself.",
+		"",
+		"Another feature of the Induction Furnace is its ability to build up heat. At higher heat levels, the Furnace both smelts faster, and uses less energy per smelting action."
+	],
+	dependencies: [
+		"9201494e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "63d2878f",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 54"
+		}]
+	}],
+	rewards: [{
+		uid: "bc4dba70",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "b44ea7a3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

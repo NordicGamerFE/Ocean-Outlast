@@ -1,0 +1,33 @@
+{
+	x: -10.0d,
+	y: -0.5d,
+	text: [
+		"&ASkeletons ah yes. These sharpshoters can be deadly best to sneak upon them",
+		"&rSkeletons are very dangrous creaturs you never wanna be suprised by one"
+	],
+	dependencies: [
+		"bf2a29fd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "54c32ef6",
+		type: "kill",
+		entity: "minecraft:skeleton",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "d143f449",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	},
+	{
+		uid: "38dbfe5e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "hunter_s_crate"
+			}
+		}
+	}]
+}

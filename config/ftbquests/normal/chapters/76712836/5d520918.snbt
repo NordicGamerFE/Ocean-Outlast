@@ -1,0 +1,29 @@
+{
+	title: "Advanced Circuit",
+	icon: "ic2:crafting 1 2",
+	x: -4.0d,
+	y: 0.0d,
+	text: [
+		"Used as a crafting component in most advanced machines"
+	],
+	dependencies: [
+		"5983079e"
+	],
+	tasks: [{
+		uid: "e60e90f1",
+		type: "item",
+		items: [{
+			item: "ic2:crafting 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "59717470",
+		type: "item",
+		item: "ic2:crafting 1 2"
+	},
+	{
+		uid: "70a2eaee",
+		type: "ftbmoney:money",
+		ftb_money: 60L
+	}]
+}

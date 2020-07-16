@@ -1,0 +1,44 @@
+{
+	title: "Eye of the Flügel",
+	icon: {
+		id: "botania:flugeleye",
+		tag: {
+			soulbindUUID: "0269faac-332b-41bb-b51b-2ee5f7017218"
+		}
+	},
+	x: 11.5d,
+	y: -6.0d,
+	text: [
+		"Eye of the Flügel. It is a relic which will allow the user to shift right-click a block to bind, then hold right-click to teleport back to the block it is bound to."
+	],
+	dependencies: [
+		"699291a5"
+	],
+	tasks: [{
+		uid: "b65fb9db",
+		type: "item",
+		items: [{
+			id: "botania:flugeleye",
+			tag: {
+				soulbindUUID: "0269faac-332b-41bb-b51b-2ee5f7017218"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f9ba6d45",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "ff2855a8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

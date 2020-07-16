@@ -1,0 +1,20 @@
+{
+	x: -1.5d,
+	y: -9.5d,
+	text: [
+		"&aNature cores are found underwater surrounded by leafs and logs&r",
+		"Nearby Saplings and Crops will grow faster around the nature core!"
+	],
+	tasks: [{
+		uid: "1db5130d",
+		type: "item",
+		items: [{
+			item: "randomthings:naturecore"
+		}]
+	}],
+	rewards: [{
+		uid: "3176d768",
+		type: "ftbmoney:money",
+		ftb_money: 120L
+	}]
+}

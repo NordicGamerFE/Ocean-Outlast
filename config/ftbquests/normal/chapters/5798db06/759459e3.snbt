@@ -1,0 +1,21 @@
+{
+	x: -3.5d,
+	y: -1.0d,
+	dependencies: [
+		"e4191fb7",
+		"5031e4fb"
+	],
+	tasks: [{
+		uid: "7306e85e",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:watering_can 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "960ac205",
+		type: "ftbmoney:money",
+		ftb_money: 120L
+	}]
+}

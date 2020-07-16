@@ -1,0 +1,29 @@
+{
+	title: "Iron(Steel) Mesh",
+	icon: "exnihilocreatio:item_mesh 1 3",
+	x: -5.5d,
+	y: -2.0d,
+	text: [
+		"The iron mesh opens for higher tier drops like diamonds, emerald and some other materials"
+	],
+	dependencies: [
+		"e90133a5"
+	],
+	tasks: [{
+		uid: "35cc181f",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_mesh 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "58385e8e",
+		type: "item",
+		item: "extrautils2:compressedgravel"
+	},
+	{
+		uid: "5a80c9c0",
+		type: "ftbmoney:money",
+		ftb_money: 35L
+	}]
+}

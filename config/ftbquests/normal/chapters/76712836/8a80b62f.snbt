@@ -1,0 +1,40 @@
+{
+	title: "Ore Washer Plant",
+	icon: "ic2:te 1 56",
+	x: -3.5d,
+	y: -4.5d,
+	text: [
+		"Wishing that you can have more ingots for less ore? Well, wish fulfilled! Introducing the brand new shiny Ore Washing Plant! It can \"wash\" your crushed ores and purify them"
+	],
+	dependencies: [
+		"dce82734"
+	],
+	hide: true,
+	tasks: [{
+		uid: "637df3a0",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 56"
+		}]
+	}],
+	rewards: [{
+		uid: "9261b89a",
+		type: "item",
+		item: "jaopca:item_crushedplatinum"
+	},
+	{
+		uid: "fc37bb87",
+		type: "item",
+		item: "jaopca:item_crushedosmium"
+	},
+	{
+		uid: "0931845b",
+		type: "item",
+		item: "ic2:crushed 1 6"
+	},
+	{
+		uid: "ce9e9dd4",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

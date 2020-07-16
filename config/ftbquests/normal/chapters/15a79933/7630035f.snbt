@@ -1,0 +1,31 @@
+{
+	x: -19.0d,
+	y: -6.0d,
+	dependencies: [
+		"214e9482"
+	],
+	tasks: [{
+		uid: "c2a8ed27",
+		type: "item",
+		items: [{
+			item: "treasure2:iron_key"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e33fc126",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "c0b512b6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

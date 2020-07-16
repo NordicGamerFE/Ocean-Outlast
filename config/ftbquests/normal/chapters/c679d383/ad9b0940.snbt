@@ -1,0 +1,35 @@
+{
+	title: "Rune of Winter",
+	icon: "botania:rune 1 7",
+	x: 4.0d,
+	y: 3.5d,
+	text: [
+		"Rune of Winter this is an important component in creating complex magical devices. Rune of Winter is one of the Seasonal Runes which is the second tier of Botania Runes. All Runes must be created in the Runic Altar."
+	],
+	dependencies: [
+		"60eb048e",
+		"5c8a07d3"
+	],
+	tasks: [{
+		uid: "78e91922",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "6b2f8329",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	},
+	{
+		uid: "56d89752",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

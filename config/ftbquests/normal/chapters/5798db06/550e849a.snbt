@@ -1,0 +1,34 @@
+{
+	title: "Pulsating Iron Seeds",
+	icon: "mysticalagriculture:pulsating_iron_seeds",
+	x: -3.0d,
+	y: -17.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"9576e32f"
+	],
+	tasks: [{
+		uid: "0b80fa3f",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:pulsating_iron_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "b0dac4cc",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "bb191490",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

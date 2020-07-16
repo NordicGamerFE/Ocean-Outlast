@@ -1,0 +1,34 @@
+{
+	title: "Nether Quartz Seeds",
+	icon: "mysticalagriculture:nether_quartz_seeds",
+	x: -6.0d,
+	y: -12.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"4113dc34"
+	],
+	tasks: [{
+		uid: "60513957",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:nether_quartz_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "b741df00",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "0ddf3ac6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

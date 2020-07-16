@@ -1,0 +1,21 @@
+{
+	x: -18.5d,
+	y: -8.0d,
+	dependencies: [
+		"214e9482"
+	],
+	tasks: [{
+		uid: "67cf014b",
+		type: "item",
+		items: [{
+			item: "treasure2:wither_key"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "32fa147a",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

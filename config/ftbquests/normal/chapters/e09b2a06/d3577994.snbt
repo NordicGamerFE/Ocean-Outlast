@@ -1,0 +1,32 @@
+{
+	x: 4.0d,
+	y: -1.5d,
+	dependencies: [
+		"faa60b71"
+	],
+	tasks: [{
+		uid: "fdc12d72",
+		type: "item",
+		items: [{
+			id: "mekanism:gastank",
+			tag: {
+				tier: 3
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "aab3d434",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "5f6de850",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,10 @@
+{
+	title: "Projecte",
+	icon: "projectex:final_star",
+	description: [
+		"No Description"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

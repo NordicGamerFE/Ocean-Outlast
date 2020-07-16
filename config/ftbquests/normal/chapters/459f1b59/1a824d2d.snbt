@@ -1,0 +1,15 @@
+{
+	x: 3.5d,
+	y: 4.5d,
+	dependencies: [
+		"918a4ad2",
+		"523b640c"
+	],
+	tasks: [{
+		uid: "43789a45",
+		type: "item",
+		items: [{
+			item: "thaumcraft:lamp_fertility"
+		}]
+	}]
+}

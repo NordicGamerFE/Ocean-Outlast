@@ -1,0 +1,10 @@
+{
+	title: "Bewitchment",
+	icon: "bewitchment:heart",
+	description: [
+		"No Description"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

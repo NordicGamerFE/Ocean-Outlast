@@ -1,0 +1,26 @@
+{
+	x: 6.5d,
+	y: 4.0d,
+	text: [
+		"&aLocked to Digital Miner Quest&r",
+		"Found in mekanism Chapter",
+		"&r(&7Bonus earn direct coins&r)"
+	],
+	can_repeat: true,
+	dependencies: [
+		"b8d651f1"
+	],
+	tasks: [{
+		uid: "c5a57641",
+		type: "item",
+		items: [{
+			item: "enderio:item_alloy_ingot 1 8"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "1548b7ea",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

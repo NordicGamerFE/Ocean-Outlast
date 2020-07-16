@@ -1,0 +1,29 @@
+{
+	x: -4.5d,
+	y: -5.0d,
+	dependencies: [
+		"c9f41daf"
+	],
+	tasks: [{
+		uid: "cf0a3022",
+		type: "item",
+		items: [{
+			item: "conarm:gauntlet_mat_reach"
+		}]
+	}],
+	rewards: [{
+		uid: "c78c42f9",
+		type: "ftbmoney:money",
+		ftb_money: 65L
+	},
+	{
+		uid: "4e30ad88",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "kevs_lost_chest"
+			}
+		}
+	}]
+}

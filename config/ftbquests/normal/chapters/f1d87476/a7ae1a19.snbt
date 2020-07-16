@@ -1,0 +1,27 @@
+{
+	title: "Amethyst",
+	icon: "bewitchment:amethyst",
+	x: -7.5d,
+	y: -7.0d,
+	text: [
+		"No Description"
+	],
+	tasks: [{
+		uid: "b81798e3",
+		type: "item",
+		items: [{
+			item: "bewitchment:amethyst 4"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "12f330ec",
+		type: "item",
+		item: "bewitchment:amethyst"
+	},
+	{
+		uid: "1c28a22a",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

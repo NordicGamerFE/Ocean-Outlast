@@ -1,0 +1,30 @@
+{
+	title: "Alchemy Catalyst",
+	icon: "botania:alchemycatalyst",
+	x: 6.0d,
+	y: -2.5d,
+	text: [
+		"Alchemy Catalyst is a block when placed underneath a Mana Pool, it allows the conversion of one item to another."
+	],
+	dependencies: [
+		"9c4fbe54",
+		"836e1759"
+	],
+	tasks: [{
+		uid: "8a2cadbf",
+		type: "item",
+		items: [{
+			item: "botania:alchemycatalyst"
+		}]
+	}],
+	rewards: [{
+		uid: "2e896a22",
+		type: "item",
+		item: "botania:blacklotus"
+	},
+	{
+		uid: "9ee173af",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

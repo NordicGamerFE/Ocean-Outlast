@@ -1,0 +1,34 @@
+{
+	title: "Rabbit Seeds",
+	icon: "mysticalagriculture:rabbit_seeds",
+	x: 1.0d,
+	y: -12.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"4113dc34"
+	],
+	tasks: [{
+		uid: "649bdff1",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:rabbit_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "02f2a2ee",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "f4502290",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

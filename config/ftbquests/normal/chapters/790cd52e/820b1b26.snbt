@@ -1,0 +1,44 @@
+{
+	x: -6.0d,
+	y: -0.5d,
+	text: [
+		"&aFish go blub&r",
+		"Go into the ocean and find these fish swimming around and give them a beating"
+	],
+	tasks: [{
+		uid: "c5cd75fa",
+		type: "item",
+		items: [{
+			item: "better_diving:peeper"
+		}]
+	},
+	{
+		uid: "85a785a5",
+		type: "item",
+		items: [{
+			item: "better_diving:bladderfish"
+		}]
+	},
+	{
+		uid: "d8a06ce2",
+		type: "item",
+		items: [{
+			item: "better_diving:garryfish"
+		}]
+	}],
+	rewards: [{
+		uid: "53453a8f",
+		type: "ftbmoney:money",
+		ftb_money: 45L
+	},
+	{
+		uid: "a72e7333",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "sunk_crate"
+			}
+		}
+	}]
+}

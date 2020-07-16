@@ -1,0 +1,34 @@
+{
+	title: "Void Metal Seeds",
+	icon: "mysticalagriculture:void_metal_seeds",
+	x: 0.0d,
+	y: -17.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"9576e32f"
+	],
+	tasks: [{
+		uid: "8f8562e7",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:void_metal_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "40326661",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "f9ee927d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

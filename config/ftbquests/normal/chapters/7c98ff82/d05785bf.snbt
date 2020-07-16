@@ -1,0 +1,30 @@
+{
+	title: "Simple Powered Furnace",
+	icon: "enderio:block_simple_furnace",
+	x: -1.0d,
+	y: -2.5d,
+	text: [
+		"Basic powered Furnace, able to smelt items using Micro Infinity (µI).",
+		"",
+		"Similar to Ender IO's other Simple machines, capacitors cannot be used in the Simple Powered Furnace, so its processing speed cannot be improved.",
+		"",
+		"The machine constantly leaks 0.1 µI/t (2 µI/s) in addition to its energy usage during processing, and will continue to leak energy while not processing.",
+		"",
+		"Uniquely, the Simple Powered Furnace does not have a direct upgrade. However, the Alloy Smelter can be seen as an upgrade to both the Simple Powered Furnace and the Simple Alloy Smelter, as it combines smelting and alloying functionality."
+	],
+	dependencies: [
+		"1f61beca"
+	],
+	tasks: [{
+		uid: "c4f73bc9",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "66f4267d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

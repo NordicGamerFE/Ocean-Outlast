@@ -1,0 +1,23 @@
+{
+	title: "Basic Capacitor",
+	icon: "enderio:item_basic_capacitor",
+	x: 0.0d,
+	y: 1.5d,
+	shape: "rsquare",
+	text: [
+		"Used for crafting various blocks and items within the mod, including the Machine Chassis and Tormented Enderman Head."
+	],
+	tasks: [{
+		uid: "cdf8f8b4",
+		type: "item",
+		items: [{
+			item: "enderio:item_basic_capacitor 2"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "7d7af729",
+		type: "ftbmoney:money",
+		ftb_money: 45L
+	}]
+}

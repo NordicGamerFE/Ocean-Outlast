@@ -1,0 +1,30 @@
+{
+	title: "Fluix Crystal",
+	icon: "appliedenergistics2:material 1 7",
+	x: 0.0d,
+	y: -1.5d,
+	text: [
+		"A Crystal never found in nature; it is created by a reaction between Nether Quartz and Charged Certus Quartz Crystal when placed in water together with Redstone; this reaction gives you 2 crystals, by converting both Nether Quartz and Charged Certus Quartz Crystal into Fluix Crystal."
+	],
+	dependencies: [
+		"45a2d702"
+	],
+	tasks: [{
+		uid: "9c45d186",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 6 7"
+		}],
+		count: 6L
+	}],
+	rewards: [{
+		uid: "905cb3ff",
+		type: "item",
+		item: "appliedenergistics2:material 1 7"
+	},
+	{
+		uid: "b41c6f1a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

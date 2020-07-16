@@ -1,0 +1,31 @@
+{
+	title: "Conjuration Catalyst",
+	icon: "botania:conjurationcatalyst",
+	x: 7.0d,
+	y: -2.5d,
+	text: [
+		"Conjuration Catalyst is a block when placed underneath a Mana Pool, it allows the conversion of one item to two."
+	],
+	dependencies: [
+		"15474f17",
+		"2b70a6dd",
+		"74667c14"
+	],
+	tasks: [{
+		uid: "c62ad7e3",
+		type: "item",
+		items: [{
+			item: "botania:conjurationcatalyst"
+		}]
+	}],
+	rewards: [{
+		uid: "d90d8175",
+		type: "item",
+		item: "botania:blacklotus"
+	},
+	{
+		uid: "f9b75132",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

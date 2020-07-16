@@ -1,0 +1,29 @@
+{
+	x: -3.5d,
+	y: -1.0d,
+	tasks: [{
+		uid: "14398d0a",
+		type: "item",
+		items: [{
+			item: "mowziesmobs:earth_talisman"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b763a1f3",
+		type: "ftbmoney:money",
+		ftb_money: 100000L
+	},
+	{
+		uid: "82dd7a58",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

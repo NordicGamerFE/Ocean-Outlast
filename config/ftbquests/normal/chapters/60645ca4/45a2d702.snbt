@@ -1,0 +1,28 @@
+{
+	title: "Charged Certus Crystal",
+	icon: "appliedenergistics2:material 1 1",
+	x: 0.0d,
+	y: 0.0d,
+	shape: "square",
+	text: [
+		"A very important crafting componant in AE2"
+	],
+	tasks: [{
+		uid: "b342577f",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 16 1"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "7dacbc24",
+		type: "item",
+		item: "appliedenergistics2:material 1 1"
+	},
+	{
+		uid: "e628d8f5",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

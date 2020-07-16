@@ -1,0 +1,31 @@
+{
+	title: "Macerator",
+	icon: "ic2:te 1 47",
+	x: -3.5d,
+	y: -3.5d,
+	text: [
+		"The Macerator is the first machine in the IC2 ore processing chain. It can also convert some blocks and items into other, potentially more useful resources"
+	],
+	dependencies: [
+		"5983079e",
+		"70d97403"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4e888098",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 47"
+		}]
+	}],
+	rewards: [{
+		uid: "f8c77d01",
+		type: "item",
+		item: "grimoireofgaia:box"
+	},
+	{
+		uid: "29d06fc0",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

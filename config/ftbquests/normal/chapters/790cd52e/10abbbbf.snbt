@@ -1,0 +1,36 @@
+{
+	x: -1.0d,
+	y: -2.0d,
+	dependencies: [
+		"86da438a"
+	],
+	tasks: [{
+		uid: "3b84c603",
+		type: "item",
+		items: [{
+			item: "minecraft:enchanting_table"
+		}]
+	},
+	{
+		uid: "5f2905c6",
+		type: "item",
+		items: [{
+			item: "minecraft:anvil"
+		}]
+	}],
+	rewards: [{
+		uid: "4fc6df9e",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "3e09538d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

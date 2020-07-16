@@ -1,0 +1,21 @@
+{
+	title: "Gold Strongbox",
+	x: -22.5d,
+	y: -4.0d,
+	dependencies: [
+		"214e9482"
+	],
+	tasks: [{
+		uid: "4b98470c",
+		type: "observation",
+		icon: "treasure2:gold_strongbox",
+		match_type: "block_id",
+		match: "treasure2:gold_strongbox",
+		timer: 20L
+	}],
+	rewards: [{
+		uid: "46c9eb29",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

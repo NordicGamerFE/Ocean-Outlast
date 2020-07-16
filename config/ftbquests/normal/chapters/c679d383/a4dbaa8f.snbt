@@ -1,0 +1,37 @@
+{
+	title: "Rod of the Hells",
+	icon: "botania:firerod",
+	x: -6.5d,
+	y: -1.0d,
+	text: [
+		"R-click with this rod will create circle of magical fire which will set on fire any mob or player who stay inside for some mana cost.",
+		"After R-click rod can't be used again for few seconds"
+	],
+	dependencies: [
+		"f6a841d1"
+	],
+	tasks: [{
+		uid: "cd757ad7",
+		type: "item",
+		items: [{
+			item: "botania:firerod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c2931379",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "a7090ca8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

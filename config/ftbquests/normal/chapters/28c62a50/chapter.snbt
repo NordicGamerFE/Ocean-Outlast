@@ -1,0 +1,7 @@
+{
+	title: "Woot",
+	icon: "guideapi:woot-guide",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

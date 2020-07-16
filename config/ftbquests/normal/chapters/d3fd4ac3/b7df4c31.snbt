@@ -1,0 +1,47 @@
+{
+	title: "Master Farmer",
+	x: -1.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "26526297",
+		type: "item",
+		items: [{
+			item: "minecraft:beetroot"
+		}],
+		count: 500L,
+		consume_items: true
+	},
+	{
+		uid: "b95cceac",
+		type: "item",
+		items: [{
+			item: "minecraft:potato"
+		}],
+		count: 500L,
+		consume_items: true
+	},
+	{
+		uid: "505f3d59",
+		type: "item",
+		items: [{
+			item: "minecraft:carrot"
+		}],
+		count: 500L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "20be73f6",
+		type: "ftbmoney:money",
+		ftb_money: 15000L
+	},
+	{
+		uid: "5724ad11",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

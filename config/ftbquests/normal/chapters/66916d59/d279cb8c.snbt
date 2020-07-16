@@ -1,0 +1,40 @@
+{
+	title: "Aethium Crystal",
+	icon: "environmentaltech:aethium_crystal",
+	x: -4.5d,
+	y: 2.0d,
+	text: [
+		"used to craft Tier 6 components of Environmental Tech multiblocks"
+	],
+	dependencies: [
+		"3245ecde"
+	],
+	tasks: [{
+		uid: "cdc31849",
+		type: "item",
+		items: [{
+			item: "environmentaltech:aethium_crystal 16"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "0cde2cfa",
+		type: "xp_levels",
+		xp_levels: 100
+	},
+	{
+		uid: "19b47acc",
+		type: "ftbmoney:money",
+		ftb_money: 25000L
+	},
+	{
+		uid: "7295cf47",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "supra_crate"
+			}
+		}
+	}]
+}

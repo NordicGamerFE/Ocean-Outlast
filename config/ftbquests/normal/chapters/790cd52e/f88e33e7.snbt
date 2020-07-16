@@ -1,0 +1,22 @@
+{
+	x: 1.5d,
+	y: -3.0d,
+	text: [
+		"&aLow on coal? use this upgrade to use rf to cook items",
+		"&rRight click this upgrade on a oven to be able to cook items with rf via the oven"
+	],
+	tasks: [{
+		uid: "93fca607",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:heating_unit"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "258d0ca1",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

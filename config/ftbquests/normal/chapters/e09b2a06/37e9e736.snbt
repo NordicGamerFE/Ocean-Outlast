@@ -1,0 +1,31 @@
+{
+	x: 0.0d,
+	y: 0.5d,
+	shape: "rsquare",
+	text: [
+		"The Metallurgic Infuser is the first step in the Mekanism tech tree. The Metallurgic Infuser is a machine used in the production of Steel Ingots and other materials"
+	],
+	tasks: [{
+		uid: "9dac96ec",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock 1 8"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0e22b2d5",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "29994cec",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

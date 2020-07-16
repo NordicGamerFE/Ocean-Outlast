@@ -1,0 +1,32 @@
+{
+	x: -7.0d,
+	y: -3.0d,
+	text: [
+		"&aHidden in plain sight",
+		"&rThese creatours lurk in plain sight hidden as lily's"
+	],
+	dependencies: [
+		"bf2a29fd"
+	],
+	tasks: [{
+		uid: "45057269",
+		type: "kill",
+		entity: "primitivemobs:lily_lurker",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "653dba64",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "5b944d4e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "hunter_s_crate"
+			}
+		}
+	}]
+}

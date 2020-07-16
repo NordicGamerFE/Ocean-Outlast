@@ -1,0 +1,29 @@
+{
+	title: "Metal Scraper",
+	icon: "geneticsreborn:metalscraper",
+	x: 0.0d,
+	y: 0.0d,
+	shape: "square",
+	text: [
+		"This scraper is what you will be using for most of the mod, and maybe even all of it. This scrapes a chunk off of any living thing you right click with it in your hand. The chunks it scrapes off are called Organic Matter."
+	],
+	tasks: [{
+		uid: "7b173409",
+		type: "item",
+		items: [{
+			item: "geneticsreborn:metalscraper"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "261feb45",
+		type: "item",
+		item: "minecraft:diamond"
+	},
+	{
+		uid: "aa024f30",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

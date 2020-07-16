@@ -1,0 +1,36 @@
+{
+	title: "ME Crafting Terminal",
+	icon: "appliedenergistics2:part 1 360",
+	x: 0.0d,
+	y: -4.5d,
+	text: [
+		"The ME Crafting Terminal is the upgraded version of the ME Terminal which has an integrated crafting grid with access to a ME Network's Networked Storage.",
+		"",
+		"Like the ME Terminal it also requires a Channel to function."
+	],
+	dependencies: [
+		"3a0c92b1"
+	],
+	tasks: [{
+		uid: "d7862dbb",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 360"
+		}]
+	}],
+	rewards: [{
+		uid: "a8b9019b",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "7ee10388",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

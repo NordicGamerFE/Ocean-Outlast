@@ -1,0 +1,36 @@
+{
+	title: "Tier 3 Crafting Seed",
+	icon: "mysticalagriculture:crafting 1 19",
+	x: 0.0d,
+	y: -11.0d,
+	shape: "hexagon",
+	text: [
+		"Used for crafting tier 3 seeds"
+	],
+	dependencies: [
+		"a67f1154"
+	],
+	hide: true,
+	tasks: [{
+		uid: "71205012",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:crafting 1 19"
+		}]
+	}],
+	rewards: [{
+		uid: "d0ecfe96",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "8aada822",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

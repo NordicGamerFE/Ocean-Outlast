@@ -1,0 +1,43 @@
+{
+	x: -4.0d,
+	y: 0.0d,
+	text: [
+		"&aFestive yeah no",
+		"&rTales tell of creepers that throw tnt in the nether"
+	],
+	dependencies: [
+		"df4a5e2a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "730adb43",
+		type: "kill",
+		entity: "primitivemobs:festive_creeper",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "14a24477",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "687ba969",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "hunter_s_crate"
+			}
+		}
+	},
+	{
+		uid: "1fea1ee9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "hellish_crate"
+			}
+		}
+	}]
+}

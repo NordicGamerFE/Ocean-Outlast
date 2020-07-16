@@ -1,0 +1,34 @@
+{
+	title: "Iridium Seeds",
+	icon: "mysticalagriculture:iridium_seeds",
+	x: -2.0d,
+	y: -20.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"c7e968b7"
+	],
+	tasks: [{
+		uid: "013f142c",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:iridium_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "b69ff695",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "c213ac96",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

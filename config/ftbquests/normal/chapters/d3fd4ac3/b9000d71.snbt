@@ -1,0 +1,28 @@
+{
+	x: 1.0d,
+	y: -1.5d,
+	tasks: [{
+		uid: "32d577ab",
+		type: "item",
+		items: [{
+			item: "mysticalagradditions:insanium"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "c1484a92",
+		type: "ftbmoney:money",
+		ftb_money: 40000L
+	},
+	{
+		uid: "f8a110f0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

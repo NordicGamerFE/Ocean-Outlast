@@ -1,0 +1,34 @@
+{
+	title: "Nickel Seeds",
+	icon: "mysticalagriculture:nickel_seeds",
+	x: 1.0d,
+	y: -16.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"9576e32f"
+	],
+	tasks: [{
+		uid: "c19ed5d1",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:nickel_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "44cdc2a2",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "4f0696d8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

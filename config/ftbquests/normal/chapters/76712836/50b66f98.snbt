@@ -1,0 +1,48 @@
+{
+	title: "Forge Hammer and Cutter",
+	icon: "ic2:forge_hammer",
+	x: 0.0d,
+	y: 0.0d,
+	shape: "rsquare",
+	text: [
+		"Forge Hammer is used to make plates and the cutter is used to make Cables"
+	],
+	tasks: [{
+		uid: "1b12d9b8",
+		type: "item",
+		items: [{
+			item: "ic2:forge_hammer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1ded86b9",
+		type: "item",
+		items: [{
+			item: "ic2:cutter"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d8af4259",
+		type: "item",
+		item: "ic2:forge_hammer"
+	},
+	{
+		uid: "1b54d1a9",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	},
+	{
+		uid: "187cdf4c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

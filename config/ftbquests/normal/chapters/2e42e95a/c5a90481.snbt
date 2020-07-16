@@ -1,0 +1,17 @@
+{
+	x: 0.0d,
+	y: 1.5d,
+	shape: "square",
+	tasks: [{
+		uid: "fbaf1b2f",
+		type: "item",
+		items: [{
+			item: "fossil:dinopedia"
+		}]
+	}],
+	rewards: [{
+		uid: "b0dfdc47",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

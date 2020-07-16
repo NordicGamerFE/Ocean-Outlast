@@ -1,0 +1,29 @@
+{
+	title: "Lexica Botania",
+	icon: {
+		id: "botania:lexicon",
+		tag: {}
+	},
+	x: 0.0d,
+	y: 0.0d,
+	shape: "square",
+	text: [
+		"The Lexica Botania is the repository of all knowledge for all botanical matters.",
+		"All well-known botanical knowledge is stored within these pages. For convenience, if a block happens to have an entry in here, it can be sneak-right clicked on with the Lexica Botania to open said entry.",
+		"Any entries typed in Italics are basic entries, which contain the core knowledge required to play Botania-- you may want to read those first. Most sections contain one or more of these entries, so a good look through those would be a good idea.",
+		"The Lexica Botania's title can also be customized by placing it in an Anvil and renaming it. This changes both its cover and its title.",
+		"The Edition of the Lexica shown equates to the version of the Botania you're running, and no, I don't care about the fourth wall."
+	],
+	tasks: [{
+		uid: "db3b5951",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "b0f49e7e",
+		type: "item",
+		item: {
+			id: "botania:lexicon",
+			tag: {}
+		}
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	x: -14.5d,
+	y: -3.0d,
+	text: [
+		"&aThis seems to be usefull&r",
+		"This item has an gui where you can place all your heart canisters making them only use one bauble slot"
+	],
+	tasks: [{
+		uid: "6ee0009d",
+		type: "item",
+		items: [{
+			item: "bhc:heart_amulet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "49f16521",
+		type: "ftbmoney:money",
+		ftb_money: 50000L
+	},
+	{
+		uid: "7790193e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

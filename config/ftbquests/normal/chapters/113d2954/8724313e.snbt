@@ -1,0 +1,23 @@
+{
+	title: "Stone Hammer",
+	icon: "exnihilocreatio:hammer_stone",
+	x: 0.0d,
+	y: -4.5d,
+	text: [
+		"Craft a Stone Hammer"
+	],
+	tasks: [{
+		uid: "7cb86e32",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:hammer_stone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f73ad439",
+		type: "item",
+		item: "extrautils2:compressedcobblestone"
+	}]
+}

@@ -1,0 +1,42 @@
+{
+	x: -3.0d,
+	y: 0.5d,
+	text: [
+		"&aZombie pigmen but worse",
+		"&rFound in dungeons in the nether"
+	],
+	dependencies: [
+		"b9b1486e"
+	],
+	tasks: [{
+		uid: "09bf9eda",
+		type: "kill",
+		entity: "cqrepoured:boarman",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "a0c88dd6",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "24d306ae",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	},
+	{
+		uid: "a362c9a5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "hellish_crate"
+			}
+		}
+	}]
+}

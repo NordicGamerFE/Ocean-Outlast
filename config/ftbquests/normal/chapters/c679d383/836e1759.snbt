@@ -1,0 +1,35 @@
+{
+	title: "Mana Pool",
+	icon: "botania:pool",
+	x: 4.5d,
+	y: -2.5d,
+	text: [
+		"The Mana Pool is, simply put, a storage for Mana.",
+		"Mana can be input from a Mana Spreader, and any adjacent Mana Spreaders will fill from it automatically.",
+		"Any Functional Flora require a nearby Mana Pool to draw power from.",
+		"Mana Pools come in two types: a weaker, Diluted variety which only stores a very small amount of Mana, and a Normal variety, which can store as much as a hundred times more than the diluted one.",
+		"Whenever \"Mana Pool\" is referred to elsewhere, it refers to a normal one.",
+		"The Diluted Mana Pool can be useful as a small buffer for a flower or system that doesn't use much Mana, as the normal pool holds a very large amount of it. Thanks to that, Mana readings for a normal pool won't be very precise: due to its scale, the displayed bar's size on a normal pool will increase very slowly.",
+		"Tossing in certain resources into a Mana Pool will infuse them with Mana from the pool, turning them into more magically-useful forms, like Manasteel Ingots or Mana Pearls.",
+		"A Wand of Of The Forest can read the Mana levels in a pool, much like the Mana Spreader. A Redstone Comparator can also output a signal based on percentage full.",
+		"Manasteel Ingots and similar can be crafted into both blocks or nuggets through the usual recipes.",
+		"Right-clicking with any color of Floral Powder on the pool will have give the pool its color, for decoration or easier labelling.",
+		"Using Mana Infused String to make Cobwebs"
+	],
+	dependencies: [
+		"18b69c3d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7b5dc1dc",
+		type: "item",
+		items: [{
+			item: "botania:pool"
+		}]
+	}],
+	rewards: [{
+		uid: "f2eac076",
+		type: "item",
+		item: "botania:blacklotus 1 1"
+	}]
+}

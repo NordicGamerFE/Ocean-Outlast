@@ -1,0 +1,26 @@
+{
+	x: 1.0d,
+	y: 2.0d,
+	tasks: [{
+		uid: "ce351e02",
+		type: "item",
+		items: [{
+			item: "tconstruct:materials 1 18"
+		}]
+	}],
+	rewards: [{
+		uid: "d54ab49c",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "2f251373",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

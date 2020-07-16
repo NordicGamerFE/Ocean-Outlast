@@ -1,0 +1,34 @@
+{
+	title: "Limestone Seeds",
+	icon: "mysticalagriculture:limestone_seeds",
+	x: 0.0d,
+	y: -10.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"a67f1154"
+	],
+	tasks: [{
+		uid: "e6893ecf",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:limestone_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "eb84c26c",
+		type: "ftbmoney:money",
+		ftb_money: 55L
+	},
+	{
+		uid: "0e9fa1f0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

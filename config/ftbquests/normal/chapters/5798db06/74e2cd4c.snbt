@@ -1,0 +1,34 @@
+{
+	title: "Spider Seeds",
+	icon: "mysticalagriculture:spider_seeds",
+	x: 0.0d,
+	y: -12.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"4113dc34"
+	],
+	tasks: [{
+		uid: "31286db8",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:spider_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "f857098b",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "b8d30f4a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

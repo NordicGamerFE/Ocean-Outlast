@@ -1,0 +1,32 @@
+{
+	x: -11.5d,
+	y: 1.5d,
+	text: [
+		"&achooser of the slain",
+		"&rBe careful she will become very aggresive if you stay to long in her sight"
+	],
+	dependencies: [
+		"ce3b947f"
+	],
+	tasks: [{
+		uid: "30b37ac7",
+		type: "kill",
+		entity: "grimoireofgaia:valkyrie",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "79bc6425",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "eb1a4a28",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

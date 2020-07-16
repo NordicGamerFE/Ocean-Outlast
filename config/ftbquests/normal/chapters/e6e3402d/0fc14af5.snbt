@@ -1,0 +1,35 @@
+{
+	title: "Iron Hand Rake",
+	icon: "agricraft:rake 1 1",
+	x: -6.0d,
+	y: -1.0d,
+	text: [
+		"The Iron Hand Rake is a better version of Wooden Hand Rake. The Iron Hand Rake is used to remove all weeds from Crop Sticks."
+	],
+	dependencies: [
+		"b9348f0a"
+	],
+	tasks: [{
+		uid: "adfdc39c",
+		type: "item",
+		items: [{
+			item: "agricraft:rake 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0a14e6e2",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	},
+	{
+		uid: "7784678e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

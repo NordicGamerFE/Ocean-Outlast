@@ -1,0 +1,36 @@
+{
+	title: "Stone Battleaxe",
+	icon: "tp:stone_battle",
+	x: -13.5d,
+	y: 0.5d,
+	text: [
+		"Make an stone battleaxe"
+	],
+	dependencies: [
+		"340612c7"
+	],
+	tasks: [{
+		uid: "8118fb7d",
+		type: "item",
+		items: [{
+			item: "tp:stone_battle"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4276f068",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "d111fab6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "hunter_s_crate"
+			}
+		}
+	}]
+}

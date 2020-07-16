@@ -1,0 +1,42 @@
+{
+	title: "Caster's Gauntlet",
+	icon: "thaumcraft:caster_basic",
+	x: -3.5d,
+	y: 1.5d,
+	text: [
+		"The Gauntlet's main use is casting spells stored on casting foci by the Focal Manipulator.",
+		"",
+		"To equip a casting focus, hold the Change Caster Focus button (defaults to F), mouse over the focus you want to equip, and release the button.",
+		"",
+		"To unequip a focus, press the Change Caster Focus button while sneaking.",
+		"",
+		"To cast with the focus, use the Gauntlet.",
+		"",
+		"Some focus mediums, like the Plan medium, have additional settings that can be changed between uses. To change those, the Misc Caster Toggle key (defaults to G) is used.",
+		"",
+		"The Gauntlet can be also used on a Runic Matrix to start infusions, and on various essentia tubing to toggle connections and settings."
+	],
+	dependencies: [
+		"e8997040",
+		"f33a88e8"
+	],
+	tasks: [{
+		uid: "b19d01a3",
+		type: "item",
+		items: [{
+			item: "thaumcraft:caster_basic"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6423316d",
+		type: "item",
+		item: "thaumcraft:ingot"
+	},
+	{
+		uid: "085f6c92",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

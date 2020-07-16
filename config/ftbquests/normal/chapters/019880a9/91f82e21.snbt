@@ -1,0 +1,20 @@
+{
+	x: -5.5d,
+	y: 0.0d,
+	dependencies: [
+		"2c4faae3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "81c9f7e8",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_resonant_rice"
+		}]
+	}],
+	rewards: [{
+		uid: "468c17a9",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	}]
+}

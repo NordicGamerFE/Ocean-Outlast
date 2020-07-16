@@ -1,0 +1,18 @@
+{
+	x: 0.0d,
+	y: -1.0d,
+	text: [
+		"The mystical agriculture seeds can be used with agricraft to make better seeds"
+	],
+	tasks: [{
+		uid: "8e21b4d3",
+		type: "checkmark",
+		title: "Agricraft + Mystical Agriculture",
+		icon: "agricraft:crop_sticks"
+	}],
+	rewards: [{
+		uid: "380f0651",
+		type: "item",
+		item: "agricraft:crop_sticks"
+	}]
+}

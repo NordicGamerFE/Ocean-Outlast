@@ -1,0 +1,25 @@
+{
+	title: "Scavenger",
+	icon: {
+		id: "thaumcraft:elemental_shovel",
+		tag: {
+			infench: [{
+				lvl: 1s,
+				id: 1s
+			}]
+		}
+	},
+	x: -19.0d,
+	y: -4.0d,
+	text: [
+		"&aThe Scavenger always try to find parts to improve themself",
+		"&RModifiy yourself via Bioengineering",
+		"&4WIP"
+	],
+	hide: true,
+	tasks: [{
+		uid: "069752a8",
+		type: "checkmark",
+		title: "Cybernetics"
+	}]
+}

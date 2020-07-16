@@ -1,0 +1,30 @@
+{
+	title: "Flux Core",
+	icon: "fluxnetworks:fluxcore 4",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"Crafting Componment"
+	],
+	dependencies: [
+		"1523afa5"
+	],
+	tasks: [{
+		uid: "30db6816",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:fluxcore 4"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "5c576145",
+		type: "item",
+		item: "fluxnetworks:fluxcore"
+	},
+	{
+		uid: "2cf79d8b",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

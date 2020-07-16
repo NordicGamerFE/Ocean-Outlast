@@ -1,0 +1,31 @@
+{
+	title: "Soul Machine Chassis",
+	icon: "enderio:item_material 1 53",
+	x: -6.0d,
+	y: -2.5d,
+	text: [
+		"Used to make some of the machines of the mod."
+	],
+	dependencies: [
+		"1f61beca",
+		"14fd638e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2e822afc",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 53"
+		}]
+	}],
+	rewards: [{
+		uid: "62be3eab",
+		type: "item",
+		item: "enderio:item_alloy_ingot 1 7"
+	},
+	{
+		uid: "be312d37",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

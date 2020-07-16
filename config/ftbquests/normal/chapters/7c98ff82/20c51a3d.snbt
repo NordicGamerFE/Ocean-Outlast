@@ -1,0 +1,33 @@
+{
+	title: "New Quest",
+	icon: "enderio:item_material 16 20",
+	x: 0.0d,
+	y: 0.0d,
+	shape: "rsquare",
+	text: [
+		"No Description"
+	],
+	tasks: [{
+		uid: "e7bf14df",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 20"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "4a942bf0",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "ce90f907",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

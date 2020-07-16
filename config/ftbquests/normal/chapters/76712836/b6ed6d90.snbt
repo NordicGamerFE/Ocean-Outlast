@@ -1,0 +1,45 @@
+{
+	title: "Geothermal Generator",
+	icon: "ic2:te 1 4",
+	x: 3.0d,
+	y: -1.0d,
+	text: [
+		"Used to make EU power from lava"
+	],
+	dependencies: [
+		"cd7c76e9"
+	],
+	tasks: [{
+		uid: "91e61c4d",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 4"
+		}]
+	},
+	{
+		uid: "d93c9ada",
+		type: "item",
+		items: [{
+			item: "ic2:fluid_cell 4"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "dd8e9659",
+		type: "item",
+		item: {
+			id: "ic2:fluid_cell",
+			tag: {
+				Fluid: {
+					FluidName: "lava",
+					Amount: 1000
+				}
+			}
+		}
+	},
+	{
+		uid: "09f0835c",
+		type: "ftbmoney:money",
+		ftb_money: 60L
+	}]
+}

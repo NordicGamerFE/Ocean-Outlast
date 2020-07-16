@@ -1,0 +1,38 @@
+{
+	title: "Redstone Conduit",
+	icon: "enderio:item_redstone_conduit",
+	x: -6.75d,
+	y: 0.0d,
+	text: [
+		"Used to transmit Redstone signals.",
+		"",
+		"Redstone Conduits will automatically connect to any block recognized as being able to send or receive redstone signals. A connection may be forced by right-clicking on the cable face with a Yeta Wrench.",
+		"",
+		"Redstone Conduits can transmit on up to 16 color coded channels corresponding to the 16 Minecraft colors. The color (defaulting to red) may be set in the by right-clicking on the connecting section of the cable and using the color button in the UI or by right-clicking the colored sleeve of the cable in-world. This functionality is comparable with other mods that can use bundled redstone channels such as ComputerCraft and Open Computers.",
+		"",
+		"The Mode setting in the conduit UI has two options: In/Out (will send and receive all redstone signals to the facing side) and Disabled. If the \"Strong signal\" option in the UI is checked, the conduit will output a full strength signal of 15 regardless of the strength of the redstone signal it receives (as long as it's not 0).",
+		"",
+		"As with all Ender IO conduits, they can be placed in the same block as other conduits. They may be broken by hand or with any tool, or picked up by sneak-right clicking on it with a Yeta Wrench."
+	],
+	dependencies: [
+		"8d674658",
+		"14fd638e"
+	],
+	tasks: [{
+		uid: "0b0791f9",
+		type: "item",
+		items: [{
+			item: "enderio:item_redstone_conduit"
+		}]
+	}],
+	rewards: [{
+		uid: "3baf8ddd",
+		type: "item",
+		item: "enderio:item_redstone_conduit"
+	},
+	{
+		uid: "bf60ccc6",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

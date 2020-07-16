@@ -1,0 +1,41 @@
+{
+	title: "Pladium Crystal",
+	icon: "environmentaltech:pladium_crystal",
+	x: -6.5d,
+	y: 2.0d,
+	text: [
+		"used to craft Tier 4 components of Environmental Tech multiblocks"
+	],
+	dependencies: [
+		"5a0a479c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7b6e9402",
+		type: "item",
+		items: [{
+			item: "environmentaltech:pladium_crystal 16"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "c2917765",
+		type: "item",
+		item: "minecraft:diamond_block"
+	},
+	{
+		uid: "e38b730c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	},
+	{
+		uid: "a95b1d30",
+		type: "ftbmoney:money",
+		ftb_money: 1500L
+	}]
+}

@@ -1,0 +1,45 @@
+{
+	x: -2.5d,
+	y: -7.0d,
+	text: [
+		"&aTales talks of a knight of the nether&r",
+		"Kill this creatur and obtain its shield"
+	],
+	dependencies: [
+		"1b1a7a5a"
+	],
+	tasks: [{
+		uid: "943c08e2",
+		type: "item",
+		items: [{
+			item: "eerieentities:nether_shield"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "82a8b69e",
+		type: "ftbmoney:money",
+		ftb_money: 2500L
+	},
+	{
+		uid: "70a674f1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "hellish_crate"
+			}
+		}
+	},
+	{
+		uid: "0ab1ea7e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

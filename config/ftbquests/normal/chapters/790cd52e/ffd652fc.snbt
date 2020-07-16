@@ -1,0 +1,32 @@
+{
+	x: -8.5d,
+	y: -1.5d,
+	shape: "rsquare",
+	tasks: [{
+		uid: "eaf21a08",
+		type: "item",
+		items: [{
+			id: "better_diving:standard_o2_tank",
+			tag: {
+				"better_diving:oxygen": 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f81a0f06",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	},
+	{
+		uid: "2b46ae06",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "sunk_crate"
+			}
+		}
+	}]
+}

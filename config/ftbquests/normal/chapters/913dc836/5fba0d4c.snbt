@@ -1,0 +1,30 @@
+{
+	x: -0.5d,
+	y: -2.5d,
+	shape: "rsquare",
+	tasks: [{
+		uid: "bc0b89ee",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_philosophers_stone",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a834393d",
+		type: "ftbmoney:money",
+		ftb_money: 20000L
+	},
+	{
+		uid: "d58c3a31",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "supra_crate"
+			}
+		}
+	}]
+}

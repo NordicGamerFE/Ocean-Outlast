@@ -1,0 +1,21 @@
+{
+	x: -2.5d,
+	y: -1.5d,
+	tasks: [{
+		uid: "e929e66d",
+		type: "item",
+		items: [{
+			id: "agricraft:water_channel_valve",
+			tag: {
+				agri_material_meta: 0,
+				agri_material: "minecraft:planks"
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "060cd98e",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

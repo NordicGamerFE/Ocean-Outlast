@@ -1,0 +1,33 @@
+{
+	x: -11.0d,
+	y: -1.5d,
+	text: [
+		"&Aill-willing villagers",
+		"&rSometimes found inside dungeons"
+	],
+	dependencies: [
+		"c883f8a1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2a47e4d6",
+		type: "kill",
+		entity: "minecraft:vindication_illager",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "d3b55a95",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "e008004b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

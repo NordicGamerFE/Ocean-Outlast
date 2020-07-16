@@ -1,0 +1,36 @@
+{
+	x: -6.0d,
+	y: -7.5d,
+	text: [
+		"&rSoar across the skys!",
+		""
+	],
+	dependencies: [
+		"9d7e2893"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a6cfa3a4",
+		type: "item",
+		items: [{
+			item: "minecraft:elytra"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1b18dbb7",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "122ba712",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

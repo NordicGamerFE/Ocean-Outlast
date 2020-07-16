@@ -1,0 +1,23 @@
+{
+	x: -7.5d,
+	y: 3.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "c1b64d64",
+		type: "item",
+		items: [{
+			item: "minecraft:skull 1 2"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "93f3549f",
+		type: "item",
+		item: {
+			id: "lodsofemone:coin_small",
+			tag: {
+				value: 5
+			}
+		}
+	}]
+}

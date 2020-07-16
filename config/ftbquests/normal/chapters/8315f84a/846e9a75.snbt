@@ -1,0 +1,27 @@
+{
+	title: "DNA Decrypter",
+	icon: "geneticsreborn:dnadecrypter",
+	x: 0.0d,
+	y: -4.5d,
+	text: [
+		"This will decode the DNA Helix you put it and find out what gene is on it. The next step is infusing the genes you get onto a plasmid.",
+		"",
+		"Default power use: 20rf/t",
+		"Max Overclockers: 5"
+	],
+	dependencies: [
+		"4b73b0d8"
+	],
+	tasks: [{
+		uid: "1452f6ba",
+		type: "item",
+		items: [{
+			item: "geneticsreborn:dnadecrypter"
+		}]
+	}],
+	rewards: [{
+		uid: "648377ab",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

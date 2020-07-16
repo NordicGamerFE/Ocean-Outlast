@@ -1,0 +1,48 @@
+{
+	x: -3.0d,
+	y: -3.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"58d9b33e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2d8e86be",
+		type: "item",
+		items: [{
+			item: "projectex:knowledge_sharing_book"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "140dc7d6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "supra_crate"
+			}
+		}
+	},
+	{
+		uid: "daa68ae6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "supra_crate"
+			}
+		}
+	},
+	{
+		uid: "525c165c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "supra_crate"
+			}
+		}
+	}]
+}

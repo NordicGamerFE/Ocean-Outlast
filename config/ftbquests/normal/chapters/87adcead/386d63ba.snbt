@@ -1,0 +1,33 @@
+{
+	title: "Guide",
+	icon: {
+		id: "extendedcrafting:guide",
+		tag: {
+			TopicsPage: 0,
+			EntryId: 6,
+			EntryPage: 0
+		}
+	},
+	x: 1.5d,
+	y: 0.0d,
+	shape: "square",
+	text: [
+		"Use this to find out anything you dont know"
+	],
+	tasks: [{
+		uid: "9958e6c9",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "46c51bf1",
+		type: "item",
+		item: {
+			id: "extendedcrafting:guide",
+			tag: {
+				TopicsPage: 0,
+				EntryId: 6,
+				EntryPage: 0
+			}
+		}
+	}]
+}

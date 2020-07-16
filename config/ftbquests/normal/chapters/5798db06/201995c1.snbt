@@ -1,0 +1,34 @@
+{
+	title: "Knightslime Seeds",
+	icon: "mysticalagriculture:knightslime_seeds",
+	x: -4.0d,
+	y: -13.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"4113dc34"
+	],
+	tasks: [{
+		uid: "d6899fbd",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:knightslime_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "c6aede05",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "a14c317f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

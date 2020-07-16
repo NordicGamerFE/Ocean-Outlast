@@ -1,0 +1,43 @@
+{
+	title: "The Enhanced Vat",
+	icon: "enderio:block_enhanced_vat",
+	x: 2.0d,
+	y: -4.5d,
+	text: [
+		"Refinery-like machine that can produce various Liquids by combining 2 items and a fluid.",
+		"",
+		"This machine is an upgraded version of The Vat, offering increased energy storage and power use, resulting in higher processing speeds. However, it has a downside: being 1.5 blocks high, it requires more vertical space; additionally, pipes and other automation cannot interact with the half block on its top side, making automation more difficult.",
+		"",
+		"Like most Ender IO machines, The Enhanced Vat requires at least a Basic Capacitor to be installed to function. Better capacitors increase the machine's maximum energy usage rate and thus processing speed, as well as the internal energy buffer."
+	],
+	dependencies: [
+		"3c23a64e"
+	],
+	tasks: [{
+		uid: "b5453565",
+		type: "item",
+		items: [{
+			item: "enderio:block_enhanced_vat"
+		}]
+	}],
+	rewards: [{
+		uid: "c5dd785b",
+		type: "item",
+		item: "enderio:item_basic_capacitor 1 2"
+	},
+	{
+		uid: "19b8091f",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "d3974063",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

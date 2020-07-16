@@ -1,0 +1,36 @@
+{
+	title: "Cloak of Balance",
+	icon: "botania:balancecloak",
+	x: -0.5d,
+	y: -6.5d,
+	text: [
+		"When worn in the Baubles Body slot, the cloak will halve the damage taken and deal the same amount of damage to the attacker when the wearer sustains damage, then go on a 10 second cooldown. The cloak does not trigger on magic damage like Potions of Harming."
+	],
+	dependencies: [
+		"d9bed1c5"
+	],
+	tasks: [{
+		uid: "a7c36865",
+		type: "item",
+		items: [{
+			item: "botania:balancecloak"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2a183179",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "2742fbf7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

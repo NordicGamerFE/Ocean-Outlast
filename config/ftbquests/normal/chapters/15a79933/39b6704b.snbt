@@ -1,0 +1,32 @@
+{
+	x: -8.0d,
+	y: -3.5d,
+	text: [
+		"&aThe sight if nightmares&r",
+		"These creatours are hard to kill when hurt they glands will emit a vapor that they will hide in maybe just best to not go into swamps?"
+	],
+	dependencies: [
+		"743f5a88"
+	],
+	tasks: [{
+		uid: "be27fd42",
+		type: "kill",
+		entity: "mod_lavacow:foglet",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "a97d415b",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "67f5279b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "hunter_s_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: -3.5d,
+	y: -3.0d,
+	dependencies: [
+		"85eebb4c"
+	],
+	tasks: [{
+		uid: "1ace82e5",
+		type: "item",
+		items: [{
+			item: "conarm:resist_mat_fire"
+		}]
+	}],
+	rewards: [{
+		uid: "b23c6c23",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

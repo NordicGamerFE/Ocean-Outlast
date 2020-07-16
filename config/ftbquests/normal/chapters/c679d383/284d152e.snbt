@@ -1,0 +1,47 @@
+{
+	title: "Orechid",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "orechid"
+		}
+	},
+	x: -10.5d,
+	y: 5.0d,
+	text: [
+		"The Orechid turns nearby Stone into ores. To do this, the Orechid must be bound to a nearby Mana Pool and will consume a large amount of mana per operation. Each ore generated is selected at random, with the likelihood of each ore appearing being affected by the frequency with which they spawn naturally in the world; thus by default, blocks of Coal Ore will be common, and Diamond Ore quite infrequent (but still present). The Orechid can be disabled by applying a Redstone Signal. Operating range of Orechid is 11x11x6 with Orechid in center to be precise it 5 block to each side, 2 blocks above, and 3 blocks below the flower.",
+		"",
+		"There is also a variant of the Orechid called the Orechid Ignem, which functions similarly to the Orechid except it only functions in the Nether, where it transforms Netherrack blocks into Nether Ores. It has a different recipe to the Orechid, but otherwise functions in exactly the same manner."
+	],
+	dependencies: [
+		"15474f17",
+		"422cbaea",
+		"8701a97e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "171fab95",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "orechid"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "80de059a",
+		type: "item",
+		item: {
+			id: "botania:specialflower",
+			tag: {
+				type: "orechidIgnem"
+			}
+		}
+	},
+	{
+		uid: "1ff0751e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

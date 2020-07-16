@@ -1,0 +1,30 @@
+{
+	x: -5.0d,
+	y: -3.0d,
+	dependencies: [
+		"5031e4fb"
+	],
+	tasks: [{
+		uid: "27977274",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:crafting 1 36"
+		}],
+		count: 24L
+	}],
+	rewards: [{
+		uid: "8d8a9039",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "25ca4062",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "kevs_lost_chest"
+			}
+		}
+	}]
+}

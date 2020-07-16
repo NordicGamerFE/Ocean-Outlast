@@ -1,0 +1,39 @@
+{
+	title: "Potion of Mutation",
+	icon: {
+		id: "geneticsreborn:grpotion",
+		tag: {
+			Potion: "geneticsreborn:mutation"
+		}
+	},
+	x: 4.5d,
+	y: -1.5d,
+	text: [
+		"Tier II potion, used as a base potion for getting an overpowered version of a gene or certain already-OP genes. To obtain best results formulas used with a Potion of Cell Mutation (PCM) should be performed in the incubator in low-temp mode. All outputs are new cells with DNAHelix that have a high chance of success when placed in the DNA Decrypter. Failure in the DNA Decrypter generates the lesser form of the mutated gene (SPEED instead of SPEED_2) or a Mutated Basic Gene (like PCM + Emerald). Combining any of theses cells with a potion of cell growth will revert them to regular cells. Output percentages below assume incubator use on low-temp with no overclockers.",
+		"",
+		"When building a Plasmid for a mutation you cannot uses a Basic Gene Helix, you Must use a Basic Mutated Helix, in hard mode you must use the specific mutation gene."
+	],
+	dependencies: [
+		"55ed7b9b"
+	],
+	tasks: [{
+		uid: "576a9c79",
+		type: "item",
+		items: [{
+			id: "geneticsreborn:grpotion",
+			tag: {
+				Potion: "geneticsreborn:mutation"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "0e40a5c6",
+		type: "item",
+		item: {
+			id: "geneticsreborn:grpotion",
+			tag: {
+				Potion: "geneticsreborn:mutation"
+			}
+		}
+	}]
+}

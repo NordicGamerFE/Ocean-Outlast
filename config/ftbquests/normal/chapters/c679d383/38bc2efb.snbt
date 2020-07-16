@@ -1,0 +1,32 @@
+{
+	title: "Tigerseye",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "tigerseye"
+		}
+	},
+	x: -5.5d,
+	y: 3.5d,
+	text: [
+		"The Tigerseye is a functional flower that uses mana to prevent creepers within range from exploding. Creepers affected by this flower will run away from players."
+	],
+	dependencies: [
+		"50aa4e83"
+	],
+	tasks: [{
+		uid: "55229195",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "tigerseye"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "21076579",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

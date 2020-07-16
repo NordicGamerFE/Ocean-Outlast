@@ -1,0 +1,29 @@
+{
+	title: "Logic Press",
+	icon: "appliedenergistics2:material 1 15",
+	x: 1.5d,
+	y: 1.5d,
+	text: [
+		"Required to make Printed Logic Circuit with the Inscriber. Found in Sky Stone Chest that spawn in meteorites durring world gen, and can be copied using the Inscriber."
+	],
+	dependencies: [
+		"2e82976c"
+	],
+	tasks: [{
+		uid: "d1300102",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 15"
+		}]
+	}],
+	rewards: [{
+		uid: "3f58dfa9",
+		type: "item",
+		item: "minecraft:gold_ingot"
+	},
+	{
+		uid: "0d4a33d0",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

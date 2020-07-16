@@ -1,0 +1,30 @@
+{
+	x: 0.0d,
+	y: -3.5d,
+	shape: "square",
+	text: [
+		"Challenges will consume its requirements, so be careful to not submit items that you want to keep"
+	],
+	tasks: [{
+		uid: "e18b8d44",
+		type: "checkmark",
+		title: "Challenges",
+		icon: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1,
+				id: "randomthings:spirit"
+			}
+		}
+	}],
+	rewards: [{
+		uid: "93afaea1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "jackpot"
+			}
+		}
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "Oink!",
+	x: -1.0d,
+	y: -4.0d,
+	dependencies: [
+		"85eebb4c"
+	],
+	tasks: [{
+		uid: "c7725969",
+		type: "item",
+		items: [{
+			item: "tconstruct:ingots 1 4"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "d24fb7ce",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

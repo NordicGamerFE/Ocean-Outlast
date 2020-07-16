@@ -1,0 +1,36 @@
+{
+	x: -4.0d,
+	y: -7.5d,
+	text: [
+		"&aPerfect potion for your hell adventur",
+		"&rYes the fire resistence will be usefull while being in the nether"
+	],
+	dependencies: [
+		"0b214718"
+	],
+	tasks: [{
+		uid: "d0edac92",
+		type: "item",
+		items: [{
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:long_fire_resistance"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "15fc49c1",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "521d75f5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "hellish_crate"
+			}
+		}
+	}]
+}

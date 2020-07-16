@@ -1,0 +1,34 @@
+{
+	title: "Steel Seeds",
+	icon: "mysticalagriculture:steel_seeds",
+	x: 0.0d,
+	y: -16.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"9576e32f"
+	],
+	tasks: [{
+		uid: "32466bb8",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:steel_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "1af849ec",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "e9e5e21d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

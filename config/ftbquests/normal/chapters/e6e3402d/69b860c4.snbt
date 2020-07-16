@@ -1,0 +1,17 @@
+{
+	x: -4.5d,
+	y: -1.5d,
+	tasks: [{
+		uid: "b4d167c4",
+		type: "item",
+		items: [{
+			item: "agricraft:water_tank"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f30791ac",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

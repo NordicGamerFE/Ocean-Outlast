@@ -1,0 +1,43 @@
+{
+	x: -10.5d,
+	y: 1.0d,
+	text: [
+		"&AYar har fiddle-dee-dee",
+		"&rFound in pirate ships in the ocean tho sometimes you might find one in the sky"
+	],
+	dependencies: [
+		"f05f4957"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3e7479ff",
+		type: "kill",
+		entity: "cqrepoured:pirate",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "e82b22f2",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "750f79e4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	},
+	{
+		uid: "e4b7db6d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "sunk_crate"
+			}
+		}
+	}]
+}

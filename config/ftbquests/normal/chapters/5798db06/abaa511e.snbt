@@ -1,0 +1,39 @@
+{
+	x: -8.5d,
+	y: -6.0d,
+	dependencies: [
+		"93378553"
+	],
+	tasks: [{
+		uid: "43bcf57c",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:ultimate_reprocessor"
+		}]
+	}],
+	rewards: [{
+		uid: "27a125b5",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "71a9a904",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "kevs_lost_chest"
+			}
+		}
+	},
+	{
+		uid: "6c58c475",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

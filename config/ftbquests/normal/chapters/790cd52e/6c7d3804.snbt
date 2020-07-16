@@ -1,0 +1,17 @@
+{
+	title: "OH NO I LOST MA BOOK",
+	x: -13.5d,
+	y: -7.5d,
+	shape: "square",
+	can_repeat: true,
+	tasks: [{
+		uid: "1dbb0267",
+		type: "checkmark",
+		icon: "ftbquests:book"
+	}],
+	rewards: [{
+		uid: "9165b0ec",
+		type: "item",
+		item: "ftbquests:book"
+	}]
+}

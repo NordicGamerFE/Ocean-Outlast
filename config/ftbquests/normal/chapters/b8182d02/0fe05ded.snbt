@@ -1,0 +1,21 @@
+{
+	x: -1.0d,
+	y: 4.0d,
+	tasks: [{
+		uid: "ce8905b1",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:strongbox",
+			tag: {
+				Facing: 3,
+				Level: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4872c7e0",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

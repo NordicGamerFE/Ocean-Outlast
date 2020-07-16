@@ -1,0 +1,43 @@
+{
+	x: -9.0d,
+	y: 1.5d,
+	text: [
+		"&aI lost more boats then i ever could imagne",
+		"&rFound underwater, watch out these got good aim compared to a storm troopers"
+	],
+	dependencies: [
+		"bf2a29fd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b53d28c3",
+		type: "kill",
+		entity: "minecraft:guardian",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "37dafc38",
+		type: "ftbmoney:money",
+		ftb_money: 35L
+	},
+	{
+		uid: "52345637",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "hunter_s_crate"
+			}
+		}
+	},
+	{
+		uid: "ba92bcd1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "sunk_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "Gourmaryllis",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "gourmaryllis"
+		}
+	},
+	x: -1.5d,
+	y: 3.5d,
+	text: [
+		"The Gourmaryllis is An active mana generating flower that will produce mana by consuming food items dropped in its vicinity, with a range of 1 block. It will only produce mana from one food item at a time, but it will consume any food item dropped by it even if it's currently unable to use it to produce mana, making timing important. Gourmaryllis takes one second to process food for each hunger bar that food fills when eaten by the player. For example, bread will take 2.5 seconds to process before this flower is ready to produce mana from another food item.",
+		"",
+		"The amount of mana produced by Gourmaryllis varies based on nutritional value of the food. Foods that provide more hunger bars and higher saturation will produce more mana per second than lower value foods. For example, two carrots with proper timing will take 4 seconds to consume and produce mana, and one steak will also take 4 seconds to consume but produce more mana than both carrots would."
+	],
+	dependencies: [
+		"98c2b545"
+	],
+	tasks: [{
+		uid: "e7e69393",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "gourmaryllis"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "874d7cb5",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

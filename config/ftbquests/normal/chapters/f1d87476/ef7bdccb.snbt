@@ -1,0 +1,29 @@
+{
+	title: "Bottled Frostfire",
+	icon: "bewitchment:bottled_frostfire",
+	x: -1.0d,
+	y: -4.5d,
+	text: [
+		"Used to make cold iron"
+	],
+	dependencies: [
+		"36872d88"
+	],
+	tasks: [{
+		uid: "920d3d75",
+		type: "item",
+		items: [{
+			item: "bewitchment:bottled_frostfire"
+		}]
+	}],
+	rewards: [{
+		uid: "3dc9a5eb",
+		type: "item",
+		item: "bewitchment:cold_iron_ingot"
+	},
+	{
+		uid: "ce2d74d9",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

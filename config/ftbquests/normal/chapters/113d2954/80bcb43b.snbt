@@ -1,0 +1,26 @@
+{
+	title: "Easy lava",
+	icon: "exnihilocreatio:block_crucible 1 1",
+	x: -6.5d,
+	y: -3.5d,
+	text: [
+		"Turn cobblestone into lava with a heat source"
+	],
+	tasks: [{
+		uid: "e3e03aab",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:block_crucible 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "fa0d79e4",
+		type: "item",
+		item: "claybucket:claybucket 1 2"
+	},
+	{
+		uid: "7f0f7544",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

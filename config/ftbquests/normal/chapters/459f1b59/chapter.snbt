@@ -1,0 +1,10 @@
+{
+	title: "Thaumcraft",
+	icon: "thaumcraft:infusion_matrix",
+	description: [
+		"No Description"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

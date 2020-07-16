@@ -1,0 +1,26 @@
+{
+	title: "Floaty McFloaty Block",
+	icon: "tp:fmf_block",
+	x: -14.0d,
+	y: -2.5d,
+	text: [
+		"Floaty McFloaty Block can be placed on air blocks to give the player a platform for building."
+	],
+	tasks: [{
+		uid: "c81d7d4d",
+		type: "item",
+		items: [{
+			item: "tp:fmf_block"
+		}]
+	}],
+	rewards: [{
+		uid: "9a5fb40c",
+		type: "item",
+		item: "tp:fmf_block"
+	},
+	{
+		uid: "1faf68d6",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

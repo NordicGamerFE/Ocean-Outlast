@@ -1,0 +1,33 @@
+{
+	title: "Bottle of Viral Agents",
+	icon: {
+		id: "geneticsreborn:grpotion",
+		tag: {
+			Potion: "geneticsreborn:viral"
+		}
+	},
+	x: 7.5d,
+	y: -1.5d,
+	text: [
+		"Tier III potion, used as a base splash potion for the negative effects to be transferred to mobs and players. Entering a viral cloud (created by throwing a VBA) will force the mob/player to receive the virus gene. Each gene will periodically create a negative status effect. While the effect can be temporarily removed with milk, it will always re-appear until the mob/player is cured with \"The Cure\" or dies"
+	],
+	dependencies: [
+		"8e694272"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4cfe65e6",
+		type: "item",
+		items: [{
+			id: "geneticsreborn:grpotion",
+			tag: {
+				Potion: "geneticsreborn:viral"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "c3e6efe4",
+		type: "item",
+		item: "lootbags:itemlootbag 1 4"
+	}]
+}

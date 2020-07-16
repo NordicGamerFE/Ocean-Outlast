@@ -1,0 +1,30 @@
+{
+	x: -5.0d,
+	y: 0.0d,
+	dependencies: [
+		"4afe61fd"
+	],
+	tasks: [{
+		uid: "5ad2bc04",
+		type: "item",
+		items: [{
+			item: "bewitchment:focal_chalk"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "190e053f",
+		type: "item",
+		items: [{
+			item: "bewitchment:ritual_chalk"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e24ca2f1",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

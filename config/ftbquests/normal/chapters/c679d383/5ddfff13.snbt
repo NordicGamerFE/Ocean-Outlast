@@ -1,0 +1,32 @@
+{
+	title: "Rannuncarpus",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "rannuncarpus"
+		}
+	},
+	x: -6.5d,
+	y: 2.0d,
+	text: [
+		"The Rannuncarpus is a functional flower which will pick up and place any block dropped close by in sprite form. It does not require mana to function, though its range can be increased by providing it with mana. Rannuncarpus will only place blocks on the material directly underneath the dirt block it is planted on, allowing the player to specify where blocks are set. It can be disabled at will by applying a redstone signal."
+	],
+	dependencies: [
+		"5c8a07d3"
+	],
+	tasks: [{
+		uid: "613a4292",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "rannuncarpus"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "682e15d3",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

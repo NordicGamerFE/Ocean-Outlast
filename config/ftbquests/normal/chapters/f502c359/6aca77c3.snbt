@@ -1,0 +1,30 @@
+{
+	title: "Storage Cable",
+	icon: "storagenetwork:kabel",
+	x: -3.0d,
+	y: 0.0d,
+	text: [
+		"Default cable to connect parts of your network"
+	],
+	dependencies: [
+		"115cbc5e"
+	],
+	tasks: [{
+		uid: "345b8cd4",
+		type: "item",
+		items: [{
+			item: "storagenetwork:kabel 10"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "51623b61",
+		type: "item",
+		item: "storagenetwork:kabel"
+	},
+	{
+		uid: "18f9e161",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

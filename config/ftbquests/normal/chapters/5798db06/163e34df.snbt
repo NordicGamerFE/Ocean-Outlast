@@ -1,0 +1,34 @@
+{
+	title: "Lapis Lazuli Seeds",
+	icon: "mysticalagriculture:lapis_lazuli_seeds",
+	x: -6.0d,
+	y: -16.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"9576e32f"
+	],
+	tasks: [{
+		uid: "8271deb4",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:lapis_lazuli_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "5d2272f6",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "d7224687",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "Hendheld Crafting Table",
+	icon: "extendedcrafting:handheld_table",
+	x: 3.0d,
+	y: 0.0d,
+	text: [
+		"Bring a crafting table everywhere"
+	],
+	tasks: [{
+		uid: "46700604",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:handheld_table"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "993ce321",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: -2.5d,
+	y: 4.0d,
+	shape: "rsquare",
+	tasks: [{
+		uid: "3719b553",
+		type: "item",
+		items: [{
+			item: "mekanismtools:woodpaxel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b47e0168",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

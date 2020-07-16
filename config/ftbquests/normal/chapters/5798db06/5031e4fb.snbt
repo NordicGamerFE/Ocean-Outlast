@@ -1,0 +1,30 @@
+{
+	x: -4.0d,
+	y: -3.0d,
+	dependencies: [
+		"d4e4e8af"
+	],
+	tasks: [{
+		uid: "591397a4",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:crafting 1 35"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "d2e831a5",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "e9f31d86",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

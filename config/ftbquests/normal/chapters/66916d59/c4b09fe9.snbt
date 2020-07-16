@@ -1,0 +1,61 @@
+{
+	title: "Void Resource Miner Tier 1",
+	icon: "environmentaltech:void_res_miner_cont_1",
+	x: -2.5d,
+	y: -0.5d,
+	text: [
+		"When supplied with enough Redstone Flux, the Void Resource Miner will periodically generate natural materials of various types, which will be automatically output to inventories adjacent to the Controller"
+	],
+	dependencies: [
+		"81364127",
+		"71d72dec"
+	],
+	tasks: [{
+		uid: "881b5261",
+		type: "item",
+		items: [{
+			item: "environmentaltech:void_res_miner_cont_1"
+		}]
+	},
+	{
+		uid: "032bed41",
+		type: "item",
+		items: [{
+			item: "environmentaltech:structure_frame_1 24"
+		}],
+		count: 24L
+	},
+	{
+		uid: "d85b36e2",
+		type: "item",
+		items: [{
+			item: "environmentaltech:structure_panel 20"
+		}],
+		count: 20L
+	},
+	{
+		uid: "7fc0eda9",
+		type: "item",
+		items: [{
+			item: "environmentaltech:laser_core 2"
+		}],
+		count: 2L
+	},
+	{
+		uid: "9114e4ed",
+		type: "item",
+		items: [{
+			item: "environmentaltech:laser_lens"
+		}]
+	}],
+	rewards: [{
+		uid: "54f9bbbb",
+		type: "item",
+		item: "minecraft:diamond_block"
+	},
+	{
+		uid: "ad5d2fa6",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

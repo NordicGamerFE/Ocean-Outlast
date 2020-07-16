@@ -1,0 +1,40 @@
+{
+	title: "Fully Upgraded Ender Boots",
+	x: -11.5d,
+	y: 3.5d,
+	dependencies: [
+		"ed470750"
+	],
+	tasks: [{
+		uid: "71390896",
+		type: "item",
+		items: [{
+			id: "enderio:item_end_steel_boots",
+			tag: {
+				enderio.darksteel.upgrade.jumpBoost: {
+					level: 3
+				},
+				enderio.darksteel.upgrade.swim: {
+					level: 0
+				},
+				enderio.darksteel.upgrade.energyUpgrade: {
+					level: 4,
+					energy: 2500000
+				},
+				enderio.darksteel.upgrade.inv: {
+					level: 2
+				},
+				enderio.darksteel.upgrade.anvil: {
+					level: 2
+				},
+				enderio.darksteel.upgrade.step_assist: {
+					level: 0
+				},
+				enderio.darksteel.upgrade.thaumaturge_robes_feet: {
+					level: 0
+				}
+			}
+		}],
+		ignore_damage: true
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	x: -3.5d,
+	y: -9.0d,
+	text: [
+		"&aOh no so you died again",
+		"&rDo not worry with this magical item you can teleport to your point of death"
+	],
+	tasks: [{
+		uid: "41333c64",
+		type: "item",
+		items: [{
+			item: "corpsecomplex:scroll"
+		}]
+	}],
+	rewards: [{
+		uid: "f02cb930",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "1e9c7da5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	},
+	{
+		uid: "0d6cd046",
+		type: "item",
+		item: "corpsecomplex:scroll",
+		count: 5
+	}]
+}

@@ -1,0 +1,42 @@
+{
+	title: "Make an bed",
+	x: -7.5d,
+	y: -6.0d,
+	text: [
+		"&aThe night beholds many mysterious creaturs&r",
+		"Duo to this fact a bed is highly recommended to equal your odds of survival"
+	],
+	dependencies: [
+		"8757af66"
+	],
+	tasks: [{
+		uid: "b2d3f57b",
+		type: "item",
+		title: "Any bed",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "bed",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6aa33846",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	},
+	{
+		uid: "e03fa960",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

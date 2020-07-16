@@ -1,0 +1,32 @@
+{
+	x: 0.5d,
+	y: -5.0d,
+	dependencies: [
+		"eea752f7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "13cfaa6c",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_transmutation_tablet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b3821cae",
+		type: "ftbmoney:money",
+		ftb_money: 6000L
+	},
+	{
+		uid: "818f22b2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

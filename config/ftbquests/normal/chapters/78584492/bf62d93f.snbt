@@ -1,0 +1,36 @@
+{
+	title: "Iron Battleaxe",
+	icon: "tp:iron_battle",
+	x: -13.5d,
+	y: 1.5d,
+	text: [
+		"Make an iron battleaxe"
+	],
+	dependencies: [
+		"5763f7fa"
+	],
+	tasks: [{
+		uid: "bdf13697",
+		type: "item",
+		items: [{
+			item: "tp:iron_battle"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "67e40d0b",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	},
+	{
+		uid: "a999555a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "hunter_s_crate"
+			}
+		}
+	}]
+}

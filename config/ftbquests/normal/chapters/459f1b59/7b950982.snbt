@@ -1,0 +1,29 @@
+{
+	x: 2.0d,
+	y: 0.5d,
+	dependencies: [
+		"dd78ba1e"
+	],
+	tasks: [{
+		uid: "f231f291",
+		type: "item",
+		items: [{
+			item: "thaumcraft:bath_salts"
+		}]
+	}],
+	rewards: [{
+		uid: "3ce32657",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "291649d0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "Rod of the Seas",
+	icon: "botania:waterrod",
+	x: -6.5d,
+	y: -4.0d,
+	text: [
+		"R-click with this rod will place Water for some mana cost. Also rod can fill Petal Apothecary for same mana cost."
+	],
+	dependencies: [
+		"60eb048e"
+	],
+	tasks: [{
+		uid: "569b9c31",
+		type: "item",
+		items: [{
+			item: "botania:waterrod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "38f2eb10",
+		type: "ftbmoney:money",
+		ftb_money: 45L
+	},
+	{
+		uid: "e9b7243b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

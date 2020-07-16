@@ -1,0 +1,29 @@
+{
+	x: -3.0d,
+	y: 0.5d,
+	text: [
+		"&AThe big catch",
+		"&rGo into the seas and find a Sturgeon"
+	],
+	tasks: [{
+		uid: "0717d74e",
+		type: "kill",
+		entity: "fossil:fossil.sturgeon",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "a573f670",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "e8c0f5c2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "sunk_crate"
+			}
+		}
+	}]
+}

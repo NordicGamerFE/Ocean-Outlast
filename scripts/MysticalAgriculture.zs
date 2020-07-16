@@ -13,12 +13,10 @@ recipes.remove(<mysticalagriculture:crafting:20>);
 recipes.remove(<mysticalagriculture:crafting:21>);
 recipes.remove(<mysticalagradditions:insanium:1>);
 recipes.remove(<mysticalagriculture:tier1_inferium_seeds>);
-recipes.remove(<mysticalagriculture:master_infusion_crystal>);
 
 #adding/changing recipes
 recipes.addShaped(<mysticalagriculture:crafting:32>, [[<mysticalagriculture:crafting:5>, <mysticalagriculture:crafting:5>, <mysticalagriculture:crafting:5>], [<mysticalagriculture:crafting:5>, <psi:material:4>, <mysticalagriculture:crafting:5>], [<mysticalagriculture:crafting:5>, <mysticalagriculture:crafting:5>, <mysticalagriculture:crafting:5>]]);
 recipes.addShaped(<mysticalagriculture:tier1_inferium_seeds>, [[<mysticalagriculture:storage>, <mysticalagriculture:storage>, <mysticalagriculture:storage>], [<mysticalagriculture:storage>, <roots:spirit_herb_seed>, <mysticalagriculture:storage>], [<mysticalagriculture:storage>, <mysticalagriculture:storage>, <mysticalagriculture:storage>]]);
-recipes.addShaped(<mysticalagriculture:master_infusion_crystal>, [[<mysticalagriculture:ingot_storage>, <mysticalagriculture:storage:4>, <mysticalagriculture:ingot_storage>], [<mysticalagriculture:storage:4>, <treasure2:diamond_key>, <mysticalagriculture:storage:4>], [<mysticalagriculture:ingot_storage>, <mysticalagriculture:storage:4>, <mysticalagriculture:ingot_storage>]]);
 
 
 #Add crafting for mystical with botania

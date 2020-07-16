@@ -1,0 +1,34 @@
+{
+	title: "Hopperhock",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "hopperhock"
+		}
+	},
+	x: -5.5d,
+	y: 2.0d,
+	text: [
+		"The Hopperhock is a functional flower that takes item sprites dropped in the world around it and places them in an adjacent inventory. It does not require mana to do this, but supplying mana will increase the range of the flower.",
+		"",
+		"A delay before the pick up can be created by placing it on podzol (short delay) or mycelium (long delay). It can be made to filter which items it picks up by applying an item frame to the adjacent inventory, shift-right clicking with the Wand of the Forest allows the player to cycle through modes for interaction with the item frame. All items can go into an inventory with no item frame attached, but inventories with item frames are given priority. It can be disabled at will by applying a redstone signal."
+	],
+	dependencies: [
+		"907d3764"
+	],
+	tasks: [{
+		uid: "0306a18e",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "hopperhock"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "0cdc67cc",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

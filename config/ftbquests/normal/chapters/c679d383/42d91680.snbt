@@ -1,0 +1,66 @@
+{
+	title: "Mana Robe",
+	icon: {
+		id: "botania:manaweavechest",
+		tag: {}
+	},
+	x: -4.5d,
+	y: -4.5d,
+	text: [
+		"The manaweave robes is a set of armor that provides as much protection as leather armor, but it repairs itself with mana from the player’s inventory and provides a 35% discount on all rods and mana-using tools whilst one wears the full set."
+	],
+	dependencies: [
+		"836e1759"
+	],
+	tasks: [{
+		uid: "135eacb4",
+		type: "item",
+		items: [{
+			item: "botania:manaweavehelm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "61664672",
+		type: "item",
+		items: [{
+			item: "botania:manaweavechest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f337981c",
+		type: "item",
+		items: [{
+			item: "botania:manaweavelegs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5a19d5b4",
+		type: "item",
+		items: [{
+			item: "botania:manaweaveboots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b76b7c8b",
+		type: "ftbmoney:money",
+		ftb_money: 60L
+	},
+	{
+		uid: "cc564b4a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	x: 0.5d,
+	y: 5.0d,
+	dependencies: [
+		"4de9a78c"
+	],
+	tasks: [{
+		uid: "2ea8be76",
+		type: "item",
+		items: [{
+			item: "projectex:power_flower"
+		}]
+	}],
+	rewards: [{
+		uid: "12cafbcd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "jackpot"
+			}
+		}
+	},
+	{
+		uid: "9aac53a2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

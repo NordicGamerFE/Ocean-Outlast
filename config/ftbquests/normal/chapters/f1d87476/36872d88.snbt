@@ -1,0 +1,35 @@
+{
+	title: "Distillery",
+	icon: "bewitchment:distillery",
+	x: -1.0d,
+	y: -3.0d,
+	text: [
+		"A Distillery is used to make special fumes by combining basic fumes with special ingredients."
+	],
+	dependencies: [
+		"a57cdb8d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8a9d9375",
+		type: "item",
+		items: [{
+			item: "bewitchment:distillery"
+		}]
+	}],
+	rewards: [{
+		uid: "6205203f",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "66c52421",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

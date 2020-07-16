@@ -1,0 +1,23 @@
+{
+	x: 0.0d,
+	y: 1.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "8396803f",
+		type: "item",
+		items: [{
+			item: "extrautils2:compressedsand"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "8a175171",
+		type: "item",
+		item: {
+			id: "lodsofemone:coin_small",
+			tag: {
+				value: 1
+			}
+		}
+	}]
+}

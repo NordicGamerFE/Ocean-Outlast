@@ -1,0 +1,26 @@
+{
+	title: "Golden Battleaxe",
+	icon: "tp:golden_battle",
+	x: -12.5d,
+	y: 1.5d,
+	text: [
+		"Make an golden battleaxe"
+	],
+	dependencies: [
+		"bf62d93f"
+	],
+	tasks: [{
+		uid: "b3a8ac93",
+		type: "item",
+		items: [{
+			item: "tp:golden_battle"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4a04c8e1",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

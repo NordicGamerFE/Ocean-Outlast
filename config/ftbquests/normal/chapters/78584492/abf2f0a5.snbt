@@ -1,0 +1,52 @@
+{
+	title: "Bone Works",
+	icon: "tp:bone_chestplate",
+	x: -9.0d,
+	y: -4.0d,
+	shape: "rsquare",
+	text: [
+		"Get bone armor"
+	],
+	hide_dependency_lines: true,
+	tasks: [{
+		uid: "9d72a380",
+		type: "item",
+		items: [{
+			item: "tp:bone_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "013d9776",
+		type: "item",
+		items: [{
+			item: "tp:bone_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1956166e",
+		type: "item",
+		items: [{
+			item: "tp:bone_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cc9b7932",
+		type: "item",
+		items: [{
+			item: "tp:bone_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e28b83fa",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

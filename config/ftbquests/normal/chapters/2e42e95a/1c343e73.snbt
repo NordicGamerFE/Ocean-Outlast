@@ -1,0 +1,31 @@
+{
+	x: -2.0d,
+	y: -2.0d,
+	dependencies: [
+		"257af960"
+	],
+	tasks: [{
+		uid: "46bcc0bb",
+		type: "item",
+		items: [{
+			item: "fossil:tooth_dagger"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8b532420",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "19bd8799",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

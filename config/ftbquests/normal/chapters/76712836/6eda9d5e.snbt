@@ -1,0 +1,67 @@
+{
+	x: -2.5d,
+	y: -5.5d,
+	dependencies: [
+		"85198ef0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a2d2f74d",
+		type: "item",
+		items: [{
+			id: "ic2:quantum_chestplate",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8cfe1e8b",
+		type: "item",
+		items: [{
+			id: "ic2:quantum_boots",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "548a7819",
+		type: "item",
+		items: [{
+			id: "ic2:quantum_leggings",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b15ed81b",
+		type: "item",
+		items: [{
+			id: "ic2:quantum_helmet",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6c1d62d9",
+		type: "ftbmoney:money",
+		ftb_money: 600L
+	},
+	{
+		uid: "002ac29e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

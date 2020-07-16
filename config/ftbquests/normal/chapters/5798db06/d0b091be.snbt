@@ -1,0 +1,34 @@
+{
+	title: "Basalt Seeds",
+	icon: "mysticalagriculture:basalt_seeds",
+	x: 1.0d,
+	y: -10.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"a67f1154"
+	],
+	tasks: [{
+		uid: "bae7d580",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:basalt_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "2894f4da",
+		type: "ftbmoney:money",
+		ftb_money: 55L
+	},
+	{
+		uid: "e1e8c13d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

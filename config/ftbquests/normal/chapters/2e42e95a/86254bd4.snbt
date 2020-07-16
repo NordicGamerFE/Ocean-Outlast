@@ -1,0 +1,38 @@
+{
+	icon: "fossil:anubite_statue",
+	x: 2.0d,
+	y: -2.0d,
+	dependencies: [
+		"68fd9dae"
+	],
+	tasks: [{
+		uid: "159ef0da",
+		type: "dimension",
+		dim: -23
+	}],
+	rewards: [{
+		uid: "fb215c8f",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "3e69a711",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	},
+	{
+		uid: "2ff9f357",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "hellish_crate"
+			}
+		}
+	}]
+}

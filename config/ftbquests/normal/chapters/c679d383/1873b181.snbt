@@ -1,0 +1,36 @@
+{
+	title: "Rod of the Plentiful Mantle",
+	icon: "botania:diviningrod",
+	x: 3.5d,
+	y: -8.0d,
+	text: [
+		"R-click with this rod will highlight ores in huge radius around user for a few seconds. This rod consumes a large amount of Mana, but don't have any delay between uses."
+	],
+	dependencies: [
+		"ec4e2b34"
+	],
+	tasks: [{
+		uid: "17716c8f",
+		type: "item",
+		items: [{
+			item: "botania:diviningrod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b309a4f7",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "34f2fa00",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	x: 6.5d,
+	y: 1.5d,
+	dependencies: [
+		"43cedc30"
+	],
+	tasks: [{
+		uid: "19f19b7b",
+		type: "item",
+		items: [{
+			id: "mekanism:machineblock2",
+			tag: {
+				tier: 3
+			},
+			Damage: 11s
+		}]
+	}],
+	rewards: [{
+		uid: "93e0ab4f",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "7f4f241f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

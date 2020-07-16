@@ -1,0 +1,32 @@
+{
+	x: -9.5d,
+	y: 3.0d,
+	text: [
+		"&aAn unfortunate zombie infected with dreadful cordyceps",
+		"&rThis creatour is very dangrous and emits poisonous gas"
+	],
+	dependencies: [
+		"d8d802d8"
+	],
+	tasks: [{
+		uid: "8ec05743",
+		type: "kill",
+		entity: "mod_lavacow:zombiemushroom",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "eef8b8e0",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "ecfc29c5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "hunter_s_crate"
+			}
+		}
+	}]
+}

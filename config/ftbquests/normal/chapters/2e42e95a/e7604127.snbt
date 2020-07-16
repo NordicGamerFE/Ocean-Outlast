@@ -1,0 +1,26 @@
+{
+	x: 4.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "eba8cbc1",
+		type: "item",
+		items: [{
+			item: "fossil:scarab_gem"
+		}]
+	}],
+	rewards: [{
+		uid: "79f67ee3",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "71163e3e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "Glowstone Seeds",
+	icon: "mysticalagriculture:glowstone_seeds",
+	x: -5.0d,
+	y: -12.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"4113dc34"
+	],
+	tasks: [{
+		uid: "fac5deb7",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:glowstone_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "2f310ee9",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "a6df78d1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

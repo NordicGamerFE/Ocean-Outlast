@@ -1,0 +1,78 @@
+{
+	title: "Void Ore Miner Tier 2",
+	icon: "environmentaltech:void_ore_miner_cont_2",
+	x: -1.5d,
+	y: -2.0d,
+	text: [
+		"Tier 2 makes ores apper faster and allow you to use modifiers"
+	],
+	dependencies: [
+		"360e9de1"
+	],
+	tasks: [{
+		uid: "5cc65733",
+		type: "item",
+		items: [{
+			item: "environmentaltech:void_ore_miner_cont_2"
+		}]
+	},
+	{
+		uid: "fd5cb65a",
+		type: "item",
+		items: [{
+			item: "environmentaltech:structure_frame_2 32"
+		}],
+		count: 32L
+	},
+	{
+		uid: "e9295d18",
+		type: "item",
+		items: [{
+			item: "environmentaltech:structure_panel 16"
+		}],
+		count: 16L
+	},
+	{
+		uid: "30701ed3",
+		type: "item",
+		items: [{
+			item: "environmentaltech:modifier_null 4"
+		}],
+		count: 4L
+	},
+	{
+		uid: "b6a2728d",
+		type: "item",
+		items: [{
+			item: "environmentaltech:laser_core 3"
+		}],
+		count: 3L
+	},
+	{
+		uid: "c5ff6e1a",
+		type: "item",
+		items: [{
+			item: "environmentaltech:laser_lens"
+		}]
+	}],
+	rewards: [{
+		uid: "133baa17",
+		type: "item",
+		item: "environmentaltech:litherite_crystal"
+	},
+	{
+		uid: "d5a6d781",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	},
+	{
+		uid: "5e629c42",
+		type: "ftbmoney:money",
+		ftb_money: 400L
+	}]
+}

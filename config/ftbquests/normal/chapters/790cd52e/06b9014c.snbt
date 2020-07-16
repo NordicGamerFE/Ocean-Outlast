@@ -1,0 +1,33 @@
+{
+	x: -6.5d,
+	y: -4.5d,
+	text: [
+		"&aLets make an chest since you need a place to store things&r",
+		"You should probably look into making some drawers or crates soon as chests get full fast"
+	],
+	dependencies: [
+		"8757af66"
+	],
+	tasks: [{
+		uid: "590a64e0",
+		type: "item",
+		items: [{
+			item: "minecraft:chest"
+		}]
+	}],
+	rewards: [{
+		uid: "1bdef81d",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "51ec0722",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "kevs_lost_chest"
+			}
+		}
+	}]
+}

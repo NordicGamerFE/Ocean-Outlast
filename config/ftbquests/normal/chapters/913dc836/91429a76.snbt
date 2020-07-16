@@ -1,0 +1,60 @@
+{
+	x: -4.5d,
+	y: 2.5d,
+	dependencies: [
+		"901bab72",
+		"b48b0768"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9fa673b5",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_gem_armor_3"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1131c5ac",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_gem_armor_2"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b0b59f62",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_gem_armor_1"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "401d21aa",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_gem_armor_0"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c354bba0",
+		type: "ftbmoney:money",
+		ftb_money: 5000000L
+	},
+	{
+		uid: "5dc5e0f8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "supra_crate"
+			}
+		}
+	}]
+}

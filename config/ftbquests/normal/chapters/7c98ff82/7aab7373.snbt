@@ -1,0 +1,28 @@
+{
+	title: "Simple SAG Mill",
+	icon: "enderio:block_simple_sag_mill",
+	x: -2.0d,
+	y: -2.5d,
+	text: [
+		"Uses Micro Infinity (µI) to grind items into their crushed variants, like Ores into Dusts. The Simple SAG Mill has four output slots; recipes can have 1-4 different outputs, with different chances of obtaining those outputs.",
+		"",
+		"Similar to Ender IO's other Simple machines, capacitors cannot be used in the Simple SAG Mill, so its slow processing speed cannot be improved. It also cannot use Grinding Balls. For this reason, it is normally only used to create the necessary materials for higher-tier machines.",
+		"",
+		"The machine constantly leaks 0.05 µI each tick in addition to its energy usage during processing, and will continue to leak energy while idle."
+	],
+	dependencies: [
+		"1f61beca"
+	],
+	tasks: [{
+		uid: "fc8099cd",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_sag_mill"
+		}]
+	}],
+	rewards: [{
+		uid: "329bae61",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	x: -10.5d,
+	y: 2.0d,
+	text: [
+		"&aSomeone gotta lead them pirates",
+		"&rCaptian pirates are found in certain ships"
+	],
+	dependencies: [
+		"02360c43"
+	],
+	tasks: [{
+		uid: "042f5bc7",
+		type: "kill",
+		entity: "cqrepoured:pirate_captain",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "c13c0ac5",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "254a1e0f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

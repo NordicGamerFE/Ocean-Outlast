@@ -1,0 +1,31 @@
+{
+	x: 0.0d,
+	y: 4.0d,
+	text: [
+		"&aLocked to Ore Void Miner Tier 2 Quest&r",
+		"Found in Enviorment Tech Chapter"
+	],
+	can_repeat: true,
+	dependencies: [
+		"cba5423f"
+	],
+	tasks: [{
+		uid: "5d29c59f",
+		type: "item",
+		items: [{
+			item: "minecraft:gold_ore"
+		}],
+		count: 64L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "8fe5e386",
+		type: "item",
+		item: {
+			id: "lodsofemone:coin_small",
+			tag: {
+				value: 5
+			}
+		}
+	}]
+}

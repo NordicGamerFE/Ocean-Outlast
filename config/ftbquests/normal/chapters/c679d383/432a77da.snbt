@@ -1,0 +1,32 @@
+{
+	title: "Agricarnation",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "agricarnation"
+		}
+	},
+	x: -8.5d,
+	y: 3.5d,
+	text: [
+		"The Agricarnation is a functional flower that will use mana to speed up crop growth. This flower uses mana to randomly apply a bonemeal effect to crops planted nearby, with a range of 5 blocks. It will continue to use mana to apply this effect even after crops are fully grown. It can be disabled at will by applying a redstone signal."
+	],
+	dependencies: [
+		"3ae0fd60"
+	],
+	tasks: [{
+		uid: "56d7d1d7",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "agricarnation"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "565af8ab",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

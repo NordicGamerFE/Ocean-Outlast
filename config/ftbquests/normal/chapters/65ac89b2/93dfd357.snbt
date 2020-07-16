@@ -1,0 +1,21 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	shape: "square",
+	tasks: [{
+		uid: "3280cdf0",
+		type: "checkmark",
+		title: "Tinkers Books",
+		icon: "conarm:book"
+	}],
+	rewards: [{
+		uid: "25bdb23e",
+		type: "item",
+		item: "conarm:book"
+	},
+	{
+		uid: "be0b047d",
+		type: "item",
+		item: "tconstruct:book"
+	}]
+}

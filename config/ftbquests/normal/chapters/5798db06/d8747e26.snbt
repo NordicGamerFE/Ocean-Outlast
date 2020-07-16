@@ -1,0 +1,34 @@
+{
+	title: "Lumium Seeds",
+	icon: "mysticalagriculture:lumium_seeds",
+	x: -5.0d,
+	y: -13.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"4113dc34"
+	],
+	tasks: [{
+		uid: "196aed7d",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:lumium_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "ce6c12a1",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "8373de02",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

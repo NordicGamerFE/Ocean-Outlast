@@ -1,0 +1,39 @@
+{
+	title: "Thaumonomicon",
+	icon: "thaumcraft:thaumonomicon",
+	x: 0.0d,
+	y: 1.5d,
+	text: [
+		"The Thaumonomicon is created by right-clicking a bookshelf with Salis Mundus. This will consume both the bookshelf and the Salius Mundus.",
+		"",
+		"The Strange Dreams book must be obtained first, but it is not used in the creation of the Thaumonomicon.",
+		"",
+		"In-game documentation about topics and items from the mod"
+	],
+	dependencies: [
+		"e46ac223"
+	],
+	tasks: [{
+		uid: "5a16a0dd",
+		type: "item",
+		items: [{
+			item: "thaumcraft:thaumonomicon"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3d3b2092",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "kevs_lost_chest"
+			}
+		}
+	},
+	{
+		uid: "56260964",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "Storage Request Table",
+	icon: "storagenetwork:request",
+	x: 0.0d,
+	y: -1.5d,
+	text: [
+		"Used to overview and request items from the network"
+	],
+	dependencies: [
+		"115cbc5e"
+	],
+	tasks: [{
+		uid: "19314c49",
+		type: "item",
+		items: [{
+			item: "storagenetwork:request"
+		}]
+	}],
+	rewards: [{
+		uid: "08e6d5fd",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

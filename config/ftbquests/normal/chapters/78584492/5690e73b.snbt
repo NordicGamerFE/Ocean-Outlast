@@ -1,0 +1,26 @@
+{
+	title: "Cobblestone Generator Tier 3",
+	icon: "tp:diamond_cobblegen_block",
+	x: -9.0d,
+	y: 1.5d,
+	text: [
+		"Holds 64 cobblestone at once",
+		"Creates 1 cobblestone each 10 tick",
+		"Can output to chest above"
+	],
+	dependencies: [
+		"5548814e"
+	],
+	tasks: [{
+		uid: "f8d73878",
+		type: "item",
+		items: [{
+			item: "tp:diamond_cobblegen_block"
+		}]
+	}],
+	rewards: [{
+		uid: "17348e55",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

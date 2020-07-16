@@ -1,0 +1,36 @@
+{
+	title: "Snowflake Pendant",
+	icon: "botania:icependant",
+	x: -10.0d,
+	y: -1.5d,
+	text: [
+		"freezes water in 3 blocks radius around the wearer. Ice, created by this Bauble dissapears when wearer leave area with it and can be harvested with Silk Touch pickaxe."
+	],
+	dependencies: [
+		"ad9b0940"
+	],
+	tasks: [{
+		uid: "b0ad4588",
+		type: "item",
+		items: [{
+			item: "botania:icependant"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ff53aed7",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "d7646628",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

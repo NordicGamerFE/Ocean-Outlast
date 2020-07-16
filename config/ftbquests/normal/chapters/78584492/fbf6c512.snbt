@@ -1,0 +1,24 @@
+{
+	title: "Growth Crystal Tier 2",
+	icon: "tp:growth_upgrade",
+	x: -10.5d,
+	y: 0.5d,
+	text: [
+		"Speed more then tier 1 and can be used in a 9 by 9 area and 5 blocks up and down also works as a water source"
+	],
+	dependencies: [
+		"8fd5b3a1"
+	],
+	tasks: [{
+		uid: "60efc9a9",
+		type: "item",
+		items: [{
+			item: "tp:growth_upgrade"
+		}]
+	}],
+	rewards: [{
+		uid: "3e0afcaa",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	}]
+}

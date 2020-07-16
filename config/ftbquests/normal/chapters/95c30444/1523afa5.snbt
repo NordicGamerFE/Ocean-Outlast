@@ -1,0 +1,36 @@
+{
+	title: "Flux",
+	icon: "fluxnetworks:flux",
+	x: 0.0d,
+	y: 1.5d,
+	shape: "square",
+	text: [
+		"Step 1: Find some Bedrock.",
+		"",
+		"Step 2: Place some Obsidian above it, leaving one block space in between",
+		"",
+		"Step 3: Throw some Redstone Dust in the gap left by the Bedrock & Obsidian.",
+		"",
+		"Step 4: Left-click the Obsidian. The Obsidian will crush the Redstone Dust against the Bedrock and create Flux!",
+		"",
+		"There is no limit to the amount of Redstone Dust you can use, each time"
+	],
+	tasks: [{
+		uid: "267eb434",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:flux 16"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "5d65222a",
+		type: "item",
+		item: "fluxnetworks:flux"
+	},
+	{
+		uid: "c49f3951",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

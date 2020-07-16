@@ -1,0 +1,31 @@
+{
+	x: -0.5d,
+	y: 2.5d,
+	dependencies: [
+		"37e9e736"
+	],
+	tasks: [{
+		uid: "d20b3bb4",
+		type: "item",
+		items: [{
+			item: "mekanism:scubatank"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c0f84b57",
+		type: "ftbmoney:money",
+		ftb_money: 60L
+	},
+	{
+		uid: "6eebb92a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

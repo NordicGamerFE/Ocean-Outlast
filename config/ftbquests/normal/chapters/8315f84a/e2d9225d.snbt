@@ -1,0 +1,27 @@
+{
+	title: "Plasmid Infuser",
+	icon: "geneticsreborn:plasmidinfuser",
+	x: 0.0d,
+	y: -6.0d,
+	text: [
+		"This block is used to infuse genes onto a Plasmid. Plasmid goes in the right slot and the gene you want to infuse goes in the left. Each gene has a different amount of Helix's you need to infuse into it, but note each Basic Gene will count for 1 Helix, and each gene of the same type will count for 2.",
+		"",
+		"Default power use: 20rf/t",
+		"Max Overclockers: 10"
+	],
+	dependencies: [
+		"846e9a75"
+	],
+	tasks: [{
+		uid: "c15284b9",
+		type: "item",
+		items: [{
+			item: "geneticsreborn:plasmidinfuser"
+		}]
+	}],
+	rewards: [{
+		uid: "cce87eb3",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

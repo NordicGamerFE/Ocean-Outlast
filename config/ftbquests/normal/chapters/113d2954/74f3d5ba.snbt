@@ -1,0 +1,24 @@
+{
+	title: "Wooden Hammer",
+	icon: "exnihilocreatio:hammer_wood",
+	x: -1.0d,
+	y: -4.5d,
+	text: [
+		"The hammer is used to crushed items so they can pass thru the sieve like",
+		"cobblestone > gravel"
+	],
+	tasks: [{
+		uid: "dc16bdb8",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:hammer_wood"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bbd4ef2c",
+		type: "item",
+		item: "minecraft:log"
+	}]
+}

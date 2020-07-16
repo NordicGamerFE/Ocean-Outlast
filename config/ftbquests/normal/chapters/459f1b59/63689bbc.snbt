@@ -1,0 +1,37 @@
+{
+	title: "Crystal",
+	icon: "thaumcraft:crystal_ordo",
+	x: 0.0d,
+	y: -1.5d,
+	shape: "square",
+	text: [
+		"Place down and mine the crystal"
+	],
+	tasks: [{
+		uid: "4ba72de4",
+		type: "item",
+		items: [{
+			item: "thaumcraft:crystal_ordo"
+		},
+		{
+			item: "thaumcraft:crystal_aer"
+		},
+		{
+			item: "thaumcraft:crystal_ignis"
+		},
+		{
+			item: "thaumcraft:crystal_aqua"
+		},
+		{
+			item: "thaumcraft:crystal_terra"
+		},
+		{
+			item: "thaumcraft:crystal_perditio"
+		}]
+	}],
+	rewards: [{
+		uid: "1d190e38",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

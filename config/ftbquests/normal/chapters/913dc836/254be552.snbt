@@ -1,0 +1,19 @@
+{
+	x: -0.5d,
+	y: 1.0d,
+	dependencies: [
+		"3bbcd44e"
+	],
+	tasks: [{
+		uid: "25bb9f64",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_fuel 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "39d6a307",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

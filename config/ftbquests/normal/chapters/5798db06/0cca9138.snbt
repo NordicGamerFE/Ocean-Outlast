@@ -1,0 +1,29 @@
+{
+	x: 2.0d,
+	y: -4.0d,
+	text: [
+		"Obtained by breaking full grown crops does not work with Agricraft"
+	],
+	tasks: [{
+		uid: "8b54d88f",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:mystical_fertilizer"
+		}]
+	}],
+	rewards: [{
+		uid: "53ce4854",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "farmers_market"
+			}
+		}
+	},
+	{
+		uid: "6a6cf899",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	x: -6.0d,
+	y: 3.0d,
+	text: [
+		"&aBrain taken from an enderman",
+		"&rThis creatour is the creation of a mad scientist it shares the brain of a enderman and therefor the same weakness. found in the end"
+	],
+	dependencies: [
+		"00206bb7"
+	],
+	tasks: [{
+		uid: "a003c576",
+		type: "kill",
+		entity: "grimoireofgaia:ender_dragon_girl",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "54ae1e51",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "66fe8877",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

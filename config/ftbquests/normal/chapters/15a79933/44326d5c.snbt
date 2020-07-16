@@ -1,0 +1,21 @@
+{
+	title: "Crate Chest Moldy",
+	x: -18.0d,
+	y: -2.5d,
+	dependencies: [
+		"214e9482"
+	],
+	tasks: [{
+		uid: "6b6882b2",
+		type: "observation",
+		icon: "treasure2:crate_chest_moldy",
+		match_type: "block_id",
+		match: "treasure2:crate_chest_moldy",
+		timer: 20L
+	}],
+	rewards: [{
+		uid: "231e780c",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

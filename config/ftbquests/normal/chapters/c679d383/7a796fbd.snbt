@@ -1,0 +1,33 @@
+{
+	title: "Marimorphosis",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "marimorphosis"
+		}
+	},
+	x: -4.5d,
+	y: 2.0d,
+	text: [
+		"The Marimorphosis is a functional flower that uses mana to turn stone in its vicinity into Metamorphic Stone. The variant of Metamorphic Stone produced is mostly random and all variants are possible, but the chance to get each type is weighted by the biome the Marimorphosis is placed in."
+	],
+	dependencies: [
+		"f6a841d1",
+		"5c8a07d3"
+	],
+	tasks: [{
+		uid: "7a2cce79",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "marimorphosis"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "3f26b837",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

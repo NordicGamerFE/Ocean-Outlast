@@ -1,0 +1,67 @@
+{
+	title: "Stone Hearted",
+	icon: "tp:stone_chestplate",
+	x: -10.0d,
+	y: -4.0d,
+	shape: "rsquare",
+	text: [
+		"Get some stone armor"
+	],
+	hide_dependency_lines: true,
+	tasks: [{
+		uid: "e0baa144",
+		type: "item",
+		items: [{
+			item: "tp:stone_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a49c7b8e",
+		type: "item",
+		items: [{
+			item: "tp:stone_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ed2b3583",
+		type: "item",
+		items: [{
+			item: "tp:stone_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f6e68635",
+		type: "item",
+		items: [{
+			item: "tp:stone_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8b2dac5c",
+		type: "xp_levels",
+		xp_levels: 20
+	},
+	{
+		uid: "04cddbc3",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "cb10ec72",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "kevs_lost_chest"
+			}
+		}
+	}]
+}

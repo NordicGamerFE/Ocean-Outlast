@@ -1,0 +1,336 @@
+{
+	title: "Farmers Market",
+	loot_size: 1,
+	use_title: true,
+	rewards: [{
+		item: "mysticalworld:aubergine_seed"
+	},
+	{
+		item: "tp:mycelium_seeds"
+	},
+	{
+		item: "roots:moonglow_seed"
+	},
+	{
+		item: "roots:spirit_herb_seed"
+	},
+	{
+		item: "roots:wildewheet_seed"
+	},
+	{
+		item: "minecraft:wheat_seeds"
+	},
+	{
+		item: "minecraft:pumpkin_seeds"
+	},
+	{
+		item: "minecraft:melon_seeds"
+	},
+	{
+		item: "minecraft:beetroot_seeds"
+	},
+	{
+		item: "actuallyadditions:item_rice_seed"
+	},
+	{
+		item: "actuallyadditions:item_canola_seed"
+	},
+	{
+		item: "actuallyadditions:item_flax_seed"
+	},
+	{
+		item: "actuallyadditions:item_coffee_seed"
+	},
+	{
+		item: {
+			id: "agricraft:agri_seed",
+			tag: {
+				agri_analyzed: 0,
+				agri_strength: 1,
+				agri_gain: 1,
+				agri_seed: "vanilla:carrot_plant",
+				agri_growth: 1
+			}
+		}
+	},
+	{
+		item: {
+			id: "agricraft:agri_seed",
+			tag: {
+				agri_analyzed: 0,
+				agri_strength: 1,
+				agri_gain: 1,
+				agri_seed: "vanilla:potato_plant",
+				agri_growth: 1
+			}
+		}
+	},
+	{
+		item: {
+			id: "agricraft:agri_seed",
+			tag: {
+				agri_analyzed: 0,
+				agri_strength: 1,
+				agri_gain: 1,
+				agri_seed: "resource:ferranium_plant",
+				agri_growth: 1
+			}
+		}
+	},
+	{
+		item: {
+			id: "agricraft:agri_seed",
+			tag: {
+				agri_analyzed: 0,
+				agri_strength: 1,
+				agri_gain: 1,
+				agri_seed: "vanilla:red_tulip_plant",
+				agri_growth: 1
+			}
+		}
+	},
+	{
+		item: {
+			id: "agricraft:agri_seed",
+			tag: {
+				agri_analyzed: 0,
+				agri_strength: 1,
+				agri_gain: 1,
+				agri_seed: "vanilla:poppy_plant",
+				agri_growth: 1
+			}
+		}
+	},
+	{
+		item: {
+			id: "agricraft:agri_seed",
+			tag: {
+				agri_analyzed: 0,
+				agri_strength: 1,
+				agri_gain: 1,
+				agri_seed: "vanilla:orchid_plant",
+				agri_growth: 1
+			}
+		}
+	},
+	{
+		item: {
+			id: "agricraft:agri_seed",
+			tag: {
+				agri_analyzed: 0,
+				agri_strength: 1,
+				agri_gain: 1,
+				agri_seed: "vanilla:dandelion_plant",
+				agri_growth: 1
+			}
+		}
+	},
+	{
+		item: "bewitchment:aconitum_seeds"
+	},
+	{
+		item: {
+			id: "agricraft:agri_seed",
+			tag: {
+				agri_analyzed: 0,
+				agri_strength: 1,
+				agri_gain: 1,
+				agri_seed: "vanilla:sugarcane_plant",
+				agri_growth: 1
+			}
+		}
+	},
+	{
+		item: {
+			id: "agricraft:agri_seed",
+			tag: {
+				agri_analyzed: 0,
+				agri_strength: 1,
+				agri_gain: 1,
+				agri_seed: "vanilla:cactus_plant",
+				agri_growth: 1
+			}
+		}
+	},
+	{
+		item: "bewitchment:belladonna_seeds"
+	},
+	{
+		item: "bewitchment:garlic_seeds"
+	},
+	{
+		item: "bewitchment:hellebore_seeds"
+	},
+	{
+		item: "bewitchment:mandrake_seeds"
+	},
+	{
+		item: "bewitchment:wormwood_seeds"
+	},
+	{
+		item: "botania:overgrowthseed"
+	},
+	{
+		item: {
+			id: "agricraft:agri_seed",
+			tag: {
+				agri_analyzed: 0,
+				agri_strength: 1,
+				agri_gain: 1,
+				agri_seed: "vanilla:weed_plant",
+				agri_growth: 1
+			}
+		},
+		weight: 50
+	},
+	{
+		item: "exnihilocreatio:item_seed_rubber"
+	},
+	{
+		item: "exnihilocreatio:item_material 1 4"
+	},
+	{
+		item: "exnihilocreatio:item_seed_oak"
+	},
+	{
+		item: "exnihilocreatio:item_seed_spruce"
+	},
+	{
+		item: "exnihilocreatio:item_seed_birch"
+	},
+	{
+		item: "exnihilocreatio:item_seed_jungle"
+	},
+	{
+		item: "exnihilocreatio:item_seed_acacia"
+	},
+	{
+		item: "roots:bark_oak"
+	},
+	{
+		item: "roots:bark_spruce"
+	},
+	{
+		item: "roots:bark_birch"
+	},
+	{
+		item: "roots:bark_jungle"
+	},
+	{
+		item: "roots:bark_dark_oak"
+	},
+	{
+		item: "roots:bark_acacia"
+	},
+	{
+		item: "roots:bark_wildwood"
+	},
+	{
+		item: "roots:living_hoe"
+	},
+	{
+		item: "minecraft:golden_hoe"
+	},
+	{
+		item: "minecraft:wooden_hoe"
+	},
+	{
+		item: "actuallyadditions:item_hoe_crystal_green"
+	},
+	{
+		item: "mowziesmobs:foliaath_seed"
+	},
+	{
+		item: "exnihilocreatio:item_seed_darkoak"
+	},
+	{
+		item: "minecraft:stone_hoe"
+	},
+	{
+		item: "minecraft:rabbit_stew"
+	},
+	{
+		item: "minecraft:beetroot_soup"
+	},
+	{
+		item: "minecraft:beetroot"
+	},
+	{
+		item: "minecraft:apple"
+	},
+	{
+		item: "minecraft:double_plant 1 4"
+	},
+	{
+		item: "minecraft:cactus"
+	},
+	{
+		item: "minecraft:waterlily"
+	},
+	{
+		item: "minecraft:tallgrass 1 1"
+	},
+	{
+		item: "minecraft:deadbush"
+	},
+	{
+		item: {
+			id: "improvableskills:scroll_normal",
+			tag: {
+				Skill: "improvableskills:growth"
+			}
+		}
+	},
+	{
+		item: "exnihilocreatio:item_material 1 2"
+	},
+	{
+		item: "exnihilocreatio:item_material 1 3"
+	},
+	{
+		item: "exnihilocreatio:item_pebble"
+	},
+	{
+		item: "minecraft:bread"
+	},
+	{
+		item: "minecraft:cake"
+	},
+	{
+		item: "minecraft:cookie"
+	},
+	{
+		item: "tconstruct:slime_grass_tall 1 9"
+	},
+	{
+		item: "tconstruct:slime_grass_tall 1 5"
+	},
+	{
+		item: "tconstruct:slime_grass_tall 1 1"
+	},
+	{
+		item: "primal_tech:plant_fibres"
+	},
+	{
+		item: {
+			id: "agricraft:agri_seed",
+			tag: {
+				agri_analyzed: 0,
+				agri_strength: 1,
+				agri_gain: 1,
+				agri_seed: "vanilla:red_mushroom_plant",
+				agri_growth: 1
+			}
+		}
+	}],
+	loot_crate: {
+		string_id: "farmers_market",
+		item_name: "Farmers Market",
+		color: 1101328,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

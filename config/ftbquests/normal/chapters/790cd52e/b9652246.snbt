@@ -1,0 +1,29 @@
+{
+	x: 1.0d,
+	y: -9.5d,
+	text: [
+		"&rWirelessly transport items anywhere! Even cross dimensions."
+	],
+	tasks: [{
+		uid: "d3925bc1",
+		type: "item",
+		items: [{
+			item: "enderstorage:ender_storage"
+		}]
+	}],
+	rewards: [{
+		uid: "1330de06",
+		type: "ftbmoney:money",
+		ftb_money: 15000L
+	},
+	{
+		uid: "d6024474",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

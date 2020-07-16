@@ -1,0 +1,10 @@
+{
+	title: "Extended Crafting",
+	icon: "extendedcrafting:table_ultimate",
+	description: [
+		"No Description"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

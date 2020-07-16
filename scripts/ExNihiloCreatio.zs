@@ -18,7 +18,10 @@ recipes.addShaped(<exnihilocreatio:item_mesh:2>, [[<ore:Flintblock>, <exnihilocr
 recipes.addShaped(<exnihilocreatio:item_mesh:3>, [[<ore:ingotSteel>, <exnihilocreatio:item_mesh:2>, <ore:ingotSteel>]]);
 recipes.addShaped(<exnihilocreatio:item_mesh:4>, [[<ore:manaDiamond>], [<exnihilocreatio:item_mesh:3>]]);
 #Adding/Changing recipes Hammer
-recipes.addShaped(<exnihilocreatio:hammer_wood>, [[null, <ore:logWood>, <ore:fenceWood>], [null, <ore:fenceWood>, <ore:logWood>], [<minecraft:spruce_fence>, null, null]]);
+recipes.addShaped(<exnihilocreatio:hammer_wood>, [[null, <ore:logWood>, <ore:fenceWood>], [null, <ore:fenceWood>, <ore:logWood>], [<ore:fenceWood>, null, null]]);
+recipes.addShaped(<exnihilocreatio:hammer_stone>, [[null, <ore:cobblestone>, <ore:fenceWood>], [null, <ore:fenceWood>, <ore:cobblestone>], [<ore:fenceWood>, null, null]]);
+recipes.addShaped(<exnihilocreatio:hammer_iron>, [[null, <ore:ingotIron>, <ore:fenceWood>], [null, <ore:fenceWood>, <ore:ingotIron>], [<ore:fenceWood>, null, null]]);
+recipes.addShaped(<exnihilocreatio:hammer_diamond>, [[null, <minecraft:diamond>, <ore:fenceWood>], [null, <ore:fenceWood>, <minecraft:diamond>], [<ore:fenceWood>, null, null]]);
 #Adding/Changing recipes of excompressum items
 recipes.addShaped(<excompressum:auto_compressor>, [[<excompressum:compressed_hammer_diamond>, <bewitchment:cold_iron_ingot>, <excompressum:compressed_hammer_diamond>], [<bewitchment:cold_iron_ingot>, <ic2:resource:12>, <bewitchment:cold_iron_ingot>], [<excompressum:compressed_hammer_diamond>, <bewitchment:cold_iron_ingot>, <excompressum:compressed_hammer_diamond>]]);
 recipes.addShaped(<excompressum:auto_hammer>, [[<bewitchment:cold_iron_ingot>, <ic2:plate:16>, <bewitchment:cold_iron_ingot>], [<bewitchment:cold_iron_ingot>, <excompressum:double_compressed_diamond_hammer>, <bewitchment:cold_iron_ingot>], [<bewitchment:cold_iron_ingot>, <ic2:plate:16>, <bewitchment:cold_iron_ingot>]]);

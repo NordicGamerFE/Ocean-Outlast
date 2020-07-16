@@ -1,0 +1,34 @@
+{
+	title: "Assembly Halo",
+	icon: "botania:craftinghalo",
+	x: 2.5d,
+	y: -6.5d,
+	text: [
+		"Works like a Crafting Table, but saves recipes in 8 slots that surround the item when used. If materials are present in inventory, right-clicking on the chosen slot will create that item. This allows the player to quickly and easily craft items. Slots appear as columns of green light.",
+		"",
+		"To save a recipe, first make the item. Moving to an empty slot will show that recipe as available. To save it, right click. To remove a saved recipe, shift left click. The image shows torch saved on the left and stick on the right."
+	],
+	dependencies: [
+		"b53cf0e1",
+		"9c4fbe54"
+	],
+	tasks: [{
+		uid: "fea9dffd",
+		type: "item",
+		items: [{
+			item: "botania:craftinghalo"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b0e347f0",
+		type: "item",
+		item: "ironchest:iron_chest 1 2"
+	},
+	{
+		uid: "bf42b60c",
+		type: "ftbmoney:money",
+		ftb_money: 60L
+	}]
+}

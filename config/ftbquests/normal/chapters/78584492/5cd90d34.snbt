@@ -1,0 +1,34 @@
+{
+	title: "Growth Crystal Tier 3",
+	icon: "tp:growth_upgrade_two",
+	x: -10.5d,
+	y: 1.5d,
+	text: [
+		"Faster then tier 2 works the same like tier 2 expect 10 blocks up and down"
+	],
+	dependencies: [
+		"fbf6c512"
+	],
+	tasks: [{
+		uid: "58f53a09",
+		type: "item",
+		items: [{
+			item: "tp:growth_upgrade_two"
+		}]
+	}],
+	rewards: [{
+		uid: "cb1a0d82",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "a8eef84c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

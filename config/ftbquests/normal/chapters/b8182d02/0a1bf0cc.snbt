@@ -1,0 +1,33 @@
+{
+	x: 5.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "988c8634",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:cell",
+			tag: {
+				Recv: 1000,
+				RSControl: 0,
+				Facing: 3,
+				Energy: 0,
+				SideCache: [B;
+					2b,
+					1b,
+					1b,
+					1b,
+					1b,
+					1b
+				],
+				Level: 0,
+				Send: 1000
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "47945a22",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

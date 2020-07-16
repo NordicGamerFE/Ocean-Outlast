@@ -1,0 +1,35 @@
+{
+	title: "Thermalily",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "thermalily"
+		}
+	},
+	x: -1.5d,
+	y: 2.0d,
+	text: [
+		"The Thermalily absorbs lava source blocks in a 3x3 ring around it, similarly to the Hydroangeas, to generate mana. It generates mana at a much greater rate than most flowers. In recent versions, there is a six minute cool down period between absorbing lava.",
+		"",
+		"Unlike the Hydroangeas, producing unlimited mana with it is nearly impossible due to the nature of lava."
+	],
+	dependencies: [
+		"f6a841d1",
+		"5c8a07d3"
+	],
+	tasks: [{
+		uid: "1606b8f1",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "thermalily"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "92178d41",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

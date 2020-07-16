@@ -1,0 +1,31 @@
+{
+	x: -1.5d,
+	y: 4.0d,
+	dependencies: [
+		"afa5e2b8"
+	],
+	tasks: [{
+		uid: "1c6df4ad",
+		type: "item",
+		items: [{
+			item: "mekanismtools:stonepaxel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "17e51536",
+		type: "ftbmoney:money",
+		ftb_money: 35L
+	},
+	{
+		uid: "400c9030",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

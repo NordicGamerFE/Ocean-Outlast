@@ -1,0 +1,24 @@
+{
+	title: "World Seed",
+	icon: "botania:worldseed",
+	x: 8.5d,
+	y: 5.0d,
+	text: [
+		"Right click with it will return player on spawn point if one stands further than 24 blocks from this point."
+	],
+	dependencies: [
+		"bf2a0bf0"
+	],
+	tasks: [{
+		uid: "559d0ece",
+		type: "item",
+		items: [{
+			item: "botania:worldseed"
+		}]
+	}],
+	rewards: [{
+		uid: "9ed49a71",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

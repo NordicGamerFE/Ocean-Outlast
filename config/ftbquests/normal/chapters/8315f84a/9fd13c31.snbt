@@ -1,0 +1,27 @@
+{
+	title: "Next Steps",
+	icon: {
+		id: "extracells:pattern.fluid",
+		tag: {
+			Fluid: {
+				FluidName: "blood",
+				Amount: 1000
+			}
+		}
+	},
+	x: 1.0d,
+	y: -7.0d,
+	text: [
+		"Now that you have a finished plasmid, you will want to make two more machines, the Plasmid Injecter and the Blood Purifier. You will take a syringe with blood in it and stick it in the purifier, after that is finished combine it with the finished plasma in the Plasma Injecter. Then after that Purify the blood one more time and it is ready to be put back into your bloodstream.",
+		"",
+		"Right click the syringe and boom, you now have that gene! (Some might take a second or two to come into effect.)"
+	],
+	dependencies: [
+		"e2d9225d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d77177f1",
+		type: "checkmark"
+	}]
+}

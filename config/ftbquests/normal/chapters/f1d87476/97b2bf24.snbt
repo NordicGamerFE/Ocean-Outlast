@@ -1,0 +1,27 @@
+{
+	title: "Salt",
+	icon: "bewitchment:salt",
+	x: -8.0d,
+	y: -5.0d,
+	text: [
+		"No Description"
+	],
+	tasks: [{
+		uid: "9dc3accc",
+		type: "item",
+		items: [{
+			item: "bewitchment:salt 16"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "8a57465a",
+		type: "item",
+		item: "bewitchment:salt"
+	},
+	{
+		uid: "3e9cd667",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: 2.0d,
+	y: 3.5d,
+	text: [
+		"&aLocked to Ore Void Miner Tier 2 Quest&r",
+		"Found in Enviorment Tech Chapter"
+	],
+	can_repeat: true,
+	dependencies: [
+		"cba5423f"
+	],
+	tasks: [{
+		uid: "ec0b6b01",
+		type: "item",
+		items: [{
+			item: "minecraft:gravel"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "8a17bba8",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

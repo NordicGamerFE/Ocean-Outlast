@@ -1,0 +1,32 @@
+{
+	x: -7.0d,
+	y: 2.0d,
+	text: [
+		"&aThe biohacker zombie",
+		"&rWhen a biohacker get bitten by a zombie you get a cyberzombie kill them and gain usefull resources"
+	],
+	dependencies: [
+		"d8d802d8"
+	],
+	tasks: [{
+		uid: "4f6bf518",
+		type: "kill",
+		entity: "cyberware:cyberzombie",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "67b32377",
+		type: "ftbmoney:money",
+		ftb_money: 35L
+	},
+	{
+		uid: "71dd4037",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

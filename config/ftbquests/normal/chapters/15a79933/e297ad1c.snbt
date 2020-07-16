@@ -1,0 +1,21 @@
+{
+	title: "Iron Strongbox",
+	x: -21.5d,
+	y: -4.0d,
+	dependencies: [
+		"214e9482"
+	],
+	tasks: [{
+		uid: "654baed4",
+		type: "observation",
+		icon: "treasure2:iron_strongbox",
+		match_type: "block_id",
+		match: "treasure2:iron_strongbox",
+		timer: 20L
+	}],
+	rewards: [{
+		uid: "753c5d8e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

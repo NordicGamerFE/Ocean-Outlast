@@ -1,0 +1,25 @@
+{
+	title: "Large Medical Bandage",
+	icon: "tp:large_bandage",
+	x: -6.5d,
+	y: -3.0d,
+	text: [
+		"Instant Heals",
+		"Provides 2 hearts for a short time"
+	],
+	dependencies: [
+		"fe43b951"
+	],
+	tasks: [{
+		uid: "cec5431c",
+		type: "item",
+		items: [{
+			item: "tp:large_bandage"
+		}]
+	}],
+	rewards: [{
+		uid: "d5ba885a",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

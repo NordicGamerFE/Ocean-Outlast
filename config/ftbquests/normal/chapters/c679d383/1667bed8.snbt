@@ -1,0 +1,42 @@
+{
+	title: "Terrestrial Agglomeration Plate",
+	icon: "botania:terraplate",
+	x: 7.0d,
+	y: 2.0d,
+	text: [
+		"The Terrestrial Agglomeration Plate a block that forms the top of a multi-block structure of the same name, which is used to create Terrasteel",
+		"",
+		"To assemble the multi-block structure, first place a flat horizontal square of 3x3 blocks in which the centre and four corners are composed of Livingrock, whilst the four cardinal direction edge pieces are composed of Lapis Lazuli Block. Then place the Terrestrial Agglomeration Plate on top of the central piece of Livingrock.",
+		"",
+		"To use the plate, it must be supplied with mana either through Mana Spreader or a Spark; the latter is recommended as the amount of mana required for each Terrasteel Ingot is very high. The player must drop one each of Manasteel Ingot, Mana Diamond and Mana Pearl atop the plate and ensure that does not de-spawn or get picked up whilst the mana is being consumed; if successful this will produce a single Terrasteel Ingot"
+	],
+	dependencies: [
+		"f6a841d1",
+		"5c8a07d3",
+		"907d3764",
+		"a48a9ef8",
+		"60eb048e"
+	],
+	tasks: [{
+		uid: "d1189e13",
+		type: "item",
+		items: [{
+			item: "botania:terraplate"
+		}]
+	}],
+	rewards: [{
+		uid: "804cd36c",
+		type: "item",
+		item: "botania:manaresource"
+	},
+	{
+		uid: "4d967684",
+		type: "item",
+		item: "botania:spark"
+	},
+	{
+		uid: "64a9cd95",
+		type: "ftbmoney:money",
+		ftb_money: 450L
+	}]
+}

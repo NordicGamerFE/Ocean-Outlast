@@ -1,0 +1,65 @@
+{
+	title: "Sea Bird",
+	icon: "tp:lapis_chestplate",
+	x: -10.0d,
+	y: -3.0d,
+	text: [
+		"Get Lapis armor"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"6e03f5e6",
+		"abf2f0a5"
+	],
+	tasks: [{
+		uid: "0082f983",
+		type: "item",
+		items: [{
+			item: "tp:lapis_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4fa0f459",
+		type: "item",
+		items: [{
+			item: "tp:lapis_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "84a2f120",
+		type: "item",
+		items: [{
+			item: "tp:lapis_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d86652ee",
+		type: "item",
+		items: [{
+			item: "tp:lapis_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c602c808",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "8ab1aa40",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "jackpot"
+			}
+		}
+	}]
+}

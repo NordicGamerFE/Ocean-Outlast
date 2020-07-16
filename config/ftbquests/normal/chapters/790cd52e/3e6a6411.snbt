@@ -1,0 +1,44 @@
+{
+	x: -8.0d,
+	y: -0.5d,
+	dependencies: [
+		"ffd652fc"
+	],
+	tasks: [{
+		uid: "b9e4e457",
+		type: "item",
+		items: [{
+			id: "better_diving:reinforced_o2_tank",
+			tag: {
+				"better_diving:oxygen": 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b93bca9e",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "39d630c4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "sunk_crate"
+			}
+		}
+	},
+	{
+		uid: "82d4f234",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "kevs_lost_chest"
+			}
+		}
+	}]
+}

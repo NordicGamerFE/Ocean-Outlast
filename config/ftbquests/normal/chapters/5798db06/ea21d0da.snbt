@@ -1,0 +1,34 @@
+{
+	title: "Water Seeds",
+	icon: "mysticalagriculture:water_seeds",
+	x: 0.0d,
+	y: -5.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"6a19d1ee"
+	],
+	tasks: [{
+		uid: "e70dc423",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:water_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "f0d3aedd",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "93d00f09",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	x: 3.0d,
+	y: 0.5d,
+	dependencies: [
+		"d3a43571"
+	],
+	tasks: [{
+		uid: "bba5d629",
+		type: "item",
+		items: [{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 1
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "62a03af7",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "dc7253e3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

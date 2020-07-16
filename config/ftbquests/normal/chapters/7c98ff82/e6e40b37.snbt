@@ -1,0 +1,35 @@
+{
+	title: "Energy",
+	icon: {
+		id: "thermalexpansion:morb",
+		tag: {
+			Generic: 1,
+			id: "grimoireofgaia:dwarf"
+		}
+	},
+	x: -1.0d,
+	y: 1.0d,
+	shape: "square",
+	text: [
+		"Forge Energy is an addition to the Forge project introduced in Minecraft version 1.12. It offers an energy system functionally equivalent to RF. Many mods that previously depended on the Redstone Flux API now use FE instead, often choosing to rename the energy to something in line with the mod's theme.",
+		"",
+		"Some examples of renamed Forge Energy implementations:",
+		"",
+		"Crystal Flux (CF; Actually Additions)",
+		"",
+		"Micro Infinity (µI; Ender IO)",
+		"",
+		"Although the RF and FE systems do not directly work with each other, the majority of mods that use one of them also support the other, implementing seamless conversion between them. For this reason, the two energy systems are usually not seen as separate.",
+		"",
+		"1 µI = 1 RF"
+	],
+	tasks: [{
+		uid: "d3919ace",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "8da2b0a8",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

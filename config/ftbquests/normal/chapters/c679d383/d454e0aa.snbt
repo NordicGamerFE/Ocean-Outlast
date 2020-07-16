@@ -1,0 +1,42 @@
+{
+	title: "Bergamute",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "bergamute"
+		}
+	},
+	x: 2.5d,
+	y: 0.0d,
+	text: [
+		"Bergamute is a functional flower which requires no mana. It \"absorbs sounds and turns them into little amounts of mana, emitting it into enviroment. This mana can't be harvested.\" All sounds within the range of Bergamute will be, as its name suggests, muted."
+	],
+	dependencies: [
+		"3f7e1d61"
+	],
+	tasks: [{
+		uid: "bd7e40fd",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "bergamute"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "e55ea55b",
+		type: "ftbmoney:money",
+		ftb_money: 45L
+	},
+	{
+		uid: "2e9b14c2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

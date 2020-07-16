@@ -1,0 +1,37 @@
+{
+	title: "Substrate",
+	icon: {
+		id: "geneticsreborn:grpotion",
+		tag: {
+			Potion: "geneticsreborn:substrate"
+		}
+	},
+	x: 6.0d,
+	y: -1.5d,
+	text: [
+		"Tier 0 potion, used to duplicate organic cells. This is the root of all other potions."
+	],
+	dependencies: [
+		"55ed7b9b"
+	],
+	tasks: [{
+		uid: "378f24cb",
+		type: "item",
+		items: [{
+			id: "geneticsreborn:grpotion",
+			tag: {
+				Potion: "geneticsreborn:substrate"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "9630f99a",
+		type: "item",
+		item: {
+			id: "geneticsreborn:grpotion",
+			tag: {
+				Potion: "geneticsreborn:substrate"
+			}
+		}
+	}]
+}

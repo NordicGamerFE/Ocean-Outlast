@@ -1,0 +1,30 @@
+{
+	title: "Horn of the Covering",
+	icon: "botania:grasshorn 1 2",
+	x: 7.0d,
+	y: -9.0d,
+	text: [
+		"Holding right-click quickly breaks Snow near the user."
+	],
+	dependencies: [
+		"5ab4532d"
+	],
+	tasks: [{
+		uid: "5f10243c",
+		type: "item",
+		items: [{
+			item: "botania:grasshorn 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "82df0831",
+		type: "item",
+		item: "botania:blacklotus"
+	},
+	{
+		uid: "c60016b7",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

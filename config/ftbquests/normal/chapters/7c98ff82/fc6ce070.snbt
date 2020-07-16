@@ -1,0 +1,44 @@
+{
+	title: "Farming Station",
+	icon: "enderio:block_farm_station",
+	x: -7.0d,
+	y: -4.0d,
+	text: [
+		"Can plant and harvest crops and trees. It requires power (Redstone Flux) and appropriate tools (Hoe or Axe or Shears). Looting/Fortune on the tools does apply to the harvesting. Tools also take damage per harvest operation and need to be replaced when broken or the machine will stop working. This machine is upgradable with capacitors to increase range, power use, and power storage:",
+		"",
+		"No capacitor - 7x7 blocks area",
+		"Double-Layer Capacitor - 11x11 blocks area",
+		"Octadic Capacitor - 15?15 blocks area"
+	],
+	dependencies: [
+		"4b202534",
+		"87cc06d1"
+	],
+	tasks: [{
+		uid: "c3a9b0a7",
+		type: "item",
+		items: [{
+			item: "enderio:block_farm_station"
+		}]
+	}],
+	rewards: [{
+		uid: "df69a0a2",
+		type: "item",
+		item: "actuallyadditions:block_crystal_empowered 1 4"
+	},
+	{
+		uid: "4fe18116",
+		type: "ftbmoney:money",
+		ftb_money: 60L
+	},
+	{
+		uid: "83ed6e58",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

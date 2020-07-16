@@ -31,7 +31,7 @@ mods.ic2.Compressor.addRecipe(<tconstruct:slimesling:4>, <tconstruct:slime_conge
 
 #Make Grout harder to make :P
 recipes.remove(<tconstruct:soil>);
-recipes.addShaped(<tconstruct:soil> * 4, [[<ore:gravel>, <minecraft:sand:1>, <ore:gravel>], [<minecraft:sand:1>, <tconstruct:dried_clay>, <minecraft:sand:1>], [<ore:gravel>, <minecraft:sand:1>, <ore:gravel>]]);
+recipes.addShaped(<tconstruct:soil> * 6, [[<ore:gravel>, <minecraft:sand:1>, <ore:gravel>], [<minecraft:sand:1>, <tconstruct:dried_clay>, <minecraft:sand:1>], [<ore:gravel>, <minecraft:sand:1>, <ore:gravel>]]);
 
 #Add iron alloy ingot makeable in the smeltery
 mods.tconstruct.Alloy.addRecipe(<liquid:construction_alloy> * 144, [<liquid:cobalt> * 144, <liquid:iron> * 150, <liquid:copper> * 150]);

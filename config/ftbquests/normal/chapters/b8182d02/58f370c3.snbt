@@ -1,0 +1,31 @@
+{
+	x: 0.0d,
+	y: 4.0d,
+	tasks: [{
+		uid: "a0872619",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:tank",
+			tag: {
+				RSControl: 0,
+				Level: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e08797d2",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "71aa09cc",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

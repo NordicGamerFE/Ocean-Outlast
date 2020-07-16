@@ -26,7 +26,14 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <mysticalagriculture:supremium_
 
 #Recipe and removal for stygian anvil
     recipes.remove(<woot:anvil>);
-	mods.extendedcrafting.TableCrafting.addShaped(0, <woot:anvil>, [[<woot:stygianironingot>, <ore:blockIron>, <ore:blockIron>, <ore:blockIron>, <ore:blockIron>, <ore:blockIron>, <woot:stygianironingot>], [<woot:stygianironingot>, <woot:stygianiron>, <ore:obsidian>, <ore:obsidian>, <ore:obsidian>, <ore:blockIron>, <woot:stygianironingot>], [<woot:stygianironingot>, <ore:blockIron>, <ore:obsidian>, <ore:obsidian>, <ore:obsidian>, <ore:blockIron>, <woot:stygianironingot>], [null, <woot:stygianironingot>, <ore:obsidian>, <ore:obsidian>, <ore:obsidian>, <woot:stygianironingot>, null], [null, <woot:stygianironingot>, <ore:obsidian>, <ore:obsidian>, <ore:obsidian>, <woot:stygianironingot>, null], [null, <woot:stygianironingot>, <ore:obsidian>, <ore:obsidian>, <ore:obsidian>, <woot:stygianironingot>, null], [null, <ore:obsidian>, <ore:obsidian>, <ore:obsidian>, <ore:obsidian>, <ore:obsidian>, null]]); 
+	mods.extendedcrafting.TableCrafting.addShaped(0, <woot:anvil>, 
+	[[<woot:stygianironingot>, <ore:blockIron>, <ore:blockIron>, <ore:blockIron>, <ore:blockIron>, <ore:blockIron>, <woot:stygianironingot>], 
+	[<woot:stygianironingot>, <ore:blockIron>, <ore:obsidian>, <ore:obsidian>, <ore:obsidian>, <ore:blockIron>, <woot:stygianironingot>], 
+	[<woot:stygianironingot>, <ore:blockIron>, <ore:obsidian>, <ore:obsidian>, <ore:obsidian>, <ore:blockIron>, <woot:stygianironingot>], 
+	[null, <woot:stygianironingot>, <ore:obsidian>, <ore:obsidian>, <ore:obsidian>, <woot:stygianironingot>, null], 
+	[null, <woot:stygianironingot>, <ore:obsidian>, <ore:obsidian>, <ore:obsidian>, <woot:stygianironingot>, null], 
+	[null, <woot:stygianironingot>, <ore:obsidian>, <ore:obsidian>, <ore:obsidian>, <woot:stygianironingot>, null], 
+	[null, <ore:obsidian>, <ore:obsidian>, <ore:obsidian>, <ore:obsidian>, <ore:obsidian>, null]]); 
 
 #Recipe and removal for ender tank/chest
 recipes.remove(<enderstorage:ender_storage:1>);

@@ -1,0 +1,29 @@
+{
+	title: "Operation Upgrade",
+	icon: "storagenetwork:upgrade 1 1",
+	x: -5.5d,
+	y: -1.5d,
+	text: [
+		"Activity of the cable depends on the amount of items"
+	],
+	dependencies: [
+		"6aca77c3"
+	],
+	tasks: [{
+		uid: "82c28bb6",
+		type: "item",
+		items: [{
+			item: "storagenetwork:upgrade 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "9b9a22d3",
+		type: "item",
+		item: "storagenetwork:upgrade 1 1"
+	},
+	{
+		uid: "1f2da940",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

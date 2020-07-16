@@ -1,0 +1,38 @@
+{
+	x: -5.0d,
+	y: -0.5d,
+	text: [
+		"&AAquaman out in here",
+		"&rThe seamoth is a quick underwater mobility vehicle"
+	],
+	tasks: [{
+		uid: "3a4ac8c0",
+		type: "item",
+		items: [{
+			id: "better_diving:seamoth",
+			tag: {
+				"better_diving:item_stack_handler": {
+					Size: 5,
+					Items: []
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e745297a",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	},
+	{
+		uid: "7ac2e61b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

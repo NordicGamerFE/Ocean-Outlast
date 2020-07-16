@@ -1,0 +1,37 @@
+{
+	title: "Rod of the Depths",
+	icon: "botania:cobblerod",
+	x: -6.5d,
+	y: 0.0d,
+	text: [
+		"R-click with this rod will place Cobblestone for some mana cost. Rod also provides infinite amount of Cobblestone to Rod of the Shifting Crust, but both rods requires Mana."
+	],
+	dependencies: [
+		"f6a841d1",
+		"60eb048e"
+	],
+	tasks: [{
+		uid: "61775862",
+		type: "item",
+		items: [{
+			item: "botania:cobblerod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "25b3fcdf",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "4aca9057",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

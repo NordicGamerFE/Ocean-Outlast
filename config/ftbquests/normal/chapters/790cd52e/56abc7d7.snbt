@@ -1,0 +1,29 @@
+{
+	x: -7.5d,
+	y: -1.5d,
+	shape: "rsquare",
+	tasks: [{
+		uid: "a3f85271",
+		type: "item",
+		items: [{
+			item: "better_diving:diving_mask"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fb88b20e",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	},
+	{
+		uid: "5b907022",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "sunk_crate"
+			}
+		}
+	}]
+}

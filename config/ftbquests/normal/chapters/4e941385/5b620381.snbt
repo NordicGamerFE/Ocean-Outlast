@@ -1,0 +1,22 @@
+{
+	x: 8.5d,
+	y: 0.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "b7e31ee2",
+		type: "item",
+		items: [{
+			item: "extrautils2:ingredients 1 17"
+		}]
+	}],
+	rewards: [{
+		uid: "484f0a84",
+		type: "item",
+		item: {
+			id: "lodsofemone:coin_small",
+			tag: {
+				value: 10
+			}
+		}
+	}]
+}

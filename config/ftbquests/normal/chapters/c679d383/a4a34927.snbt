@@ -1,0 +1,32 @@
+{
+	title: "Bifrost Block",
+	icon: "botania:bifrostperm",
+	x: 12.0d,
+	y: 0.5d,
+	text: [
+		"Bifrost Block is a permanent, decorative version of the blocks created by the Rod of the Bifrost.",
+		"",
+		"The block's color gradually shifts, cycling through the rainbow every 10 seconds."
+	],
+	dependencies: [
+		"2166671c"
+	],
+	tasks: [{
+		uid: "2eefacc4",
+		type: "item",
+		items: [{
+			item: "botania:bifrostperm 10"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "ccd04a17",
+		type: "item",
+		item: "botania:bifrostperm"
+	},
+	{
+		uid: "ce91e8fc",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

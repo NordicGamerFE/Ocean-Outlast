@@ -1,0 +1,27 @@
+{
+	title: "Cell Analyser",
+	icon: "geneticsreborn:cellanalyser",
+	x: 0.0d,
+	y: -1.5d,
+	text: [
+		"This block will automatically analyse any organic matter you put in and find an intact cell to extract and put in the output slot. The cell is white due to the thin cover it is wrapped in to protect from damage.",
+		"",
+		"Default power use: 20rf/t",
+		"Max Overclockers: 10"
+	],
+	dependencies: [
+		"0b08ed9f"
+	],
+	tasks: [{
+		uid: "339c9723",
+		type: "item",
+		items: [{
+			item: "geneticsreborn:cellanalyser"
+		}]
+	}],
+	rewards: [{
+		uid: "5913d357",
+		type: "ftbmoney:money",
+		ftb_money: 450L
+	}]
+}

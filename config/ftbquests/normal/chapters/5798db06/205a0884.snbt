@@ -1,0 +1,30 @@
+{
+	x: -3.5d,
+	y: -5.0d,
+	dependencies: [
+		"9b3bec8d",
+		"d4e4e8af"
+	],
+	tasks: [{
+		uid: "ed62021a",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:prudentium_furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "3338d25f",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "84236e08",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

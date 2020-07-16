@@ -1,0 +1,38 @@
+{
+	title: "Cloak of Sin",
+	icon: "botania:unholycloak",
+	x: 0.5d,
+	y: -6.5d,
+	text: [
+		"Equippable in the Belt slot.",
+		"",
+		"Upon being hit, the Cloak of Sin will damage all nearby mobs for the same amount of damage. Afterwards, it will go into a 10 second recharge period before it will do it again."
+	],
+	dependencies: [
+		"d9bed1c5"
+	],
+	tasks: [{
+		uid: "83ec5ea8",
+		type: "item",
+		items: [{
+			item: "botania:unholycloak"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8b1eef57",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "5304d64e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

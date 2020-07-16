@@ -1,0 +1,32 @@
+{
+	title: "Munchdew",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "munchdew"
+		}
+	},
+	x: -1.5d,
+	y: 5.0d,
+	text: [
+		"The Munchdew is an active mana generating flower that will produce mana by consuming nearby Leaves. It will consume all leaf blocks within range, followed by a cooldown period of 80 seconds. This process produces a flat rate of mana per leaf block consumed. It does not produce any of the usual drops from leaf blocks and it will consume leaf blocks regardless of the mod they are from. The Munchdew has a range of 16 vertical blocks and 8 horizontal blocks."
+	],
+	dependencies: [
+		"404101cb"
+	],
+	tasks: [{
+		uid: "54065a4e",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "munchdew"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "4ca5191b",
+		type: "ftbmoney:money",
+		ftb_money: 60L
+	}]
+}

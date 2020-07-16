@@ -1,0 +1,34 @@
+{
+	title: "Wood Seeds",
+	icon: "mysticalagriculture:wood_seeds",
+	x: -1.0d,
+	y: -5.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"6a19d1ee"
+	],
+	tasks: [{
+		uid: "35ea457c",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:wood_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "0600b832",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "fb11d3eb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

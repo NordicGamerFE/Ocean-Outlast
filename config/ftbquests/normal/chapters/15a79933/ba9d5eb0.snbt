@@ -1,0 +1,33 @@
+{
+	x: -7.0d,
+	y: 3.0d,
+	text: [
+		"&aDarkness falls upon everyone",
+		"&rOnce a very good knight upon his queen, now has fallen into darkness after his queen died by the enemys sword and now swear death upon everyone that stands between him"
+	],
+	dependencies: [
+		"d8d802d8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "730bd800",
+		type: "kill",
+		entity: "enderzoo:fallenknight",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "d72a18c6",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "28904104",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

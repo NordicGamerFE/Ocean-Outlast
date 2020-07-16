@@ -1,0 +1,47 @@
+{
+	title: "Gargantuan Flux Storage",
+	icon: "fluxnetworks:gargantuanfluxstorage",
+	x: -1.0d,
+	y: -3.5d,
+	text: [
+		"Used to Store Energy in the network",
+		"Flux Storage is used to store excess energy. It will only be filled once each Flux Point has received enough energy.",
+		"This energy can only be accessed by removing energy with a Flux Point.",
+		"Network's do not require a Flux Storage to operate"
+	],
+	dependencies: [
+		"3fd18532"
+	],
+	tasks: [{
+		uid: "bc80f563",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:gargantuanfluxstorage"
+		}]
+	}],
+	rewards: [{
+		uid: "183ee9d9",
+		type: "ftbmoney:money",
+		ftb_money: 1500L
+	},
+	{
+		uid: "066afab3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	},
+	{
+		uid: "b857628d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "jackpot"
+			}
+		}
+	}]
+}

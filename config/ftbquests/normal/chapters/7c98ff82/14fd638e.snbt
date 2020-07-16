@@ -1,0 +1,30 @@
+{
+	title: "Simple Alloy Smelter",
+	icon: "enderio:block_simple_alloy_smelter",
+	x: 0.0d,
+	y: -2.5d,
+	text: [
+		"Used to create alloys such as Electrical Steel and Dark Steel using Micro Infinity (µI).",
+		"",
+		"Similar to Ender IO's other Simple machines, capacitors cannot be used in the Simple Alloy Smelter, so its slow processing speed cannot be improved. For this reason, it is normally only used to create the necessary materials for higher-tier machines.",
+		"",
+		"The machine constantly leaks 0.05 µI/t (1 µI/s) in addition to its energy usage during processing, and will continue to leak energy while idle.",
+		"",
+		"Unlike its upgraded version, the Alloy Smelter, the Simple Alloy Smelter cannot process furnace recipes. The Simple Powered Furnace may be used for that purpose."
+	],
+	dependencies: [
+		"1f61beca"
+	],
+	tasks: [{
+		uid: "b5b29451",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_alloy_smelter"
+		}]
+	}],
+	rewards: [{
+		uid: "c302b2eb",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

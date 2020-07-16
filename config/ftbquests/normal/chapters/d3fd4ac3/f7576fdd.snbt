@@ -1,0 +1,64 @@
+{
+	x: -4.5d,
+	y: -1.0d,
+	tasks: [{
+		uid: "6173ff86",
+		type: "item",
+		items: [{
+			id: "ae2wtlib:wut_creative",
+			tag: {
+				StoredTerminals: [{
+					id: "wit:wit_creative",
+					Count: 1,
+					Damage: 0
+				},
+				{
+					id: "wct:wct_creative",
+					Count: 1,
+					Damage: 0
+				},
+				{
+					id: "wft:wft_creative",
+					Count: 1,
+					Damage: 0
+				},
+				{
+					id: "wpt:wpt_creative",
+					Count: 1,
+					Damage: 0
+				}],
+				IsInRange: 0,
+				SelectedTerminal: 0,
+				internalCurrentPower: 1600000.0d
+			}
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2f380516",
+		type: "ftbmoney:money",
+		ftb_money: 2500000L
+	},
+	{
+		uid: "a288597b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	},
+	{
+		uid: "88e1b682",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "supra_crate"
+			}
+		}
+	}]
+}

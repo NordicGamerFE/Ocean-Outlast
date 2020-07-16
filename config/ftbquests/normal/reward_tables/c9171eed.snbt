@@ -1,0 +1,41 @@
+{
+	title: "Greater Darken Magic",
+	loot_size: 5,
+	rewards: [{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1,
+				id: "thaumcraft:cultistportalgreater"
+			}
+		},
+		only_one: true
+	},
+	{
+		item: "thaumcraft:goggles",
+		only_one: true
+	},
+	{
+		item: "thaumcraft:cloth_chest",
+		only_one: true
+	},
+	{
+		item: "thaumcraft:cloth_legs",
+		only_one: true
+	},
+	{
+		item: "thaumcraft:cloth_boots",
+		only_one: true
+	}],
+	loot_crate: {
+		string_id: "greater_darken_magic",
+		item_name: "Greater Darken Magic",
+		color: 4787456,
+		glow: true,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

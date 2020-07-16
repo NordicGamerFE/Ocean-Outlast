@@ -1,0 +1,65 @@
+{
+	title: "A villegers dream",
+	icon: "tp:emerald_chestplate",
+	x: -12.0d,
+	y: -4.0d,
+	text: [
+		"Get Emerald armor"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"6e03f5e6",
+		"abf2f0a5"
+	],
+	tasks: [{
+		uid: "7d19b206",
+		type: "item",
+		items: [{
+			item: "tp:emerald_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5fd87e3b",
+		type: "item",
+		items: [{
+			item: "tp:emerald_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "83a543e1",
+		type: "item",
+		items: [{
+			item: "tp:emerald_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "73d6384f",
+		type: "item",
+		items: [{
+			item: "tp:emerald_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fee96575",
+		type: "ftbmoney:money",
+		ftb_money: 450L
+	},
+	{
+		uid: "b030630f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

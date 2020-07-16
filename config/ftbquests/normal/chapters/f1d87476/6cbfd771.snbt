@@ -1,0 +1,28 @@
+{
+	x: -8.0d,
+	y: -2.5d,
+	tasks: [{
+		uid: "7bce16ed",
+		type: "item",
+		items: [{
+			item: "bewitchment:hecates_visage"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a8782740",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "02e6a2e9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "hellish_crate"
+			}
+		}
+	}]
+}

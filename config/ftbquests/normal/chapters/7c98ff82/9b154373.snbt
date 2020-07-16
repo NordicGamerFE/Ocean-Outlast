@@ -1,0 +1,34 @@
+{
+	title: "Relocator Obelisk",
+	icon: "enderio:block_relocator_obelisk",
+	x: -7.0d,
+	y: -6.0d,
+	text: [
+		"Relocates mobs that spawn in its area of effect towards it"
+	],
+	dependencies: [
+		"4b202534"
+	],
+	tasks: [{
+		uid: "7f882e09",
+		type: "item",
+		items: [{
+			item: "enderio:block_relocator_obelisk"
+		}]
+	}],
+	rewards: [{
+		uid: "c54fa88f",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "1c37842a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

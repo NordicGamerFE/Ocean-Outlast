@@ -1,0 +1,18 @@
+{
+	x: 0.0d,
+	y: -1.0d,
+	shape: "rsquare",
+	hide: true,
+	tasks: [{
+		uid: "fd3ee715",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:frame 1 64"
+		}]
+	}],
+	rewards: [{
+		uid: "70e81d12",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

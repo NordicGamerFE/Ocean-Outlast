@@ -1,0 +1,34 @@
+{
+	title: "Platinum Seeds",
+	icon: "mysticalagriculture:platinum_seeds",
+	x: 2.0d,
+	y: -19.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"c7e968b7"
+	],
+	tasks: [{
+		uid: "5d8a7317",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:platinum_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "d4573a88",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "228a051d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

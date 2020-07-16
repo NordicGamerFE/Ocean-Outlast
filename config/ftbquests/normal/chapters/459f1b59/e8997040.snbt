@@ -1,0 +1,28 @@
+{
+	title: "Thaumometer",
+	icon: "thaumcraft:thaumometer",
+	x: -1.0d,
+	y: 3.0d,
+	text: [
+		"Primarily used to scan blocks and items to unlock new research topics, complete research topics, and gain Observation points in areas of study. Right-clicking with it when looking at an object highlighted in blue sparkles will add points to Observation. If the player is looking at the moon, sun, or night sky, right-clicking while also possessing Paper and Scribing Tools will consume paper to create Celestial Notes.",
+		"",
+		"The Thaumometer also has an Aura detector built into it. On the top-left corner a tube displaying the amount of Vis and Flux in the current chunk will appear, in light purple and dark purple respectively. A golden notch shows the Vis cap, though it can be occupied by any Flux in the aura."
+	],
+	dependencies: [
+		"f5bb51f7"
+	],
+	tasks: [{
+		uid: "ba3b7f01",
+		type: "item",
+		items: [{
+			item: "thaumcraft:thaumometer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "441bd684",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

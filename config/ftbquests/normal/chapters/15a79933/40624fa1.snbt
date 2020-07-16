@@ -1,0 +1,21 @@
+{
+	title: "Skull Chest",
+	x: -21.5d,
+	y: -2.0d,
+	dependencies: [
+		"214e9482"
+	],
+	tasks: [{
+		uid: "02a88d1f",
+		type: "observation",
+		icon: "treasure2:skull_chest",
+		match_type: "block_id",
+		match: "treasure2:skull_chest",
+		timer: 20L
+	}],
+	rewards: [{
+		uid: "951aaeed",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "Mithril Seeds",
+	icon: "mysticalagriculture:mithril_seeds",
+	x: 5.0d,
+	y: -16.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"9576e32f"
+	],
+	tasks: [{
+		uid: "be2b7003",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:mithril_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "23469752",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "a4e613aa",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,42 @@
+{
+	title: "Gaia Boss Ritual",
+	icon: "botania:pylon 4 2",
+	x: 10.5d,
+	y: -3.0d,
+	shape: "pentagon",
+	text: [
+		"To summon the boss, shift right-click a Terrasteel Ingot on an active Beacon with 4 Gaia Pylons nearby. Using a Gaia Spirit Ingot will summon a harder version of the boss instead.",
+		"",
+		"The boss cannot be summoned in Peaceful mode, if there are no Gaia Pylons in proper positions, the arena has holes or obstacles in it, or if a Gaia Guardian is already present."
+	],
+	dependencies: [
+		"15474f17",
+		"2b70a6dd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fa4f4587",
+		type: "item",
+		items: [{
+			item: "minecraft:beacon"
+		}]
+	},
+	{
+		uid: "c7a847b5",
+		type: "item",
+		items: [{
+			item: "botania:pylon 4 2"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "dc69a545",
+		type: "item",
+		item: "botania:manaresource 1 5"
+	},
+	{
+		uid: "8660494c",
+		type: "ftbmoney:money",
+		ftb_money: 450L
+	}]
+}

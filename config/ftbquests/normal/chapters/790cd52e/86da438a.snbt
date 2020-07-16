@@ -1,0 +1,51 @@
+{
+	title: "Blue Eyes",
+	x: -1.0d,
+	y: -3.0d,
+	dependencies: [
+		"9dcf520a"
+	],
+	tasks: [{
+		uid: "839def48",
+		type: "item",
+		title: "Any gemDiamond",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "gemDiamond",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	},
+	{
+		uid: "490b8c3a",
+		type: "item",
+		title: "Any ingotGold",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotGold",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}],
+	rewards: [{
+		uid: "3d26bb4b",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	},
+	{
+		uid: "406dfd89",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

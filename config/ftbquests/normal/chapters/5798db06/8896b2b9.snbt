@@ -1,0 +1,34 @@
+{
+	title: "Dye Seeds",
+	icon: "mysticalagriculture:dye_seeds",
+	x: -4.0d,
+	y: -9.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"a67f1154"
+	],
+	tasks: [{
+		uid: "cc596cc0",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:dye_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "1f491387",
+		type: "ftbmoney:money",
+		ftb_money: 55L
+	},
+	{
+		uid: "907a681e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

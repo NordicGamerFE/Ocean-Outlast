@@ -1,0 +1,33 @@
+{
+	x: -3.5d,
+	y: -3.0d,
+	text: [
+		"The Quantum Entangloporter from Mekanism is a machine that allows liquids/items/energy/gas to be sent from one Quantum Entangloporter to another through a channel"
+	],
+	dependencies: [
+		"5daeb39f"
+	],
+	tasks: [{
+		uid: "a29a51a2",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock3"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0ee01f4c",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "394f1793",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

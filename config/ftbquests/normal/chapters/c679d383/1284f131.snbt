@@ -1,0 +1,49 @@
+{
+	title: "Black Hole Talisman",
+	icon: {
+		id: "botania:blackholetalisman",
+		tag: {}
+	},
+	x: 13.0d,
+	y: -3.0d,
+	text: [
+		"The Black Hole Talisman is a portable storage utility. It can hold up to 2,147,483,647 of a single block type. If the Talisman absorbs any items when at maximum capacity, all contents will be lost.",
+		"",
+		"When the Talisman is empty, right-clicking a block will set it to storing that type of block.",
+		"Otherwise, it will place the block it contains as if the user placed it normally.",
+		"",
+		"Shift right-clicking it in the air will toggle between enabled and disabled. When enabled, it will absorb all of the selected block from the user's inventory.",
+		"",
+		"Placing the Talisman in the crafting grid will allow to extract stacks of the contained item and disable the Talisman at the same time.",
+		"",
+		"The Talisman can provide the Rod of the Shifting Crust with its contents for no additional cost."
+	],
+	dependencies: [
+		"d9bed1c5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9e93e389",
+		type: "item",
+		items: [{
+			id: "botania:blackholetalisman",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "410d3d91",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "21f648a6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

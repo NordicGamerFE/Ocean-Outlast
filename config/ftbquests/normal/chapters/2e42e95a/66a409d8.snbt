@@ -1,0 +1,17 @@
+{
+	x: 4.5d,
+	y: 1.0d,
+	tasks: [{
+		uid: "6e33afa6",
+		type: "item",
+		items: [{
+			item: "fossil:scarab_gem"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "6f4961a7",
+		type: "ftbmoney:money",
+		ftb_money: 400L
+	}]
+}

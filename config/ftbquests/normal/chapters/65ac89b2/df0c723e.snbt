@@ -1,0 +1,17 @@
+{
+	x: -3.0d,
+	y: 3.5d,
+	tasks: [{
+		uid: "aec83a47",
+		type: "item",
+		items: [{
+			item: "tconstruct:slimesling"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "86c6f442",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

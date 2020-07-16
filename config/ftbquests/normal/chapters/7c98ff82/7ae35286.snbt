@@ -1,0 +1,59 @@
+{
+	title: "Fully Upgraded Dark Leggings",
+	x: -11.5d,
+	y: -2.0d,
+	dependencies: [
+		"37b77d86"
+	],
+	tasks: [{
+		uid: "22fc39c8",
+		type: "item",
+		items: [{
+			id: "enderio:item_dark_steel_leggings",
+			tag: {
+				enderio.darksteel.upgrade.energyUpgrade: {
+					level: 3,
+					energy: 1000000
+				},
+				enderio.darksteel.upgrade.inv: {
+					level: 2
+				},
+				enderio.darksteel.upgrade.thaumaturge_robes_legs: {
+					level: 0
+				},
+				enderio.darksteel.upgrade.speedBoost: {
+					level: 3
+				},
+				enderio.darksteel.upgrade.anvil: {
+					level: 2
+				}
+			}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "629a84c4",
+		type: "ftbmoney:money",
+		ftb_money: 1500L
+	},
+	{
+		uid: "63aba38e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	},
+	{
+		uid: "2dc67b35",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "jackpot"
+			}
+		}
+	}]
+}

@@ -1,0 +1,76 @@
+{
+	title: "Wooden Armor",
+	icon: "advancedcombat:wooden_chest",
+	x: -7.5d,
+	y: -7.0d,
+	text: [
+		"&aWood armor is a pretty decent in the start",
+		"&rWood armor is actually better then leather armor"
+	],
+	dependencies: [
+		"8757af66"
+	],
+	tasks: [{
+		uid: "a8750dd9",
+		type: "item",
+		items: [{
+			item: "advancedcombat:wooden_helm"
+		},
+		{
+			item: "tp:wooden_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7edbae83",
+		type: "item",
+		items: [{
+			item: "advancedcombat:wooden_chest"
+		},
+		{
+			item: "tp:wooden_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b353cceb",
+		type: "item",
+		items: [{
+			item: "advancedcombat:wooden_legs"
+		},
+		{
+			item: "tp:wooden_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a8dbe68a",
+		type: "item",
+		items: [{
+			item: "advancedcombat:wooden_boots"
+		},
+		{
+			item: "tp:wooden_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6ba91e15",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "04d146d5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

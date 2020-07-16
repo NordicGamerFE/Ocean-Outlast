@@ -1,0 +1,24 @@
+{
+	title: "Genes",
+	icon: {
+		id: "extracells:pattern.fluid",
+		tag: {
+			Fluid: {
+				FluidName: "xu_enchanted_metal",
+				Amount: 1000
+			}
+		}
+	},
+	x: 2.5d,
+	y: -7.0d,
+	text: [
+		"Genes are broken up into three categories, Basic Genes, Mutations, and Viruses. Mutations are stronger versions of regular genes, or certain genes that are very OP (like Flight). Viruses are genes that grant you negative effects until you die, or remove the virus with \"The Cure\"                                     Read More at https://github.com/TheUnderTaker11/GeneticsReborn/wiki/Genes-List"
+	],
+	dependencies: [
+		"9fd13c31"
+	],
+	tasks: [{
+		uid: "3dabce50",
+		type: "checkmark"
+	}]
+}

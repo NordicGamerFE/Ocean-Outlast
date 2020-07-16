@@ -1,0 +1,41 @@
+{
+	title: "Rod of the Skies",
+	icon: {
+		id: "botania:tornadorod",
+		tag: {}
+	},
+	x: -6.5d,
+	y: -5.0d,
+	text: [
+		"R-click with this rod will throw player up on 35 blocks for some mana cost.",
+		"After R-click rod can't be used again for few seconds, but at this few seconds player gains protection against fall damage."
+	],
+	dependencies: [
+		"907d3764"
+	],
+	tasks: [{
+		uid: "37ae54a7",
+		type: "item",
+		items: [{
+			id: "botania:tornadorod",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "70b100f2",
+		type: "ftbmoney:money",
+		ftb_money: 45L
+	},
+	{
+		uid: "8950c7bc",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

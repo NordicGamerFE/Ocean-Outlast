@@ -1,0 +1,32 @@
+{
+	x: -6.5d,
+	y: 4.0d,
+	text: [
+		"&aBring an army",
+		"&rThe undertaker is a powerful creatour that has the ability to spawn a army of Unburied creatours"
+	],
+	dependencies: [
+		"ba9d5eb0"
+	],
+	tasks: [{
+		uid: "4b74a513",
+		type: "kill",
+		entity: "mod_lavacow:undertaker",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "20f33dda",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "dc82f57d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

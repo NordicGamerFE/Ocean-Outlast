@@ -1,0 +1,36 @@
+{
+	title: "Tier 5 Crafting Seed",
+	icon: "mysticalagriculture:crafting 1 21",
+	x: 0.0d,
+	y: -18.0d,
+	shape: "hexagon",
+	text: [
+		"Used to craft tier 5 seeds"
+	],
+	dependencies: [
+		"9576e32f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bbd0dc65",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:crafting 1 21"
+		}]
+	}],
+	rewards: [{
+		uid: "74bfe613",
+		type: "ftbmoney:money",
+		ftb_money: 1500L
+	},
+	{
+		uid: "86f3ae2f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

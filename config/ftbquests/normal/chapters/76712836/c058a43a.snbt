@@ -1,0 +1,37 @@
+{
+	title: "Thermal Centrifuge",
+	icon: "ic2:te 1 52",
+	x: -3.5d,
+	y: -5.5d,
+	text: [
+		"The Thermal Centrifuge is the third machine in IC2's ore processing chain. It's primary purpose is to centrifuge Purified Crushed Ores into Dusts and Tiny Piles of Dusts. It is also necessary for obtaining Uranium 235 and 238 for use in Nuclear Reactors. It can also decompose depleted Fuel Rods and return some of the materials used to obtain them, as well as Plutonium.",
+		"",
+		"For the Thermal Centrifuge to work, it first has to heat up to a certain temperature (which is determined by the resource you are centrifuging). The heat up phase will use up some EU. After the temperature is reached the centrifuging will begin (this phase will use up much more EU!). When no items to centrifuge are left, the Thermal Centrifuge will quickly lose all it's heat."
+	],
+	dependencies: [
+		"9201494e",
+		"8a80b62f"
+	],
+	tasks: [{
+		uid: "ee45815b",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 52"
+		}]
+	}],
+	rewards: [{
+		uid: "b4507433",
+		type: "item",
+		item: "jaopca:item_crushedpurifiedardite"
+	},
+	{
+		uid: "d2f1bd64",
+		type: "item",
+		item: "jaopca:item_crushedpurifiedcobalt"
+	},
+	{
+		uid: "9589b108",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

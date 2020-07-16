@@ -1,0 +1,21 @@
+{
+	title: "Spider Chest",
+	x: -21.5d,
+	y: -5.0d,
+	dependencies: [
+		"214e9482"
+	],
+	tasks: [{
+		uid: "a10fe556",
+		type: "observation",
+		icon: "treasure2:spider_chest",
+		match_type: "block_id",
+		match: "treasure2:spider_chest",
+		timer: 20L
+	}],
+	rewards: [{
+		uid: "df6f8539",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "Crepper Seeds",
+	icon: "mysticalagriculture:creeper_seeds",
+	x: -1.0d,
+	y: -12.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"4113dc34"
+	],
+	tasks: [{
+		uid: "2020e0e3",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:creeper_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "37ade20e",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "c7f1154c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

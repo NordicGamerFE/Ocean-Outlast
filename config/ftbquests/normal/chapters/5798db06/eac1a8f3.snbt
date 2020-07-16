@@ -1,0 +1,34 @@
+{
+	title: "Dirt Seeds",
+	icon: "mysticalagriculture:dirt_seeds",
+	x: 0.0d,
+	y: -6.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"6a19d1ee"
+	],
+	tasks: [{
+		uid: "2a24cc1f",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:dirt_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "0a6feb10",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "e4befd47",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

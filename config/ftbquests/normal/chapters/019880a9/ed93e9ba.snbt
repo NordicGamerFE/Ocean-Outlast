@@ -1,0 +1,31 @@
+{
+	x: 1.5d,
+	y: 1.0d,
+	dependencies: [
+		"49f68fe0"
+	],
+	tasks: [{
+		uid: "359f7404",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_disenchanting_lens"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2d0886d9",
+		type: "ftbmoney:money",
+		ftb_money: 450L
+	},
+	{
+		uid: "f274b752",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

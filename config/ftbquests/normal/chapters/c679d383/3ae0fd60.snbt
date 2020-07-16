@@ -1,0 +1,35 @@
+{
+	title: "Rune of Spring",
+	icon: "botania:rune 1 4",
+	x: 2.0d,
+	y: 3.5d,
+	text: [
+		"Rune of Spring this is an important component in creating complex magical devices. Rune of Spring is one of the Seasonal Runes which is the second tier of Botania Runes. All Runes must be created in the Runic Altar"
+	],
+	dependencies: [
+		"60eb048e",
+		"f6a841d1"
+	],
+	tasks: [{
+		uid: "9c50feec",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "68a52223",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	},
+	{
+		uid: "eaa6b374",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

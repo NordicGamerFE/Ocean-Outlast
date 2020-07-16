@@ -1,0 +1,29 @@
+{
+	x: -8.0d,
+	y: -7.5d,
+	dependencies: [
+		"d2392539"
+	],
+	tasks: [{
+		uid: "ffb36aa3",
+		type: "item",
+		items: [{
+			item: "enderio:block_wireless_charger"
+		}]
+	}],
+	rewards: [{
+		uid: "74555e20",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "ce4f10b1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "jackpot"
+			}
+		}
+	}]
+}

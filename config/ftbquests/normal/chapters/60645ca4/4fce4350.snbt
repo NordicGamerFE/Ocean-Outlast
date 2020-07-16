@@ -1,0 +1,36 @@
+{
+	title: "ME Import Bus",
+	icon: "appliedenergistics2:part 1 240",
+	x: 4.5d,
+	y: -1.5d,
+	text: [
+		"Pulls items from the inventory it is pointed at and places them into the ME Network's Networked Storage. You can specify which items it will pull out via the UI, else it tries to pull out any item in the adjacent inventory. The ME Import Bus will attempt to import any possible options, even if 1 or more of the configured items cannot be stored. The ME Import Bus requires a channel to function.",
+		"",
+		"This is the functional opposite of the ME Export Bus."
+	],
+	dependencies: [
+		"2e82976c"
+	],
+	tasks: [{
+		uid: "8eab0f14",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 240"
+		}]
+	}],
+	rewards: [{
+		uid: "d6f56b39",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "9cda1f9a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

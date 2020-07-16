@@ -1,0 +1,33 @@
+{
+	x: -7.5d,
+	y: -4.0d,
+	text: [
+		"&aAre your trees to big grow to slow?",
+		"&rThen use this item right click the soil needed to grow said tree watch it grow and right click with an axe when its done"
+	],
+	dependencies: [
+		"b9b4a95f"
+	],
+	tasks: [{
+		uid: "1c098187",
+		type: "item",
+		items: [{
+			item: "bonsaitrees:bonsaipot"
+		}]
+	}],
+	rewards: [{
+		uid: "bf789fd2",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	},
+	{
+		uid: "fcf4d142",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "kevs_lost_chest"
+			}
+		}
+	}]
+}

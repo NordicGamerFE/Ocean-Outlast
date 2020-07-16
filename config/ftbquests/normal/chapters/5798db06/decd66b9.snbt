@@ -1,0 +1,16 @@
+{
+	x: -2.0d,
+	y: -2.0d,
+	dependencies: [
+		"f8ffa678"
+	],
+	tasks: [{
+		uid: "d20a4786",
+		type: "item",
+		items: [{
+			item: "mysticalagradditions:inferium_paxel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

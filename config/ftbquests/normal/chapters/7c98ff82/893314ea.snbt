@@ -1,0 +1,32 @@
+{
+	title: "Energy Conduit",
+	icon: "enderio:item_power_conduit",
+	x: -5.75d,
+	y: 0.0d,
+	text: [
+		"Used to transmit Redstone Flux (RF).",
+		"",
+		"Ender IO conduits are similar to wires, but they can be in the same block as other conduits."
+	],
+	dependencies: [
+		"8d674658",
+		"14fd638e"
+	],
+	tasks: [{
+		uid: "e5fb3ddc",
+		type: "item",
+		items: [{
+			item: "enderio:item_power_conduit"
+		}]
+	}],
+	rewards: [{
+		uid: "d70a96e8",
+		type: "item",
+		item: "enderio:item_power_conduit"
+	},
+	{
+		uid: "a57ee63a",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	x: -6.0d,
+	y: 1.5d,
+	text: [
+		"&aSlenderman spooky",
+		"&rA creatour often found in the end but sometimes travel to the overworld, mostly passive just dont look into the eyes"
+	],
+	dependencies: [
+		"bf2a29fd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "adba682c",
+		type: "kill",
+		entity: "minecraft:enderman",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "1d6a2edf",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "b40250fa",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "hunter_s_crate"
+			}
+		}
+	}]
+}

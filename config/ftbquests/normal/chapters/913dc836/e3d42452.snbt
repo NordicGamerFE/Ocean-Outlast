@@ -1,0 +1,31 @@
+{
+	x: 0.5d,
+	y: 0.0d,
+	shape: "square",
+	tasks: [{
+		uid: "533701aa",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_covalence_dust"
+		}]
+	},
+	{
+		uid: "a82bb457",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_covalence_dust 1 1"
+		}]
+	},
+	{
+		uid: "5cfb5d27",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_covalence_dust 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "02169b8c",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

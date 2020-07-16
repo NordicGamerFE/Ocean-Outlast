@@ -1,0 +1,33 @@
+{
+	x: -2.5d,
+	y: -2.5d,
+	dependencies: [
+		"71747bb8"
+	],
+	tasks: [{
+		uid: "410fdb57",
+		type: "item",
+		items: [{
+			id: "ic2:nano_saber",
+			tag: {},
+			Damage: 26s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9f14719d",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "ab838581",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

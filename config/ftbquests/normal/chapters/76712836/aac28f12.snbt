@@ -1,0 +1,30 @@
+{
+	title: "Fluid/Solid Canning Machine",
+	icon: "ic2:te 1 42",
+	x: 1.5d,
+	y: -3.5d,
+	text: [
+		"The Fluid/Solid Canning Machine is a machine with four modes. It can be used to put food into Tin Cans, fill empty fuel rods, enrich liquids, and fill or empty liquid containers (to include Jetpacks)."
+	],
+	dependencies: [
+		"70d97403"
+	],
+	hide: true,
+	tasks: [{
+		uid: "406b4880",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 42"
+		}]
+	}],
+	rewards: [{
+		uid: "5f42901e",
+		type: "item",
+		item: "ic2:crafting 1 1"
+	},
+	{
+		uid: "2506896d",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

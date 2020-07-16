@@ -1,0 +1,39 @@
+{
+	title: "Bauble Case",
+	icon: {
+		ForgeCaps: {
+			Parent: []
+		},
+		id: "botania:baublebox"
+	},
+	x: 4.5d,
+	y: -6.5d,
+	text: [
+		"The Bauble Case allows the user to store up to 24 other baubles items(from any mods) inside of it."
+	],
+	dependencies: [
+		"b53cf0e1"
+	],
+	tasks: [{
+		uid: "8bc65e5b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: []
+			},
+			id: "botania:baublebox"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e23204d9",
+		type: "item",
+		item: "botania:manaresource"
+	},
+	{
+		uid: "872913ed",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

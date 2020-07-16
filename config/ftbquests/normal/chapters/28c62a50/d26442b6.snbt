@@ -1,0 +1,35 @@
+{
+	title: "Time for power",
+	x: 28.0d,
+	y: 5.5d,
+	text: [
+		"&AShocking!",
+		"&rSupplies power to the structure"
+	],
+	dependencies: [
+		"59680ca8"
+	],
+	tasks: [{
+		uid: "ae809214",
+		type: "item",
+		items: [{
+			item: "woot:cell"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cc7ca140",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "5d9c0331",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

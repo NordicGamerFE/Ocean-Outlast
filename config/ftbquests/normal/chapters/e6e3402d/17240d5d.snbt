@@ -1,0 +1,33 @@
+{
+	title: "Gardening Trowel",
+	icon: "agricraft:trowel",
+	x: -4.5d,
+	y: 0.0d,
+	text: [
+		"The Gardening Trowel is used to transport a plant from one Crop Stick to another. Using the Gardening Trowel on Crop Stick will store the plant in the trowel, and then it can be placed on another Crop Stick."
+	],
+	tasks: [{
+		uid: "679fb5b8",
+		type: "item",
+		items: [{
+			item: "agricraft:trowel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "26d850d5",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "900af260",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

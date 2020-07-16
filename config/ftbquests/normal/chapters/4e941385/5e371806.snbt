@@ -1,0 +1,22 @@
+{
+	x: 6.5d,
+	y: 3.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "041449bf",
+		type: "item",
+		items: [{
+			item: "enderio:item_alloy_ingot 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "06f587e1",
+		type: "item",
+		item: {
+			id: "lodsofemone:coin_small",
+			tag: {
+				value: 10
+			}
+		}
+	}]
+}

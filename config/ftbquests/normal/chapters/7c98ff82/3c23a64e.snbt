@@ -1,0 +1,35 @@
+{
+	title: "The Vat",
+	icon: "enderio:block_vat",
+	x: 2.0d,
+	y: -3.5d,
+	text: [
+		"refinery-like machine that can produce various Liquids by combining 2 items and a fluid."
+	],
+	dependencies: [
+		"ae00e650"
+	],
+	tasks: [{
+		uid: "35a70590",
+		type: "item",
+		items: [{
+			item: "enderio:block_vat"
+		}]
+	}],
+	rewards: [{
+		uid: "fa5209ac",
+		type: "item",
+		item: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "hootch",
+				Amount: 1000
+			}
+		}
+	},
+	{
+		uid: "d37d9381",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: 6.5d,
+	y: -1.5d,
+	shape: "rsquare",
+	tasks: [{
+		uid: "f854965b",
+		type: "item",
+		items: [{
+			id: "mekanism:machineblock2",
+			tag: {
+				tier: 0
+			},
+			Damage: 11s
+		}]
+	}],
+	rewards: [{
+		uid: "b98e7b6d",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

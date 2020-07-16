@@ -1,0 +1,36 @@
+{
+	title: "Compressed Iron Hammer",
+	icon: "excompressum:compressed_hammer_iron",
+	x: -1.0d,
+	y: -6.0d,
+	text: [
+		"Works a lot like the iron hammer expect. it is used on compressed blocks"
+	],
+	dependencies: [
+		"dd5351a0"
+	],
+	tasks: [{
+		uid: "3b27bb87",
+		type: "item",
+		items: [{
+			item: "excompressum:compressed_hammer_iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c419263f",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "b78a0f30",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

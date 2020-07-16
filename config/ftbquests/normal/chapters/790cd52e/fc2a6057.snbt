@@ -1,0 +1,25 @@
+{
+	x: -7.5d,
+	y: -5.0d,
+	text: [
+		"&aChop! Chop!",
+		"&rLets make some Wooden Shears"
+	],
+	dependencies: [
+		"8757af66"
+	],
+	tasks: [{
+		uid: "57cce7a6",
+		type: "item",
+		items: [{
+			item: "tp:wooden_shears"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f23f465b",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

@@ -1,0 +1,136 @@
+{
+	title: "Jackpot",
+	loot_size: 1,
+	use_title: true,
+	rewards: [{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				display: {
+					Name: "Reroll"
+				},
+				type: "jackpot"
+			}
+		},
+		weight: 50
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				display: {
+					Name: "Free spins"
+				},
+				type: "jackpot"
+			}
+		},
+		weight: 10
+	},
+	{
+		ftb_money: 10L,
+		type: "ftbmoney:money",
+		weight: 100
+	},
+	{
+		ftb_money: 15L,
+		type: "ftbmoney:money",
+		weight: 90
+	},
+	{
+		ftb_money: 20L,
+		type: "ftbmoney:money",
+		weight: 80
+	},
+	{
+		ftb_money: 30L,
+		type: "ftbmoney:money",
+		weight: 80
+	},
+	{
+		ftb_money: 50L,
+		type: "ftbmoney:money",
+		weight: 70
+	},
+	{
+		ftb_money: 100L,
+		type: "ftbmoney:money",
+		weight: 60
+	},
+	{
+		ftb_money: 300L,
+		type: "ftbmoney:money",
+		weight: 50
+	},
+	{
+		ftb_money: 600L,
+		type: "ftbmoney:money",
+		weight: 50
+	},
+	{
+		ftb_money: 1000L,
+		type: "ftbmoney:money",
+		weight: 40
+	},
+	{
+		ftb_money: 1500L,
+		type: "ftbmoney:money",
+		weight: 40
+	},
+	{
+		ftb_money: 2000L,
+		type: "ftbmoney:money",
+		weight: 40
+	},
+	{
+		ftb_money: 5000L,
+		type: "ftbmoney:money",
+		weight: 30
+	},
+	{
+		ftb_money: 7000L,
+		type: "ftbmoney:money",
+		weight: 30
+	},
+	{
+		ftb_money: 8000L,
+		type: "ftbmoney:money",
+		weight: 20
+	},
+	{
+		ftb_money: 10000L,
+		type: "ftbmoney:money",
+		weight: 20
+	},
+	{
+		ftb_money: 100000L,
+		type: "ftbmoney:money",
+		weight: 10
+	},
+	{
+		ftb_money: 1000000L,
+		type: "ftbmoney:money",
+		weight: 5
+	},
+	{
+		ftb_money: 10000000L,
+		type: "ftbmoney:money"
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}],
+	loot_crate: {
+		string_id: "jackpot",
+		item_name: "Jackpot Machine",
+		color: 7538789,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

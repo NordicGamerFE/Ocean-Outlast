@@ -1,0 +1,41 @@
+{
+	title: "Sprout",
+	x: -8.0d,
+	y: -8.5d,
+	text: [
+		"&aOOO SO CUTE :D",
+		"&rYeah pretty much it cute things <3"
+	],
+	dependencies: [
+		"120bf0a4"
+	],
+	tasks: [{
+		uid: "cca41fc1",
+		type: "observation",
+		icon: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1,
+				id: "mysticalworld:entity_sprout"
+			}
+		},
+		match_type: "entity_id",
+		match: "mysticalworld:entity_sprout",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "52c43fb8",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	},
+	{
+		uid: "4cd82e2b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

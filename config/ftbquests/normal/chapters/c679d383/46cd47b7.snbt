@@ -1,0 +1,44 @@
+{
+	title: "Ring of Odin",
+	icon: {
+		id: "botania:odinring",
+		tag: {
+			soulbindUUID: "0269faac-332b-41bb-b51b-2ee5f7017218"
+		}
+	},
+	x: 11.5d,
+	y: -7.0d,
+	text: [
+		"The Ring of Odin is one of the three mythic rings of the Aesir, the Ring of Odin grants its wearer the vitality and resistance of the Elder God Odin. As well as the addition of ten extra hearts of health, the Ring of Odin protects the wearer from various kinds of elemental damage such as drowning, suffocation, fire or starvation. The ring can also be combined with the other two rings of the Aesir in a crafting table to create the ultimate ring. How to obtain this item is a well guarded secret."
+	],
+	dependencies: [
+		"699291a5"
+	],
+	tasks: [{
+		uid: "7c7e8729",
+		type: "item",
+		items: [{
+			id: "botania:odinring",
+			tag: {
+				soulbindUUID: "0269faac-332b-41bb-b51b-2ee5f7017218"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4a3ed975",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "bb7ea04d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

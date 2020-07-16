@@ -1,0 +1,309 @@
+{
+	title: "Hunter's Crate",
+	loot_size: 1,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: "thermalfoundation:tool.shield_iron"
+	},
+	{
+		item: "thermalfoundation:tool.shield_electrum"
+	},
+	{
+		item: {
+			id: "tconstruct:sword_blade",
+			tag: {
+				Material: "pigiron"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:sword_blade",
+			tag: {
+				Material: "sponge"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:sword_blade",
+			tag: {
+				Material: "netherrack"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:sword_blade",
+			tag: {
+				Material: "cactus"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:sword_blade",
+			tag: {
+				Material: "emerald_plustic"
+			}
+		}
+	},
+	{
+		item: "thermalfoundation:tool.shield_diamond"
+	},
+	{
+		item: "minecraft:skull 1 2"
+	},
+	{
+		item: "minecraft:chicken"
+	},
+	{
+		item: "minecraft:mutton"
+	},
+	{
+		item: "minecraft:beef"
+	},
+	{
+		item: "minecraft:skull"
+	},
+	{
+		item: "minecraft:skull 1 1"
+	},
+	{
+		item: "minecraft:wool"
+	},
+	{
+		item: "minecraft:rabbit"
+	},
+	{
+		item: "minecraft:arrow"
+	},
+	{
+		item: "minecraft:arrow"
+	},
+	{
+		item: "minecraft:bow"
+	},
+	{
+		item: "minecraft:wooden_sword"
+	},
+	{
+		item: "minecraft:porkchop"
+	},
+	{
+		item: {
+			id: "minecraft:tipped_arrow",
+			tag: {
+				Potion: "extrautils2:xu2.greek.fire"
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:tipped_arrow",
+			tag: {
+				Potion: "extrautils2:xu2.fizzy.lifting"
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:tipped_arrow",
+			tag: {
+				Potion: "cofhcore:wither4"
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:tipped_arrow",
+			tag: {
+				Potion: "cofhcore:wither3"
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:tipped_arrow",
+			tag: {
+				Potion: "cofhcore:levitation+"
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:tipped_arrow",
+			tag: {
+				Potion: "cofhcore:unluck2"
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:tipped_arrow",
+			tag: {
+				Potion: "minecraft:strong_poison"
+			}
+		}
+	},
+	{
+		item: {
+			id: "minecraft:tipped_arrow",
+			tag: {
+				Potion: "minecraft:strong_harming"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:sword_blade",
+			tag: {
+				Material: "steel"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:sword_blade",
+			tag: {
+				Material: "xu_demonic_metal"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:sword_blade",
+			tag: {
+				Material: "diamatine_actadd_plustic"
+			}
+		}
+	},
+	{
+		item: {
+			id: "ironbackpacks:backpack",
+			tag: {
+				packInfo: {
+					upgrade: [],
+					type: "ironbackpacks:basic",
+					spec: "NONE"
+				}
+			}
+		}
+	},
+	{
+		item: "dragonmounts:enchant_dragon_sword"
+	},
+	{
+		item: "bewitchment:silver_sword"
+	},
+	{
+		item: "mysticalworld:amethyst_sword"
+	},
+	{
+		item: "harvestcraft:groundchickenitem"
+	},
+	{
+		item: "harvestcraft:groundduckitem"
+	},
+	{
+		item: "harvestcraft:groundfishitem"
+	},
+	{
+		item: "harvestcraft:groundporkitem"
+	},
+	{
+		item: "harvestcraft:groundrabbititem"
+	},
+	{
+		item: "harvestcraft:groundturkeyitem"
+	},
+	{
+		item: "harvestcraft:groundvenisonitem"
+	},
+	{
+		item: "harvestcraft:slimegummiesitem"
+	},
+	{
+		item: "harvestcraft:bolognaitem"
+	},
+	{
+		item: "tp:stone_spear"
+	},
+	{
+		item: "tp:flint_sword"
+	},
+	{
+		item: "tp:small_med_kit"
+	},
+	{
+		item: "tp:large_bandage"
+	},
+	{
+		item: "tp:obsidian_sword"
+	},
+	{
+		item: "tp:chicken_sandwhich"
+	},
+	{
+		item: "tp:bacon_sandwhich"
+	},
+	{
+		item: "harvestcraft:venisonrawitem"
+	},
+	{
+		item: "harvestcraft:maplecandiedbaconitem"
+	},
+	{
+		item: "harvestcraft:epicbaconitem"
+	},
+	{
+		item: "harvestcraft:zombiejerkyitem"
+	},
+	{
+		item: "harvestcraft:hotwingsitem"
+	},
+	{
+		item: "mowziesmobs:glowing_jelly"
+	},
+	{
+		item: "primal_tech:fluid_bladder"
+	},
+	{
+		item: "grimoireofgaia:food_rotten_heart"
+	},
+	{
+		item: "harvestcraft:groundbeefitem"
+	},
+	{
+		item: "harvestcraft:gourmetvenisonpattyitem"
+	},
+	{
+		item: "harvestcraft:gourmetporkpattyitem"
+	},
+	{
+		item: "harvestcraft:gourmetmuttonpattyitem"
+	},
+	{
+		item: "harvestcraft:gourmetbeefpattyitem"
+	},
+	{
+		item: "harvestcraft:duckrawitem"
+	},
+	{
+		item: "harvestcraft:cornedbeefitem"
+	},
+	{
+		item: "harvestcraft:turkeyrawitem"
+	}],
+	loot_crate: {
+		string_id: "hunter_s_crate",
+		item_name: "Hunter's Crate",
+		color: 8686592,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

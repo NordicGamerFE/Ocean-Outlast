@@ -1,0 +1,34 @@
+{
+	title: "Ardite Seeds",
+	icon: "mysticalagriculture:ardite_seeds",
+	x: -3.0d,
+	y: -13.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"4113dc34"
+	],
+	tasks: [{
+		uid: "cab466ae",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:ardite_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "d421104b",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "3ec45d1c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "Simple Crafter",
+	icon: "enderio:block_simple_crafter",
+	x: -3.0d,
+	y: -2.5d,
+	text: [
+		"Used to automatically craft items. Its GUI is divided into 2 parts.",
+		"At the left, the player can define the recipe to execute by simply dragging items into the corresponding slot of the crafting table. ",
+		"The Right part is used to input the items the machine will use. ",
+		"Those item inputs can be automated with Item Conduits and others item transportation blocks."
+	],
+	dependencies: [
+		"1f61beca"
+	],
+	tasks: [{
+		uid: "8caef4ce",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_crafter"
+		}]
+	}],
+	rewards: [{
+		uid: "d5b638ad",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

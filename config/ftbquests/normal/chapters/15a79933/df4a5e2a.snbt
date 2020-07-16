@@ -1,0 +1,33 @@
+{
+	x: -6.0d,
+	y: 0.0d,
+	text: [
+		"&aThese creaturs will try to kill you at all cost",
+		"&rKeep your distance Creepers will self destruct if you get to close best to sweep in hit them and move back"
+	],
+	dependencies: [
+		"bf2a29fd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "757e5774",
+		type: "kill",
+		entity: "minecraft:creeper",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "4ae23ece",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "4f3181a3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "hunter_s_crate"
+			}
+		}
+	}]
+}

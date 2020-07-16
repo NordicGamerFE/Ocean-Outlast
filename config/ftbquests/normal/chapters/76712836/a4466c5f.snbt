@@ -1,0 +1,32 @@
+{
+	title: "MV Transformer",
+	icon: "ic2:te 1 78",
+	x: 3.5d,
+	y: 3.0d,
+	text: [
+		"MV-Transformer",
+		"Step-down: Input 512 EU/t, Output 128 EU/t (x5)",
+		"Step-up: Input 128 EU/t (x5), Output 512 EU/t"
+	],
+	dependencies: [
+		"b7d9a57f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5723b916",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 78"
+		}]
+	}],
+	rewards: [{
+		uid: "b5b9b118",
+		type: "item",
+		item: "minecraft:iron_block"
+	},
+	{
+		uid: "45d68c30",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

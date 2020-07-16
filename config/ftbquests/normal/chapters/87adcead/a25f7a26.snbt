@@ -1,0 +1,30 @@
+{
+	title: "Black Iron Ingot",
+	icon: "extendedcrafting:material",
+	x: 0.0d,
+	y: 0.0d,
+	text: [
+		"Black Iron Ingot is a base Crafting Component in Extended Crafting"
+	],
+	dependencies: [
+		"386d63ba"
+	],
+	tasks: [{
+		uid: "8ea2f096",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material 10"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "60e6f07b",
+		type: "item",
+		item: "extendedcrafting:material"
+	},
+	{
+		uid: "b49dd3d5",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

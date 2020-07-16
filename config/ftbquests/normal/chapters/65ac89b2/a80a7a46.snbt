@@ -1,0 +1,19 @@
+{
+	x: 3.0d,
+	y: -2.0d,
+	dependencies: [
+		"85eebb4c"
+	],
+	tasks: [{
+		uid: "a70cb7ea",
+		type: "item",
+		items: [{
+			item: "tconstruct:materials 1 14"
+		}]
+	}],
+	rewards: [{
+		uid: "bc47def1",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

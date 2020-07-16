@@ -1,0 +1,35 @@
+{
+	title: "Industrial Machine Chassis",
+	icon: "enderio:item_material 1 1",
+	x: 2.75d,
+	y: -2.5d,
+	text: [
+		"Used as a component to create most mid-tier machines."
+	],
+	dependencies: [
+		"14fd638e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5bc4bea0",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "0a2f7d7a",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "90895604",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "jackpot"
+			}
+		}
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	x: -11.5d,
+	y: 0.5d,
+	text: [
+		"&aOrge hunter",
+		"&rThis guy might be small but he got some real power behind his fists"
+	],
+	dependencies: [
+		"bf2a29fd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "71dbab03",
+		type: "kill",
+		entity: "cqrepoured:dwarf",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "499b8476",
+		type: "ftbmoney:money",
+		ftb_money: 450L
+	},
+	{
+		uid: "b9f87ce9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

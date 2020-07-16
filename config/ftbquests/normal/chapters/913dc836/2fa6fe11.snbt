@@ -1,0 +1,33 @@
+{
+	x: -3.5d,
+	y: 1.0d,
+	dependencies: [
+		"c353d7ed"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1a02841e",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_catalitic_lens",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cd22b014",
+		type: "ftbmoney:money",
+		ftb_money: 2000L
+	},
+	{
+		uid: "c23e8729",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

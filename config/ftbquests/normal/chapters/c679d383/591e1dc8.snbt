@@ -1,0 +1,40 @@
+{
+	title: "Globetrotter's Sash",
+	icon: "botania:supertravelbelt",
+	x: -11.5d,
+	y: -4.0d,
+	text: [
+		"improvement on the Sojourner's Sash, with enhanced speed and jump abilities bestowed onto the Player. This item requires Elven Knowledge for its entry to be seen in the Lexica Botania.",
+		"",
+		"Recipe"
+	],
+	dependencies: [
+		"968e10a8",
+		"d9bed1c5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1057ecfe",
+		type: "item",
+		items: [{
+			item: "botania:supertravelbelt"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "39fdf57f",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "ea8d49ac",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

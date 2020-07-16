@@ -1,0 +1,33 @@
+{
+	title: "Flux Controller",
+	icon: "fluxnetworks:fluxcontroller",
+	x: -2.0d,
+	y: -1.5d,
+	text: [
+		"Required to activate Cross-dimensional inventory charging.",
+		"Inventory charging can be configured in the Wireless Charging Tab.",
+		"Only one controller can be connected to a network at one time.",
+		"The controller's 'Output' refers to energy outputted from the network via Wireless Charging.",
+		"Network's do not require a Flux Controller to operate"
+	],
+	dependencies: [
+		"b50c4be7"
+	],
+	tasks: [{
+		uid: "6498e141",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:fluxcontroller"
+		}]
+	}],
+	rewards: [{
+		uid: "f2dc6889",
+		type: "item",
+		item: "fluxnetworks:fluxcore"
+	},
+	{
+		uid: "cf4d9fd7",
+		type: "ftbmoney:money",
+		ftb_money: 400L
+	}]
+}

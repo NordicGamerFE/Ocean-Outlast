@@ -1,0 +1,42 @@
+{
+	title: "This seems useless",
+	x: -9.5d,
+	y: -6.0d,
+	text: [
+		"&aAs you might have already noticed most vanilla tools have been nerfed&r",
+		"Do not worry we do not force tinkers upon you there is many great options like the &7AIOT &F(All In One Tools) take this stone one as a kind gift",
+		"(&7Tip the Obsidian AIOT has very good durability&f)"
+	],
+	dependencies: [
+		"b5373745"
+	],
+	tasks: [{
+		uid: "59e9b5a0",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "622fe056",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	},
+	{
+		uid: "4f89458f",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "b2f80197",
+		type: "item",
+		item: "actuallyadditions:stone_paxel"
+	}]
+}

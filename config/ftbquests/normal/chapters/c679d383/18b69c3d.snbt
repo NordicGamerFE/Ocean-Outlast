@@ -1,0 +1,30 @@
+{
+	title: "Livingrock",
+	icon: "botania:livingrock",
+	x: 3.0d,
+	y: -2.5d,
+	text: [
+		"Livingrock is a base crafting component in loads of botania"
+	],
+	dependencies: [
+		"2c9401aa"
+	],
+	tasks: [{
+		uid: "3df95e3a",
+		type: "item",
+		items: [{
+			item: "botania:livingrock 16"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "ff4157a1",
+		type: "item",
+		item: "botania:livingrock"
+	},
+	{
+		uid: "bd4f2743",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

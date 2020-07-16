@@ -1,0 +1,26 @@
+{
+	title: "Compressed Wooden Hammer",
+	icon: "excompressum:compressed_hammer_wood",
+	x: -1.0d,
+	y: -7.0d,
+	text: [
+		"Works a lot like the wooden hammer expect. it is used on compressed blocks"
+	],
+	dependencies: [
+		"74f3d5ba"
+	],
+	tasks: [{
+		uid: "e627bd77",
+		type: "item",
+		items: [{
+			item: "excompressum:compressed_hammer_wood"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "703668c8",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

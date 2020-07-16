@@ -1,0 +1,34 @@
+{
+	title: "Ultimate Crafting Table",
+	icon: "extendedcrafting:table_ultimate",
+	x: 0.0d,
+	y: -4.5d,
+	text: [
+		"A 9 by 9 crafting table"
+	],
+	dependencies: [
+		"4b32b08b"
+	],
+	tasks: [{
+		uid: "6c199a31",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:table_ultimate"
+		}]
+	}],
+	rewards: [{
+		uid: "0c5b1539",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	},
+	{
+		uid: "a10b6a9a",
+		type: "ftbmoney:money",
+		ftb_money: 750L
+	}]
+}

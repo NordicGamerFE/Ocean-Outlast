@@ -1,0 +1,32 @@
+{
+	title: "Jaded Amaranthus",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "jadedAmaranthus"
+		}
+	},
+	x: -4.5d,
+	y: 3.5d,
+	text: [
+		"The Jaded Amaranthus is a functional flower which uses mana to randomly produce a Mystical Flower on any valid block nearby. This flower has a range of 5 blocks. Flowers will be produced continuously as long as mana is provided and space is available. It can be disabled at will by applying a redstone signal."
+	],
+	dependencies: [
+		"3ae0fd60"
+	],
+	tasks: [{
+		uid: "4e459286",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "jadedAmaranthus"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "94aaf0ca",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "Storage Import Cable",
+	icon: "storagenetwork:im_kabel",
+	x: -1.5d,
+	y: 0.0d,
+	text: [
+		"Imports items form attached inventory into the network"
+	],
+	dependencies: [
+		"6aca77c3"
+	],
+	tasks: [{
+		uid: "632422bd",
+		type: "item",
+		items: [{
+			item: "storagenetwork:im_kabel"
+		}]
+	}],
+	rewards: [{
+		uid: "ea98a042",
+		type: "item",
+		item: "storagenetwork:im_kabel"
+	},
+	{
+		uid: "c28bbdec",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

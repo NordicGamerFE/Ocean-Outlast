@@ -1,0 +1,36 @@
+{
+	title: "Kyronite Crystal",
+	icon: "environmentaltech:kyronite_crystal",
+	x: -4.5d,
+	y: 1.0d,
+	text: [
+		"used to craft Tier 3 components of Environmental Tech multiblock"
+	],
+	dependencies: [
+		"77a4df69"
+	],
+	hide: true,
+	tasks: [{
+		uid: "72939c4e",
+		type: "item",
+		items: [{
+			item: "environmentaltech:kyronite_crystal 16"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "c9670cc9",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	},
+	{
+		uid: "d0dcf385",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

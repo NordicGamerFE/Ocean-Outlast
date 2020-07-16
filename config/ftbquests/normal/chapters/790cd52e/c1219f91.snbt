@@ -1,0 +1,26 @@
+{
+	title: "Budget bucket",
+	icon: "claybucket:claybucket",
+	x: -10.5d,
+	y: -7.5d,
+	text: [
+		"&AOh a cheap bucket :D&r",
+		"Since normal bucket require a few extra steps you can make a clay bucket for now"
+	],
+	dependencies: [
+		"8757af66"
+	],
+	tasks: [{
+		uid: "f4c74f08",
+		type: "item",
+		items: [{
+			item: "claybucket:claybucket"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "efabbf3e",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: 6.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "773dbc0f",
+		type: "item",
+		items: [{
+			item: "thaumcraft:curio 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "8018fa11",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "df360c93",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "jackpot"
+			}
+		}
+	}]
+}

@@ -1,0 +1,10 @@
+{
+	title: "Tinker's Construction",
+	icon: "tconstruct:book",
+	description: [
+		"Tinker's is a mod that lets you create custom tools where parts of the tools can be made of diffrent materials with abilitys there is also modifiers"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

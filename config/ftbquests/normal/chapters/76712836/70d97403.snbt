@@ -1,0 +1,35 @@
+{
+	title: "Basic Machine Casing",
+	icon: "ic2:resource 1 12",
+	x: 0.0d,
+	y: -1.5d,
+	text: [
+		"Used to make most machines in IC2"
+	],
+	dependencies: [
+		"50b66f98"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b79e410f",
+		type: "item",
+		items: [{
+			item: "ic2:resource 1 12"
+		}]
+	}],
+	rewards: [{
+		uid: "534b021f",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "684f2b55",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "kevs_lost_chest"
+			}
+		}
+	}]
+}

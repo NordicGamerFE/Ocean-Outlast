@@ -1,0 +1,30 @@
+{
+	x: -6.5d,
+	y: -5.5d,
+	dependencies: [
+		"c38b9646"
+	],
+	tasks: [{
+		uid: "623c11b1",
+		type: "item",
+		items: [{
+			item: "minecraft:end_crystal"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "d1875939",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "5cefc352",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

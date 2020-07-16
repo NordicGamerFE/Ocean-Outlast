@@ -1,0 +1,26 @@
+{
+	title: "Scribing Tool",
+	icon: "thaumcraft:scribing_tools",
+	x: 0.0d,
+	y: 3.0d,
+	text: [
+		"Used to create Theories on the Research Table and to create Celestial Notes alongside Paper in the player's inventory."
+	],
+	dependencies: [
+		"c6c08453"
+	],
+	tasks: [{
+		uid: "b1a02320",
+		type: "item",
+		items: [{
+			item: "thaumcraft:scribing_tools"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2a2c9839",
+		type: "ftbmoney:money",
+		ftb_money: 35L
+	}]
+}

@@ -1,0 +1,37 @@
+{
+	title: "Sojourner's Sash",
+	icon: "botania:travelbelt",
+	x: -10.0d,
+	y: -4.5d,
+	text: [
+		"When placed in the belt slot of the Baubles inventory, the Soujourner's Sash increases movement speed, jump height, fall damage resistance and also allows to walk up blocks as steps."
+	],
+	dependencies: [
+		"5c8a07d3",
+		"907d3764"
+	],
+	tasks: [{
+		uid: "d008629a",
+		type: "item",
+		items: [{
+			item: "botania:travelbelt"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d7c1762c",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "4ce76c2e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

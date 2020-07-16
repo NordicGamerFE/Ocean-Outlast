@@ -1,0 +1,28 @@
+{
+	x: 3.0d,
+	y: 2.0d,
+	dependencies: [
+		"ef41ee89"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4a9d4565",
+		type: "ftbmoney:money",
+		value: 1000000000L
+	}],
+	rewards: [{
+		uid: "1c3aa48e",
+		type: "ftbmoney:money",
+		ftb_money: 10000000L
+	},
+	{
+		uid: "41def51f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "supra_crate"
+			}
+		}
+	}]
+}

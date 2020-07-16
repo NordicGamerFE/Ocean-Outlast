@@ -1,0 +1,32 @@
+{
+	title: "Pollidisiac",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "pollidisiac"
+		}
+	},
+	x: -4.5d,
+	y: 5.0d,
+	text: [
+		"The Pollidisiac is a functional flower which uses mana to provide valid food items from an adjacent inventory to any passive mobs in the vicinity that will accept feeding. It does not change any of the usual passive mob breeding or growth mechanics."
+	],
+	dependencies: [
+		"eaf0142e"
+	],
+	tasks: [{
+		uid: "8b2d461d",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "pollidisiac"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "478cd926",
+		type: "ftbmoney:money",
+		ftb_money: 60L
+	}]
+}

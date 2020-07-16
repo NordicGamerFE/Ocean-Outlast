@@ -1,0 +1,39 @@
+{
+	title: "Crucible",
+	icon: "thaumcraft:crucible",
+	x: 1.0d,
+	y: 1.5d,
+	text: [
+		"Used to create items through alchemy. It must be filled with water with a heat source (e.g., Lava or fire) placed underneath it for it to function. Throwing items into it will destroy the item and turn it into its Aspects—this only holds true if the item has aspects; if it does not then it will be dropped into the Crucible unchanged and able . The exact amount and type of aspects can be observed by looking at the Crucible while wearing the Goggles of Revealing. By throwing a specific item (the catalyst) into the Crucible once the appropriate amounts and types of aspects are present, the output will pop out of the Crucible and consume the aspects used in the recipe. Over time aspects will dissipate into the air and become Flux; this will also occur when an item is created. Its contents can be emptied by shift right-clicking on it with an empty hand with the cost of releasing it as Flux.",
+		"",
+		"The Crucible can safely handle up to 500 points of essentia at any given time. Going past this cap causes it to overflow, dumping excess essentia into the air until it drop backs down to the cap.",
+		"",
+		"After researching \"Automated Alchemy,\" the Crucible can be used to form part of the multiblock structure known as the Thaumatorium."
+	],
+	dependencies: [
+		"e46ac223",
+		"c6c08453"
+	],
+	tasks: [{
+		uid: "e223738e",
+		type: "item",
+		items: [{
+			item: "thaumcraft:crucible"
+		}]
+	}],
+	rewards: [{
+		uid: "c389983f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "kevs_lost_chest"
+			}
+		}
+	},
+	{
+		uid: "e92046fc",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

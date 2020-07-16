@@ -1,0 +1,47 @@
+{
+	title: "Tired fingers",
+	icon: "exnihilocreatio:block_sieve",
+	x: -4.0d,
+	y: -3.0d,
+	text: [
+		"&aLets make a sieve this is used to obtain materials early on",
+		"&rThe string mesh only can obtain flint so either sieve gravel to obtain flint or obtain enough flint to make the flint mesh to obtain ores"
+	],
+	dependencies: [
+		"1923285a"
+	],
+	tasks: [{
+		uid: "b01f9d3f",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:block_sieve"
+		}]
+	},
+	{
+		uid: "be9d8900",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_mesh 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "1d1dbefa",
+		type: "item",
+		item: "minecraft:flint"
+	},
+	{
+		uid: "08ab35ad",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	},
+	{
+		uid: "ebd16a58",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

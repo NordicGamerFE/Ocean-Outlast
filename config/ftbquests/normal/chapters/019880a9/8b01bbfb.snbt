@@ -1,0 +1,19 @@
+{
+	x: 1.5d,
+	y: -4.0d,
+	dependencies: [
+		"49f68fe0"
+	],
+	tasks: [{
+		uid: "9de8a012",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_player_interface"
+		}]
+	}],
+	rewards: [{
+		uid: "5274c07d",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "Iron Hammer",
+	icon: "exnihilocreatio:hammer_iron",
+	x: -1.0d,
+	y: -3.5d,
+	text: [
+		"Craft a Iron Hammer"
+	],
+	tasks: [{
+		uid: "40ef02b5",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:hammer_iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d97c23b7",
+		type: "item",
+		item: "minecraft:iron_block"
+	}]
+}

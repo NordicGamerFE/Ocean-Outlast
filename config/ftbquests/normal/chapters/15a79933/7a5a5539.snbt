@@ -1,0 +1,21 @@
+{
+	title: "Pirate Chest",
+	x: -21.5d,
+	y: -3.0d,
+	dependencies: [
+		"214e9482"
+	],
+	tasks: [{
+		uid: "40b891d1",
+		type: "observation",
+		icon: "treasure2:pirate_chest",
+		match_type: "block_id",
+		match: "treasure2:pirate_chest",
+		timer: 20L
+	}],
+	rewards: [{
+		uid: "eb659c59",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "Nether Star Crux",
+	icon: "mysticalagradditions:special",
+	x: -2.5d,
+	y: -25.0d,
+	text: [
+		"Place under the block where the nether star seed are planted to make it grow"
+	],
+	dependencies: [
+		"3478342f"
+	],
+	tasks: [{
+		uid: "53bda51d",
+		type: "item",
+		items: [{
+			item: "mysticalagradditions:special"
+		}]
+	}],
+	rewards: [{
+		uid: "89907403",
+		type: "item",
+		item: "mysticalagradditions:special"
+	},
+	{
+		uid: "1c43e438",
+		type: "ftbmoney:money",
+		ftb_money: 400L
+	}]
+}

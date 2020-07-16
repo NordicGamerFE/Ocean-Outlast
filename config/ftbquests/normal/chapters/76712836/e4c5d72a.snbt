@@ -1,0 +1,42 @@
+{
+	title: "Scanner",
+	icon: "ic2:te 1 64",
+	x: -7.0d,
+	y: -6.5d,
+	text: [
+		"put any item you want to replicate in the scanner and power it with 512EUp. The scanner will analyze the item and give information on how much UU-Liquid and EU you'll need to create the item. Note that not all items can be scanned. Scanning one item will consume roughly 850000 EU."
+	],
+	dependencies: [
+		"f9a0da4a",
+		"9201494e"
+	],
+	tasks: [{
+		uid: "75ae4404",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 64"
+		}]
+	},
+	{
+		uid: "1c6ccb35",
+		type: "item",
+		items: [{
+			id: "ic2:crystal_memory",
+			Count: 2,
+			tag: {}
+		}],
+		count: 2L,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "65327931",
+		type: "item",
+		item: "ic2:crafting 1 27"
+	},
+	{
+		uid: "88c33364",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: 7.5d,
+	y: 3.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "0c129c4e",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 14"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "fa9e8ed8",
+		type: "item",
+		item: {
+			id: "lodsofemone:coin_big",
+			tag: {
+				value: 100
+			}
+		}
+	}]
+}

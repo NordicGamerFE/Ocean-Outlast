@@ -1,0 +1,36 @@
+{
+	title: "Band Of Mana",
+	icon: {
+		id: "botania:manaring",
+		tag: {}
+	},
+	x: 3.5d,
+	y: -6.5d,
+	text: [
+		"Functions as a wearable Mana Tablet, capable of holding 500,000 points of Mana , the equivalent to half a Mana Pool."
+	],
+	dependencies: [
+		"b42dfd38",
+		"b53cf0e1"
+	],
+	tasks: [{
+		uid: "68a1006a",
+		type: "item",
+		items: [{
+			id: "botania:manaring",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "db45966b",
+		type: "item",
+		item: "botania:manaresource"
+	},
+	{
+		uid: "12c9787f",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

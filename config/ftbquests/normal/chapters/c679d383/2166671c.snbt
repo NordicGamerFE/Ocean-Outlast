@@ -1,0 +1,40 @@
+{
+	title: "Rod of the Bifrost",
+	icon: "botania:rainbowrod",
+	x: 12.0d,
+	y: 1.5d,
+	text: [
+		"Rod of the Bifrost is an item added by the Botania mod. R-click with this rod will create a bridge in the direction player is looking at, at the cost of some mana. The bridge extends up to 1000 blocks and also cannot be broken, but it will disappear after ? 15 seconds.",
+		"After right clicking the rod cannot be used again for a few seconds."
+	],
+	dependencies: [
+		"15474f17",
+		"2b70a6dd",
+		"bf2a0bf0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "840a234b",
+		type: "item",
+		items: [{
+			item: "botania:rainbowrod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "41531210",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "94132290",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

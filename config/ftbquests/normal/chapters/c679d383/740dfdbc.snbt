@@ -1,0 +1,37 @@
+{
+	title: "Rod of the Highlands",
+	icon: "botania:skydirtrod",
+	x: -8.0d,
+	y: -2.0d,
+	text: [
+		"R-click with this rod will place Dirt for some mana cost. Unlike Rod of the Lands, this rod can place blocks right in the air."
+	],
+	dependencies: [
+		"942e3eca",
+		"15474f17"
+	],
+	tasks: [{
+		uid: "226a5507",
+		type: "item",
+		items: [{
+			item: "botania:skydirtrod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ace1da9c",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "1ef9ad18",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

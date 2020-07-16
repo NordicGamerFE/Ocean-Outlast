@@ -1,0 +1,36 @@
+{
+	title: "Tier 4 Crafting Seed",
+	icon: "mysticalagriculture:crafting 1 20",
+	x: 0.0d,
+	y: -14.5d,
+	shape: "hexagon",
+	text: [
+		"Used to craft tier 4 seeds"
+	],
+	dependencies: [
+		"4113dc34"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1e3088ed",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:crafting 1 20"
+		}]
+	}],
+	rewards: [{
+		uid: "3b7f8ee5",
+		type: "ftbmoney:money",
+		ftb_money: 800L
+	},
+	{
+		uid: "815ba89e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

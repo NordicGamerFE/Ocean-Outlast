@@ -1,0 +1,45 @@
+{
+	title: "Darken Magic",
+	loot_size: 5,
+	rewards: [{
+		item: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1,
+				id: "thaumcraft:cultistportallesser"
+			}
+		},
+		only_one: true,
+		weight: 100
+	},
+	{
+		item: "thaumcraft:crimson_robe_helm",
+		only_one: true,
+		weight: 100
+	},
+	{
+		item: "thaumcraft:crimson_robe_chest",
+		only_one: true,
+		weight: 100
+	},
+	{
+		item: "thaumcraft:crimson_robe_legs",
+		only_one: true,
+		weight: 100
+	},
+	{
+		item: "thaumcraft:crimson_boots",
+		only_one: true,
+		weight: 100
+	}],
+	loot_crate: {
+		string_id: "darken_magic",
+		item_name: "Darken Magic",
+		color: 8070172,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

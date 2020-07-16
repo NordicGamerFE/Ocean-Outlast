@@ -1,0 +1,28 @@
+{
+	x: 2.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "0ad263a0",
+		type: "item",
+		items: [{
+			item: "fossil:ancient_sword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d7ce59d0",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "009cba01",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "hunter_s_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: 0.5d,
+	y: -3.0d,
+	text: [
+		"&aNeed ice or snow to make your slurpies well this got you&r",
+		"Right click a fridge with this upgrade and you will be able to make recipes that need snow or ice"
+	],
+	tasks: [{
+		uid: "ae36fe37",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:ice_unit"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6afbcdae",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

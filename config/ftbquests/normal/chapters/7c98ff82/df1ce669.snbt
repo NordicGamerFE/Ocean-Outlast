@@ -1,0 +1,68 @@
+{
+	title: "Fully Upgraded Dark Helmt",
+	x: -11.5d,
+	y: -4.0d,
+	dependencies: [
+		"3ce57d5c"
+	],
+	tasks: [{
+		uid: "39da0728",
+		type: "item",
+		items: [{
+			id: "enderio:item_dark_steel_helmet",
+			tag: {
+				enderio.darksteel.upgrade.soundDetector: {
+					level: 0
+				},
+				enderio.darksteel.upgrade.energyUpgrade: {
+					level: 3,
+					energy: 1000000
+				},
+				enderio.darksteel.upgrade.inv: {
+					level: 2
+				},
+				enderio.darksteel.upgrade.nightVision: {
+					level: 0
+				},
+				enderio.darksteel.upgrade.padding: {
+					level: 0
+				},
+				enderio.darksteel.upgrade.solar: {
+					level: 3
+				},
+				enderio.darksteel.upgrade.gogglesOfRevealing: {
+					level: 0
+				},
+				enderio.darksteel.upgrade.anvil: {
+					level: 2
+				}
+			}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "6539edfc",
+		type: "ftbmoney:money",
+		ftb_money: 1500L
+	},
+	{
+		uid: "b9a26fa7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	},
+	{
+		uid: "8c1ff605",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "jackpot"
+			}
+		}
+	}]
+}

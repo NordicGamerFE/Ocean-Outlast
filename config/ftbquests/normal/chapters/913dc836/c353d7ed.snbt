@@ -1,0 +1,22 @@
+{
+	x: -2.5d,
+	y: 1.0d,
+	dependencies: [
+		"254be552"
+	],
+	tasks: [{
+		uid: "29e7991c",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_destruction_catalyst",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f3a29391",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

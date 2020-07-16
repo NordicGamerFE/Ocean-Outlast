@@ -1,0 +1,32 @@
+{
+	title: "Item Conduit",
+	icon: "enderio:item_item_conduit",
+	x: -3.75d,
+	y: 0.0d,
+	text: [
+		"Used to transport items when powered with a Redstone signal. It will pull or push (or both, or neither) depending on where the arrows on the Item Conduit point to. The directional settings of the Item Conduit can be modified by right-clicking it with a Yeta Wrench.",
+		"",
+		"Ender IO conduits are similar to wires, but they can be in the same block as other conduits."
+	],
+	dependencies: [
+		"8d674658",
+		"14fd638e"
+	],
+	tasks: [{
+		uid: "ffadd98e",
+		type: "item",
+		items: [{
+			item: "enderio:item_item_conduit"
+		}]
+	}],
+	rewards: [{
+		uid: "a9fec1b3",
+		type: "item",
+		item: "enderio:item_item_conduit"
+	},
+	{
+		uid: "5e2ed084",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "Medumone",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "medumone"
+		}
+	},
+	x: -9.5d,
+	y: 2.0d,
+	text: [
+		"The Medumone is a functional flower that uses mana to apply an extreme Slowness effect to any mobs in its vicinity. This does not affect players. It can be disabled at will by applying a redstone signal."
+	],
+	dependencies: [
+		"5c8a07d3"
+	],
+	tasks: [{
+		uid: "5b7ffb18",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "medumone"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "bf622b02",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "Simple Remote",
+	icon: "storagenetwork:remote 1 3",
+	x: -5.5d,
+	y: 1.5d,
+	text: [
+		"Remote without crafting with unlimited distance"
+	],
+	dependencies: [
+		"36fe21de"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b70254c2",
+		type: "item",
+		items: [{
+			item: "storagenetwork:remote 1 3"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "63298731",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "25da80de",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

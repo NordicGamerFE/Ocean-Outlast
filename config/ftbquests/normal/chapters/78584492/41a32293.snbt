@@ -1,0 +1,73 @@
+{
+	title: "Power House",
+	icon: "tp:wither_chestplate",
+	x: -12.0d,
+	y: -2.0d,
+	text: [
+		"Get Wither armor"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"e177c0ff",
+		"085d65d5",
+		"6a6074f3",
+		"12772b81",
+		"d24a631d"
+	],
+	tasks: [{
+		uid: "46b5fb12",
+		type: "item",
+		items: [{
+			item: "tp:wither_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8184f100",
+		type: "item",
+		items: [{
+			item: "tp:wither_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b7f79d31",
+		type: "item",
+		items: [{
+			item: "tp:wither_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "aab2a2e1",
+		type: "item",
+		items: [{
+			item: "tp:wither_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4c16dc3b",
+		type: "item",
+		item: "minecraft:nether_star"
+	},
+	{
+		uid: "a75e4ca0",
+		type: "ftbmoney:money",
+		ftb_money: 800L
+	},
+	{
+		uid: "a6840433",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

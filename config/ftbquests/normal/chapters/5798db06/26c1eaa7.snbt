@@ -1,0 +1,34 @@
+{
+	title: "Silicon Seeds",
+	icon: "mysticalagriculture:silicon_seeds",
+	x: 5.0d,
+	y: -9.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"a67f1154"
+	],
+	tasks: [{
+		uid: "67245deb",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:silicon_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "f2799d3d",
+		type: "ftbmoney:money",
+		ftb_money: 55L
+	},
+	{
+		uid: "3df9669a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

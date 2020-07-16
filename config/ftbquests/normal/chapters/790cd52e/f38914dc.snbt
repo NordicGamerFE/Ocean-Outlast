@@ -1,0 +1,20 @@
+{
+	x: -2.0d,
+	y: -2.0d,
+	text: [
+		"&AFIRE!!!",
+		"&rFlint and Steel is gonna save me loads of string and sticks :D"
+	],
+	dependencies: [
+		"9dcf520a"
+	],
+	tasks: [{
+		uid: "e57ec00c",
+		type: "item",
+		items: [{
+			item: "minecraft:flint_and_steel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

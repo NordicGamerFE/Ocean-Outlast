@@ -1,0 +1,32 @@
+{
+	x: -5.0d,
+	y: -0.5d,
+	text: [
+		"&AThese creepers main goal is to confuse you",
+		"&rThese creepers when the chance is given will explode making you teleport"
+	],
+	dependencies: [
+		"df4a5e2a"
+	],
+	tasks: [{
+		uid: "4ab04419",
+		type: "kill",
+		entity: "enderzoo:concussioncreeper",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "bf0dde74",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "8b7956d9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "hunter_s_crate"
+			}
+		}
+	}]
+}

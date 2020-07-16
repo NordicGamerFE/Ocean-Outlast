@@ -1,0 +1,37 @@
+{
+	title: "Bone Club",
+	icon: "primal_tech:bone_club",
+	x: -5.5d,
+	y: -2.5d,
+	text: [
+		"The bone club will help you get more bone shards to make everything you need for the sieve"
+	],
+	dependencies: [
+		"4fcc58af"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8321a520",
+		type: "item",
+		items: [{
+			item: "primal_tech:bone_club"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fa928ee6",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "349a706b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

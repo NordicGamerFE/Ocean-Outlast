@@ -1,0 +1,31 @@
+{
+	x: -5.5d,
+	y: -1.0d,
+	dependencies: [
+		"658bc904",
+		"0e1447db"
+	],
+	tasks: [{
+		uid: "15b68f91",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:watering_can 1 4"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cfa5d278",
+		type: "ftbmoney:money",
+		ftb_money: 230L
+	},
+	{
+		uid: "5393dbab",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "Neutronium Crux",
+	icon: "mysticalagradditions:special 1 5",
+	x: -4.5d,
+	y: -25.0d,
+	text: [
+		"Place under the block where the neutronium seed are planted to make it grow"
+	],
+	dependencies: [
+		"39935bda"
+	],
+	tasks: [{
+		uid: "106d628f",
+		type: "item",
+		items: [{
+			item: "mysticalagradditions:special 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "09d5be48",
+		type: "item",
+		item: "mysticalagradditions:special 1 5"
+	},
+	{
+		uid: "d70a74d9",
+		type: "ftbmoney:money",
+		ftb_money: 400L
+	}]
+}

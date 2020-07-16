@@ -1,0 +1,36 @@
+{
+	title: "Stone Club",
+	icon: "primal_tech:stone_club",
+	x: -5.0d,
+	y: -3.5d,
+	text: [
+		"Stone Club will help you get more bone shards to make the ultimate setup for sieve"
+	],
+	dependencies: [
+		"a008780b"
+	],
+	tasks: [{
+		uid: "c8ec06d8",
+		type: "item",
+		items: [{
+			item: "primal_tech:stone_club"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4184d707",
+		type: "item",
+		item: "extrautils2:compressedcobblestone 1 1"
+	},
+	{
+		uid: "06617fe3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

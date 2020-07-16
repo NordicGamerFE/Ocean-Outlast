@@ -1,0 +1,32 @@
+{
+	x: -9.0d,
+	y: -4.0d,
+	text: [
+		"&aSouls that are forced to stay at their grave",
+		"&rThese souls has been cursed to stay by their graves lets find a grave yard where the graves are and kill them to release their soul"
+	],
+	dependencies: [
+		"656e2236"
+	],
+	tasks: [{
+		uid: "041d3cfb",
+		type: "kill",
+		entity: "treasure2:bound_soul",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "e5ba40be",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "8bfa70b5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "hunter_s_crate"
+			}
+		}
+	}]
+}

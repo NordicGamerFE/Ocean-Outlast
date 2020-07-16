@@ -1,0 +1,25 @@
+{
+	title: "Simple Machine Chassis",
+	icon: "enderio:item_material",
+	x: -1.0d,
+	y: -1.0d,
+	text: [
+		"Used to create first tier machines."
+	],
+	dependencies: [
+		"48a7e463",
+		"20c51a3d"
+	],
+	tasks: [{
+		uid: "df92df0f",
+		type: "item",
+		items: [{
+			item: "enderio:item_material"
+		}]
+	}],
+	rewards: [{
+		uid: "8b50fa2f",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	}]
+}

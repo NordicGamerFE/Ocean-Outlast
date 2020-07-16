@@ -1,0 +1,34 @@
+{
+	title: "Rune of Lust",
+	icon: "botania:rune 1 9",
+	x: 1.0d,
+	y: 5.0d,
+	text: [
+		"Rune of Lust this is an important component in creating complex magical devices. Rune of Lust is one of the Seven Deadly Sins Runes which is the third tier of Botania Runes. All Runes must be created in the Runic Altar."
+	],
+	dependencies: [
+		"98c2b545"
+	],
+	tasks: [{
+		uid: "9207c8d5",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 9"
+		}]
+	}],
+	rewards: [{
+		uid: "a23b0962",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "840209e2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

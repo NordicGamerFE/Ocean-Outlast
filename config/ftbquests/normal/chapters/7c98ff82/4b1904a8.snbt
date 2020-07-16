@@ -1,0 +1,34 @@
+{
+	title: "Fluid Conduit",
+	icon: "enderio:item_liquid_conduit",
+	x: -4.75d,
+	y: 0.0d,
+	text: [
+		"Used to transport fluids when powered with a Redstone signal. It will pull or push (or both, or neither) depending on where the arrows on the Item Conduit point to. The directional settings of the Fluid Conduit can be modified by right-clicking it with a Yeta Wrench.",
+		"",
+		"The Fluid Conduit respects gravity; it cannot pump fluid up. To do this, a Pressurized Fluid Conduit or Ender Fluid Conduit is needed instead. Additionally, the speed of the Fluid Conduit depends on the fluid in question; for example, a thicker fluid like Lava will move slower than a less thick fluid like Water.",
+		"",
+		"Ender IO conduits are similar to wires, but they can be in the same block as other conduits."
+	],
+	dependencies: [
+		"8d674658",
+		"14fd638e"
+	],
+	tasks: [{
+		uid: "9059eb5c",
+		type: "item",
+		items: [{
+			item: "enderio:item_liquid_conduit"
+		}]
+	}],
+	rewards: [{
+		uid: "914e5f3d",
+		type: "item",
+		item: "enderio:item_liquid_conduit"
+	},
+	{
+		uid: "9ac4c42c",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	x: -1.5d,
+	y: 1.5d,
+	text: [
+		"&aLocked to Iron(steel) Mesh Quest&r",
+		"Found in Ex Nihilo Chapter"
+	],
+	can_repeat: true,
+	dependencies: [
+		"17912bdc"
+	],
+	tasks: [{
+		uid: "ab466853",
+		type: "item",
+		items: [{
+			item: "minecraft:cobblestone"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "03e8c8b5",
+		type: "item",
+		item: {
+			id: "lodsofemone:coin_small",
+			tag: {
+				value: 1
+			}
+		}
+	}]
+}

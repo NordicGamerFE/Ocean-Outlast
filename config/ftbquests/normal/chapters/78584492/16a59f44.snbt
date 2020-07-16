@@ -1,0 +1,36 @@
+{
+	title: "Cobblestone Generator Tier 5",
+	icon: "tp:emerald_cobblegen_block",
+	x: -9.0d,
+	y: 3.5d,
+	text: [
+		"Holds 64 cobblestone at once",
+		"Creates 1 cobblestone each 1 tick",
+		"Can output to chest above"
+	],
+	dependencies: [
+		"f46d2a3b"
+	],
+	tasks: [{
+		uid: "ef3d4f0f",
+		type: "item",
+		items: [{
+			item: "tp:emerald_cobblegen_block"
+		}]
+	}],
+	rewards: [{
+		uid: "ba0f2cf1",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "51f30806",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "Ghast Seeds",
+	icon: "mysticalagriculture:ghast_seeds",
+	x: -2.0d,
+	y: -16.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"9576e32f"
+	],
+	tasks: [{
+		uid: "ca7c9d8d",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:ghast_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "b078d9e6",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "589b2a8d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

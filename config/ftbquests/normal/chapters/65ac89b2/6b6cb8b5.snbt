@@ -1,0 +1,29 @@
+{
+	x: 1.0d,
+	y: -1.5d,
+	dependencies: [
+		"85eebb4c"
+	],
+	tasks: [{
+		uid: "ffdba73c",
+		type: "item",
+		items: [{
+			item: "tconstruct:ingots 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "89064174",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "7c36040a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

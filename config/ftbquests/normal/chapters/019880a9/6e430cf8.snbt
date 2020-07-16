@@ -1,0 +1,21 @@
+{
+	x: 1.5d,
+	y: 2.0d,
+	dependencies: [
+		"1379e8f5"
+	],
+	tasks: [{
+		uid: "f984095f",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_color_lens"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0e0e0428",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "Heisei Dream",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "heiseiDream"
+		}
+	},
+	x: -9.5d,
+	y: 5.0d,
+	text: [
+		"The Heisei Dream is a functional flower that will use mana to awaken feelings of anger in nearby mobs. This flower uses mana to turn hostile mobs against eachother, with a range of 5 blocks. It will continue to use mana to apply this effect even if no mobs are present nearby."
+	],
+	dependencies: [
+		"15474f17",
+		"8d80ec63"
+	],
+	hide: true,
+	tasks: [{
+		uid: "cee72060",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "heiseiDream"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "488f1f34",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

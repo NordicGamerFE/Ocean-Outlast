@@ -1,0 +1,55 @@
+{
+	title: "So you wanna be a farmer eh?",
+	x: -2.5d,
+	y: -0.5d,
+	tasks: [{
+		uid: "3d04eab2",
+		type: "item",
+		items: [{
+			item: "minecraft:wheat"
+		}]
+	},
+	{
+		uid: "5e931e8a",
+		type: "item",
+		items: [{
+			item: "minecraft:reeds"
+		}]
+	},
+	{
+		uid: "4c2d3a60",
+		type: "item",
+		items: [{
+			item: "minecraft:apple"
+		}]
+	},
+	{
+		uid: "4fdcdf54",
+		type: "item",
+		items: [{
+			item: "minecraft:potato"
+		}]
+	},
+	{
+		uid: "c2701c7e",
+		type: "item",
+		items: [{
+			item: "minecraft:carrot"
+		}]
+	}],
+	rewards: [{
+		uid: "a513c0a6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "farmers_market"
+			}
+		}
+	},
+	{
+		uid: "6f4a5ec0",
+		type: "ftbmoney:money",
+		ftb_money: 35L
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "Compressed Crook",
+	icon: "excompressum:compressed_crook",
+	x: -3.5d,
+	y: -4.5d,
+	text: [
+		"used to break leaves on trees even more quickly than the Wooden Crook, and has an increased chance to gather saplings and a chance to drop Silkworms. The Compressed Crook's durability is greater than the sum of the 4 Wooden Crooks from which it is crafted."
+	],
+	dependencies: [
+		"54cd4eb4"
+	],
+	tasks: [{
+		uid: "960b28ae",
+		type: "item",
+		items: [{
+			item: "excompressum:compressed_crook"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "52ffa28d",
+		type: "item",
+		item: "minecraft:log"
+	},
+	{
+		uid: "c8943a99",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

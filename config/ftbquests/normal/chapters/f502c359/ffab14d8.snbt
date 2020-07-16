@@ -1,0 +1,29 @@
+{
+	title: "Speed Upgrade",
+	icon: "storagenetwork:upgrade",
+	x: -5.5d,
+	y: -2.5d,
+	text: [
+		"Increases the speed of exporting and importing"
+	],
+	dependencies: [
+		"6aca77c3"
+	],
+	tasks: [{
+		uid: "059f470a",
+		type: "item",
+		items: [{
+			item: "storagenetwork:upgrade"
+		}]
+	}],
+	rewards: [{
+		uid: "d2c408f1",
+		type: "item",
+		item: "storagenetwork:upgrade"
+	},
+	{
+		uid: "41a40089",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

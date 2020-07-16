@@ -1,0 +1,34 @@
+{
+	title: "Slime Seeds",
+	icon: "mysticalagriculture:slime_seeds",
+	x: 3.0d,
+	y: -9.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"a67f1154"
+	],
+	tasks: [{
+		uid: "ea79bfa4",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:slime_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "59cfcffa",
+		type: "ftbmoney:money",
+		ftb_money: 55L
+	},
+	{
+		uid: "b7d3206b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

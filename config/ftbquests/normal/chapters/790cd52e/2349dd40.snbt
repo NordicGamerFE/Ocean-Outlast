@@ -1,0 +1,43 @@
+{
+	title: "Survivalist Generator",
+	icon: {
+		id: "extrautils2:machine",
+		tag: {
+			Type: "extrautils2:generator_survival"
+		}
+	},
+	x: -2.0d,
+	y: -4.0d,
+	text: [
+		"&aCoal power made simple&r",
+		"The Survivalist Generator produces 5 RF/T"
+	],
+	dependencies: [
+		"f1f38d25"
+	],
+	tasks: [{
+		uid: "cedf7ce1",
+		type: "item",
+		items: [{
+			id: "extrautils2:machine",
+			tag: {
+				Type: "extrautils2:generator_survival"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "7772c537",
+		type: "item",
+		item: "ic2:coke"
+	},
+	{
+		uid: "861af76e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

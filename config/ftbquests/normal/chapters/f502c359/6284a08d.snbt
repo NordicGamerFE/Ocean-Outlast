@@ -1,0 +1,29 @@
+{
+	title: "Storage Export Cable",
+	icon: "storagenetwork:ex_kabel",
+	x: -4.5d,
+	y: 0.0d,
+	text: [
+		"Exports items from network into attached inventory"
+	],
+	dependencies: [
+		"6aca77c3"
+	],
+	tasks: [{
+		uid: "6fa79329",
+		type: "item",
+		items: [{
+			item: "storagenetwork:ex_kabel"
+		}]
+	}],
+	rewards: [{
+		uid: "852cb7c5",
+		type: "item",
+		item: "storagenetwork:ex_kabel"
+	},
+	{
+		uid: "f072c4ae",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

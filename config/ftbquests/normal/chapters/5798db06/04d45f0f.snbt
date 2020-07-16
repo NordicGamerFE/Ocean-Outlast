@@ -1,0 +1,34 @@
+{
+	title: "Manasteel Seeds",
+	icon: "mysticalagriculture:manasteel_seeds",
+	x: 1.0d,
+	y: -13.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"4113dc34"
+	],
+	tasks: [{
+		uid: "9287631f",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:manasteel_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "cd43849c",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "d5abe81a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

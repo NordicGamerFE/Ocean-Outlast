@@ -1,0 +1,19 @@
+{
+	icon: "improvableskills:skills_book",
+	x: -12.5d,
+	y: -8.5d,
+	shape: "square",
+	text: [
+		"Got XP laying around? Use it to upgrade your skills!"
+	],
+	tasks: [{
+		uid: "d5300a9e",
+		type: "checkmark",
+		title: "Skills"
+	}],
+	rewards: [{
+		uid: "9fa89c47",
+		type: "item",
+		item: "improvableskills:skills_book"
+	}]
+}

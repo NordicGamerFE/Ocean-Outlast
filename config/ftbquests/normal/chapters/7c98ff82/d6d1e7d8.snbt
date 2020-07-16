@@ -1,0 +1,20 @@
+{
+	x: 2.0d,
+	y: 2.0d,
+	dependencies: [
+		"b5c16739",
+		"87cc06d1"
+	],
+	tasks: [{
+		uid: "1fdb8444",
+		type: "item",
+		items: [{
+			item: "enderio:item_advanced_item_filter"
+		}]
+	}],
+	rewards: [{
+		uid: "c6156d71",
+		type: "ftbmoney:money",
+		ftb_money: 35L
+	}]
+}

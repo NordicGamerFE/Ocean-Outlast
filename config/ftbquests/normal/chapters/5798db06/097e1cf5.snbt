@@ -1,0 +1,34 @@
+{
+	title: "Guardian Seeds",
+	icon: "mysticalagriculture:guardian_seeds",
+	x: 2.0d,
+	y: -12.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"4113dc34"
+	],
+	tasks: [{
+		uid: "207b1559",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:guardian_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "f19a52a1",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "f4f63138",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

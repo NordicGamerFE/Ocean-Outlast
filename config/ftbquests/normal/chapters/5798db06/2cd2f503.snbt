@@ -1,0 +1,34 @@
+{
+	title: "Redstone Seeds",
+	icon: "mysticalagriculture:redstone_seeds",
+	x: -4.0d,
+	y: -12.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"4113dc34"
+	],
+	tasks: [{
+		uid: "aa4f8018",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:redstone_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "6248c557",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "54079be4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

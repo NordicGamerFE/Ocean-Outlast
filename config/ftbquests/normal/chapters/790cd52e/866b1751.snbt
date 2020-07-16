@@ -1,0 +1,33 @@
+{
+	x: -15.0d,
+	y: -4.0d,
+	text: [
+		"&aCould these be the hearts of an creeper?&r",
+		"Function exactly the same as orange heart canisters"
+	],
+	dependencies: [
+		"bff121f2"
+	],
+	tasks: [{
+		uid: "b33cbdaa",
+		type: "item",
+		items: [{
+			item: "bhc:green_heart_canister"
+		}]
+	}],
+	rewards: [{
+		uid: "80e65912",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "1bc745ab",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

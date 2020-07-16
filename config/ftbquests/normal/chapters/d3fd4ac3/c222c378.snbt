@@ -1,0 +1,27 @@
+{
+	x: -6.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "4ecec6dc",
+		type: "item",
+		items: [{
+			item: "extrautils2:passivegenerator 1 6"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "bea9d889",
+		type: "ftbmoney:money",
+		ftb_money: 1500000L
+	},
+	{
+		uid: "de0c550b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "supra_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Livingwood",
+	icon: "botania:livingwood",
+	x: 3.0d,
+	y: -3.5d,
+	text: [
+		"Livingwood is a base crafting component in loads of botania"
+	],
+	dependencies: [
+		"2c9401aa"
+	],
+	tasks: [{
+		uid: "89fd27ec",
+		type: "item",
+		items: [{
+			item: "botania:livingwood 16"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "d638283d",
+		type: "item",
+		item: "botania:livingwood"
+	},
+	{
+		uid: "3822f670",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

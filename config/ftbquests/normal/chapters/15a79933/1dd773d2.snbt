@@ -1,0 +1,32 @@
+{
+	x: -5.0d,
+	y: -2.0d,
+	text: [
+		"&AThese little creaturs has the ability to sneak upon you while you are not aware",
+		"&rThese creaturs often hide in battletowers or mineshafts therefor the average joe wont go upon them but we still have to kill these terrible little things"
+	],
+	dependencies: [
+		"dea612ba"
+	],
+	tasks: [{
+		uid: "4030693f",
+		type: "kill",
+		entity: "minecraft:cave_spider",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "24ecf7d3",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "60365fc7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "hunter_s_crate"
+			}
+		}
+	}]
+}

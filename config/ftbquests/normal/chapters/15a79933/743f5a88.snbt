@@ -1,0 +1,33 @@
+{
+	x: -8.0d,
+	y: -2.5d,
+	text: [
+		"&AThese brainless creaturs will do everything to consume you&r",
+		"Slimes rarly seen as people dont really venture into swamps but when they do they rarly return"
+	],
+	dependencies: [
+		"bf2a29fd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "69380dd1",
+		type: "kill",
+		entity: "minecraft:slime",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "95da0f9d",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "ae815c17",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "hunter_s_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "Compressed Diamond Hammer",
+	icon: "excompressum:compressed_hammer_diamond",
+	x: 0.0d,
+	y: -6.0d,
+	text: [
+		"Works a lot like the diamond hammer expect. it is used on compressed blocks"
+	],
+	dependencies: [
+		"e833d1c6"
+	],
+	tasks: [{
+		uid: "0f68221d",
+		type: "item",
+		items: [{
+			item: "excompressum:compressed_hammer_diamond"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bf7f2107",
+		type: "ftbmoney:money",
+		ftb_money: 600L
+	},
+	{
+		uid: "3aa2efaa",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

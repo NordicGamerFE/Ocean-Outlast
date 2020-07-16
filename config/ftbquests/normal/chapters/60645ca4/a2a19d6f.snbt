@@ -1,0 +1,46 @@
+{
+	title: "16K ME Storage Cell",
+	icon: {
+		id: "appliedenergistics2:storage_cell_16k",
+		tag: {}
+	},
+	x: 3.0d,
+	y: 0.5d,
+	text: [
+		"Middle Tier Storage Cell, which can contain 16,384 bytes of storage.",
+		"",
+		"16,384 bytes of storage can hold 2,032 Stacks of a single item. or 1,040 Stacks,while holding 63 Different items.",
+		"",
+		"The 16k Storage Cell uses 128 bytes of data to store a single type.",
+		"",
+		"When placed inside a drive or chest will consume 1.5 ae/t.",
+		"",
+		"Must be in a ME Drive or ME Chest to be usable."
+	],
+	dependencies: [
+		"06786623"
+	],
+	tasks: [{
+		uid: "c8cc78a9",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:storage_cell_16k",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f6ee66d4",
+		type: "item",
+		item: {
+			id: "appliedenergistics2:storage_cell_16k",
+			tag: {}
+		}
+	},
+	{
+		uid: "c7ab6f40",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	}]
+}

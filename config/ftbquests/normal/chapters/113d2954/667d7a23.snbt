@@ -1,0 +1,36 @@
+{
+	title: "Compressed Stone Hammer",
+	icon: "excompressum:compressed_hammer_stone",
+	x: 0.0d,
+	y: -7.0d,
+	text: [
+		"Works a lot like the stone hammer. expect it is used on compressed blocks"
+	],
+	dependencies: [
+		"8724313e"
+	],
+	tasks: [{
+		uid: "9854807d",
+		type: "item",
+		items: [{
+			item: "excompressum:compressed_hammer_stone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ce7b53dd",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "8b6a5d1a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

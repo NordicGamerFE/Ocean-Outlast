@@ -1,0 +1,19 @@
+{
+	x: -5.5d,
+	y: -3.0d,
+	dependencies: [
+		"a4a2a0d8"
+	],
+	tasks: [{
+		uid: "8c756d79",
+		type: "item",
+		items: [{
+			item: "conarm:travel_goggles_base"
+		}]
+	}],
+	rewards: [{
+		uid: "7fac962d",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "Advanced Incubator",
+	icon: "geneticsreborn:advincubator",
+	x: 1.5d,
+	y: -3.0d,
+	text: [
+		"Read Incubator Page"
+	],
+	dependencies: [
+		"55ed7b9b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ddc02f9a",
+		type: "item",
+		items: [{
+			item: "geneticsreborn:advincubator"
+		}]
+	}],
+	rewards: [{
+		uid: "05423960",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "4956045d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

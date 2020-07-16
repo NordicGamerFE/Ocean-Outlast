@@ -1,0 +1,36 @@
+{
+	x: 0.0d,
+	y: -1.5d,
+	tasks: [{
+		uid: "d1c6660a",
+		type: "kill",
+		icon: "minecraft:skull 1 5",
+		entity: "minecraft:ender_dragon",
+		value: 450L
+	}],
+	rewards: [{
+		uid: "15eade1a",
+		type: "ftbmoney:money",
+		ftb_money: 60000L
+	},
+	{
+		uid: "392f66f0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	},
+	{
+		uid: "c59fec97",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "jackpot"
+			}
+		}
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "Conduit Binder",
+	icon: "enderio:item_material 1 4",
+	x: -2.0d,
+	y: 1.5d,
+	shape: "rsquare",
+	text: [
+		"smelted from Binder Composite and used to craft Conduits."
+	],
+	hide: true,
+	tasks: [{
+		uid: "952a8f4c",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 16 4"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "f09e3f74",
+		type: "item",
+		item: "enderio:item_material 1 4"
+	},
+	{
+		uid: "6b8959a4",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

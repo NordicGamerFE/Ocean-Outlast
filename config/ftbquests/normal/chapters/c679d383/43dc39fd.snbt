@@ -1,0 +1,26 @@
+{
+	title: "Invisibility Cloak",
+	icon: "botania:invisibilitycloak",
+	x: -2.5d,
+	y: -6.5d,
+	text: [
+		"While worn in the Baubles Body slot, the player will be turned invisible at a cost of 2 Mana per tick."
+	],
+	dependencies: [
+		"9c4fbe54"
+	],
+	tasks: [{
+		uid: "c42fb096",
+		type: "item",
+		items: [{
+			item: "botania:invisibilitycloak"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8ce728c4",
+		type: "ftbmoney:money",
+		ftb_money: 45L
+	}]
+}

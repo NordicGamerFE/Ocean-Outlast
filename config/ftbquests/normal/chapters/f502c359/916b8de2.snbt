@@ -1,0 +1,29 @@
+{
+	title: "Controller",
+	icon: "storagenetwork:controller",
+	x: -3.0d,
+	y: 3.0d,
+	text: [
+		"Manages all processing cables on the network"
+	],
+	dependencies: [
+		"86335b96"
+	],
+	tasks: [{
+		uid: "37b0acba",
+		type: "item",
+		items: [{
+			item: "storagenetwork:controller"
+		}]
+	}],
+	rewards: [{
+		uid: "96dc247e",
+		type: "item",
+		item: "storagenetwork:process_kabel"
+	},
+	{
+		uid: "75c38610",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	x: -0.5d,
+	y: -8.5d,
+	text: [
+		"&aEat me!&r",
+		"Each heart redeemed gives 1 extra heart! They cost 30 levels each to redeem, and you can redeem an infinite amount!"
+	],
+	tasks: [{
+		uid: "b2886e04",
+		type: "item",
+		items: [{
+			item: "scalinghealth:heartcontainer"
+		}]
+	}],
+	rewards: [{
+		uid: "cbfedfe1",
+		type: "ftbmoney:money",
+		ftb_money: 2000L
+	},
+	{
+		uid: "a4215b72",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

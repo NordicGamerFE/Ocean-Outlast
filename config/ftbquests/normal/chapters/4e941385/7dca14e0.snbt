@@ -1,0 +1,24 @@
+{
+	x: 7.5d,
+	y: 4.0d,
+	text: [
+		"&aLocked to Digital Miner Quest&r",
+		"Found in mekanism Chapter"
+	],
+	can_repeat: true,
+	dependencies: [
+		"b8d651f1"
+	],
+	tasks: [{
+		uid: "9fe4af5c",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 14"
+		}]
+	}],
+	rewards: [{
+		uid: "efe8ec6f",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

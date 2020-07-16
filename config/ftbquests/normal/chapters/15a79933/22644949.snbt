@@ -1,0 +1,41 @@
+{
+	title: "Haunted Tools",
+	x: -9.0d,
+	y: -5.5d,
+	text: [
+		"&aSouls cursed to live in tools",
+		"&rIn itself they are not harmful just dont hit them!"
+	],
+	dependencies: [
+		"120bf0a4"
+	],
+	tasks: [{
+		uid: "353b6ab8",
+		type: "observation",
+		icon: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1b,
+				id: "primitivemobs:haunted_tool"
+			}
+		},
+		match_type: "entity_id",
+		match: "primitivemobs:haunted_tool",
+		timer: 20L
+	}],
+	rewards: [{
+		uid: "db2451e2",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "66b88304",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

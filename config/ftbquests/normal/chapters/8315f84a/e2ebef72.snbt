@@ -1,0 +1,31 @@
+{
+	title: "Advanced Scraper",
+	icon: "geneticsreborn:advancedscraper",
+	x: 1.5d,
+	y: 0.0d,
+	text: [
+		"The advanced scraper is an improved version of the metal scraper, and is able to better preserve the organic matter scraped off living things. This organic matter will not stack and can still be used to extract genes, but since it is more preserved it can be used to clone the thing you scraped. THIS IS IN NO WAY BETTER THAN THE METAL SCRAPER FOR REGULAR SCRAPING, IT WAS INTENDED TO ONLY BE USED FOR CLONING. USING THIS MAKES ORGANIC MATTER NO LONGER STACK."
+	],
+	dependencies: [
+		"0b08ed9f"
+	],
+	tasks: [{
+		uid: "1a2de1de",
+		type: "item",
+		items: [{
+			item: "geneticsreborn:advancedscraper"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f3e661cd",
+		type: "item",
+		item: "minecraft:diamond_block"
+	},
+	{
+		uid: "92a58cd4",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

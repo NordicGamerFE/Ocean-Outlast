@@ -1,0 +1,30 @@
+{
+	title: "Horn of the Wild",
+	icon: "botania:grasshorn",
+	x: 6.0d,
+	y: -9.0d,
+	text: [
+		"Holding right-click quickly breaks Grass, Flowers, and crops near the user."
+	],
+	dependencies: [
+		"836e1759"
+	],
+	tasks: [{
+		uid: "f6c7e312",
+		type: "item",
+		items: [{
+			item: "botania:grasshorn"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a4d4062d",
+		type: "item",
+		item: "botania:blacklotus"
+	},
+	{
+		uid: "a5b151d4",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: -3.0d,
+	dependencies: [
+		"c44108fd",
+		"d9733f65"
+	],
+	tasks: [{
+		uid: "4a10844e",
+		type: "item",
+		items: [{
+			item: "fossil:cultivate"
+		}]
+	}],
+	rewards: [{
+		uid: "eb9c6070",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

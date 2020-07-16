@@ -1,0 +1,44 @@
+{
+	title: "The Fruit of Grisaia",
+	icon: {
+		id: "botania:infinitefruit",
+		tag: {
+			soulbindUUID: "0269faac-332b-41bb-b51b-2ee5f7017218"
+		}
+	},
+	x: 9.5d,
+	y: -6.0d,
+	text: [
+		"The Fruit of Grisaia a relic that will keep the owner saturated using Mana from his inventory. How this prize is obtained is by using the Dice of Fate."
+	],
+	dependencies: [
+		"699291a5"
+	],
+	tasks: [{
+		uid: "385ded1f",
+		type: "item",
+		items: [{
+			id: "botania:infinitefruit",
+			tag: {
+				soulbindUUID: "0269faac-332b-41bb-b51b-2ee5f7017218"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "91da63cf",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "53a59ab5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

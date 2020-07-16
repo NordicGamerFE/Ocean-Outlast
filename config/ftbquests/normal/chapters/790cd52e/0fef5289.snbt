@@ -1,0 +1,37 @@
+{
+	x: -15.0d,
+	y: -5.0d,
+	shape: "rsquare",
+	text: [
+		"&aExtra hearts seems usefull but for what price?",
+		"&rYes while you can get 1 extra heart with any heart canister it uses 1 bauble slot they stack up to 10 so you can get 10 hearts with each tier",
+		"&7Tip get an heart amulet to use all the tier for only one bauble slot"
+	],
+	tasks: [{
+		uid: "17ec284e",
+		type: "item",
+		items: [{
+			item: "bhc:red_heart_canister"
+		}]
+	}],
+	rewards: [{
+		uid: "91147077",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "cf2afbe9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	},
+	{
+		uid: "164bebd3",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

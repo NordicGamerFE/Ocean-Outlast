@@ -1,0 +1,46 @@
+{
+	title: "Pure Daisy",
+	icon: {
+		id: "botania:specialflower",
+		Count: 2,
+		tag: {
+			type: "puredaisy"
+		}
+	},
+	x: 1.5d,
+	y: -3.0d,
+	text: [
+		"Far from being just the most basic, the Pure Daisy is the most important flower a botanist can have.",
+		"This flower will purify any adjacent Greatwood Planks and Stoneburnt into their purified counterparts, Livingwood and Livingrock. Tst'k purifies into Cobblestone, Soul Sand into Sand, Ice into Packed Ice, and Water into Snow."
+	],
+	dependencies: [
+		"3f7e1d61"
+	],
+	tasks: [{
+		uid: "b23c8eb7",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			Count: 2,
+			tag: {
+				type: "puredaisy"
+			}
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "bdb852f8",
+		type: "item",
+		item: {
+			id: "botania:specialflower",
+			tag: {
+				type: "puredaisy"
+			}
+		}
+	},
+	{
+		uid: "c72009fd",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

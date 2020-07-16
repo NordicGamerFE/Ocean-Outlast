@@ -1,0 +1,36 @@
+{
+	title: "Cobblestone Generator Tier 4",
+	icon: "tp:blaze_cobblegen_block",
+	x: -9.0d,
+	y: 2.5d,
+	text: [
+		"Holds 64 cobblestone at once",
+		"Creates 1 cobblestone each 5 tick",
+		"Can output to chest above"
+	],
+	dependencies: [
+		"5690e73b"
+	],
+	tasks: [{
+		uid: "583243f2",
+		type: "item",
+		items: [{
+			item: "tp:blaze_cobblegen_block"
+		}]
+	}],
+	rewards: [{
+		uid: "2b96510f",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "93191c00",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

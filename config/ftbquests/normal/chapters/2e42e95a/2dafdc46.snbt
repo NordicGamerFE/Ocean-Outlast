@@ -1,0 +1,29 @@
+{
+	x: 0.5d,
+	y: -1.0d,
+	dependencies: [
+		"fbbde815"
+	],
+	tasks: [{
+		uid: "39510f14",
+		type: "item",
+		items: [{
+			item: "fossil:tardrop"
+		}]
+	}],
+	rewards: [{
+		uid: "01503ed6",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "56a0eea0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

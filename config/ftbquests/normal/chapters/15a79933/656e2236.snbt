@@ -1,0 +1,33 @@
+{
+	x: -9.0d,
+	y: -3.0d,
+	text: [
+		"&ALost souls of the old world",
+		"&rThese ghosts are hunting people i cannot allow this to happen"
+	],
+	dependencies: [
+		"bf2a29fd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5e5a0158",
+		type: "kill",
+		entity: "bewitchment:ghost",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "d2d6829d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "15a26ae2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

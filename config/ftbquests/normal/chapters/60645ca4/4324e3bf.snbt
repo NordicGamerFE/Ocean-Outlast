@@ -1,0 +1,46 @@
+{
+	title: "64K ME Storage Cell",
+	icon: {
+		id: "appliedenergistics2:storage_cell_64k",
+		tag: {}
+	},
+	x: 3.0d,
+	y: 1.5d,
+	text: [
+		"Highest Tier Storage Cell, which can contain 65,536 bytes of storage.",
+		"",
+		"65,536 bytes of storage can hold 8,128 Stacks of a single item. or 4,160 Stacks,while holding 63 Different items.",
+		"",
+		"The 64k Storage Cell uses 512 bytes of data to store a single type.",
+		"",
+		"When placed inside a drive or chest will consume 2.0 ae/t.",
+		"",
+		"Must be in a ME Drive or ME Chest to be usable."
+	],
+	dependencies: [
+		"a2a19d6f"
+	],
+	tasks: [{
+		uid: "96ffc14e",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:storage_cell_64k",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8cede9d2",
+		type: "item",
+		item: {
+			id: "appliedenergistics2:storage_cell_64k",
+			tag: {}
+		}
+	},
+	{
+		uid: "d59cb994",
+		type: "ftbmoney:money",
+		ftb_money: 800L
+	}]
+}

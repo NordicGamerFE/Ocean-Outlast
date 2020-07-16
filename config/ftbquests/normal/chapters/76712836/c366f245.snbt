@@ -1,0 +1,17 @@
+{
+	title: "Mad Man",
+	x: -1.5d,
+	y: 3.0d,
+	tasks: [{
+		uid: "846944df",
+		type: "item",
+		items: [{
+			item: "ic2:dynamite"
+		}]
+	}],
+	rewards: [{
+		uid: "425a5345",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

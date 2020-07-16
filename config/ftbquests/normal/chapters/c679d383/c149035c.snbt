@@ -1,0 +1,37 @@
+{
+	title: "Crimson Pendant",
+	icon: "botania:superlavapendant",
+	x: 13.0d,
+	y: -4.0d,
+	text: [
+		"provides full protection from fire and lava to the wearer."
+	],
+	dependencies: [
+		"d9bed1c5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ffa94c96",
+		type: "item",
+		items: [{
+			item: "botania:superlavapendant"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "84c9c5d3",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "1554f148",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

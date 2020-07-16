@@ -1,0 +1,19 @@
+{
+	x: -4.5d,
+	y: -3.0d,
+	dependencies: [
+		"c9f41daf"
+	],
+	tasks: [{
+		uid: "5d58cfab",
+		type: "item",
+		items: [{
+			item: "conarm:gauntlet_mat_speed"
+		}]
+	}],
+	rewards: [{
+		uid: "c1bc8ca7",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

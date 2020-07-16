@@ -1,0 +1,34 @@
+{
+	x: -17.0d,
+	y: -4.0d,
+	text: [
+		"&aHidden in plain sight",
+		"&rThese Mimics always be getting me"
+	],
+	dependencies: [
+		"214e9482"
+	],
+	tasks: [{
+		uid: "59dac503",
+		type: "kill",
+		title: "Mimic",
+		icon: "minecraft:chest",
+		entity: "treasure2:wood_mimic",
+		value: 10L
+	}],
+	rewards: [{
+		uid: "86cbe234",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "ba3d675f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

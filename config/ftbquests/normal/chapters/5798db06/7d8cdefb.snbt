@@ -1,0 +1,34 @@
+{
+	title: "Coal Seeds",
+	icon: "mysticalagriculture:coal_seeds",
+	x: -2.0d,
+	y: -9.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"a67f1154"
+	],
+	tasks: [{
+		uid: "3be78264",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:coal_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "ab39b825",
+		type: "ftbmoney:money",
+		ftb_money: 55L
+	},
+	{
+		uid: "ba046265",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

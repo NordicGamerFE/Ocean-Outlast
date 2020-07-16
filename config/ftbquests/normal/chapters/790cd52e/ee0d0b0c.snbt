@@ -1,0 +1,59 @@
+{
+	title: "Materials of Hell",
+	x: -2.0d,
+	y: -6.0d,
+	text: [
+		"&ALets get materials from this hellscape&r",
+		"Many of the Nether's materials are important! Let's make sure to collect some. "
+	],
+	dependencies: [
+		"1b1a7a5a"
+	],
+	tasks: [{
+		uid: "442a0ddd",
+		type: "item",
+		items: [{
+			item: "minecraft:netherrack"
+		}],
+		count: 64L
+	},
+	{
+		uid: "a7be00e2",
+		type: "item",
+		items: [{
+			item: "minecraft:soul_sand"
+		}],
+		count: 32L
+	},
+	{
+		uid: "5a963ed1",
+		type: "item",
+		items: [{
+			item: "minecraft:glowstone_dust"
+		}],
+		count: 16L
+	},
+	{
+		uid: "4b3d9902",
+		type: "item",
+		items: [{
+			item: "minecraft:quartz"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "3d2c68a9",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "2a496ceb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "hellish_crate"
+			}
+		}
+	}]
+}

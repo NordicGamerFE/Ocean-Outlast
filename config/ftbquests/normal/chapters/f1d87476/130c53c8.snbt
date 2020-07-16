@@ -1,0 +1,36 @@
+{
+	title: "Spinning Wheel",
+	icon: "bewitchment:spinning_wheel",
+	x: -2.5d,
+	y: -3.0d,
+	text: [
+		"The spinning wheel is used to create various witchy threads and cloths."
+	],
+	dependencies: [
+		"a57cdb8d",
+		"805f5390"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8b36b554",
+		type: "item",
+		items: [{
+			item: "bewitchment:spinning_wheel"
+		}]
+	}],
+	rewards: [{
+		uid: "4304b681",
+		type: "ftbmoney:money",
+		ftb_money: 120L
+	},
+	{
+		uid: "ddb303b8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

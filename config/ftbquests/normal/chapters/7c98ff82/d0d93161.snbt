@@ -1,0 +1,31 @@
+{
+	x: -10.0d,
+	y: 0.5d,
+	dependencies: [
+		"1c0570fe"
+	],
+	tasks: [{
+		uid: "c635d5f3",
+		type: "item",
+		items: [{
+			item: "enderio:item_end_steel_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2a7ccf3c",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "84870ddd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "jackpot"
+			}
+		}
+	}]
+}

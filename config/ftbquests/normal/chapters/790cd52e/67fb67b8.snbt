@@ -1,0 +1,22 @@
+{
+	x: -3.0d,
+	y: -1.5d,
+	text: [
+		"&aThe magical bags of goodies&r",
+		"This is a lootbag these has a slight chance to drop when a mob is killed",
+		"&7Can only be oppend when not looking at a block"
+	],
+	tasks: [{
+		uid: "2144657c",
+		type: "item",
+		items: [{
+			item: "lootbags:itemlootbag"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "25d00af1",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

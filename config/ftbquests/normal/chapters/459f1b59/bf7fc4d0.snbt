@@ -1,0 +1,28 @@
+{
+	x: 6.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "b36a9b71",
+		type: "item",
+		items: [{
+			item: "thaumcraft:primordial_pearl"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b73ad3a5",
+		type: "ftbmoney:money",
+		ftb_money: 15000L
+	},
+	{
+		uid: "9272b120",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "supra_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "Compression Crafting",
+	icon: "extendedcrafting:compressor",
+	x: 3.0d,
+	y: -1.5d,
+	text: [
+		"Compress items into the point of failure"
+	],
+	dependencies: [
+		"386d63ba"
+	],
+	tasks: [{
+		uid: "b7b7e0a5",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:compressor"
+		}]
+	}],
+	rewards: [{
+		uid: "4ecb4610",
+		type: "item",
+		item: "minecraft:iron_block"
+	},
+	{
+		uid: "96cc208d",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

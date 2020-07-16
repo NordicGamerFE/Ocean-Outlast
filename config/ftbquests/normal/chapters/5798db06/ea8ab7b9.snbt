@@ -1,0 +1,34 @@
+{
+	title: "Stone Seeds",
+	icon: "mysticalagriculture:stone_seeds",
+	x: -1.0d,
+	y: -6.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"6a19d1ee"
+	],
+	tasks: [{
+		uid: "f4537683",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:stone_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "8a917611",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "55c76124",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

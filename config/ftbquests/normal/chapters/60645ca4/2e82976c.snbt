@@ -1,0 +1,29 @@
+{
+	title: "Inscriber",
+	icon: "appliedenergistics2:inscriber",
+	x: 1.5d,
+	y: -1.5d,
+	text: [
+		"The Inscriber is used to press items using various Inscriber Plates. Each operation requires 1k AE charged up. The Inscriber needs a supply of 10 AE/t and 100 ticks to fully charge up."
+	],
+	dependencies: [
+		"fd9773a7"
+	],
+	tasks: [{
+		uid: "f4992678",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:inscriber"
+		}]
+	}],
+	rewards: [{
+		uid: "d44b4e9f",
+		type: "item",
+		item: "appliedenergistics2:inscriber"
+	},
+	{
+		uid: "912e9ed7",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

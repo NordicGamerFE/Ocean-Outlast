@@ -1,0 +1,21 @@
+{
+	title: "The beginning of Woot",
+	icon: "guideapi:woot-guide",
+	x: 25.5d,
+	y: -1.5d,
+	text: [
+		"&AMakes it a bit more understandable",
+		"&rA basic guide book so you can understand the mod.",
+		"",
+		""
+	],
+	tasks: [{
+		uid: "0a747950",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "dbb7077c",
+		type: "item",
+		item: "guideapi:woot-guide"
+	}]
+}

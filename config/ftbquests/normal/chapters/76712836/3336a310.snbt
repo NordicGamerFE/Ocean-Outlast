@@ -1,0 +1,31 @@
+{
+	title: "Extractor",
+	icon: "ic2:te 1 45",
+	x: -1.5d,
+	y: -3.5d,
+	text: [
+		"The Extractor is used to extract Rubber from Resin, as well as Coalfuel Cells from H. Coal Cells and Biofuel Cells from Bio Cells."
+	],
+	dependencies: [
+		"5983079e",
+		"70d97403"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a5a5de15",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 45"
+		}]
+	}],
+	rewards: [{
+		uid: "0b55da77",
+		type: "item",
+		item: "ic2:crafting"
+	},
+	{
+		uid: "a01f64b5",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

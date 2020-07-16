@@ -1,0 +1,42 @@
+{
+	title: "Shard of Laputa",
+	icon: "botania:laputashard",
+	x: 12.0d,
+	y: -2.0d,
+	text: [
+		"when used will raise a sphere of land into the air, centered on the selected block. The radius of the sphere and the height elevated are determined by the Shard Power. The process is not instant, and instead will move each block at a time until every block within a radius is moved. Blocks that rely on walls or floors, such as torches and crops, will drop in the process, as the required support is not moved alongside.",
+		"",
+		"The initial radius is 14 blocks, as stated in the Lexica Botania. A Gaia Spirit can be crafted together with the shard to increase its radius by 1, up to a maximum radius of 33 blocks. The level of the shard, indicating the radius upgrade, is detailed in the tooltip, starting at Shard Power I (1) and ending at Shard Power XX (20)."
+	],
+	dependencies: [
+		"d9bed1c5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7bc3d66b",
+		type: "item",
+		items: [{
+			item: "botania:laputashard"
+		}]
+	}],
+	rewards: [{
+		uid: "e0bded70",
+		type: "item",
+		item: "botania:manaresource 1 5"
+	},
+	{
+		uid: "1479a371",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "aad3fc09",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

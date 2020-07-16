@@ -1,0 +1,68 @@
+{
+	title: "Fully Upgraded Ender Helmt",
+	x: -11.5d,
+	y: 0.5d,
+	dependencies: [
+		"d0d93161"
+	],
+	tasks: [{
+		uid: "e1e4d6da",
+		type: "item",
+		items: [{
+			id: "enderio:item_end_steel_helmet",
+			tag: {
+				enderio.darksteel.upgrade.soundDetector: {
+					level: 0
+				},
+				enderio.darksteel.upgrade.energyUpgrade: {
+					level: 4,
+					energy: 2500000
+				},
+				enderio.darksteel.upgrade.inv: {
+					level: 2
+				},
+				enderio.darksteel.upgrade.nightVision: {
+					level: 0
+				},
+				enderio.darksteel.upgrade.padding: {
+					level: 0
+				},
+				enderio.darksteel.upgrade.solar: {
+					level: 3
+				},
+				enderio.darksteel.upgrade.gogglesOfRevealing: {
+					level: 0
+				},
+				enderio.darksteel.upgrade.anvil: {
+					level: 2
+				}
+			}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "99ce976f",
+		type: "ftbmoney:money",
+		ftb_money: 2000L
+	},
+	{
+		uid: "ece0f15a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	},
+	{
+		uid: "6fc867dd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "jackpot"
+			}
+		}
+	}]
+}

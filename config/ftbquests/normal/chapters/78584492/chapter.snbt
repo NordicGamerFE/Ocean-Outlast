@@ -1,0 +1,10 @@
+{
+	title: "Tiny Progression",
+	icon: "tp:dragon_chestplate",
+	description: [
+		"No Description"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

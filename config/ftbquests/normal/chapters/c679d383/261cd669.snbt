@@ -1,0 +1,36 @@
+{
+	title: "Botanurgist's Inkwell",
+	icon: {
+		id: "botania:manainkwell",
+		tag: {},
+		Damage: 150s
+	},
+	x: 0.0d,
+	y: -3.0d,
+	text: [
+		"Thaumcraft:",
+		"",
+		"alternative to Thaumcraft's Scribing Tools that can be recharged with Mana in a Mana Pool."
+	],
+	tasks: [{
+		uid: "45ed3e0c",
+		type: "item",
+		items: [{
+			id: "botania:manainkwell",
+			tag: {},
+			Damage: 150s
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cefd9d50",
+		type: "item",
+		item: "thaumcraft:ingot"
+	},
+	{
+		uid: "fe49ce5f",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

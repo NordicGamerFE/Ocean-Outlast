@@ -1,0 +1,22 @@
+{
+	x: 3.0d,
+	y: -1.5d,
+	dependencies: [
+		"11f5c05b"
+	],
+	tasks: [{
+		uid: "c5a75dbd",
+		type: "item",
+		items: [{
+			id: "mekanism:gastank",
+			tag: {
+				tier: 2
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "f7111b67",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	}]
+}

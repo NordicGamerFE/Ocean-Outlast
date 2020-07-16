@@ -1,0 +1,93 @@
+{
+	x: 1.5d,
+	y: -4.0d,
+	text: [
+		"&aLets make a kitchen to make everyones life easier&r",
+		"The kitchen is a very usefull multiblock that makes any food making easier including pam's"
+	],
+	tasks: [{
+		uid: "a26d6fdb",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:cooking_table"
+		}]
+	},
+	{
+		uid: "e2557a71",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:oven"
+		}]
+	},
+	{
+		uid: "921fba9b",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:fridge"
+		}]
+	},
+	{
+		uid: "e2ba58ba",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:sink"
+		}]
+	},
+	{
+		uid: "cadd9c80",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:counter"
+		}]
+	},
+	{
+		uid: "88a3b5e1",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:cabinet"
+		}]
+	},
+	{
+		uid: "890fa00e",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:toaster"
+		}]
+	},
+	{
+		uid: "2799a26a",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:tool_rack"
+		}]
+	},
+	{
+		uid: "8da0ffa2",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:spice_rack"
+		}]
+	},
+	{
+		uid: "81639814",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:fruit_basket"
+		}]
+	}],
+	rewards: [{
+		uid: "0c4eccf3",
+		type: "ftbmoney:money",
+		ftb_money: 450L
+	},
+	{
+		uid: "00aeb2b3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

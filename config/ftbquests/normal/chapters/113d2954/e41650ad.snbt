@@ -1,0 +1,27 @@
+{
+	x: -10.0d,
+	y: -4.0d,
+	tasks: [{
+		uid: "61fd82e3",
+		type: "item",
+		items: [{
+			item: "excompressum:bait 1 4"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e908f4e6",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "9002059d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "hunter_s_crate"
+			}
+		}
+	}]
+}

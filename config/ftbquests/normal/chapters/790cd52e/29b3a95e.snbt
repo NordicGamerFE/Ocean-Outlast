@@ -1,0 +1,41 @@
+{
+	x: -7.0d,
+	y: -0.5d,
+	dependencies: [
+		"56abc7d7"
+	],
+	tasks: [{
+		uid: "761f89ca",
+		type: "item",
+		items: [{
+			item: "better_diving:reinforced_diving_mask"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "eb423513",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "e4243f5b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "sunk_crate"
+			}
+		}
+	},
+	{
+		uid: "a8e14b51",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "kevs_lost_chest"
+			}
+		}
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "Flint Mesh",
+	icon: "exnihilocreatio:item_mesh 1 2",
+	x: -6.5d,
+	y: -2.0d,
+	shape: "rsquare",
+	text: [
+		"Flint mesh unlike the string mesh will drop ore chunks allowing you to get materials"
+	],
+	tasks: [{
+		uid: "de633835",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:item_mesh 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "c2fa3fbe",
+		type: "item",
+		item: "extrautils2:compressedcobblestone 1 1"
+	},
+	{
+		uid: "50822df2",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

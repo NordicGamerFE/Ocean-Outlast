@@ -1,0 +1,31 @@
+{
+	title: "Dragonstone",
+	icon: "botania:manaresource 1 9",
+	x: 10.5d,
+	y: 4.0d,
+	text: [
+		"Dragonstone is a component. It is used in many crafting recipes within the mod.",
+		"",
+		"Dragonstone is obtained by throwing a Mana Diamond into a Portal to Alfheim, which will return a Dragonstone."
+	],
+	dependencies: [
+		"748d638f"
+	],
+	tasks: [{
+		uid: "9e08c690",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 9"
+		}]
+	}],
+	rewards: [{
+		uid: "8d606cff",
+		type: "item",
+		item: "botania:blacklotus 1 1"
+	},
+	{
+		uid: "78004337",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

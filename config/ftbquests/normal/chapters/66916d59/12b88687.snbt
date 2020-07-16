@@ -1,0 +1,83 @@
+{
+	title: "Void Resource Miner Tier 2",
+	icon: "environmentaltech:void_res_miner_cont_2",
+	x: -1.5d,
+	y: -0.5d,
+	text: [
+		"Tier 2 Makes resources apper faster. and allows for modifiers"
+	],
+	dependencies: [
+		"c4b09fe9"
+	],
+	tasks: [{
+		uid: "b8ce7646",
+		type: "item",
+		items: [{
+			item: "environmentaltech:void_res_miner_cont_2"
+		}]
+	},
+	{
+		uid: "c33506b3",
+		type: "item",
+		items: [{
+			item: "environmentaltech:structure_frame_2 32"
+		}],
+		count: 32L
+	},
+	{
+		uid: "171c8c8f",
+		type: "item",
+		items: [{
+			item: "environmentaltech:structure_panel 16"
+		}],
+		count: 16L
+	},
+	{
+		uid: "2935bf0b",
+		type: "item",
+		items: [{
+			item: "environmentaltech:modifier_null 4"
+		}],
+		count: 4L
+	},
+	{
+		uid: "8fbb7b73",
+		type: "item",
+		items: [{
+			item: "environmentaltech:laser_core 3"
+		}],
+		count: 3L
+	},
+	{
+		uid: "8df2f4e8",
+		type: "item",
+		items: [{
+			item: "environmentaltech:laser_lens"
+		}]
+	}],
+	rewards: [{
+		uid: "d06dca78",
+		type: "item",
+		item: "minecraft:diamond_block"
+	},
+	{
+		uid: "11b47c6a",
+		type: "item",
+		item: "minecraft:gold_block"
+	},
+	{
+		uid: "e6d02d4c",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "2e007ca0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "jackpot"
+			}
+		}
+	}]
+}

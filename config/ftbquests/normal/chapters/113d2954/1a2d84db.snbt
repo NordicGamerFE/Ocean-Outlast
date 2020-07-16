@@ -1,0 +1,31 @@
+{
+	x: -2.5d,
+	y: -2.0d,
+	text: [
+		"Nobody likes bats so use this to kill all the bats"
+	],
+	tasks: [{
+		uid: "8929e87b",
+		type: "item",
+		items: [{
+			item: "excompressum:bat_zapper"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "397135a7",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "9d58630e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

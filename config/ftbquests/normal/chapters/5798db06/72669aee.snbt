@@ -1,0 +1,29 @@
+{
+	title: "Dragon Egg Crux",
+	icon: "mysticalagradditions:special 1 1",
+	x: -3.5d,
+	y: -25.0d,
+	text: [
+		"Place under the block where the dragon egg seed is planted to make it grow"
+	],
+	dependencies: [
+		"64301fc2"
+	],
+	tasks: [{
+		uid: "53595b56",
+		type: "item",
+		items: [{
+			item: "mysticalagradditions:special 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "38787c73",
+		type: "item",
+		item: "mysticalagradditions:special 1 1"
+	},
+	{
+		uid: "ce3a812f",
+		type: "ftbmoney:money",
+		ftb_money: 400L
+	}]
+}

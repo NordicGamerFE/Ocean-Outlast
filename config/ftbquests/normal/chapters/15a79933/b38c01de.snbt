@@ -1,0 +1,46 @@
+{
+	title: "Traveling Merchant",
+	x: -7.0d,
+	y: -7.5d,
+	text: [
+		"&aLets find a merchant",
+		"&RLets find a traveling merchant these villagers are people banish from their village now travling the landscape finding materials to sell to whom they might meet"
+	],
+	dependencies: [
+		"120bf0a4"
+	],
+	tasks: [{
+		uid: "3129ef78",
+		type: "observation",
+		icon: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1,
+				id: "primitivemobs:traveling_merchant"
+			}
+		},
+		match_type: "entity_id",
+		match: "primitivemobs:traveling_merchant",
+		timer: 20L
+	}],
+	rewards: [{
+		uid: "5b6eadae",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "f3fa1649",
+		type: "xp_levels",
+		xp_levels: 15
+	},
+	{
+		uid: "8aa861f6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

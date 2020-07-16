@@ -1,0 +1,99 @@
+{
+	title: "Void Botanic Miner Tier 2",
+	icon: "environmentaltech:void_botanic_miner_cont_2",
+	x: -1.5d,
+	y: 1.0d,
+	text: [
+		"Tier 2 makes botanic resources apper faster. And allows for modifiers"
+	],
+	dependencies: [
+		"d3878316"
+	],
+	tasks: [{
+		uid: "305a3c75",
+		type: "item",
+		items: [{
+			item: "environmentaltech:void_botanic_miner_cont_2"
+		}]
+	},
+	{
+		uid: "e603595c",
+		type: "item",
+		items: [{
+			item: "environmentaltech:structure_frame_2 32"
+		}],
+		count: 32L
+	},
+	{
+		uid: "489d8c7c",
+		type: "item",
+		items: [{
+			item: "environmentaltech:structure_panel 16"
+		}],
+		count: 16L
+	},
+	{
+		uid: "8098bcc7",
+		type: "item",
+		items: [{
+			item: "environmentaltech:modifier_null 4"
+		}],
+		count: 4L
+	},
+	{
+		uid: "9cbbc205",
+		type: "item",
+		items: [{
+			item: "environmentaltech:laser_core 3"
+		}],
+		count: 3L
+	},
+	{
+		uid: "615b70ee",
+		type: "item",
+		items: [{
+			item: "environmentaltech:laser_lens"
+		}]
+	}],
+	rewards: [{
+		uid: "67945b8b",
+		type: "item",
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:wolf"
+				}
+			}
+		}
+	},
+	{
+		uid: "7a2229d4",
+		type: "item",
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:parrot"
+				}
+			}
+		}
+	},
+	{
+		uid: "5f99b568",
+		type: "item",
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:ocelot"
+				}
+			}
+		}
+	},
+	{
+		uid: "b0de5737",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	}]
+}

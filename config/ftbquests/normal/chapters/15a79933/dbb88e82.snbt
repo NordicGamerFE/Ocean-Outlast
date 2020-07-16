@@ -1,0 +1,47 @@
+{
+	x: -9.0d,
+	y: -7.5d,
+	text: [
+		"&rLets see what i seen",
+		"&rGo around and scan mobs to learn a bit about them"
+	],
+	dependencies: [
+		"120bf0a4"
+	],
+	tasks: [{
+		uid: "72bd185a",
+		type: "item",
+		items: [{
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "universalbestiary:bestiary"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1bd6ef32",
+		type: "item",
+		items: [{
+			item: "universalbestiary:identifier"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "97c42858",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "7733e5e3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "kevs_lost_chest"
+			}
+		}
+	}]
+}

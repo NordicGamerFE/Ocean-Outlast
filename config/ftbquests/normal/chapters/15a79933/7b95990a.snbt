@@ -1,0 +1,32 @@
+{
+	x: -7.5d,
+	y: 4.0d,
+	text: [
+		"&aA very! dangrous witch",
+		"&rThis witch has used decades researching the powers of the wither now gained the knowlagde to infuse herself and her followers with this darken power"
+	],
+	dependencies: [
+		"ba9d5eb0"
+	],
+	tasks: [{
+		uid: "17cff1d1",
+		type: "kill",
+		entity: "enderzoo:witherwitch",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "90d54bbc",
+		type: "ftbmoney:money",
+		ftb_money: 450L
+	},
+	{
+		uid: "8b4759cb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

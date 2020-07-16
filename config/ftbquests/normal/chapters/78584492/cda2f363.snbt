@@ -1,0 +1,68 @@
+{
+	title: "Hot stuff",
+	icon: "tp:lava_chestplate",
+	x: -10.0d,
+	y: -2.0d,
+	text: [
+		"Get Magma armor"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"e177c0ff",
+		"085d65d5",
+		"6a6074f3",
+		"12772b81",
+		"d24a631d"
+	],
+	tasks: [{
+		uid: "c8c3f5f0",
+		type: "item",
+		items: [{
+			item: "tp:lava_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3e546046",
+		type: "item",
+		items: [{
+			item: "tp:lava_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a8e02cb9",
+		type: "item",
+		items: [{
+			item: "tp:lava_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8b4fda5b",
+		type: "item",
+		items: [{
+			item: "tp:lava_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "38953e04",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "8ef25cb5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	x: -1.0d,
+	y: 5.0d,
+	dependencies: [
+		"59de915b",
+		"4de9a78c"
+	],
+	tasks: [{
+		uid: "cab8c4a0",
+		type: "item",
+		items: [{
+			item: "projecte:dm_pedestal"
+		}]
+	}],
+	rewards: [{
+		uid: "a1ec7c59",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "40497838",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

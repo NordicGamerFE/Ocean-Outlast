@@ -1,0 +1,33 @@
+{
+	x: -11.0d,
+	y: -3.5d,
+	text: [
+		"&aDangrous dragon hunters&r",
+		"These creatours are trained to kill the most dangrous thing DRAGONS! you better bring your a game if you wish death go to a snow biome and find a snow castle"
+	],
+	dependencies: [
+		"46fed563"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9d46e4d9",
+		type: "kill",
+		entity: "cqrepoured:walker",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "cac019c2",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "6f0de2fe",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

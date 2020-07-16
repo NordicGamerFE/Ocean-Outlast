@@ -1,0 +1,35 @@
+{
+	title: "Solar Panel",
+	icon: "ic2:te 1 8",
+	x: 3.0d,
+	y: -2.0d,
+	text: [
+		"Used to make EU power from the sun (only works during the day)"
+	],
+	dependencies: [
+		"cd7c76e9"
+	],
+	tasks: [{
+		uid: "dfa79c46",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "0593a4a8",
+		type: "item",
+		item: {
+			id: "ic2:cable",
+			tag: {
+				type: 0,
+				insulation: 1
+			}
+		}
+	},
+	{
+		uid: "c4aa8d13",
+		type: "ftbmoney:money",
+		ftb_money: 60L
+	}]
+}

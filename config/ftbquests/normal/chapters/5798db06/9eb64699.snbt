@@ -1,0 +1,34 @@
+{
+	title: "Elementium Seeds",
+	icon: "mysticalagriculture:elementium_seeds",
+	x: -1.0d,
+	y: -17.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"9576e32f"
+	],
+	tasks: [{
+		uid: "1566f0ec",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:elementium_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "ce20a430",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "59b76611",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "Reinforced Watering Can",
+	icon: "tp:watering_can_upgrade",
+	x: -7.5d,
+	y: 0.5d,
+	text: [
+		"applies a Bone Meal effect on crops in a 5x5 area. It can be activated by being shift right-clicked"
+	],
+	dependencies: [
+		"c52e3015"
+	],
+	tasks: [{
+		uid: "b43eab7d",
+		type: "item",
+		items: [{
+			item: "tp:watering_can_upgrade"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b95cebd3",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "125bb76f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

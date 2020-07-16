@@ -1,0 +1,29 @@
+{
+	x: -7.0d,
+	y: -2.0d,
+	tasks: [{
+		uid: "dbad865a",
+		type: "item",
+		items: [{
+			item: "improvableskills:scroll_creative"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3f00d4f4",
+		type: "ftbmoney:money",
+		ftb_money: 350000L
+	},
+	{
+		uid: "c7da9f8a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "supra_crate"
+			}
+		}
+	}]
+}

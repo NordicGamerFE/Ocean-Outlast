@@ -1,0 +1,27 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	shape: "rsquare",
+	tasks: [{
+		uid: "f500a04d",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:frame"
+		}]
+	}],
+	rewards: [{
+		uid: "83a9b3ea",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "3f56f2e1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "jackpot"
+			}
+		}
+	}]
+}

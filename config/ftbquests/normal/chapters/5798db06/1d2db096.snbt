@@ -1,0 +1,31 @@
+{
+	x: -1.0d,
+	y: -2.0d,
+	dependencies: [
+		"3a467a1c"
+	],
+	tasks: [{
+		uid: "d4df83e2",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:soulium_dagger"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3e8f0559",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "04050686",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

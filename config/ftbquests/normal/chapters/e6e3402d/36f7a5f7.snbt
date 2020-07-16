@@ -1,0 +1,33 @@
+{
+	title: "Clipper",
+	icon: "agricraft:clipper",
+	x: -3.0d,
+	y: 0.0d,
+	text: [
+		"The clipper allows you to obtain clippings out of the plant. The crop will go down by one growth stage after you use the Clipper on it."
+	],
+	tasks: [{
+		uid: "c007aabf",
+		type: "item",
+		items: [{
+			item: "agricraft:clipper"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "197bf497",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "9994e4f9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "farmers_market"
+			}
+		}
+	}]
+}

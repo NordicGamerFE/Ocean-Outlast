@@ -1,0 +1,33 @@
+{
+	title: "Terrasteel Ingot",
+	icon: "botania:manaresource 1 4",
+	x: 8.5d,
+	y: 2.0d,
+	text: [
+		"The Terrasteel Ingot. This metal is made from one each of Manasteel Ingot, Mana Pearl, and Mana Diamond. It is used to create the Portal to Alfheim and all of the top tier Botania equipment.",
+		"",
+		"To make one Terrasteel Ingot, throw all three ingredients onto a Terrestrial Agglomeration Plate set on top of a checkerboard pattern of 5 Livingrock and 4 Lapis Lazuli Block and provide it with half a Mana Pool's worth of mana via sparks. That's the equivalent of one full Mana Tablet, or 500,000 points of mana. The mana infusion will take time, so providing mana via multiple Pools is advised to prevent items de-spawning. This process is documented in detail within the Lexica Botania.",
+		"",
+		"Note: It is technically possible to provide the Terrestrial Agglomeration Plate with power via Mana Spreaders instead of Sparks. However, the large amount of mana required to complete the infusion means that the items will almost always despawn or be picked up before spreaders can transfer enough to the plate. Placing one Spark above the plate, and at least one Mana Pool nearby with a Spark above it, is therefore the recommended method as these transfer mana much faster than spreaders."
+	],
+	dependencies: [
+		"1667bed8"
+	],
+	tasks: [{
+		uid: "4df60bc5",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "f4f15ee4",
+		type: "item",
+		item: "botania:blacklotus 1 1"
+	},
+	{
+		uid: "adaed5df",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

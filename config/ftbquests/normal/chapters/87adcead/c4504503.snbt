@@ -1,0 +1,37 @@
+{
+	title: "Ender Crafter",
+	icon: "extendedcrafting:ender_crafter",
+	x: -3.5d,
+	y: 0.0d,
+	text: [
+		"Use magical forces to craft items"
+	],
+	dependencies: [
+		"386d63ba"
+	],
+	tasks: [{
+		uid: "48548661",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:ender_crafter"
+		}]
+	},
+	{
+		uid: "ee62d31c",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:ender_alternator 8"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "b3a5edbb",
+		type: "item",
+		item: "minecraft:nether_star"
+	},
+	{
+		uid: "bd3fd24d",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

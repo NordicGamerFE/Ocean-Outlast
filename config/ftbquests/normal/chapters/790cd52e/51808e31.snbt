@@ -1,0 +1,32 @@
+{
+	x: -2.5d,
+	y: -9.5d,
+	text: [
+		"&APersonal Spectral Dimension!",
+		"&rHold right click to teleport to a private dimension! You can upgrade it by right clicking the center with Ectoplasm!"
+	],
+	tasks: [{
+		uid: "1cbe9f57",
+		type: "item",
+		items: [{
+			item: "randomthings:spectrekey"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9d2467c3",
+		type: "ftbmoney:money",
+		ftb_money: 400L
+	},
+	{
+		uid: "7e14caa3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

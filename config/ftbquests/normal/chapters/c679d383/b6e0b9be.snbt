@@ -1,0 +1,32 @@
+{
+	title: "Daffomill",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "daffomill"
+		}
+	},
+	x: -10.5d,
+	y: 2.0d,
+	text: [
+		"The Daffomill is a functional flower that will use mana to push item sprites in whichever direction the face is oriented. The direction Daffomill is facing can be changed by shift-right clicking with Wand of the Forest. It can be disabled at will by applying a redstone signal."
+	],
+	dependencies: [
+		"907d3764"
+	],
+	tasks: [{
+		uid: "d746a5d1",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "daffomill"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "b9200b11",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "Tier 6 Crafting Seeds",
+	icon: "mysticalagradditions:insanium 1 1",
+	x: 0.0d,
+	y: -23.5d,
+	shape: "octagon",
+	text: [
+		""
+	],
+	dependencies: [
+		"c7e968b7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d856f533",
+		type: "item",
+		items: [{
+			item: "mysticalagradditions:insanium 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "c5dcf8b8",
+		type: "ftbmoney:money",
+		ftb_money: 3500L
+	},
+	{
+		uid: "00993c08",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

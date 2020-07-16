@@ -1,0 +1,21 @@
+{
+	x: -2.5d,
+	y: 1.0d,
+	dependencies: [
+		"5ad980b3"
+	],
+	tasks: [{
+		uid: "dd5139df",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_crate_keeper"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "294a9fe0",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

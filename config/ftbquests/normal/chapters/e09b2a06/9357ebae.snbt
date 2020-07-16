@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: -3.5d,
+	dependencies: [
+		"a5a82098"
+	],
+	tasks: [{
+		uid: "c624b64c",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "87d6c10b",
+		type: "ftbmoney:money",
+		ftb_money: 65L
+	}]
+}

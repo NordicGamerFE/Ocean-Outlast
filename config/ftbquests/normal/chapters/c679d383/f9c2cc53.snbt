@@ -1,0 +1,33 @@
+{
+	title: "Ender Air Bottle",
+	icon: "botania:manaresource 1 15",
+	x: -1.5d,
+	y: 0.0d,
+	text: [
+		"Ender Air Bottle is crafting component and consumable item. It can be thrown by",
+		"right clicking and turns some Stone blocks into End Stone in 4 block radius on impact.",
+		"",
+		"It can be obtained by right clicking with the empty bottle on a air blocks in the End dimension."
+	],
+	dependencies: [
+		"9cb7d8d4"
+	],
+	tasks: [{
+		uid: "14741dad",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 4 15"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "84f719ff",
+		type: "item",
+		item: "botania:manaresource 1 15"
+	},
+	{
+		uid: "3d27ae28",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

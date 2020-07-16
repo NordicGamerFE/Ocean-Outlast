@@ -1,0 +1,31 @@
+{
+	title: "Pixie Dust",
+	icon: "botania:manaresource 1 8",
+	x: 10.5d,
+	y: 3.0d,
+	text: [
+		"The Pixie Dust is a crafting component. It is used in many crafting recipes within the mod.",
+		"",
+		"Pixie Dust can be obtained by throwing a Mana Pearl through an open Portal to Alfheim, which will return some Pixie Dust."
+	],
+	dependencies: [
+		"748d638f"
+	],
+	tasks: [{
+		uid: "7ed75e4c",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "52829cf7",
+		type: "item",
+		item: "botania:blacklotus 1 1"
+	},
+	{
+		uid: "f9aafe77",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

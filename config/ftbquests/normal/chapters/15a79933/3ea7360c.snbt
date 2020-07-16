@@ -1,0 +1,32 @@
+{
+	x: -6.0d,
+	y: -1.0d,
+	text: [
+		"&aHalf human Half bird&r",
+		"These harpies will attack anyone close so take them down before anyone else gets hurt, might flee when they get low on health dont allow this!"
+	],
+	dependencies: [
+		"bf2a29fd"
+	],
+	tasks: [{
+		uid: "b191d616",
+		type: "kill",
+		entity: "grimoireofgaia:harpy",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "533f3e5b",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "a40eb23f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

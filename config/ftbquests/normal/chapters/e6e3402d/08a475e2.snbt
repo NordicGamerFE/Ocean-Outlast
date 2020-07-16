@@ -1,0 +1,46 @@
+{
+	title: "Agricultural Journal",
+	icon: "agricraft:journal",
+	x: 1.5d,
+	y: -1.5d,
+	text: [
+		"record seeds and their crossbreeding combinations as they're analyzed in the Seed Analyzer. Any new discoveries made in the Seed Analyzer with the book added will record the discovery in the journal."
+	],
+	dependencies: [
+		"661332c8"
+	],
+	tasks: [{
+		uid: "585fa9f9",
+		type: "item",
+		items: [{
+			item: "agricraft:journal"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "92e8500f",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "6b953409",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "farmers_market"
+			}
+		}
+	},
+	{
+		uid: "a5c46de0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "kevs_lost_chest"
+			}
+		}
+	}]
+}

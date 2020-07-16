@@ -1,0 +1,32 @@
+{
+	x: -5.0d,
+	y: 0.5d,
+	text: [
+		"&AJumpers&R",
+		"If prompted these dangrous creepers will jump into the air and come down with an explosive force"
+	],
+	dependencies: [
+		"df4a5e2a"
+	],
+	tasks: [{
+		uid: "bd30d55f",
+		type: "kill",
+		entity: "primitivemobs:rocket_creeper",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "f956184d",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "6d2a410a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "hunter_s_crate"
+			}
+		}
+	}]
+}

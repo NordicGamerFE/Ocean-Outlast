@@ -1,0 +1,33 @@
+{
+	x: -5.0d,
+	y: 1.5d,
+	text: [
+		"&aGod of death",
+		"&RHas skeletons follow her"
+	],
+	dependencies: [
+		"bf2a29fd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f7779626",
+		type: "kill",
+		entity: "grimoireofgaia:anubis",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "5af5fe2f",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "c0eedca3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

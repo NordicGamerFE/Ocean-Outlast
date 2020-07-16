@@ -1,0 +1,18 @@
+{
+	x: -7.0d,
+	y: -3.5d,
+	tasks: [{
+		uid: "703b88eb",
+		type: "item",
+		items: [{
+			item: "bewitchment:vampiric_amulet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1edbbb3d",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

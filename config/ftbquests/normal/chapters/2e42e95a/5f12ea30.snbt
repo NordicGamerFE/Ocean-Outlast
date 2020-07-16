@@ -1,0 +1,41 @@
+{
+	x: 2.5d,
+	y: -3.0d,
+	dependencies: [
+		"66a409d8",
+		"86254bd4"
+	],
+	hide: true,
+	tasks: [{
+		uid: "cf7e0079",
+		type: "item",
+		items: [{
+			item: "fossil:ancient_clock"
+		}]
+	}],
+	rewards: [{
+		uid: "0343b02c",
+		type: "ftbmoney:money",
+		ftb_money: 10000L
+	},
+	{
+		uid: "0d55a594",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "jackpot"
+			}
+		}
+	},
+	{
+		uid: "027116e6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

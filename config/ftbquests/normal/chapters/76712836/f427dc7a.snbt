@@ -1,0 +1,43 @@
+{
+	title: "MFSU",
+	icon: {
+		id: "ic2:te",
+		tag: {},
+		Damage: 75s
+	},
+	x: 6.5d,
+	y: 1.5d,
+	text: [
+		"MFSU",
+		"Power tier: 4 (Max I/O 2048 EU/t)",
+		"Capacity: 40M EU"
+	],
+	dependencies: [
+		"6bdceb6a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0e3fe6a9",
+		type: "item",
+		items: [{
+			id: "ic2:te",
+			tag: {},
+			Damage: 75s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5973376f",
+		type: "item",
+		item: {
+			id: "ic2:lapotron_crystal",
+			tag: {},
+			Damage: 26s
+		}
+	},
+	{
+		uid: "0893f464",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "ME Dense Cable",
+	icon: "appliedenergistics2:part 1 76",
+	x: -1.5d,
+	y: -4.5d,
+	text: [
+		"Higher Capacity cable, can carry 32 channels unlike standard cable which can only carry 8, however it doesn't support buses so you must first step down from dense to a smaller cable (such as ME Glass Cable or ME Smart Cable) before using buses or panels. Shows load similarly to ME Smart Cable, with each line lit representing four channels in use."
+	],
+	dependencies: [
+		"cacd2772"
+	],
+	tasks: [{
+		uid: "34e4a67f",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 8 76"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "6bc9e5ba",
+		type: "item",
+		item: "appliedenergistics2:part 1 76"
+	},
+	{
+		uid: "dab27f65",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

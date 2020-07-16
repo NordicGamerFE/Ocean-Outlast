@@ -1,0 +1,36 @@
+{
+	title: "Rod of the Lands",
+	icon: "botania:dirtrod",
+	x: -6.5d,
+	y: -2.0d,
+	text: [
+		"R-click with this rod will place Dirt for some mana cost. Rod also provides infinite amount of Dirt to Rod of the Shifting Crust, but both rods requires Mana."
+	],
+	dependencies: [
+		"5c8a07d3"
+	],
+	tasks: [{
+		uid: "0dd24099",
+		type: "item",
+		items: [{
+			item: "botania:dirtrod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "dcad5e36",
+		type: "ftbmoney:money",
+		ftb_money: 45L
+	},
+	{
+		uid: "06caa5ef",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

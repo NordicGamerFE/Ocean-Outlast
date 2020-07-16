@@ -1,0 +1,31 @@
+{
+	title: "Bone Crook",
+	icon: "exnihilocreatio:crook_bone",
+	x: -2.5d,
+	y: -3.5d,
+	text: [
+		"Craft a Bone Crook"
+	],
+	dependencies: [
+		"54cd4eb4"
+	],
+	tasks: [{
+		uid: "3de8d8f7",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:crook_bone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fabb1f50",
+		type: "item",
+		item: "minecraft:bone_block"
+	},
+	{
+		uid: "0d1a11b3",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

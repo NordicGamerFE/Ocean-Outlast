@@ -1,0 +1,31 @@
+{
+	x: 0.5d,
+	y: 4.0d,
+	dependencies: [
+		"92d8dd82"
+	],
+	tasks: [{
+		uid: "85c0f2c4",
+		type: "item",
+		items: [{
+			item: "mekanismtools:diamondpaxel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "94533742",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "a13dfb86",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "kevs_lost_chest"
+			}
+		}
+	}]
+}

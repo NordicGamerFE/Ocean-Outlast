@@ -1,0 +1,22 @@
+{
+	x: 2.5d,
+	y: -3.0d,
+	text: [
+		"&aSome night walker eating all the food in the fridge?",
+		"&rRight click an fridge with this upgrade to prevent the last time of an stack to be used"
+	],
+	tasks: [{
+		uid: "d975343d",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:preservation_chamber"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e9bb1a34",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

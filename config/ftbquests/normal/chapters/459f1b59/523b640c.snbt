@@ -1,0 +1,91 @@
+{
+	title: "Infusion",
+	icon: "thaumcraft:infusion_matrix",
+	x: 2.5d,
+	y: 3.1666666666666665d,
+	text: [
+		"Right-click on the resulting structure with Salis Mundus to transform it into the Infusion Altar.",
+		"",
+		"In order to perform an infusion there are some prerequisites:",
+		"",
+		"",
+		"Arcane Pedestals",
+		"",
+		"Nearby sources of required essentia (e.g., Jars of Essentia)",
+		"",
+		"Required items to place on Pedestals",
+		"",
+		"A Caster's Gauntlet to start the process",
+		"",
+		"There are also some optional blocks that will help with infusion:",
+		"",
+		"Infusion stabilizer blocks",
+		"",
+		"Redstone Inlays",
+		"",
+		" ",
+		"Stabilizers",
+		"Before starting any infusion the player should always make sure that they have more than enough essentia to complete the infusion and spare prerequisite items should they be destroyed during the process. Easily mined blocks such as Dirt or Cobblestone should be kept on hand in the event Flux Goo manifests.",
+		"",
+		"Performing the ritual",
+		"Place Jars of Essentia around the central Pedestal for the desired recipe. If space is lacking for more essentia-intensive recipes, the player may want to invest in creating Essentia Mirrors to port essentia in from another location. Then, place Pedestals around the central Pedestal as symmetrically as possible and place the component items on all Pedestals; the order of items on the outer Pedestals does not matter. Double-check that there is enough essentia, as the process will begin regardless of quantity, and that there are spares of component items in the event that they are destroyed during the infusion—if this happens the Altar will continue draining essentia.",
+		"",
+		"The player should position themselves at an angle where they can see all the outer Pedestals, so that should an accident occur they can respond as swiftly as possible. Once ready, right-click on the Runic Matrix to begin the infusion. If the player is looking at the Runic Matrix while wearing the Goggles of Revealing or similar headwear, they will be able to see the amounts of essentia still required for the infusion. When all the necessary essentia has been taken in the component items will be absorbed into the central item. When the process is complete a chime effect will play and the central item will transform.",
+		"",
+		"Symmetry",
+		"The Infusion Altar is prone to instability; the more complex (and rewarding) an infusion ritual is, the more unstable the process becomes. This instability can manifest itself as (but not limited to):",
+		"",
+		"Knocking a component item off of its Pedestal",
+		"Destroying a component item in an explosion (does not destroy other blocks)",
+		"Transforming a component item into Flux Goo; will loosen any placed objects such as Zombie Heads",
+		"A bolt of lightning striking nearby players for damage",
+		"Inflicting Taint Poison on nearby players",
+		"In order to prevent this certain blocks known as Infusion Stabilizers can be placed around the Altar within a 12-block radius. These can be Skeleton Skulls, Zombie Heads, and Tallow Candles, etc. Add-on mods may provide new blocks that act as Infusion Stabilizers. Two identical blocks should be placed at the same height and antipodal to one another (i.e., the two blocks must be equidistant from the central Pedestal and if a line were to be drawn connecting the two, it would pass through the Altar at its midpoint). Unmatched Stabilizers will significantly increase the ritual's instability. Pedestals should always have a symmetrical counterpart, even when players are dealing with recipes that have an odd number of component items."
+	],
+	dependencies: [
+		"dd78ba1e"
+	],
+	tasks: [{
+		uid: "5f04f1a9",
+		type: "item",
+		items: [{
+			item: "thaumcraft:infusion_matrix"
+		}]
+	},
+	{
+		uid: "e133e2b0",
+		type: "item",
+		items: [{
+			item: "thaumcraft:stone_arcane 8"
+		}],
+		count: 8L
+	},
+	{
+		uid: "9264cea9",
+		type: "item",
+		items: [{
+			item: "thaumcraft:pedestal_arcane 9"
+		}],
+		count: 9L
+	}],
+	rewards: [{
+		uid: "5d90df57",
+		type: "item",
+		item: "thaumcraft:curio 1 1"
+	},
+	{
+		uid: "d014334d",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "2ffdecb5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "jackpot"
+			}
+		}
+	}]
+}

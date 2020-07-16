@@ -1,0 +1,36 @@
+{
+	title: "Spectranthemum",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "spectranthemum"
+		}
+	},
+	x: -6.5d,
+	y: 5.0d,
+	text: [
+		"The Spectranthemum is a functional flower that uses mana to teleport item sprites dropped nearby to a bound block within its 12 block range. This only works for items that do not contain mana, and items can only be teleported using this flower once. A Spectranthemum will not interact with item sprites teleported by any other Spectranthemum. The flower will need to be bound to a block by shift-right clicking with the Wand of the Forest in bind mode. To view the bound block, the player can sneak while holding the Wand of the Forest and looking at the flower.",
+		"",
+		"All flowers which use Redstone Root in recipe can be disabled with Redstone signal."
+	],
+	dependencies: [
+		"15474f17",
+		"1af0134b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "af7a3395",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "spectranthemum"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "4e427215",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

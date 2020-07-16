@@ -1,0 +1,44 @@
+{
+	title: "Ring of Thor",
+	icon: {
+		id: "botania:thorring",
+		tag: {
+			soulbindUUID: "0269faac-332b-41bb-b51b-2ee5f7017218"
+		}
+	},
+	x: 9.5d,
+	y: -7.0d,
+	text: [
+		"The Ring of Thor is one of the three mythic rings of the Aesir, the Ring of Thor, when worn, bestows upon the wearer the might of the Thunder God Thor. This power drastically increases the strength of area of effect mining with a Terra Shatterer."
+	],
+	dependencies: [
+		"699291a5"
+	],
+	tasks: [{
+		uid: "a21a6b8a",
+		type: "item",
+		items: [{
+			id: "botania:thorring",
+			tag: {
+				soulbindUUID: "0269faac-332b-41bb-b51b-2ee5f7017218"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fcbbcac5",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "1a66a3a4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

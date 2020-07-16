@@ -1,0 +1,27 @@
+{
+	title: "Blood Purifier",
+	icon: "geneticsreborn:bloodpurifier",
+	x: -1.0d,
+	y: -7.0d,
+	text: [
+		"This removes any impurities from your blood, since every time you do something with the blood it gets some contaminants in it. This machine filters out any of those and leaves clean usable blood.",
+		"",
+		"Default power use: 20 rf/t",
+		"Max Overclockers: 5"
+	],
+	dependencies: [
+		"e2d9225d"
+	],
+	tasks: [{
+		uid: "05188d8f",
+		type: "item",
+		items: [{
+			item: "geneticsreborn:bloodpurifier"
+		}]
+	}],
+	rewards: [{
+		uid: "eb17b789",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

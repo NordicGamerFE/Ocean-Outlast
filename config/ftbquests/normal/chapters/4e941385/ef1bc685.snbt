@@ -1,0 +1,26 @@
+{
+	x: 5.5d,
+	y: 4.0d,
+	text: [
+		"&aLocked to Digital Miner Quest&r",
+		"Found in mekanism Chapter",
+		"&r(&7Bonus earn direct coins&r)"
+	],
+	can_repeat: true,
+	dependencies: [
+		"b8d651f1"
+	],
+	tasks: [{
+		uid: "ef478e95",
+		type: "item",
+		items: [{
+			item: "redstonearsenal:material 1 32"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "c3870dbb",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

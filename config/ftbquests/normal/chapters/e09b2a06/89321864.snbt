@@ -1,0 +1,32 @@
+{
+	x: -4.0d,
+	y: 2.5d,
+	text: [
+		"A Mekanism machine upgrade to make them process items faster each Mekanism machine can store 8 of these upgrades.HINT: upgrade your power setup before upgrading your machines, as the power usage per tick begins to escalate with every speed upgrade ap"
+	],
+	dependencies: [
+		"37e9e736"
+	],
+	tasks: [{
+		uid: "de998197",
+		type: "item",
+		items: [{
+			item: "mekanism:speedupgrade"
+		}]
+	}],
+	rewards: [{
+		uid: "4b408fb5",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "1bae5156",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

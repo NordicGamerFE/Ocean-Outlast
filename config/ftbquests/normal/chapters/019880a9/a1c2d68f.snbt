@@ -1,0 +1,19 @@
+{
+	x: 4.5d,
+	y: 0.0d,
+	dependencies: [
+		"1379e8f5"
+	],
+	tasks: [{
+		uid: "631bc2ca",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_enervator"
+		}]
+	}],
+	rewards: [{
+		uid: "b8252da0",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

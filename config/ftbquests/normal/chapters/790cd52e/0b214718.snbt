@@ -1,0 +1,42 @@
+{
+	x: -3.5d,
+	y: -6.5d,
+	text: [
+		"&rLets get brewing!"
+	],
+	dependencies: [
+		"1b1a7a5a"
+	],
+	tasks: [{
+		uid: "a0720290",
+		type: "item",
+		items: [{
+			item: "minecraft:brewing_stand"
+		}]
+	}],
+	rewards: [{
+		uid: "e89958e2",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "903d5314",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	},
+	{
+		uid: "da88d8eb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "hellish_crate"
+			}
+		}
+	}]
+}

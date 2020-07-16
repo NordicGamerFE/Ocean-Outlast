@@ -1,0 +1,36 @@
+{
+	title: "Rod of the Molten Core",
+	icon: "botania:smeltrod",
+	x: -6.5d,
+	y: -3.0d,
+	text: [
+		"R-click with this rod will turn block into it's smelted variant, if this variant is block also; Examples: Cobblestone - Stone, Sand - Glass, Clay - Hardened Clay. Rod requires small amouts of Mana from user's inventory."
+	],
+	dependencies: [
+		"f6a841d1"
+	],
+	tasks: [{
+		uid: "436e3a6b",
+		type: "item",
+		items: [{
+			item: "botania:smeltrod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c87b68c9",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "8e1dce92",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,39 @@
+{
+	title: "Petal Apothecary",
+	icon: "botania:altar",
+	x: 1.5d,
+	y: -1.5d,
+	text: [
+		"To create plant life that can do their bidding, a botanist needs a special means of infusing plants with mystical energy.",
+		"Luckily, the Petal Apothecary can do just that.",
+		"This block, when placed in the world and given some water (by right-clicking or throwing in a Water Bucket), will accept any Mystical Petals thrown into it, absorbing their energies.",
+		"Once the correct petals have been provided, throwing any Seeds in will finalize the crafting process.",
+		"All Functional and Generating Flora are made here (for more information, read through the respective sections in this lexicon).",
+		"Sneak-right clicking the Petal Apothecary with an empty hand will remove the last item thrown in.",
+		"If it's filled with Lava instead of Water, the Apothecary will serve as a brazier and incinerator, destroying any items that come into contact with it.",
+		"Tossing Vines into a cobblestone Apothecary will give it an overgrown appearance.",
+		"A Comparators can detect an Apothecary's fullness.",
+		"Since the Petal Apothecary can be filled by with a dropped Water Bucket, and Dispensers can fill buckets, creating a system that automatically refills the water in the block shouldn't prove too difficult.",
+		"A simple tip for the more efficiency-minded: Up to twenty seconds after crafting a flower and after refilling the water, if you right-click the apothecary with an empty hand, it'll pull another set of the same ingredients out of your inventory, for quick crafting in bulk."
+	],
+	dependencies: [
+		"9cb7d8d4"
+	],
+	tasks: [{
+		uid: "c9b66b60",
+		type: "item",
+		items: [{
+			item: "botania:altar"
+		}]
+	}],
+	rewards: [{
+		uid: "b414fc64",
+		type: "item",
+		item: "claybucket:claybucket 1 1"
+	},
+	{
+		uid: "f58f1fb9",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,44 @@
+{
+	title: "Key of the King's Law",
+	icon: {
+		id: "botania:kingkey",
+		tag: {
+			soulbindUUID: "0269faac-332b-41bb-b51b-2ee5f7017218"
+		}
+	},
+	x: 10.5d,
+	y: -6.0d,
+	text: [
+		"Key of the King's Law. When holding right-click, this item will create floating circles with gold tools inside of them. They can be launched in the direction the player is looking."
+	],
+	dependencies: [
+		"699291a5"
+	],
+	tasks: [{
+		uid: "0674db11",
+		type: "item",
+		items: [{
+			id: "botania:kingkey",
+			tag: {
+				soulbindUUID: "0269faac-332b-41bb-b51b-2ee5f7017218"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "21ef3e22",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "b85e9907",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

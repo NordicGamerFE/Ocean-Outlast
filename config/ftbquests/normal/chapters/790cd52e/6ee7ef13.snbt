@@ -1,0 +1,40 @@
+{
+	x: -9.5d,
+	y: -7.0d,
+	text: [
+		"&aEarly Materials&r",
+		"Dive around in the sea and find limestone and sandstone outcrops and break them"
+	],
+	dependencies: [
+		"8757af66"
+	],
+	tasks: [{
+		uid: "30b53f9f",
+		type: "item",
+		items: [{
+			item: "better_diving:titanium"
+		}]
+	},
+	{
+		uid: "26e2bd3e",
+		type: "item",
+		items: [{
+			item: "better_diving:copper_ore"
+		}]
+	}],
+	rewards: [{
+		uid: "af466196",
+		type: "ftbmoney:money",
+		ftb_money: 35L
+	},
+	{
+		uid: "63bd708a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

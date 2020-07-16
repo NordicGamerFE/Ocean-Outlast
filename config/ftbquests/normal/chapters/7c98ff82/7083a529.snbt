@@ -1,0 +1,43 @@
+{
+	title: "Enhanced Alloy Smelter",
+	icon: "enderio:block_enhanced_alloy_smelter",
+	x: -0.5d,
+	y: -4.5d,
+	text: [
+		"Uses Micro Infinity (µI) to both smelt items and to create alloys like Dark Steel. The Alloy Smelter has three input slots and one output slot.",
+		"",
+		"This machine is an upgraded version of the Alloy Smelter, offering increased energy storage and power use, resulting in higher processing speeds. However, it has a downside: being 1.5 blocks high, it requires more vertical space; additionally, pipes and other automation cannot interact with the half block on its top side, making automation more difficult.",
+		"",
+		"Like most Ender IO machines, the Enhanced Alloy Smelter requires at least a Basic Capacitor to be installed to function. Better capacitors increase the machine's maximum energy usage rate and thus processing speed, as well as the internal energy buffer."
+	],
+	dependencies: [
+		"a0b78a48"
+	],
+	tasks: [{
+		uid: "180e36ba",
+		type: "item",
+		items: [{
+			item: "enderio:block_enhanced_alloy_smelter"
+		}]
+	}],
+	rewards: [{
+		uid: "f30f84c7",
+		type: "item",
+		item: "enderio:item_basic_capacitor 1 2"
+	},
+	{
+		uid: "f26f09b8",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "950872a4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

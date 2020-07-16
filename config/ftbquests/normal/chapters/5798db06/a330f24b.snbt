@@ -1,0 +1,34 @@
+{
+	title: "Nature Seeds",
+	icon: "mysticalagriculture:nature_seeds",
+	x: 1.0d,
+	y: -6.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"6a19d1ee"
+	],
+	tasks: [{
+		uid: "922d3ed2",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:nature_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "c61b5806",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "e37a25f6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

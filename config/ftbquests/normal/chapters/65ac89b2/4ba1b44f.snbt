@@ -1,0 +1,16 @@
+{
+	x: -3.0d,
+	y: 2.0d,
+	tasks: [{
+		uid: "3245163d",
+		type: "item",
+		items: [{
+			item: "tconstruct:slime_sapling 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "d8614b32",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

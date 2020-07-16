@@ -1,0 +1,33 @@
+{
+	title: "Tangleberrie",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "tangleberrie"
+		}
+	},
+	x: -7.5d,
+	y: 2.0d,
+	text: [
+		"The Tangleberrie is a functional flower that will use mana to keep mobs and animals within circle ward with a radius of 5 blocks. It will continue to use mana to apply this effect even if this circle is mob-free."
+	],
+	dependencies: [
+		"907d3764",
+		"5c8a07d3"
+	],
+	tasks: [{
+		uid: "9cbc3451",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "tangleberrie"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "edf3cfe1",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

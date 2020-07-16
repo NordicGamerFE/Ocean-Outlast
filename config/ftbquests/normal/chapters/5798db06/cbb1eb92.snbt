@@ -1,0 +1,44 @@
+{
+	x: -3.0d,
+	y: -4.0d,
+	dependencies: [
+		"73d975a8",
+		"d4e4e8af"
+	],
+	tasks: [{
+		uid: "6eeb0807",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:prudentium_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f0a3fd97",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:prudentium_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "83a50486",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:prudentium_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3878d506",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:prudentium_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: -4.0d,
+	y: 0.5d,
+	dependencies: [
+		"4afe61fd"
+	],
+	tasks: [{
+		uid: "36a1afad",
+		type: "item",
+		items: [{
+			item: "bewitchment:fiery_chalk"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7db7cd1e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

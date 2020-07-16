@@ -1,0 +1,17 @@
+{
+	x: 1.0d,
+	y: 2.0d,
+	shape: "rsquare",
+	tasks: [{
+		uid: "d1cc35d3",
+		type: "item",
+		items: [{
+			item: "enderio:item_basic_item_filter"
+		}]
+	}],
+	rewards: [{
+		uid: "34ac78aa",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

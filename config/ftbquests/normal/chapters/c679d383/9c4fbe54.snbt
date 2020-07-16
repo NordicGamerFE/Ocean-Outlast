@@ -1,0 +1,30 @@
+{
+	title: "Mana Pearl",
+	icon: "botania:manaresource 1 1",
+	x: 5.5d,
+	y: -1.0d,
+	text: [
+		"Crafting Componment"
+	],
+	dependencies: [
+		"836e1759"
+	],
+	hide: true,
+	tasks: [{
+		uid: "17ed88e3",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "b12e3394",
+		type: "item",
+		item: "botania:manaresource 1 1"
+	},
+	{
+		uid: "e9cd8e51",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

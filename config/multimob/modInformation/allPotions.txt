@@ -117,15 +117,6 @@ bewitchment:geomancy
 bewitchment:frozen
 bewitchment:poison_resist
 scalinghealth:bandaged
-tombstone:ghostly_shape
-tombstone:preservation
-tombstone:unstable_intangibleness
-tombstone:diversion
-tombstone:feather_fall
-tombstone:purification
-tombstone:true_sight
-tombstone:exorcism
-tombstone:reach
 roots:freeze
 roots:geas
 roots:time_stop

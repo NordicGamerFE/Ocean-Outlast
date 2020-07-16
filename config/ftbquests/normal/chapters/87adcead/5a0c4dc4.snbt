@@ -1,0 +1,29 @@
+{
+	title: "Automtion Interface",
+	icon: "extendedcrafting:interface",
+	x: -3.0d,
+	y: -3.5d,
+	text: [
+		"When placed ontop of a extended crafting table that table can now be automated"
+	],
+	dependencies: [
+		"09c8132b"
+	],
+	tasks: [{
+		uid: "ccef6825",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:interface"
+		}]
+	}],
+	rewards: [{
+		uid: "2e0c441c",
+		type: "item",
+		item: "extendedcrafting:material 1 24"
+	},
+	{
+		uid: "aaba60fb",
+		type: "ftbmoney:money",
+		ftb_money: 400L
+	}]
+}

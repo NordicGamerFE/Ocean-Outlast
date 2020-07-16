@@ -1,0 +1,55 @@
+{
+	title: "Tough Skin",
+	icon: "tp:obsidian_chestplate",
+	x: -11.0d,
+	y: -3.0d,
+	text: [
+		"Get Obsidian armor"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"6e03f5e6",
+		"abf2f0a5"
+	],
+	tasks: [{
+		uid: "a7c1c01f",
+		type: "item",
+		items: [{
+			item: "tp:obsidian_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "17402a62",
+		type: "item",
+		items: [{
+			item: "tp:obsidian_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "852e9a6b",
+		type: "item",
+		items: [{
+			item: "tp:obsidian_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e848d951",
+		type: "item",
+		items: [{
+			item: "tp:obsidian_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9f727cfd",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

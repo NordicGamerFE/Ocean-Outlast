@@ -1,0 +1,10 @@
+{
+	title: "Fossils and Archeology",
+	icon: "fossil:biofossil",
+	description: [
+		"Fossils and Archeology adds a boss and also the ability for you to grow your own dino's"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

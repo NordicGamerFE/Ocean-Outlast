@@ -1,0 +1,21 @@
+{
+	x: -1.5d,
+	y: 2.0d,
+	dependencies: [
+		"1379e8f5",
+		"79f78949"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8c0792d0",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_giant_chest_medium"
+		}]
+	}],
+	rewards: [{
+		uid: "828bdce5",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

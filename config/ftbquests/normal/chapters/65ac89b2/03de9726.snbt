@@ -1,0 +1,19 @@
+{
+	x: -5.5d,
+	y: -4.0d,
+	dependencies: [
+		"a4a2a0d8"
+	],
+	tasks: [{
+		uid: "5baa5320",
+		type: "item",
+		items: [{
+			item: "conarm:travel_cloak"
+		}]
+	}],
+	rewards: [{
+		uid: "7d98cdd9",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

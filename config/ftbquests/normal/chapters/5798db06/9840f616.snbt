@@ -1,0 +1,34 @@
+{
+	title: "Chicken Seeds",
+	icon: "mysticalagriculture:chicken_seeds",
+	x: 0.0d,
+	y: -9.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"a67f1154"
+	],
+	tasks: [{
+		uid: "b5222f8a",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:chicken_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "b9ae4c39",
+		type: "ftbmoney:money",
+		ftb_money: 55L
+	},
+	{
+		uid: "b013d825",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

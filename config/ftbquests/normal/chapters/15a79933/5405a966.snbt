@@ -1,0 +1,32 @@
+{
+	x: -10.5d,
+	y: 3.0d,
+	text: [
+		"&aThe leaders?",
+		"&rIn the ocean temple you can find two Elder Guardians"
+	],
+	dependencies: [
+		"f05f4957"
+	],
+	tasks: [{
+		uid: "062de5da",
+		type: "kill",
+		entity: "minecraft:elder_guardian",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "603f397a",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "8ae75801",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "ME Conduit",
+	icon: "enderio:item_me_conduit",
+	x: -7.75d,
+	y: 0.0d,
+	text: [
+		"Used to transmit ME signals like regular ME Glass Cables.",
+		"",
+		"Ender IO conduits are similar to wires, but they can be in the same block as other conduits."
+	],
+	dependencies: [
+		"8d674658"
+	],
+	tasks: [{
+		uid: "61812111",
+		type: "item",
+		items: [{
+			item: "enderio:item_me_conduit"
+		}]
+	}],
+	rewards: [{
+		uid: "2d769cf3",
+		type: "item",
+		item: "enderio:item_me_conduit"
+	},
+	{
+		uid: "b408c2c9",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

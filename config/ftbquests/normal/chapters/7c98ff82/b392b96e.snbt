@@ -1,0 +1,31 @@
+{
+	title: "Ender Fluid Conduit",
+	icon: "enderio:item_liquid_conduit 1 2",
+	x: -4.75d,
+	y: 2.0d,
+	text: [
+		"Used to transport fluids when powered with a Redstone signal. It will pull or push (or both, or neither) depending on where the arrows on the Item Conduit point to. The directional settings of the Ender Fluid Conduit can be modified by right-clicking it with a Yeta Wrench.",
+		"",
+		"Ender IO conduits are similar to wires, but they can be in the same block as other conduits."
+	],
+	dependencies: [
+		"89ae4a18"
+	],
+	tasks: [{
+		uid: "b2525704",
+		type: "item",
+		items: [{
+			item: "enderio:item_liquid_conduit 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "b70d6750",
+		type: "item",
+		item: "enderio:item_liquid_conduit 1 2"
+	},
+	{
+		uid: "00cf2d75",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

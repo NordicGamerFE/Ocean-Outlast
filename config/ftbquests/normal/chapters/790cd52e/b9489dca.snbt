@@ -1,0 +1,30 @@
+{
+	x: -0.5d,
+	y: -9.5d,
+	text: [
+		"&aPortal to a darken world",
+		"&4CURRENTLY WIP"
+	],
+	tasks: [{
+		uid: "5b9373f6",
+		type: "item",
+		items: [{
+			item: "extrautils2:teleporter 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "f5ca9358",
+		type: "ftbmoney:money",
+		ftb_money: 25000L
+	},
+	{
+		uid: "0be3a659",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "supra_crate"
+			}
+		}
+	}]
+}

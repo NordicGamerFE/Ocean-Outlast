@@ -1,0 +1,32 @@
+{
+	title: "Flux Configurator",
+	icon: "fluxnetworks:fluxconfigurator",
+	x: 1.5d,
+	y: 0.0d,
+	text: [
+		"The Flux Configurator can also be connected to a network.",
+		"It can be used to access, edit, delete networks on the go. And shares the same GUI as connectors.",
+		"It can also be used to copy / paste settings between connectors.",
+		"Copying Settings: Shift-Right Click on a connector to copy it's settings and then Right Click on a connector you wish to paste the settings to. If you right click something which isn't a connector you'll bring up the Network GUI and also you'll be able to edit the settings which the Configurator will paste. The configurator can also be renamed here, with the name field."
+	],
+	dependencies: [
+		"1523afa5"
+	],
+	tasks: [{
+		uid: "90185bb4",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:fluxconfigurator"
+		}]
+	}],
+	rewards: [{
+		uid: "943bcd2d",
+		type: "item",
+		item: "fluxnetworks:flux"
+	},
+	{
+		uid: "72107dad",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

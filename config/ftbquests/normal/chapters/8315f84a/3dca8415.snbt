@@ -1,0 +1,26 @@
+{
+	title: "Glass Syringe",
+	icon: "geneticsreborn:glasssyringe",
+	x: -2.5d,
+	y: -7.0d,
+	text: [
+		"This item is used to give and take blood from yourself. This will be vital to giving yourself genes, since there is no other way to get your own blood."
+	],
+	dependencies: [
+		"437a4804"
+	],
+	tasks: [{
+		uid: "6d3e48fe",
+		type: "item",
+		items: [{
+			item: "geneticsreborn:glasssyringe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b335e8b9",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: -5.0d,
+	y: -5.0d,
+	text: [
+		"Got 1 time to smelt and dont wanna use more coal then needed craft these they smelt only one item so get full usage out of your coal"
+	],
+	tasks: [{
+		uid: "c9aa49a4",
+		type: "item",
+		items: [{
+			item: "excompressum:uncompressed_coal"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "8e8d4687",
+		type: "ftbmoney:money",
+		ftb_money: 15L
+	}]
+}

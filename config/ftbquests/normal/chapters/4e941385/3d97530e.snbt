@@ -1,0 +1,23 @@
+{
+	x: 6.5d,
+	y: 0.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "a583a8ad",
+		type: "item",
+		items: [{
+			item: "avaritia:resource 1 4"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "b5f3104b",
+		type: "item",
+		item: {
+			id: "lodsofemone:coin_small",
+			tag: {
+				value: 25
+			}
+		}
+	}]
+}

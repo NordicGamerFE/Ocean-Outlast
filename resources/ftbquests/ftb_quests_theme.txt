@@ -1,3 +1,3 @@
 [*]
-wiki_url: https://discord.gg/vBgxHHa
-wiki_icon: assets:discord.png
+wiki_url: https://sites.google.com/view/ocean-outlast/home
+wiki_icon: assets:Artboard 1sdsd.png

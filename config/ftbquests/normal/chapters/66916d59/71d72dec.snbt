@@ -1,0 +1,28 @@
+{
+	title: "Assembler",
+	icon: "environmentaltech:tool_multiblock_assembler",
+	x: -4.0d,
+	y: -3.5d,
+	text: [
+		"The assembler is used to build all the multiblock structure"
+	],
+	tasks: [{
+		uid: "16429a3e",
+		type: "item",
+		items: [{
+			item: "environmentaltech:tool_multiblock_assembler"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f744ba3f",
+		type: "item",
+		item: "environmentaltech:connector"
+	},
+	{
+		uid: "691d8a16",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

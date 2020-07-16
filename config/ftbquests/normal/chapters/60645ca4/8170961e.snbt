@@ -1,0 +1,29 @@
+{
+	title: "Calculation Press",
+	icon: "appliedenergistics2:material 1 13",
+	x: 1.5d,
+	y: -0.5d,
+	text: [
+		"Required to make Printed Calculation Circuit with the Inscriber. Found in Sky Stone Chest that spawn in meteorites durring world gen, and can be copied using the Inscriber."
+	],
+	dependencies: [
+		"2e82976c"
+	],
+	tasks: [{
+		uid: "8d361ce1",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 13"
+		}]
+	}],
+	rewards: [{
+		uid: "b288af23",
+		type: "item",
+		item: "appliedenergistics2:material 1 10"
+	},
+	{
+		uid: "736e344b",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

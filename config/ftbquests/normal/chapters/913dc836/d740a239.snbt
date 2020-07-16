@@ -1,0 +1,19 @@
+{
+	x: 0.5d,
+	y: -3.5d,
+	dependencies: [
+		"53cc08fe"
+	],
+	tasks: [{
+		uid: "1b6df276",
+		type: "item",
+		items: [{
+			item: "projectex:alchemy_table"
+		}]
+	}],
+	rewards: [{
+		uid: "6293f46c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

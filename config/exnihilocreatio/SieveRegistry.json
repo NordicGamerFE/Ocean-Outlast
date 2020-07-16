@@ -122,11 +122,6 @@
       "meshLevel": 3
     },
     {
-      "drop": "appliedenergistics2:material:0",
-      "chance": 3,
-      "meshLevel": 4
-    },
-    {
       "drop": "appliedenergistics2:material:1",
       "chance": 2,
       "meshLevel": 4
@@ -158,34 +153,9 @@
       "meshLevel": 2
     },
     {
-      "drop": "minecraft:sapling:4",
-      "chance": 0.6,
-      "meshLevel": 3
-    },
-    {
-      "drop": "minecraft:sapling:4",
-      "chance": 0.8,
-      "meshLevel": 4
-    },
-    {
       "drop": "minecraft:apple:-1",
       "chance": 0.05,
       "meshLevel": 1
-    },
-    {
-      "drop": "minecraft:apple:-1",
-      "chance": 0.1,
-      "meshLevel": 2
-    },
-    {
-      "drop": "minecraft:apple:-1",
-      "chance": 0.15,
-      "meshLevel": 3
-    },
-    {
-      "drop": "minecraft:apple:-1",
-      "chance": 0.2,
-      "meshLevel": 4
     },
     {
       "drop": "minecraft:golden_apple:0",
@@ -193,39 +163,9 @@
       "meshLevel": 1
     },
     {
-      "drop": "minecraft:golden_apple:0",
-      "chance": 0.003,
-      "meshLevel": 2
-    },
-    {
-      "drop": "minecraft:golden_apple:0",
-      "chance": 0.005,
-      "meshLevel": 3
-    },
-    {
-      "drop": "minecraft:golden_apple:0",
-      "chance": 0.01,
-      "meshLevel": 4
-    },
-    {
       "drop": "exnihilocreatio:item_material:2",
       "chance": 0.025,
       "meshLevel": 1
-    },
-    {
-      "drop": "exnihilocreatio:item_material:2",
-      "chance": 0.05,
-      "meshLevel": 2
-    },
-    {
-      "drop": "exnihilocreatio:item_material:2",
-      "chance": 0.1,
-      "meshLevel": 3
-    },
-    {
-      "drop": "exnihilocreatio:item_material:2",
-      "chance": 0.2,
-      "meshLevel": 4
     }
   ],
   "ore:sand": [
@@ -238,6 +178,21 @@
       "drop": "minecraft:prismarine_shard:-1",
       "chance": 0.02,
       "meshLevel": 4
+    },
+    {
+      "drop": "fossil:shell",
+      "chance": 0.05,
+      "meshLevel": 2
+    },
+    {
+      "drop": "fossil:nautilus_egg",
+      "chance": 0.02,
+      "meshLevel": 3
+    },
+    {
+      "drop": "fossil:nautilus_fish",
+      "chance": 0.01,
+      "meshLevel": 3
     },
     {
       "drop": "exnihilocreatio:item_ore_aluminium:0",
@@ -550,6 +505,16 @@
       "meshLevel": 2
     },
     {
+      "drop": "treasure2:wither_stick_item",
+      "chance": 0.04,
+      "meshLevel": 2
+    },
+    {
+      "drop": "treasure2:wither_root_item",
+      "chance": 0.04,
+      "meshLevel": 2
+    },
+    {
       "drop": "treasure2:white_pearl",
       "chance": 0.02,
       "meshLevel": 2
@@ -598,7 +563,7 @@
     },
     {
       "drop": "minecraft:gunpowder",
-      "chance": 0.7,
+      "chance": 0.3,
       "meshLevel": 4
     },
     {
@@ -846,7 +811,7 @@
     },
 	{
       "drop": "woot:stygianirondust",
-      "chance": 0.005,
+      "chance": 0.01,
       "meshLevel": 3
     },
 	{
@@ -855,39 +820,14 @@
       "meshLevel": 4
     },
 	{
-      "drop": "woot:stygianirondust",
+      "drop": "treasure2:sapphire",
       "chance": 0.01,
-      "meshLevel": 4
-    },
-    {
-      "drop": "thaumcraft:crystal_perditio",
-      "chance": 0.1,
-      "meshLevel": 2
+      "meshLevel": 3
     },
 	{
-      "drop": "thaumcraft:crystal_ordo",
-      "chance": 0.1,
-      "meshLevel": 2
-    },
-	{
-      "drop": "thaumcraft:crystal_terra",
-      "chance": 0.1,
-      "meshLevel": 2
-    },
-	{
-      "drop": "thaumcraft:crystal_aqua",
-      "chance": 0.1,
-      "meshLevel": 2
-    },
-    {
-      "drop": "thaumcraft:crystal_ignis",
-      "chance": 0.1,
-      "meshLevel": 2
-    },
-    {
-      "drop": "thaumcraft:crystal_aer",
-      "chance": 0.1,
-      "meshLevel": 2
+      "drop": "treasure2:ruby",
+      "chance": 0.01,
+      "meshLevel": 3
     },
 	{
       "drop": "thaumcraft:quicksilver",
@@ -898,11 +838,6 @@
       "drop": "thaumcraft:quicksilver",
       "chance": 0.05,
       "meshLevel": 4
-    },
-    {
-      "drop": "minecraft:flint",
-      "chance": 0.25,
-      "meshLevel": 2
     },
     {
       "drop": "minecraft:coal",

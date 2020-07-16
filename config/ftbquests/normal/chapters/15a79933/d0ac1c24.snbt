@@ -1,0 +1,31 @@
+{
+	x: -19.5d,
+	y: -8.0d,
+	dependencies: [
+		"214e9482"
+	],
+	tasks: [{
+		uid: "ecca98d6",
+		type: "item",
+		items: [{
+			item: "treasure2:spider_key"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2ae88c9e",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "7f4434eb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

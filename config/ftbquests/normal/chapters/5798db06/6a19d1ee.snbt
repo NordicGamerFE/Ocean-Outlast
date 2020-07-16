@@ -1,0 +1,35 @@
+{
+	title: "Tier 1 Crafting Seed",
+	icon: "mysticalagriculture:crafting 1 17",
+	x: 0.0d,
+	y: -3.0d,
+	shape: "hexagon",
+	text: [
+		"Used in the crafting of tier 1 seeds"
+	],
+	dependencies: [
+		"713f08ad"
+	],
+	tasks: [{
+		uid: "11f81fba",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:crafting 1 17"
+		}]
+	}],
+	rewards: [{
+		uid: "c3b6b7da",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "farmers_market"
+			}
+		}
+	},
+	{
+		uid: "c21eed48",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

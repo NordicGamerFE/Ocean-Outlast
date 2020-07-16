@@ -1,0 +1,17 @@
+{
+	x: -3.0d,
+	y: -2.0d,
+	dependencies: [
+		"decd66b9",
+		"d4e4e8af"
+	],
+	tasks: [{
+		uid: "0cb0c72f",
+		type: "item",
+		items: [{
+			item: "mysticalagradditions:prudentium_paxel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

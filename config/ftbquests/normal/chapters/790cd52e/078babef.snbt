@@ -1,0 +1,33 @@
+{
+	x: -7.0d,
+	y: -8.0d,
+	text: [
+		"&aThe Torch of the seas&r",
+		"This is pretty much like a normal torch but works underwater"
+	],
+	dependencies: [
+		"90d21239"
+	],
+	tasks: [{
+		uid: "d85bf7cb",
+		type: "item",
+		items: [{
+			item: "jetorches:torch 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "7b37e560",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "647ab64b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

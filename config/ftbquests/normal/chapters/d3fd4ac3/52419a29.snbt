@@ -1,0 +1,37 @@
+{
+	x: 0.0d,
+	y: 1.5d,
+	text: [
+		"I made a mistake making the recipe but it add character so enjoy bill"
+	],
+	tasks: [{
+		uid: "b24ee827",
+		type: "item",
+		items: [{
+			item: "extrautils2:itemcreativebuilderswand"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "591c53fb",
+		type: "ftbmoney:money",
+		ftb_money: 10000L
+	},
+	{
+		uid: "dde95dc7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	},
+	{
+		uid: "6f77bf67",
+		type: "item",
+		item: "mysticalagriculture:crafting 1 21"
+	}]
+}

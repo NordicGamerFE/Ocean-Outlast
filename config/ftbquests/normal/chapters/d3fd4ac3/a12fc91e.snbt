@@ -1,0 +1,27 @@
+{
+	x: -7.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "d1b9c872",
+		type: "item",
+		items: [{
+			item: "bewitchment:blessed_stone"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "8141118b",
+		type: "ftbmoney:money",
+		ftb_money: 1500000L
+	},
+	{
+		uid: "ec288d6e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "supra_crate"
+			}
+		}
+	}]
+}

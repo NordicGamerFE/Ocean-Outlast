@@ -1,0 +1,28 @@
+{
+	title: "Juicer",
+	icon: "tp:juicer",
+	x: -15.5d,
+	y: -4.0d,
+	text: [
+		"Used to make more nourishing meals from fruits and vegetables"
+	],
+	tasks: [{
+		uid: "55b1936a",
+		type: "item",
+		items: [{
+			item: "tp:juicer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d5d49a3e",
+		type: "item",
+		item: "tp:melon_juice"
+	},
+	{
+		uid: "27989413",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

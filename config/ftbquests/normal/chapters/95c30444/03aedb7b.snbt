@@ -1,0 +1,32 @@
+{
+	title: "Flux Storage",
+	icon: "fluxnetworks:fluxstorage",
+	x: -1.0d,
+	y: -1.5d,
+	text: [
+		"Used to Store Energy in the network",
+		"Flux Storage is used to store excess energy. It will only be filled once each Flux Point has received enough energy.",
+		"This energy can only be accessed by removing energy with a Flux Point.",
+		"Network's do not require a Flux Storage to operate"
+	],
+	dependencies: [
+		"b50c4be7"
+	],
+	tasks: [{
+		uid: "4cfd697a",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:fluxstorage"
+		}]
+	}],
+	rewards: [{
+		uid: "f9ace94d",
+		type: "item",
+		item: "fluxnetworks:fluxcore"
+	},
+	{
+		uid: "ca4dc763",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	}]
+}

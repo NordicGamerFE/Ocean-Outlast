@@ -1,0 +1,16 @@
+{
+	icon: "openblocks:serious_glasses",
+	x: -8.5d,
+	y: -6.5d,
+	text: [
+		"&ATravel the world",
+		"&rYes i am an Adventurer i wanna discover new species",
+		"&4WIP"
+	],
+	hide: true,
+	tasks: [{
+		uid: "85b9a8fb",
+		type: "checkmark",
+		title: "Adventurer"
+	}]
+}

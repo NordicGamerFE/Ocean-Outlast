@@ -1,0 +1,36 @@
+{
+	title: "Advanced Remote",
+	icon: "storagenetwork:remote 1 1",
+	x: -4.5d,
+	y: 2.5d,
+	text: [
+		"Remote with crafting unlimited distance and works across dimensions"
+	],
+	dependencies: [
+		"699b622d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d93f8adf",
+		type: "item",
+		items: [{
+			item: "storagenetwork:remote 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a6e0669a",
+		type: "ftbmoney:money",
+		ftb_money: 800L
+	},
+	{
+		uid: "d109f12f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

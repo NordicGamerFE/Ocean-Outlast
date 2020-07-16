@@ -1,0 +1,34 @@
+{
+	title: "Nether Star Seeds",
+	icon: "mysticalagradditions:nether_star_seeds",
+	x: -1.0d,
+	y: -25.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"e2da0b1c"
+	],
+	tasks: [{
+		uid: "cc3199e4",
+		type: "item",
+		items: [{
+			item: "mysticalagradditions:nether_star_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "66421b3a",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "f0687e5d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

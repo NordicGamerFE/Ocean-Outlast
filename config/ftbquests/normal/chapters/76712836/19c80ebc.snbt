@@ -1,0 +1,30 @@
+{
+	x: 1.5d,
+	y: -2.5d,
+	dependencies: [
+		"aac28f12"
+	],
+	hide: true,
+	tasks: [{
+		uid: "275e080b",
+		type: "item",
+		items: [{
+			item: "ic2:upgrade"
+		}]
+	}],
+	rewards: [{
+		uid: "3a7b3bcc",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "5e79e586",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

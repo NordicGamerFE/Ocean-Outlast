@@ -1,0 +1,30 @@
+{
+	x: -7.5d,
+	y: -6.0d,
+	dependencies: [
+		"51cf63d5",
+		"0e1447db"
+	],
+	tasks: [{
+		uid: "0e36d695",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:supremium_reprocessor"
+		}]
+	}],
+	rewards: [{
+		uid: "2de9a879",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "f2777606",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

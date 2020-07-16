@@ -1,0 +1,26 @@
+{
+	x: 7.5d,
+	y: 1.5d,
+	text: [
+		"&aLocked to Digital Miner Quest&r",
+		"Found in mekanism Chapter",
+		"&r(&7Bonus earn direct coins&r)"
+	],
+	can_repeat: true,
+	dependencies: [
+		"b8d651f1"
+	],
+	tasks: [{
+		uid: "540363ec",
+		type: "item",
+		items: [{
+			item: "mysticalagradditions:insanium 1 2"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "b0e07521",
+		type: "ftbmoney:money",
+		ftb_money: 55L
+	}]
+}

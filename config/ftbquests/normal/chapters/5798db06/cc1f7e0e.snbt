@@ -1,0 +1,34 @@
+{
+	title: "Blitz Seeds",
+	icon: "mysticalagriculture:blitz_seeds",
+	x: 5.0d,
+	y: -13.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"4113dc34"
+	],
+	tasks: [{
+		uid: "a1b937a8",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:blitz_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "18980674",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "d5ef9211",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

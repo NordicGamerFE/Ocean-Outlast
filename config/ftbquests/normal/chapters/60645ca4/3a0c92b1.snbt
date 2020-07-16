@@ -1,0 +1,36 @@
+{
+	title: "ME Terminal",
+	icon: "appliedenergistics2:part 1 380",
+	x: 1.5d,
+	y: -3.0d,
+	text: [
+		"The ME Terminal is a HUD which gives you access to a ME Network's Networked Storage.",
+		"",
+		"It has the ability to sort and search, as well as filter by using View Cell. It requires a Channel to function."
+	],
+	dependencies: [
+		"2e82976c"
+	],
+	tasks: [{
+		uid: "135222ff",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 380"
+		}]
+	}],
+	rewards: [{
+		uid: "05b3979e",
+		type: "item",
+		item: "appliedenergistics2:material 1 44"
+	},
+	{
+		uid: "be8f8fd8",
+		type: "item",
+		item: "appliedenergistics2:material 1 43"
+	},
+	{
+		uid: "b39009cd",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

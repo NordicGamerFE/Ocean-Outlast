@@ -1,0 +1,39 @@
+{
+	title: "CESU",
+	icon: {
+		id: "ic2:te",
+		tag: {},
+		Damage: 73s
+	},
+	x: 3.5d,
+	y: 1.5d,
+	text: [
+		"CESU",
+		"Power tier: 2 (Max I/O 128 EU/t)",
+		"Capacity: 300K EU"
+	],
+	dependencies: [
+		"7ea545ed"
+	],
+	hide: true,
+	tasks: [{
+		uid: "be4f280b",
+		type: "item",
+		items: [{
+			id: "ic2:te",
+			tag: {},
+			Damage: 73s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "116fcda9",
+		type: "item",
+		item: "ic2:ingot 1 1"
+	},
+	{
+		uid: "d0c772e1",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	}]
+}

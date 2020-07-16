@@ -1,0 +1,38 @@
+{
+	title: "Vibrant Capacitor Bank",
+	icon: "enderio:block_cap_bank 1 3",
+	x: 3.0d,
+	y: 0.5d,
+	text: [
+		"Used to store Redstone Flux (RF); each block can store 25 million RF. It is a shapeless multiblock; putting a Vibrant Capacitor Bank next to another Vibrant Capacitor Bank will combine their energy storage.",
+		"",
+		"The maximum RF input and output can be adjusted, but it cannot go above 25,000 without multiple Vibrant Capacitor Banks (a multiblock of 2 Vibrant Capacitor Banks can reach 50,000 RF input/output, a multiblock of 3 Capacitor Banks can reach 75,000 RF input/output, etc).",
+		"",
+		"If hit with a Yeta Wrench, the mode of the side hit can be modified. A blank slate (\"none\") indicates input/output. A blue symbol (\"pull\") indicates input, a red symbol (\"push\") indicates output. An \"X\" indicates the side is disabled. Shift-clicking the block with the wrench will drop the block, with all energy still stored in it."
+	],
+	dependencies: [
+		"3aaadab7"
+	],
+	tasks: [{
+		uid: "9e4766ef",
+		type: "item",
+		items: [{
+			item: "enderio:block_cap_bank 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "7d9cf123",
+		type: "ftbmoney:money",
+		ftb_money: 400L
+	},
+	{
+		uid: "6dc4367b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

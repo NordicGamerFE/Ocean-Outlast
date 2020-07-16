@@ -1,0 +1,19 @@
+{
+	x: 2.5d,
+	y: 0.0d,
+	dependencies: [
+		"8065100c"
+	],
+	tasks: [{
+		uid: "4887e75c",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_atomic_reconstructor"
+		}]
+	}],
+	rewards: [{
+		uid: "4def3af7",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

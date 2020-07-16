@@ -1,0 +1,21 @@
+{
+	title: "Wood Chest",
+	x: -20.0d,
+	y: -2.5d,
+	dependencies: [
+		"214e9482"
+	],
+	tasks: [{
+		uid: "93d534c1",
+		type: "observation",
+		icon: "treasure2:wood_chest",
+		match_type: "block_id",
+		match: "treasure2:wood_chest",
+		timer: 20L
+	}],
+	rewards: [{
+		uid: "0405e2e4",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

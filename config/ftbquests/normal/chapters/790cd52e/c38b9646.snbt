@@ -1,0 +1,26 @@
+{
+	x: -5.5d,
+	y: -5.5d,
+	shape: "rsquare",
+	tasks: [{
+		uid: "65a4ef81",
+		type: "dimension",
+		icon: "minecraft:end_portal_frame",
+		dim: 1
+	}],
+	rewards: [{
+		uid: "af10180d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	},
+	{
+		uid: "2211ab98",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

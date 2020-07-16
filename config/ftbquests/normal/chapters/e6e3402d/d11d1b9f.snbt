@@ -1,0 +1,33 @@
+{
+	title: "Magnifying Glass",
+	icon: "agricraft:magnifying_glass",
+	x: -1.5d,
+	y: 0.0d,
+	text: [
+		"The Magnifying Glass will give you information about Crop Sticks that it used on. It shows what seed is currently planted, what stage the seed is on, stats of the seed, if the seed can grow or not."
+	],
+	tasks: [{
+		uid: "11b1d590",
+		type: "item",
+		items: [{
+			item: "agricraft:magnifying_glass"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "517b657a",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "8630ca4e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "farmers_market"
+			}
+		}
+	}]
+}

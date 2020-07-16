@@ -1,0 +1,29 @@
+{
+	title: "Electronic Circuit",
+	icon: "ic2:crafting 1 1",
+	x: -3.0d,
+	y: 0.0d,
+	text: [
+		"Used as a base crafting component in most early machines"
+	],
+	dependencies: [
+		"b5e954fa"
+	],
+	tasks: [{
+		uid: "74942f20",
+		type: "item",
+		items: [{
+			item: "ic2:crafting 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "8e9b21dc",
+		type: "item",
+		item: "ic2:crafting 1 1"
+	},
+	{
+		uid: "b1d43ae5",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

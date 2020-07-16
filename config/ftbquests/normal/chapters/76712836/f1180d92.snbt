@@ -1,0 +1,37 @@
+{
+	title: "LV Transformer",
+	icon: "ic2:te 1 77",
+	x: 2.0d,
+	y: 3.0d,
+	text: [
+		"LV-Transformer",
+		"Step-down: Input 128 EU/t, Output 32 EU/t (x5)",
+		"Step-up: Input 32 EU/t (x5), Output 128 EU/t"
+	],
+	dependencies: [
+		"7ea545ed"
+	],
+	tasks: [{
+		uid: "4ae83eed",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 77"
+		}]
+	}],
+	rewards: [{
+		uid: "ee04fe7e",
+		type: "item",
+		item: {
+			id: "ic2:cable",
+			tag: {
+				type: 0,
+				insulation: 1
+			}
+		}
+	},
+	{
+		uid: "ba3a2494",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

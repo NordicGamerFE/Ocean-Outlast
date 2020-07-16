@@ -1,0 +1,38 @@
+{
+	title: "Capacitor Bank",
+	icon: "enderio:block_cap_bank 1 2",
+	x: 2.0d,
+	y: 0.5d,
+	text: [
+		"Used to store Redstone Flux (RF); each block can store 5 million RF. It is a shapeless multiblock; putting a Capacitor Bank next to another Capacitor Bank will combine their energy storage.",
+		"",
+		"The maximum RF input and output can be adjusted, but it cannot go above 5000 without multiple Capacitor Banks (a multiblock of 2 Capacitor Banks can reach 10,000 RF input/output, a multiblock of 3 Capacitor Banks can reach 15,000 RF input/output, etc).",
+		"",
+		"If hit with a Yeta Wrench, the mode of the side hit can be modified. A blank slate (\"none\") indicates input/output. A blue symbol (\"pull\") indicates input, a red symbol (\"push\") indicates output. An \"X\" indicates the side is disabled. Shift-clicking the block with the wrench will drop the block, with all energy still stored in it."
+	],
+	dependencies: [
+		"0bf4c20b"
+	],
+	tasks: [{
+		uid: "9d71db46",
+		type: "item",
+		items: [{
+			item: "enderio:block_cap_bank 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "0338853f",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "3a7f4d27",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

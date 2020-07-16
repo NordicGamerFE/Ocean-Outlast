@@ -1,0 +1,44 @@
+{
+	title: "MFE",
+	icon: {
+		id: "ic2:te",
+		tag: {},
+		Damage: 74s
+	},
+	x: 5.0d,
+	y: 1.5d,
+	text: [
+		"MFE",
+		"Power tier: 3 (Max I/O 512 EU/t)",
+		"Capacity: 4M EU"
+	],
+	dependencies: [
+		"b7d9a57f",
+		"70d97403"
+	],
+	hide: true,
+	tasks: [{
+		uid: "eafd100c",
+		type: "item",
+		items: [{
+			id: "ic2:te",
+			tag: {},
+			Damage: 74s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0e6bf566",
+		type: "item",
+		item: {
+			id: "ic2:energy_crystal",
+			tag: {},
+			Damage: 26s
+		}
+	},
+	{
+		uid: "e1881f6d",
+		type: "ftbmoney:money",
+		ftb_money: 120L
+	}]
+}

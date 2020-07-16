@@ -1,0 +1,31 @@
+{
+	x: -10.0d,
+	y: -3.0d,
+	dependencies: [
+		"4974a128"
+	],
+	tasks: [{
+		uid: "3f3cf14e",
+		type: "item",
+		items: [{
+			item: "enderio:item_dark_steel_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d8957082",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "c14d7041",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

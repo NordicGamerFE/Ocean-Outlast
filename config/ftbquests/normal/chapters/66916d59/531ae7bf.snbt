@@ -1,0 +1,64 @@
+{
+	title: "Lightning Rod Tier 1",
+	icon: "environmentaltech:lightning_cont_1",
+	x: -5.5d,
+	y: -1.5d,
+	text: [
+		"Every 1600 ticks to 3200 ticks (400 ticks to 800 ticks during a Thunderstorm), the topmost Lightning Rod has a chance to be struck by Lightning. When that happens, a random amount of Redstone Flux is generated and stored in the Lightning Controller, which can be then extracted from the bottom face."
+	],
+	dependencies: [
+		"81364127",
+		"71d72dec"
+	],
+	tasks: [{
+		uid: "57fca47a",
+		type: "item",
+		items: [{
+			item: "environmentaltech:lightning_cont_1"
+		}]
+	},
+	{
+		uid: "7630ce73",
+		type: "item",
+		items: [{
+			item: "environmentaltech:structure_frame_1 4"
+		}],
+		count: 4L
+	},
+	{
+		uid: "8957cea4",
+		type: "item",
+		items: [{
+			item: "environmentaltech:lightning_rod_insulated 3"
+		}],
+		count: 3L
+	},
+	{
+		uid: "035c813a",
+		type: "item",
+		items: [{
+			item: "environmentaltech:lightning_rod 3"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "ba848cfe",
+		type: "item",
+		item: "thermaldynamics:duct_0"
+	},
+	{
+		uid: "2b2161b4",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "8ff5b508",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

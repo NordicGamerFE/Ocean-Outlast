@@ -1,0 +1,32 @@
+{
+	x: -4.0d,
+	y: 1.0d,
+	text: [
+		"&aWoman of death",
+		"&rShe is a dangrous woman to attack when her health gets low she will flee and avoid you but when she is all ok again she will come back attacking you"
+	],
+	dependencies: [
+		"165002db"
+	],
+	tasks: [{
+		uid: "0b795b52",
+		type: "kill",
+		entity: "grimoireofgaia:satyress",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "2e159fcf",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "04d00008",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

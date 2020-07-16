@@ -1,0 +1,40 @@
+{
+	title: "Experience Obelisk",
+	icon: "enderio:block_experience_obelisk",
+	x: -5.0d,
+	y: -6.0d,
+	text: [
+		"Used to store large amount of Experience.",
+		"",
+		"The GUI can be accessed by right-clicking on it. Inside the GUI, the amount of XP stored is visible in levels, and the player can store or retrieve 1, 10, or all levels of XP. The XP can also be inserted into or extracted from a different source in the form of liquid XP.",
+		"",
+		"The Experience Obelisk GUI lets the player configure each face to Push, Pull, Push/Pull, Disabled or None. The Experience Obelisk can also be configured to react to always be active, never be active, or work in the presence or absence of Redstone.",
+		"",
+		"The Experience Obelisk keeps its stored experience when broken and picked up."
+	],
+	dependencies: [
+		"4b202534"
+	],
+	tasks: [{
+		uid: "ef9f88eb",
+		type: "item",
+		items: [{
+			item: "enderio:block_experience_obelisk"
+		}]
+	}],
+	rewards: [{
+		uid: "5f90008f",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "e80162bb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

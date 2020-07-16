@@ -1,0 +1,27 @@
+{
+	title: "Garnet",
+	icon: "bewitchment:garnet",
+	x: -8.0d,
+	y: -6.0d,
+	text: [
+		"No Description"
+	],
+	tasks: [{
+		uid: "51f510b9",
+		type: "item",
+		items: [{
+			item: "bewitchment:garnet 4"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "68edb036",
+		type: "item",
+		item: "bewitchment:garnet"
+	},
+	{
+		uid: "bc5bfbb1",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

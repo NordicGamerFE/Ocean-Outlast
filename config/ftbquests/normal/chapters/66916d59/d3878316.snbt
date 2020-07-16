@@ -1,0 +1,78 @@
+{
+	title: "Void Botanic Miner Tier 1",
+	icon: "environmentaltech:void_botanic_miner_cont_1",
+	x: -2.5d,
+	y: 1.0d,
+	text: [
+		"When supplied with enough Redstone Flux, the Void Botanic Miner will periodically generate plants of various types, which will be automatically output to inventories adjacent to the Controller"
+	],
+	dependencies: [
+		"81364127",
+		"71d72dec"
+	],
+	tasks: [{
+		uid: "cc410212",
+		type: "item",
+		items: [{
+			item: "environmentaltech:void_botanic_miner_cont_1"
+		}]
+	},
+	{
+		uid: "9ba9d9b5",
+		type: "item",
+		items: [{
+			item: "environmentaltech:structure_frame_1 24"
+		}],
+		count: 24L
+	},
+	{
+		uid: "7a3f4fdb",
+		type: "item",
+		items: [{
+			item: "environmentaltech:structure_panel 20"
+		}],
+		count: 20L
+	},
+	{
+		uid: "1c019f3b",
+		type: "item",
+		items: [{
+			item: "environmentaltech:laser_core 2"
+		}],
+		count: 2L
+	},
+	{
+		uid: "cf0a70ec",
+		type: "item",
+		items: [{
+			item: "environmentaltech:laser_lens"
+		}]
+	}],
+	rewards: [{
+		uid: "33df231d",
+		type: "item",
+		item: "minecraft:melon_block"
+	},
+	{
+		uid: "66b56f57",
+		type: "item",
+		item: "minecraft:pumpkin"
+	},
+	{
+		uid: "7142c14a",
+		type: "item",
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:rabbit"
+				}
+			}
+		}
+	},
+	{
+		uid: "72447ca9",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

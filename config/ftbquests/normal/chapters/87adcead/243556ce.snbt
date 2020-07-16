@@ -1,0 +1,37 @@
+{
+	title: "Combination Crafting",
+	icon: "extendedcrafting:crafting_core",
+	x: 1.5d,
+	y: -1.5d,
+	text: [
+		"Combine items to get a more powerful item back"
+	],
+	dependencies: [
+		"386d63ba"
+	],
+	tasks: [{
+		uid: "cab5f376",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:crafting_core"
+		}]
+	},
+	{
+		uid: "efd978be",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:pedestal 8"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "837ae0c9",
+		type: "item",
+		item: "extendedcrafting:pedestal"
+	},
+	{
+		uid: "37c40c57",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	}]
+}

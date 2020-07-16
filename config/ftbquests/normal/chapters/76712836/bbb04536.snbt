@@ -1,0 +1,32 @@
+{
+	title: "Pattern Storage",
+	icon: "ic2:te 1 62",
+	x: -8.0d,
+	y: -7.0d,
+	text: [
+		"The Pattern Storage stores patterns you scanned in the scanner"
+	],
+	dependencies: [
+		"f9a0da4a",
+		"9201494e"
+	],
+	tasks: [{
+		uid: "1ff32d12",
+		type: "item",
+		items: [{
+			id: "ic2:te",
+			tag: {},
+			Damage: 62s
+		}]
+	}],
+	rewards: [{
+		uid: "335fa54b",
+		type: "item",
+		item: "ic2:te 1 8"
+	},
+	{
+		uid: "69cf01a4",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	x: -12.5d,
+	y: -0.5d,
+	text: [
+		"&aAh so you are trying to take my job?",
+		"&rThere is only space for one hunter in this world!"
+	],
+	dependencies: [
+		"ce3b947f"
+	],
+	tasks: [{
+		uid: "64d3ca1b",
+		type: "kill",
+		entity: "grimoireofgaia:hunter",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "a1ccb878",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "4bada039",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,83 @@
+{
+	title: "Elementium Armor",
+	icon: {
+		id: "botania:elementiumchest",
+		tag: {}
+	},
+	x: -4.5d,
+	y: -1.5d,
+	text: [
+		"Offers the same level of protection as an Iron Chestplate, but instead of taking damage, uses mana from the player's inventory.",
+		"",
+		"Any piece of Elementium Armor allows the wearer to have chance to spawn a Pixie when hit. Pixies will damage any mob who strikes the wearer. Full set of armor increases chance of spawn.",
+		"",
+		"Full set of Elementium Armor gives 10% less mana cost on Mana instruments and gives chance for pixies to apply potion effects."
+	],
+	dependencies: [
+		"2b70a6dd"
+	],
+	tasks: [{
+		uid: "eb30c89b",
+		type: "item",
+		items: [{
+			item: "botania:elementiumhelm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "da6ab444",
+		type: "item",
+		items: [{
+			id: "botania:elementiumchest",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "29d90f12",
+		type: "item",
+		items: [{
+			id: "botania:elementiumlegs",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "11f7a1f4",
+		type: "item",
+		items: [{
+			id: "botania:elementiumboots",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2b6e10a9",
+		type: "item",
+		item: "botania:storage 1 2"
+	},
+	{
+		uid: "77c75ec0",
+		type: "item",
+		item: "botania:storage 1 4"
+	},
+	{
+		uid: "0d378eb4",
+		type: "ftbmoney:money",
+		ftb_money: 60L
+	},
+	{
+		uid: "a0d115ac",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

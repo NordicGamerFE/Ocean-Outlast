@@ -1,0 +1,19 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	dependencies: [
+		"e3d42452"
+	],
+	tasks: [{
+		uid: "b6b22f76",
+		type: "item",
+		items: [{
+			item: "projecte:alchemical_chest"
+		}]
+	}],
+	rewards: [{
+		uid: "7eae6b0e",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

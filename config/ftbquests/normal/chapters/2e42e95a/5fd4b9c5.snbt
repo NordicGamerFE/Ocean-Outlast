@@ -1,0 +1,28 @@
+{
+	x: 3.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "0c73ff34",
+		type: "item",
+		items: [{
+			item: "fossil:ancient_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8903989b",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "b2df8142",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

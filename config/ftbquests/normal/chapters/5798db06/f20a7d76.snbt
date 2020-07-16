@@ -1,0 +1,34 @@
+{
+	title: "Certus Quartz Seeds",
+	icon: "mysticalagriculture:certus_quartz_seeds",
+	x: -8.0d,
+	y: -13.0d,
+	text: [
+		"No Description"
+	],
+	dependencies: [
+		"4113dc34"
+	],
+	tasks: [{
+		uid: "58333446",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:certus_quartz_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "159aaf2e",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "09357be0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

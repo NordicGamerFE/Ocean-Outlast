@@ -1,0 +1,26 @@
+{
+	title: "Diamond Battleaxe",
+	icon: "tp:diamond_battle",
+	x: -13.5d,
+	y: 2.5d,
+	text: [
+		"Make an diamond battleaxe"
+	],
+	dependencies: [
+		"bf62d93f"
+	],
+	tasks: [{
+		uid: "5f753faf",
+		type: "item",
+		items: [{
+			item: "tp:diamond_battle"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2af5d3b3",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

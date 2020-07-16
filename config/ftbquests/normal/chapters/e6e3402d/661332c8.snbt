@@ -1,0 +1,32 @@
+{
+	title: "Seed Analyzer",
+	icon: "agricraft:seed_analyzer",
+	x: 1.5d,
+	y: 0.0d,
+	shape: "rsquare",
+	text: [
+		"Analyzing a seed allows the player to see the seed's strength, gain, and growth values. Placing an Agricultural Journal in the lower, right hand corner will allow any new seed discovery to be recorde"
+	],
+	tasks: [{
+		uid: "ccb47ee3",
+		type: "item",
+		items: [{
+			item: "agricraft:seed_analyzer"
+		}]
+	}],
+	rewards: [{
+		uid: "7ce4b992",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "f4018ff6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "kevs_lost_chest"
+			}
+		}
+	}]
+}

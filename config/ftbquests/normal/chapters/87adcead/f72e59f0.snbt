@@ -1,0 +1,31 @@
+{
+	title: "Basic Crafting Table",
+	icon: "extendedcrafting:table_basic",
+	x: 0.0d,
+	y: -1.5d,
+	text: [
+		"A normal 3 by 3 crafting table"
+	],
+	dependencies: [
+		"11bfa6c3",
+		"a25f7a26",
+		"386d63ba"
+	],
+	tasks: [{
+		uid: "c9317f8a",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:table_basic"
+		}]
+	}],
+	rewards: [{
+		uid: "61e6b0f6",
+		type: "item",
+		item: "thaumcraft:ingot"
+	},
+	{
+		uid: "283bec3f",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

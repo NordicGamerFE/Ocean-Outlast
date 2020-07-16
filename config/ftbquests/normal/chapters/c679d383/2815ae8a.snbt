@@ -1,0 +1,36 @@
+{
+	title: "Elven Quartz",
+	icon: "botania:quartz 1 5",
+	x: 10.5d,
+	y: 5.0d,
+	text: [
+		"The Elven Quartz is used to craft blocks of Elven Quartz, which can be further made into chiseled blocks, pillars, slabs and stairs.",
+		"",
+		"Elven Quartz is obtained by throwing Nether Quartz into the Portal to Alfheim."
+	],
+	dependencies: [
+		"748d638f"
+	],
+	tasks: [{
+		uid: "28929c9b",
+		type: "item",
+		items: [{
+			item: "botania:quartz 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "1dfb7aa0",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "dc2430aa",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

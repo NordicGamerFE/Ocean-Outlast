@@ -1,0 +1,34 @@
+{
+	x: -10.5d,
+	y: -2.5d,
+	text: [
+		"&aChemical X",
+		"&rYou might ask what Chemical X is well it has it so that a team of mad scientists made a chemical that could turn some mobs into something much",
+		"stronger their setup was poor and weak and leak was found that drained into the river you might understand the rest"
+	],
+	dependencies: [
+		"c883f8a1"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5940af51",
+		type: "kill",
+		entity: "mutantbeasts:mutant_skeleton",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "2eb9c32d",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "f93b7dc7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

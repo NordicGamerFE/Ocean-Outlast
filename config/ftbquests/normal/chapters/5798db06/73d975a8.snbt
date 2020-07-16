@@ -1,0 +1,43 @@
+{
+	x: -2.0d,
+	y: -4.0d,
+	dependencies: [
+		"f8ffa678"
+	],
+	tasks: [{
+		uid: "c7b4de4a",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:inferium_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2619eeab",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:inferium_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e31e9ca4",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:inferium_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "60b0af3b",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:inferium_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

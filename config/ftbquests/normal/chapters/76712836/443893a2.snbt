@@ -1,0 +1,37 @@
+{
+	title: "HV Transformer",
+	icon: "ic2:te 1 79",
+	x: 5.0d,
+	y: 3.0d,
+	text: [
+		"HV-Transformer",
+		"Step-down: Input 2048 EU/t, Output 512 EU/t (x5)",
+		"Step-up: Input 512 EU/t (x5), Output 2048 EU/t"
+	],
+	dependencies: [
+		"6bdceb6a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8182c472",
+		type: "item",
+		items: [{
+			item: "ic2:te 1 79"
+		}]
+	}],
+	rewards: [{
+		uid: "2e37c451",
+		type: "item",
+		item: "minecraft:gold_block"
+	},
+	{
+		uid: "3ce590a3",
+		type: "item",
+		item: "ic2:crafting 1 1"
+	},
+	{
+		uid: "9dc683f3",
+		type: "ftbmoney:money",
+		ftb_money: 130L
+	}]
+}

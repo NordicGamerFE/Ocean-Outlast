@@ -1,0 +1,40 @@
+{
+	title: "Mana Spreader",
+	icon: "botania:spreader",
+	x: 6.0d,
+	y: -3.5d,
+	text: [
+		"The Mana Spreader is the single most important tool a botanist needs to manipulate Mana.",
+		"This block shoots Mana from point A to point B. It faces a cardinal direction when placed, but sneak-right clicking it with a Wand of the Forest on a face points it elsewhere. It can be aimed at other blocks with a wand in Bind Mode.",
+		"The Mana Spreader, as seen with a Wand of the Forest held",
+		"The Mana Spreader has a small internal buffer of Mana, which will get filled by Generating Flora bound to it. (Flowers, when placed, auto-bind to the nearest spreader.) This buffer can be viewed by right-clicking the Spreader with a Wand of the Forest in hand.",
+		"Note that the block needs to be right-clicked with a wand repeatedly to get a real-time view of its contents.",
+		"Holding a Wand of the Forest makes nearby spreaders display aiming beams. Hovering over a spreader highlights its target. The sparkles show where Mana Loss begins to occur.",
+		"As long as the target of the spreader can accept Mana (that is, can contain Mana and isn't full) the spreader will repeatedly fire Mana Bursts, which travel to their destination and transfer their Mana to it.",
+		"The spreader will only fire another burst when the last one hits its target.",
+		"Furthermore, a Mana Burst will start suffering Mana Loss after a small amount of time: this can be seen in the burst's appearance, as it thins at that point.",
+		"Applying a Redstone Signal to a spreader will pause its firing of bursts. If finer control is required, a Pulse Mana Spreader is recommended, as it fires upon a redstone signal in lieu of a target.",
+		"Right-clicking the spreader with a piece of Wool will sleeve it. In addition to making the spreader look fancier, it'll also muffle the sound when a burst is shot, reducing the potential noise of a large number of spreaders in one area.",
+		"Right-clicking with an empty hand will remove the sleeve."
+	],
+	dependencies: [
+		"ba61aba2"
+	],
+	tasks: [{
+		uid: "1d26ff8c",
+		type: "item",
+		items: [{
+			item: "botania:spreader"
+		}]
+	}],
+	rewards: [{
+		uid: "01b20c23",
+		type: "item",
+		item: "botania:blacklotus"
+	},
+	{
+		uid: "df8e9fc6",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

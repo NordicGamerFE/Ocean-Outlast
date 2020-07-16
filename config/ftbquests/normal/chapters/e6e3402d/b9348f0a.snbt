@@ -1,0 +1,33 @@
+{
+	title: "Wooden Hand Rake",
+	icon: "agricraft:rake",
+	x: -6.0d,
+	y: 0.0d,
+	shape: "rsquare",
+	text: [
+		"The Wooden Hand Rake is used to remove weeds from Crop Sticks. The Wooden Hand Rake removes one growth stage of weed every time you use it."
+	],
+	tasks: [{
+		uid: "047797fe",
+		type: "item",
+		items: [{
+			item: "agricraft:rake"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "67dfabf8",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	},
+	{
+		uid: "b44db203",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

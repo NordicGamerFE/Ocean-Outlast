@@ -1,0 +1,39 @@
+{
+	title: "ME Security Terminal",
+	icon: "appliedenergistics2:security_station",
+	x: 5.0d,
+	y: -2.5d,
+	text: [
+		"Allows you to configure which users, and what permissions the users have with the ME System. By existing it enforces permissions on the usage of the system.",
+		"",
+		"The security system does not prevent destructive tampering, removing cables / machines or breaking of drives is not directly provided by the security Terminal. If you need to protect your system from physical vandalism you will need another form of physical security. This block provides Network level security.",
+		"",
+		"The player who places the ME Security Terminal has full control over the network and cannot exclude himself any rights. By adding a blank Biometric Card you define a default behavior for every player who has no own Biometric Card registered.",
+		"",
+		"Other than adding security on software layer, you can link up your Wireless Terminal with the network and access it wirelessly."
+	],
+	dependencies: [
+		"a4967fb7",
+		"a2a19d6f"
+	],
+	tasks: [{
+		uid: "caa331df",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:security_station"
+		}]
+	}],
+	rewards: [{
+		uid: "46563919",
+		type: "item",
+		item: {
+			id: "appliedenergistics2:storage_cell_64k",
+			tag: {}
+		}
+	},
+	{
+		uid: "efdc83ef",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "Rune Of Water",
+	icon: "botania:rune",
+	x: 1.0d,
+	y: 2.0d,
+	text: [
+		"Rune of Water this is an important component in creating complex magical devices. Rune of Water is one of the Elemental Runes which is the first tier of Botania Runes. All Runes must be created in the Runic Altar."
+	],
+	dependencies: [
+		"f46522c1"
+	],
+	tasks: [{
+		uid: "bf1d0815",
+		type: "item",
+		items: [{
+			item: "botania:rune"
+		}]
+	}],
+	rewards: [{
+		uid: "2538e862",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "4c6beaf7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "Hyacidus",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "hyacidus"
+		}
+	},
+	x: -3.5d,
+	y: 3.5d,
+	text: [
+		"The Hyacidus is a functional flower which uses mana to apply a Poison effect to any mobs in its vicinity. This does not affect the player. This flower can be disabled at will by applying a redstone signal."
+	],
+	dependencies: [
+		"50aa4e83"
+	],
+	tasks: [{
+		uid: "434664a7",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "hyacidus"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "c155f049",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	x: -1.0d,
+	y: -4.0d,
+	dependencies: [
+		"257af960"
+	],
+	tasks: [{
+		uid: "67bba8ce",
+		type: "item",
+		items: [{
+			item: "fossil:stegosaurus_egg"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "dda3ff2d",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "76eb6aa0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

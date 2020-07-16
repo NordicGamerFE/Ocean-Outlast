@@ -1,0 +1,30 @@
+{
+	title: "Mana Diamond",
+	icon: "botania:manaresource 1 2",
+	x: 3.5d,
+	y: -1.0d,
+	text: [
+		"Crafting Component"
+	],
+	dependencies: [
+		"836e1759"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d500ce59",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "0955c1d1",
+		type: "item",
+		item: "botania:manaresource 1 2"
+	},
+	{
+		uid: "4214123c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

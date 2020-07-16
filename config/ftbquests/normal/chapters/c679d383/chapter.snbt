@@ -1,0 +1,16 @@
+{
+	title: "Botania",
+	icon: {
+		id: "botania:twigwand",
+		tag: {
+			color1: 14,
+			color2: 14
+		}
+	},
+	description: [
+		"No Description"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

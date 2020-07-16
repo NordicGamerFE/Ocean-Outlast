@@ -1,0 +1,30 @@
+{
+	x: -4.0d,
+	y: 0.5d,
+	text: [
+		"&aThe perfect item for a cheap mob grinder&r",
+		"Placed Punji Sticks apply Slowness II to the player/mob when walked onto. They will also do damage, based on how many Punji Sticks are in one square, from one stick dealing 1/2 heart, to five sticks dealing 1 1/2 hearts of damage."
+	],
+	tasks: [{
+		uid: "1fb24b1f",
+		type: "item",
+		items: [{
+			item: "tconstruct:punji"
+		}]
+	}],
+	rewards: [{
+		uid: "e9dda83f",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	},
+	{
+		uid: "088d14f1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

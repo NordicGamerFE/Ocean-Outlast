@@ -1,0 +1,31 @@
+{
+	title: "Dense ME Conduit",
+	icon: "enderio:item_me_conduit 1 1",
+	x: -7.75d,
+	y: 1.0d,
+	text: [
+		"Used to transmit ME signals like regular ME Dense Cables.",
+		"",
+		"Ender IO conduits are similar to wires, but they can be in the same block as other conduits."
+	],
+	dependencies: [
+		"e05fb712"
+	],
+	tasks: [{
+		uid: "93a67b0e",
+		type: "item",
+		items: [{
+			item: "enderio:item_me_conduit 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "f5d75ff4",
+		type: "item",
+		item: "enderio:item_me_conduit 1 1"
+	},
+	{
+		uid: "e9aea0f3",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	}]
+}

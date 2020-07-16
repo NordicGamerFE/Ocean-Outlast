@@ -1,0 +1,34 @@
+{
+	title: "Vinculotus",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "vinculotus"
+		}
+	},
+	x: -5.5d,
+	y: 5.0d,
+	text: [
+		"Vinculotus prevents any Enderman nearby from teleportation: instead of it, they will teleports to position of flower.",
+		"All flowers which use Redstone Root in recipe can be disabled with Redstone signal."
+	],
+	dependencies: [
+		"422cbaea",
+		"eaf0142e"
+	],
+	tasks: [{
+		uid: "26a4d191",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "vinculotus"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "3f189398",
+		type: "ftbmoney:money",
+		ftb_money: 65L
+	}]
+}

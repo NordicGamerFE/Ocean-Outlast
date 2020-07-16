@@ -1,0 +1,42 @@
+{
+	title: "Treetap",
+	icon: "ic2:treetap",
+	x: -1.5d,
+	y: 1.5d,
+	shape: "rsquare",
+	text: [
+		"Used on IC2 rubber trees to collect rubber"
+	],
+	tasks: [{
+		uid: "d84c69ff",
+		type: "item",
+		items: [{
+			item: "ic2:treetap"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8ab1b6bf",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "itemRubber",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}],
+	rewards: [{
+		uid: "88a2a031",
+		type: "item",
+		item: "ic2:crafting"
+	},
+	{
+		uid: "f216c596",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

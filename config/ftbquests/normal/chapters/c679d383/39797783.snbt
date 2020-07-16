@@ -1,0 +1,32 @@
+{
+	title: "Dreamwood",
+	icon: "botania:dreamwood",
+	x: 10.5d,
+	y: 0.0d,
+	text: [
+		"Dreamwood is used to craft of higher-tier blocks such as the Elven Mana Spreader and the Spectral Platform.",
+		"",
+		"It is obtained by throwing Livingwood through a Portal to Alfheim, which will return a block of Dreamwood."
+	],
+	dependencies: [
+		"748d638f"
+	],
+	tasks: [{
+		uid: "2b2add22",
+		type: "item",
+		items: [{
+			item: "botania:dreamwood 6"
+		}],
+		count: 6L
+	}],
+	rewards: [{
+		uid: "044afc27",
+		type: "item",
+		item: "botania:dreamwood"
+	},
+	{
+		uid: "b212d3d6",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

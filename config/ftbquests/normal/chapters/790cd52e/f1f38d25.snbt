@@ -1,0 +1,48 @@
+{
+	title: "Basic elements",
+	x: -3.0d,
+	y: -3.0d,
+	text: [
+		"&aCongratz on the basic materials&r",
+		"Now that you got some basic materials things should start moving faster along"
+	],
+	dependencies: [
+		"05397713"
+	],
+	tasks: [{
+		uid: "c6b31a9a",
+		type: "item",
+		title: "Any ingotIron",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "ingotIron",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	},
+	{
+		uid: "0ec6c64b",
+		type: "item",
+		items: [{
+			item: "minecraft:coal"
+		}]
+	}],
+	rewards: [{
+		uid: "e5521a8c",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "7f26926e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

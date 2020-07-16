@@ -1,0 +1,38 @@
+{
+	x: -11.0d,
+	y: -3.0d,
+	text: [
+		"&aTime to get 4 planks out of our logs&r",
+		"Put down the Water Powered Saw and place a source block right under it and make it flow any direction"
+	],
+	dependencies: [
+		"7ba09d1a"
+	],
+	tasks: [{
+		uid: "a4f1f4b9",
+		type: "item",
+		items: [{
+			item: "primal_tech:water_saw"
+		}]
+	}],
+	rewards: [{
+		uid: "4303b6bb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	},
+	{
+		uid: "95900bdc",
+		type: "item",
+		item: "minecraft:log"
+	},
+	{
+		uid: "1696efe9",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

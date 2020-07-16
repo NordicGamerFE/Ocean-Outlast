@@ -1,0 +1,34 @@
+{
+	title: "Thaumium Seeds",
+	icon: "mysticalagriculture:thaumium_seeds",
+	x: 3.0d,
+	y: -13.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"4113dc34"
+	],
+	tasks: [{
+		uid: "105c8094",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:thaumium_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "e9e15508",
+		type: "ftbmoney:money",
+		ftb_money: 80L
+	},
+	{
+		uid: "24ae5077",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

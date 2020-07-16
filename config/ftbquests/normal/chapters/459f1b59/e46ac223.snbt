@@ -1,0 +1,30 @@
+{
+	title: "Salis Mundus",
+	icon: "thaumcraft:salis_mundus 2",
+	x: 0.0d,
+	y: 0.5d,
+	text: [
+		"used to create various objects in the mod by right-clicking on blocks to transform them"
+	],
+	dependencies: [
+		"8e015d91"
+	],
+	tasks: [{
+		uid: "e8111b6c",
+		type: "item",
+		items: [{
+			item: "thaumcraft:salis_mundus 2"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "66ef6b4a",
+		type: "item",
+		item: "thaumcraft:salis_mundus"
+	},
+	{
+		uid: "9a9e01b6",
+		type: "ftbmoney:money",
+		ftb_money: 35L
+	}]
+}

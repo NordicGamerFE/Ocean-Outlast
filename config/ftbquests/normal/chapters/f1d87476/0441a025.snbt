@@ -1,0 +1,31 @@
+{
+	x: -2.5d,
+	y: -5.5d,
+	dependencies: [
+		"130c53c8"
+	],
+	tasks: [{
+		uid: "1f36d896",
+		type: "item",
+		items: [{
+			item: "bewitchment:hellish_bauble"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d768e055",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	},
+	{
+		uid: "cdce4360",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: -1.0d,
+	y: 3.5d,
+	text: [
+		"&aLocked to Ore Void Miner Tier 2 Quest&r",
+		"Found in Enviorment Tech Chapter",
+		"&r(&7Bonus earn direct coins&r)"
+	],
+	can_repeat: true,
+	dependencies: [
+		"cba5423f"
+	],
+	tasks: [{
+		uid: "34a77874",
+		type: "item",
+		items: [{
+			item: "minecraft:sand"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "c28bbbac",
+		type: "ftbmoney:money",
+		ftb_money: 2L
+	}]
+}

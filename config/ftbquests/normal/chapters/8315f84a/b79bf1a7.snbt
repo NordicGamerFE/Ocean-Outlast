@@ -1,0 +1,28 @@
+{
+	title: "Metal Syringe",
+	icon: "geneticsreborn:metalsyringe",
+	x: -4.0d,
+	y: -7.0d,
+	text: [
+		"This is used to give/get blood from other animals or monsters in the world. Injecting a plasmid into an entity's blood will cause the entity to get the traits of that gene. (Not all genes that work on the player will work on other mobs!)",
+		"",
+		"Left click to take blood from an animal, shift left click to give blood back. It must be given to the same type of mob it was taken from."
+	],
+	dependencies: [
+		"3dca8415"
+	],
+	tasks: [{
+		uid: "6a59e52e",
+		type: "item",
+		items: [{
+			item: "geneticsreborn:metalsyringe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5efd72e9",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

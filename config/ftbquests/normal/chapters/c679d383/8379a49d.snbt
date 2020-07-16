@@ -1,0 +1,35 @@
+{
+	title: "Shulk Me Not",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "shulk_me_not"
+		}
+	},
+	x: -11.5d,
+	y: 5.0d,
+	text: [
+		"Shulk Me Not is an active mana producing flower, which produces large amounts of mana by \"Harnessing the power of Levitation effect\". When a hostile mob is hurt by a Shulker, the Shulk Me Not will kill both the Shulker and the mob, and produce mana. Both of them must be within the range of the flower, and all their drops will be deleted."
+	],
+	dependencies: [
+		"8d80ec63",
+		"1af0134b",
+		"d9bed1c5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "834d0ef2",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "shulk_me_not"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "dfe76d8c",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	}]
+}

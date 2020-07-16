@@ -65,6 +65,7 @@ appliedenergistics2:storage_biome
 thaumcraft:magical_forest
 thaumcraft:eerie
 thaumcraft:eldritch
+mocreatures:wyvernbiome
 fossil:lair of darkness
 fossil:treasure
 fossil:volcano

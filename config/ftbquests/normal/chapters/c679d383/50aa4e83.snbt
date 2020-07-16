@@ -1,0 +1,35 @@
+{
+	title: "Rune of Autumn",
+	icon: "botania:rune 1 6",
+	x: 1.0d,
+	y: 3.5d,
+	text: [
+		"Rune of Autumn this is an important component in creating complex magical devices. Rune of Autumn is one of the Seasonal Runes which is the second tier of Botania Runes. All Runes must be created in the Runic Altar."
+	],
+	dependencies: [
+		"f6a841d1",
+		"907d3764"
+	],
+	tasks: [{
+		uid: "e206462d",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "af96b925",
+		type: "ftbmoney:money",
+		ftb_money: 40L
+	},
+	{
+		uid: "afb6eb75",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

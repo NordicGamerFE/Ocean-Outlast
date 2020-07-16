@@ -1,0 +1,44 @@
+{
+	title: "Botanical Brewery",
+	icon: "botania:brewery",
+	x: 7.5d,
+	y: 0.5d,
+	text: [
+		"Botanical Brewery utilizes mana to create potions that can be used multiple times.",
+		"",
+		"To operate, place the object to be infused in first (either by right-clicking or by dropping it on top), followed by the ingredients. When the Botanical Brewery is supplied with Mana it will start to infuse the object, and when complete will drop it on the ground.",
+		"",
+		"Objects that can be infused include:",
+		"",
+		"Managlass Vials, to create a potion with 4 uses",
+		"",
+		"Alfglass Flasks, to create a potion with 6 uses",
+		"",
+		"Incense Sticks, which can be burned to grant the effect in a wide radius",
+		"",
+		"Tainted Blood Pendants, which can be worn to sustain the effect while consuming Mana",
+		"",
+		"The Mana cost doubles for the Alfglass Vial, and is multiplied by 10 for the Incense Stick and Tainted Blood Pendant."
+	],
+	dependencies: [
+		"a48a9ef8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b103287f",
+		type: "item",
+		items: [{
+			item: "botania:brewery"
+		}]
+	}],
+	rewards: [{
+		uid: "9d90578b",
+		type: "item",
+		item: "botania:vial 1 1"
+	},
+	{
+		uid: "af5e2277",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

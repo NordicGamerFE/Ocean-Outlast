@@ -1,0 +1,17 @@
+{
+	x: -5.0d,
+	y: -2.0d,
+	dependencies: [
+		"6ebc15a3",
+		"040f1d80"
+	],
+	tasks: [{
+		uid: "54322536",
+		type: "item",
+		items: [{
+			item: "mysticalagradditions:superium_paxel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

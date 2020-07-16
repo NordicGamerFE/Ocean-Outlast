@@ -1,0 +1,29 @@
+{
+	x: -10.5d,
+	y: -5.0d,
+	text: [
+		"&aWe gotta start somewhere",
+		"&rWhile working great in a furnace it will also presit fire ontop of it"
+	],
+	dependencies: [
+		"7ba09d1a"
+	],
+	tasks: [{
+		uid: "5c94989b",
+		type: "item",
+		items: [{
+			item: "primal_tech:charcoal_block"
+		}]
+	}],
+	rewards: [{
+		uid: "21b15ad4",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "3c6b6307",
+		type: "item",
+		item: "minecraft:coal 1 1",
+		count: 16
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	x: 0.0d,
+	y: -4.5d,
+	dependencies: [
+		"ef7bdccb"
+	],
+	tasks: [{
+		uid: "fab0d0cb",
+		type: "item",
+		items: [{
+			item: "bewitchment:cold_iron_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "49b8094e",
+		type: "ftbmoney:money",
+		ftb_money: 60L
+	},
+	{
+		uid: "c6eaff23",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

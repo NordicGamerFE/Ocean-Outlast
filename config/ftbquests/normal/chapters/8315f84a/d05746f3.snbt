@@ -1,0 +1,32 @@
+{
+	title: "Anti Plasmid",
+	icon: "geneticsreborn:antiplasmid",
+	x: -2.5d,
+	y: -5.5d,
+	text: [
+		"This is used in removing genes. All you do is craft this with a completed plasmid, and then you will be able to combine it with blood in the Plasmid Injector as you would a normal plasmid.",
+		"Upon inserting the blood into your bloodstream, the anti plasmid will remove all the DNA for the gene set, and you will no longer have it in your DNA."
+	],
+	dependencies: [
+		"e2d9225d"
+	],
+	tasks: [{
+		uid: "3bf154cb",
+		type: "item",
+		items: [{
+			item: "geneticsreborn:antiplasmid"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "80529e56",
+		type: "item",
+		item: "geneticsreborn:plasmid"
+	},
+	{
+		uid: "05faf1f4",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

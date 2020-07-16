@@ -1,0 +1,29 @@
+{
+	title: "Endervoir",
+	icon: "enderio:block_reservoir",
+	x: 0.5d,
+	y: -1.0d,
+	text: [
+		"The Endervoir is a multi-block that can be built of any number of blocks in any shape. Each block holds one bucket of water. If there is enough water, an infinite water source will form inside. Then each block of the structure will produce up to one bucket of water per second.",
+		"",
+		"The minimal working size is 3 blocks, but 4 blocks is strongly recommended.",
+		"",
+		"Right-click with a wrench to enable auto-output for that block."
+	],
+	dependencies: [
+		"14fd638e"
+	],
+	tasks: [{
+		uid: "069dc3a9",
+		type: "item",
+		items: [{
+			item: "enderio:block_reservoir 4"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "e04ed45b",
+		type: "item",
+		item: "enderio:block_fused_quartz"
+	}]
+}

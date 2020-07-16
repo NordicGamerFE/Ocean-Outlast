@@ -1,0 +1,20 @@
+{
+	x: 0.5d,
+	y: -4.0d,
+	text: [
+		"&aSo you are looking for infinit milk? well you are in the right place",
+		"&rPlace down a milk jar in a 3 deep hole above that place an cow and ontop of the cow drop an anvil. boom you trapped the cow i the jar"
+	],
+	tasks: [{
+		uid: "0a4d2eb9",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:cow_jar"
+		}]
+	}],
+	rewards: [{
+		uid: "3213c85f",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

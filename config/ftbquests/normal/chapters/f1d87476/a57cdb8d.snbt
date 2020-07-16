@@ -1,0 +1,49 @@
+{
+	title: "Altar",
+	icon: "bewitchment:stone_witches_altar",
+	x: -1.0d,
+	y: -1.5d,
+	text: [
+		"No Description"
+	],
+	dependencies: [
+		"805f5390"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a3788584",
+		type: "item",
+		items: [{
+			item: "bewitchment:stone_witches_altar 6"
+		}],
+		count: 6L
+	},
+	{
+		uid: "f4412a57",
+		type: "item",
+		items: [{
+			item: "minecraft:carpet 6"
+		}],
+		count: 6L
+	}],
+	rewards: [{
+		uid: "c3cca734",
+		type: "item",
+		item: "minecraft:nether_star"
+	},
+	{
+		uid: "d66a7149",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "c03fc28a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	icon: "cqrepoured:battle_axe_bull",
+	x: -8.0d,
+	y: -0.5d,
+	text: [
+		"&AMonsters has never done anything but hurt people",
+		"&RAs an hunter you get paid gold and other items to hunt down dangrous creaturs",
+		"&4WIP"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c25d1356",
+		type: "checkmark",
+		title: "Hunter"
+	}]
+}

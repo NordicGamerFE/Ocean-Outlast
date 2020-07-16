@@ -1,0 +1,29 @@
+{
+	x: -2.5d,
+	y: 0.0d,
+	dependencies: [
+		"f33a88e8"
+	],
+	tasks: [{
+		uid: "37404c43",
+		type: "item",
+		items: [{
+			item: "thaumcraft:arcane_workbench_charger"
+		}]
+	}],
+	rewards: [{
+		uid: "6093e918",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "3611452c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

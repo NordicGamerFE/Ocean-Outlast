@@ -1,0 +1,26 @@
+{
+	x: -6.5d,
+	y: -7.0d,
+	tasks: [{
+		uid: "69ecb283",
+		type: "item",
+		items: [{
+			item: "exnihilocreatio:block_end_cake"
+		}]
+	}],
+	rewards: [{
+		uid: "8688560b",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "c41e42b9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

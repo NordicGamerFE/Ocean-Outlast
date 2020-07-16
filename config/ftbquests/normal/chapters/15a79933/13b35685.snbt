@@ -1,0 +1,32 @@
+{
+	x: -5.5d,
+	y: -3.0d,
+	text: [
+		"&aMother Spider",
+		"&rThese spiders carry small spiders on their back"
+	],
+	dependencies: [
+		"dea612ba"
+	],
+	tasks: [{
+		uid: "6ca30a90",
+		type: "kill",
+		entity: "primitivemobs:mother_spider",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "6a2a4812",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "abe2200c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "hunter_s_crate"
+			}
+		}
+	}]
+}

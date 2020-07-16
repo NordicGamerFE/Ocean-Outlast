@@ -1,0 +1,31 @@
+{
+	x: -17.0d,
+	y: -7.0d,
+	dependencies: [
+		"214e9482"
+	],
+	tasks: [{
+		uid: "6f20f4eb",
+		type: "item",
+		items: [{
+			item: "treasure2:emerald_key"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7c28073d",
+		type: "ftbmoney:money",
+		ftb_money: 180L
+	},
+	{
+		uid: "6dc7a0a2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

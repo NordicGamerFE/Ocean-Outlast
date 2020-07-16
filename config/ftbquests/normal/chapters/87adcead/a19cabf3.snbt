@@ -1,0 +1,29 @@
+{
+	title: "Advanced Crafting Table",
+	icon: "extendedcrafting:table_advanced",
+	x: 0.0d,
+	y: -2.5d,
+	text: [
+		"A 5 by 5 crafting table"
+	],
+	dependencies: [
+		"f72e59f0"
+	],
+	tasks: [{
+		uid: "a2c06f0a",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:table_advanced"
+		}]
+	}],
+	rewards: [{
+		uid: "efa4d0c6",
+		type: "item",
+		item: "thaumcraft:nugget 1 7"
+	},
+	{
+		uid: "bd532042",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	}]
+}

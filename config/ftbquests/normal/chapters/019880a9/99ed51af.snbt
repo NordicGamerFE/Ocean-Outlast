@@ -1,0 +1,66 @@
+{
+	title: "Crystal Collector",
+	x: 3.5d,
+	y: -2.0d,
+	dependencies: [
+		"49f68fe0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ec365b34",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_crystal_empowered"
+		}]
+	},
+	{
+		uid: "0d535005",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_crystal_empowered 1 1"
+		}]
+	},
+	{
+		uid: "03fefc63",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_crystal_empowered 1 2"
+		}]
+	},
+	{
+		uid: "f15b0bdc",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_crystal_empowered 1 3"
+		}]
+	},
+	{
+		uid: "19fc2527",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_crystal_empowered 1 4"
+		}]
+	},
+	{
+		uid: "12b39105",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_crystal_empowered 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "2ed331bb",
+		type: "ftbmoney:money",
+		ftb_money: 10000L
+	},
+	{
+		uid: "da2de8c3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

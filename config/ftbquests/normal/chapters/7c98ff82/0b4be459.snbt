@@ -1,0 +1,59 @@
+{
+	title: "Fully Upgraded Ender Leggings",
+	x: -11.5d,
+	y: 2.5d,
+	dependencies: [
+		"cb312a56"
+	],
+	tasks: [{
+		uid: "511bb532",
+		type: "item",
+		items: [{
+			id: "enderio:item_end_steel_leggings",
+			tag: {
+				enderio.darksteel.upgrade.energyUpgrade: {
+					level: 4,
+					energy: 2500000
+				},
+				enderio.darksteel.upgrade.inv: {
+					level: 2
+				},
+				enderio.darksteel.upgrade.thaumaturge_robes_legs: {
+					level: 0
+				},
+				enderio.darksteel.upgrade.speedBoost: {
+					level: 3
+				},
+				enderio.darksteel.upgrade.anvil: {
+					level: 2
+				}
+			}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "cf265b84",
+		type: "ftbmoney:money",
+		ftb_money: 2000L
+	},
+	{
+		uid: "090abe28",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	},
+	{
+		uid: "90ebd772",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "jackpot"
+			}
+		}
+	}]
+}

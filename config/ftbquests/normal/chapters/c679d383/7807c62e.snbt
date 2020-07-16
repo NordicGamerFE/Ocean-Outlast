@@ -1,0 +1,47 @@
+{
+	title: "Mana Mirror",
+	icon: {
+		id: "botania:manamirror",
+		tag: {
+			mana: 0
+		}
+	},
+	x: 4.5d,
+	y: -8.0d,
+	text: [
+		"This is an alternative to the portable mana storage items such as the Mana Tablet. It will allow mana using items in the player's inventory to pull the mana they need directly from a Mana Pool placed in the world.",
+		"",
+		"The Mana Mirror functions the same way that Mana Tablet and Band of Mana do, automatically providing mana to any item in the player's inventory that uses it. However, this item does not have an internal storage. Instead, the Mana Pool it is bound to functions as an external storage that it funnels directly to the player's equipment. Linking a Mana Mirror to a Mana Pool is done by shift-right clicking on the Pool with the Mirror. This connection persists across dimensions."
+	],
+	dependencies: [
+		"b42dfd38",
+		"e018dd5b"
+	],
+	tasks: [{
+		uid: "e514620c",
+		type: "item",
+		items: [{
+			id: "botania:manamirror",
+			tag: {
+				mana: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9f2ac67b",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "3f036b6b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

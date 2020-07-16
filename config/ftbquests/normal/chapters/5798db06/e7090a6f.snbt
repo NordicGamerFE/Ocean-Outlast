@@ -1,0 +1,44 @@
+{
+	title: "Nether Seeds",
+	icon: "mysticalagriculture:nether_seeds",
+	x: -3.0d,
+	y: -9.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"a67f1154"
+	],
+	tasks: [{
+		uid: "0f97c347",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:nether_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "f62cfa97",
+		type: "ftbmoney:money",
+		ftb_money: 55L
+	},
+	{
+		uid: "cdcbceaf",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	},
+	{
+		uid: "ca1f5c6b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "hellish_crate"
+			}
+		}
+	}]
+}

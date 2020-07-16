@@ -1,0 +1,27 @@
+{
+	title: "Small Medical Bandage",
+	icon: "tp:small_bandage",
+	x: -7.5d,
+	y: -2.0d,
+	shape: "rsquare",
+	text: [
+		"Provides a short shot of regen"
+	],
+	tasks: [{
+		uid: "7d7224ac",
+		type: "item",
+		items: [{
+			item: "tp:small_bandage"
+		}]
+	}],
+	rewards: [{
+		uid: "a7297f36",
+		type: "item",
+		item: "tp:small_bandage"
+	},
+	{
+		uid: "b85cbe73",
+		type: "ftbmoney:money",
+		ftb_money: 5L
+	}]
+}

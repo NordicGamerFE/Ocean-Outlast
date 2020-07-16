@@ -1,0 +1,35 @@
+{
+	title: "Time to Forge",
+	x: 25.5d,
+	y: 3.0d,
+	text: [
+		"&AWorkbench for Woot",
+		"&rBasic workbench used to craft most of the items in Woot.",
+		"&7Tip: To craft items right click with Ya Hammer on the anvil and the anvil needs a magma block under it to function."
+	],
+	dependencies: [
+		"c61c42a8"
+	],
+	tasks: [{
+		uid: "5608eee4",
+		type: "item",
+		items: [{
+			item: "woot:anvil"
+		}]
+	}],
+	rewards: [{
+		uid: "3d392139",
+		type: "item",
+		item: "minecraft:magma"
+	},
+	{
+		uid: "d5c1cd74",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "8f98e642",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

@@ -1,0 +1,69 @@
+{
+	title: "Info",
+	icon: "minecraft:writable_book",
+	x: -8.5d,
+	y: -8.0d,
+	shape: "square",
+	text: [
+		"Thank you for playing &3Ocean &aOutlast&r",
+		"The Quest Chapters are setup in a way to help you progress thru all of the 900+ Quests! You however have full freedom to jump around as much as you want, Some useful commands are &7/home (Teleports you home) /sethome (Sets your home)",
+		"/rtp (Teleports you to a random location)&r to give you a better chance to survive this Evil World!",
+		"",
+		"&7Day 128. found a letter at the seas shores its reads as",
+		"Dear reader this is ja__boi",
+		"i cannot seems to find a trash can in my inventory",
+		"",
+		"hmm.. says kevsky",
+		"there seems to be a trashcan in the very top left in my inventory",
+		"oh there seem to be /trash_can also"
+	],
+	size: 1.4d,
+	tasks: [{
+		uid: "6d32f3d0",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "84f155ac",
+		type: "item",
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:pig"
+				}
+			}
+		}
+	},
+	{
+		uid: "cee42140",
+		type: "item",
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:cow"
+				}
+			}
+		}
+	},
+	{
+		uid: "3718c474",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	},
+	{
+		uid: "dd770844",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "jackpot"
+			}
+		}
+	}]
+}

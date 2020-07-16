@@ -1,0 +1,33 @@
+{
+	x: -3.0d,
+	y: -4.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"eea752f7"
+	],
+	hide: true,
+	tasks: [{
+		uid: "68d18eec",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_tome"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0006e8a2",
+		type: "ftbmoney:money",
+		ftb_money: 800000000L
+	},
+	{
+		uid: "7acb31f4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "supra_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: -5.5d,
+	y: 0.5d,
+	can_repeat: true,
+	tasks: [{
+		uid: "e5cc0213",
+		type: "item",
+		items: [{
+			item: "minecraft:blaze_rod"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "7ab36a7f",
+		type: "item",
+		item: {
+			id: "lodsofemone:coin_small",
+			tag: {
+				value: 5
+			}
+		}
+	}]
+}

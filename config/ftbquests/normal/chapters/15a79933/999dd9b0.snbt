@@ -1,0 +1,41 @@
+{
+	title: "Grove Sprite",
+	x: -7.0d,
+	y: -6.0d,
+	text: [
+		"&aHelpful for the enviorment",
+		"&rThese small creatours go around and plant saplings"
+	],
+	dependencies: [
+		"120bf0a4"
+	],
+	tasks: [{
+		uid: "2df51124",
+		type: "observation",
+		icon: {
+			id: "thermalexpansion:morb",
+			tag: {
+				Generic: 1,
+				id: "primitivemobs:grovesprite"
+			}
+		},
+		match_type: "entity_id",
+		match: "primitivemobs:grovesprite",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "42df2d44",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "8b032fd6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

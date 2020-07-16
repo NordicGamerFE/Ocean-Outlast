@@ -1,0 +1,33 @@
+{
+	x: -7.0d,
+	y: -3.0d,
+	text: [
+		"&aOutlast Industries™ Presents the automatic bonsai pot&r",
+		"This bonsai put will automaticly chop and insert the materials from the trees to an inventory below"
+	],
+	dependencies: [
+		"2027eed4"
+	],
+	tasks: [{
+		uid: "6bef8a1c",
+		type: "item",
+		items: [{
+			item: "bonsaitrees:bonsaipot 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "4e328b55",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "b6b55c0d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

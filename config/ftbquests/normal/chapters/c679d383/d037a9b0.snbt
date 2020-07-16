@@ -1,0 +1,74 @@
+{
+	title: "Terrasteel Armor",
+	icon: {
+		id: "botania:terrasteelchest",
+		tag: {}
+	},
+	x: -4.5d,
+	y: 0.0d,
+	text: [
+		"Offers the same level of protection as a Diamond Chestplate, but instead of taking damage, uses mana from the player's inventory",
+		"",
+		"Full set of Terrasteel Armor gives you 20% less mana cost on Mana instruments.",
+		"Regen even if hunger is not full"
+	],
+	dependencies: [
+		"e018dd5b"
+	],
+	tasks: [{
+		uid: "26059372",
+		type: "item",
+		items: [{
+			item: "botania:terrasteelhelm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c7775686",
+		type: "item",
+		items: [{
+			item: "botania:terrasteelchest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "64f3175e",
+		type: "item",
+		items: [{
+			item: "botania:terrasteellegs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c94dd4c9",
+		type: "item",
+		items: [{
+			item: "botania:terrasteelboots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c598a76f",
+		type: "item",
+		item: "botania:storage 1 1"
+	},
+	{
+		uid: "b3b404c5",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "0852f16a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

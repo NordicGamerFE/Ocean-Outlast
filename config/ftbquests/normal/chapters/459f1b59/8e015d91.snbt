@@ -1,0 +1,26 @@
+{
+	title: "Sleepy Boi",
+	icon: "minecraft:bed",
+	x: 0.0d,
+	y: -0.5d,
+	text: [
+		"Go and sleep in a bed"
+	],
+	dependencies: [
+		"63689bbc"
+	],
+	tasks: [{
+		uid: "b9cf9fd9",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "45e80252",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

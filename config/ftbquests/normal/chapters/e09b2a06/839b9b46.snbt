@@ -1,0 +1,31 @@
+{
+	x: -3.5d,
+	y: -2.0d,
+	dependencies: [
+		"5daeb39f"
+	],
+	tasks: [{
+		uid: "0e525fc3",
+		type: "item",
+		items: [{
+			item: "mekanism:atomicdisassembler"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "74df63d5",
+		type: "ftbmoney:money",
+		ftb_money: 120L
+	},
+	{
+		uid: "aabdc697",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

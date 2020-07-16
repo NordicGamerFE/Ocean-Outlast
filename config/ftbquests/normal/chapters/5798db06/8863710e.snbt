@@ -1,0 +1,20 @@
+{
+	x: -4.5d,
+	y: -6.0d,
+	dependencies: [
+		"16cbd81f",
+		"d4e4e8af"
+	],
+	tasks: [{
+		uid: "af784d78",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:prudentium_reprocessor"
+		}]
+	}],
+	rewards: [{
+		uid: "8f9980f6",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,65 @@
+{
+	title: "Speed Demon",
+	icon: "tp:redstone_chestplate",
+	x: -12.0d,
+	y: -3.0d,
+	text: [
+		"Get redstone armor"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"6e03f5e6",
+		"abf2f0a5"
+	],
+	tasks: [{
+		uid: "cdadeee4",
+		type: "item",
+		items: [{
+			item: "tp:redstone_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "adde5fbc",
+		type: "item",
+		items: [{
+			item: "tp:redstone_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b6d58938",
+		type: "item",
+		items: [{
+			item: "tp:redstone_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cee03964",
+		type: "item",
+		items: [{
+			item: "tp:redstone_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8f328aff",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "9bbe47c5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

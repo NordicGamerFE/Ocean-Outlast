@@ -1,0 +1,33 @@
+{
+	title: "Jiyuulia",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "jiyuulia"
+		}
+	},
+	x: -8.5d,
+	y: 2.0d,
+	text: [
+		"The Jiyuulia It's purpose is to create a magical force field around itself, keeping all mobs away. It can be compared to the Magnum Torch from Extra Utilities, but at lower production cost and a smaller protection field"
+	],
+	dependencies: [
+		"60eb048e",
+		"907d3764"
+	],
+	tasks: [{
+		uid: "e7a4efc0",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "jiyuulia"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "0cc3e765",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

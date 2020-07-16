@@ -1,0 +1,10 @@
+{
+	title: "Ender IO",
+	icon: "enderio:block_alloy_smelter",
+	description: [
+		"No Description"
+	],
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

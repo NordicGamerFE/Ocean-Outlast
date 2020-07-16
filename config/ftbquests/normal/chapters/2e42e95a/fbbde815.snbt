@@ -1,0 +1,19 @@
+{
+	x: 1.0d,
+	y: 0.0d,
+	dependencies: [
+		"c5a90481"
+	],
+	tasks: [{
+		uid: "8a2785b3",
+		type: "item",
+		items: [{
+			item: "fossil:analyzer"
+		}]
+	}],
+	rewards: [{
+		uid: "70ac0ff7",
+		type: "ftbmoney:money",
+		ftb_money: 35L
+	}]
+}

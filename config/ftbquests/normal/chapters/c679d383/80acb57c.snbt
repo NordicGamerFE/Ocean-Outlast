@@ -1,0 +1,46 @@
+{
+	title: "Rod of the Shifting Crust",
+	icon: {
+		id: "botania:exchangerod",
+		tag: {}
+	},
+	x: -10.0d,
+	y: 0.0d,
+	text: [
+		"Shift+R-click with this rod will select block for this rod.",
+		"",
+		"R-click with this rod will replace blocks in 7x7 area on selected blocks for some mana cost.",
+		"",
+		"L-click with this rod will replace only 1 block.",
+		"",
+		"Rod requires selected blocks in user's inventory OR requires another rod from Botania if this rod can create selected blocks."
+	],
+	dependencies: [
+		"422cbaea"
+	],
+	tasks: [{
+		uid: "2619eca2",
+		type: "item",
+		items: [{
+			id: "botania:exchangerod",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d36dd0cb",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "af159792",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	}]
+}

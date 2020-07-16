@@ -1,0 +1,34 @@
+{
+	title: "Rune Of Mana",
+	icon: "botania:rune 1 8",
+	x: 5.0d,
+	y: 2.0d,
+	text: [
+		"Rune of Mana this is an important component in creating complex magical devices. All Runes must be created in the Runic Altar."
+	],
+	dependencies: [
+		"f46522c1"
+	],
+	tasks: [{
+		uid: "10f32a12",
+		type: "item",
+		items: [{
+			item: "botania:rune 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "cb89e30a",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "3fb21ab5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "commen_crate"
+			}
+		}
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "Elementium",
+	icon: "botania:manaresource 1 7",
+	x: 10.5d,
+	y: 2.0d,
+	text: [
+		"Elementium Ingots are created by throwing 2 Manasteel Ingots into a Portal to Alfheim. Throwing two Blocks of Manasteel into a Portal to Alfheim will return one Block of Elementium."
+	],
+	dependencies: [
+		"748d638f"
+	],
+	tasks: [{
+		uid: "8d64ed28",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "a725c10c",
+		type: "item",
+		item: "botania:blacklotus 1 1"
+	},
+	{
+		uid: "b655298e",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

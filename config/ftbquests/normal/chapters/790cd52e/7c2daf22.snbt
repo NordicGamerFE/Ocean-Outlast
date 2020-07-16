@@ -1,0 +1,22 @@
+{
+	title: "Suggested Goal",
+	icon: "environmentaltech:void_ore_miner_cont_1",
+	x: -1.0d,
+	y: -4.0d,
+	text: [
+		"&aNow that you reached this far we suggest start looking at the void miner",
+		"&rYes you cant start right away but you should have the knowlagde to reach there by this point start looking and the enviorment tech chapter and start to gather resources"
+	],
+	dependencies: [
+		"86da438a"
+	],
+	tasks: [{
+		uid: "c58b6ee5",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "45280bed",
+		type: "item",
+		item: "minecraft:diamond_ore"
+	}]
+}

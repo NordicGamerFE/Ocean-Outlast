@@ -1,0 +1,80 @@
+{
+	title: "Fully Upgraded Dark Chestplate",
+	x: -11.5d,
+	y: -3.0d,
+	dependencies: [
+		"7b29a063"
+	],
+	tasks: [{
+		uid: "3f478a55",
+		type: "item",
+		items: [{
+			id: "enderio:item_dark_steel_chestplate",
+			tag: {
+				enderio.darksteel.upgrade.thaumaturge_robes_chest: {
+					level: 0
+				},
+				enderio.darksteel.upgrade.energyUpgrade: {
+					level: 3,
+					energy: 1000000
+				},
+				enderio.darksteel.upgrade.inv: {
+					level: 2
+				},
+				enderio.darksteel.upgrade.glide: {
+					level: 0
+				},
+				enderio.darksteel.upgrade.anvil: {
+					level: 2
+				}
+			}
+		},
+		{
+			id: "enderio:item_dark_steel_chestplate",
+			tag: {
+				enderio.darksteel.upgrade.thaumaturge_robes_chest: {
+					level: 0
+				},
+				enderio.darksteel.upgrade.energyUpgrade: {
+					level: 3,
+					energy: 1000000
+				},
+				enderio.darksteel.upgrade.inv: {
+					level: 2
+				},
+				enderio.darksteel.upgrade.elytra: {
+					level: 0
+				},
+				enderio.darksteel.upgrade.anvil: {
+					level: 2
+				}
+			}
+		}],
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "8a210406",
+		type: "ftbmoney:money",
+		ftb_money: 1500L
+	},
+	{
+		uid: "5f5ebe92",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "lost_crate"
+			}
+		}
+	},
+	{
+		uid: "c6432b94",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "jackpot"
+			}
+		}
+	}]
+}

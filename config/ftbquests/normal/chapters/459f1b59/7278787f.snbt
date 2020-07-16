@@ -1,0 +1,29 @@
+{
+	x: 1.0d,
+	y: 0.0d,
+	dependencies: [
+		"dd78ba1e"
+	],
+	tasks: [{
+		uid: "e87ab17e",
+		type: "item",
+		items: [{
+			item: "thaumcraft:sanity_soap"
+		}]
+	}],
+	rewards: [{
+		uid: "d42914a0",
+		type: "ftbmoney:money",
+		ftb_money: 70L
+	},
+	{
+		uid: "ae9d6989",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}

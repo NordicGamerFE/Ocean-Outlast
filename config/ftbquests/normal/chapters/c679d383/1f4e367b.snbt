@@ -1,0 +1,33 @@
+{
+	title: "Bubbell",
+	icon: {
+		id: "botania:specialflower",
+		tag: {
+			type: "bubbell"
+		}
+	},
+	x: -9.5d,
+	y: 3.5d,
+	text: [
+		"The Bubbel is a functional flower that uses mana to create a sphere of air with an 11 block radius. This air replaces water, but when flower stops working, water will returns into area. Note that not all blocks as Source ones."
+	],
+	dependencies: [
+		"15474f17",
+		"98c2b545"
+	],
+	tasks: [{
+		uid: "80f859d4",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "bubbell"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "83256f9f",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

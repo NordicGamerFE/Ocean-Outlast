@@ -1,0 +1,34 @@
+{
+	title: "Dark Steel Seeds",
+	icon: "mysticalagriculture:dark_steel_seeds",
+	x: -4.0d,
+	y: -17.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"9576e32f"
+	],
+	tasks: [{
+		uid: "1f99d35a",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:dark_steel_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "33989f51",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "b7a0ea1e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommen_crate"
+			}
+		}
+	}]
+}
