@@ -9,6 +9,6 @@ assignees: NordicGamerFE, cenodis, xChaosityx
 
 [Time and dato of issue]:
 
-[Username]:
+[Username and UUID]:
 
 [What is the issue]:
