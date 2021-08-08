@@ -9,6 +9,8 @@ assignees: NordicGamerFE
 
 Version: [Easy/Expert] [Version number]
 
+Launcher: [ATL, Curseforge or Others like MultiMC]
+
 Description:
 [Describe what actions you have taken to caused the bug]
 

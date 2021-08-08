@@ -9,6 +9,8 @@ assignees: NordicGamerFE
 
 Version: [Easy/Expert] [Version number]
 
+Launcher: [ATL, Curseforge or Others like MultiMC]
+
 Description:
 [Describe your actions which led to the crash]
 
