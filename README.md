@@ -1,6 +1,6 @@
 Expert, Tech, Magic, Exploration, Loads of Quests, Dungeons, Loads of Mobs 
 
-Join our discord if you got any issues or wanna connect with the player base  https://discord.gg/WhRVWxJ
+Join our discord if you got any issues or wanna connect with the player base  https://discord.com/invite/vWsazzf
 
 Wanna share your server maybe some cool images join our Reddit https://www.reddit.com/r/OceanOutlast/
 
